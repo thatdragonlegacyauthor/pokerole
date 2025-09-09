@@ -1,0 +1,36 @@
+{
+  "chapter_11": {
+    "title": "The Movedex",
+    "type": "Poison",
+    "moves": [
+      { "name": "Acid", "accuracy": "Special + Channel", "damage": "Special + 2", "effect": "Hits all adjacent opponents. On a successful hit, roll 1d6. On a 6, the target's Insight is lowered by 1." },
+      { "name": "Acid Armor", "accuracy": "Automatic", "damage": "None", "effect": "The user raises its Vitality by 2 for the rest of the scene." },
+      { "name": "Acid Spray", "accuracy": "Special + Channel", "damage": "Special + 2", "effect": "On a successful hit, the target's Insight is lowered by 2." },
+      { "name": "Baneful Bunker", "accuracy": "Automatic", "damage": "None", "effect": "Protects the user from all effects. If hit by a physical move, the attacker is Poisoned." },
+      { "name": "Belch", "accuracy": "Special + Channel", "damage": "Special + 7", "effect": "This move can only be used if the user has consumed a Berry during the battle." },
+      { "name": "Clear Smog", "accuracy": "Special + Channel", "damage": "Special + 3", "effect": "Resets all of the target's stat changes to zero." },
+      { "name": "Coil", "accuracy": "Automatic", "damage": "None", "effect": "Raises the user's Strength, Vitality, and accuracy by 1 for the rest of the scene." },
+      { "name": "Cross Poison", "accuracy": "Strength + Brawl", "damage": "Strength + 4", "effect": "High critical hit ratio. On a hit, roll 1d6. On a 6, the target is Poisoned." },
+      { "name": "Gastro Acid", "accuracy": "Special + Channel", "damage": "None", "effect": "Suppresses the target's Ability for the rest of the scene." },
+      { "name": "Gunk Shot", "accuracy": "Strength + Brawl", "damage": "Strength + 7", "effect": "High chance to miss. On a hit, roll 1d6. On a 5 or 6, the target is Poisoned." },
+      { "name": "Mortal Spin", "accuracy": "Strength + Brawl", "damage": "Strength + 2", "effect": "Poisons all adjacent opponents and removes any binding moves or hazards from the user's side of the field." },
+      { "name": "Poison Fang", "accuracy": "Strength + Brawl", "damage": "Strength + 3", "effect": "On a successful hit, roll 1d6. On a 5 or 6, the target is Badly Poisoned." },
+      { "name": "Poison Gas", "accuracy": "Special + Channel", "damage": "None", "effect": "Poisons all adjacent opponents." },
+      { "name": "Poison Jab", "accuracy": "Strength + Brawl", "damage": "Strength + 4", "effect": "On a successful hit, roll 1d6. On a 5 or 6, the target is Poisoned." },
+      { "name": "Poison Powder", "accuracy": "Special + Nature", "damage": "None", "effect": "The target is Poisoned." },
+      { "name": "Poison Sting", "type": "Poison", "accuracy": "Strength + Brawl", "damage": "Strength + 1", "effect": "On a successful hit, roll 1d6. On a 5 or 6, the target is Poisoned." },
+      { "name": "Poison Tail", "type": "Poison", "accuracy": "Strength + Brawl", "damage": "Strength + 3", "effect": "High critical hit ratio. On a hit, roll 1d6. On a 6, the target is Poisoned." },
+      { "name": "Purify", "type": "Poison", "accuracy": "Automatic", "damage": "None", "effect": "Cures an ally of a status condition and restores some of the user's HP." },
+      { "name": "Shell Side Arm", "type": "Poison", "accuracy": "Special + Channel", "damage": "Special + 5", "effect": "This move targets the foe's lower defensive stat (Vitality or Insight). On a successful hit, roll 1d6. On a 5 or 6, the target is Poisoned." },
+      { "name": "Sludge", "type": "Poison", "accuracy": "Special + Channel", "damage": "Special + 4", "effect": "On a successful hit, roll 1d6. On a 5 or 6, the target is Poisoned." },
+      { "name": "Sludge Bomb", "type": "Poison", "accuracy": "Special + Channel", "damage": "Special + 5", "effect": "On a successful hit, roll 1d6. On a 5 or 6, the target is Poisoned." },
+      { "name": "Sludge Wave", "type": "Poison", "accuracy": "Special + Channel", "damage": "Special + 5", "effect": "Hits all Pokémon on the field except the user. On a successful hit, roll 1d6. On a 6, the target is Poisoned." },
+      { "name": "Smog", "type": "Poison", "accuracy": "Special + Channel", "damage": "Special + 2", "effect": "On a successful hit, roll 1d6. On a 5 or 6, the target is Poisoned." },
+      { "name": "Toxic", "type": "Poison", "accuracy": "Special + Nature", "damage": "None", "effect": "The target is Badly Poisoned." },
+      { "name": "Toxic Spikes", "type": "Poison", "accuracy": "Automatic", "damage": "None", "effect": "Lays a hazard on the opponent's side of the field. Grounded Pokémon that switch in become Poisoned. Using it twice makes them Badly Poisoned." },
+      { "name": "Toxic Thread", "type": "Poison", "accuracy": "Special + Nature", "damage": "None", "effect": "Poisons the target and lowers its Dexterity by 1." },
+      { "name": "Venom Drench", "type": "Poison", "accuracy": "Special + Nature", "damage": "None", "effect": "Lowers the Strength, Special, and Dexterity of all Poisoned opponents by 1." },
+      { "name": "Venoshock", "type": "Poison", "accuracy": "Special + Channel", "damage": "Special + 4", "effect": "If the target is already Poisoned, this move's damage is doubled." }
+    ]
+  }
+}
