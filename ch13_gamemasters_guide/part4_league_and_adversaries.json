@@ -91,8 +91,20 @@
                 "benefits": "Base HP is increased by 20, all Attributes are maxed out, and they can use Max Move or Z-Move versions of their regular moves without restriction (once per type per round)."
               },
               {
-                "rank_name": "Higher Ranks",
-                "description": "Beyond Guardian lie even greater levels of power: Demi-God, God, Firstborn, and the Original One."
+                "rank_name": "Demi-God Rank",
+                "description": "Demi Gods make this World move. Rulers but not creators of powers that surpass anything seen on the world, theirs is a kingdom of terrible fantasy."
+              },
+              {
+                "rank_name": "God Rank",
+                "description": "A God cannot be understood through the natural laws of the world. They are the concepts who crafted the world, built the continents, sustain balance, and rule over life and death."
+              },
+              {
+                "rank_name": "( ) Firstborn Rank",
+                "description": "The few true children of the Original One, born from eggs hatched in the void before Creation. They built the laws of physics, the abstractions of the mind and the commandments of the divine according to the Original One's will."
+              },
+              {
+                "rank_name": "Original One",
+                "description": "The first that ever was. In accordance to its concept, it has no limits of any kind but the imagination."
               }
             ]
           }
