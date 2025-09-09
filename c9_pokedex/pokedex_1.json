@@ -1,0 +1,59 @@
+{
+  "pokedex": {
+    "chapter_9_introduction": {
+      "title": "Chapter 9: The Pokédex",
+      "introduction": "Welcome to the Pokédex, the comprehensive guide to the incredible creatures that inhabit this world. Each entry in this chapter provides the essential information a Trainer or Storyteller needs to bring a Pokémon to life in the game.",
+      "schema": {
+        "title": "How to Read a Pokédex Entry",
+        "fields": [
+          {"name": "#ID & Name", "description": "The official Pokédex number and species name."},
+          {"name": "Type(s)", "description": "The Pokémon's elemental type(s), which determine its weaknesses and resistances."},
+          {"name": "Suggested Rank", "description": "The typical Rank for this Pokémon when encountered in the wild. Source: POKEROLE COREBOOK 3.0-002.pdf"},
+          {"name": "Attributes & Limits", "description": "The Pokémon's core stats. These are converted from the PTA stat blocks to fit our Pokerole-based system (Pokerole Stat ≈ PTA Stat / 2)."},
+          {"name": "Derived Stats", "description": "Calculated from core attributes. HP = Base HP + Vitality. Defenses are based on Vitality and/or Insight."},
+          {"name": "Abilities", "description": "The Pokémon's potential passive abilities that can affect it in and out of battle. Source: PTA3PlayersHandbook.pdf, POKEROLE COREBOOK 3.0-004.pdf"},
+          {"name": "Skills", "description": "Innate non-combat capabilities the Pokémon possesses. Source: PTA3PlayersHandbook.pdf"},
+          {"name": "Move Pool", "description": "A list of moves the Pokémon can learn, organized by the Rank at which they become available through training. Source: POKEROLE COREBOOK 3.0-002.pdf"},
+          {"name": "Biology", "description": "Details on the Pokémon's nature, habitat, diet, and egg group. Source: PTA3Pokedex.pdf"},
+          {"name": "Evolution", "description": "How the Pokémon evolves into its next stage."}
+        ]
+      }
+    },
+    "kanto_pokedex": [
+      {
+        "id": "001",
+        "name": "Bulbasaur",
+        "description": "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokémon.",
+        "types": ["Grass", "Poison"],
+        "suggested_rank": "Starter",
+        "attributes": {
+          "strength": {"value": 3, "limit": 6},
+          "dexterity": {"value": 3, "limit": 6},
+          "vitality": {"value": 3, "limit": 6},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {
+          "base_hp": 5,
+          "hp": 8,
+          "defense": 3,
+          "special_defense": 4
+        },
+        "abilities": ["Overgrow", "Chlorophyll (Hidden)"],
+        "skills": ["Sprouter"],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Growl", "Vine Whip", "Leech Seed"],
+          "rank_2_rookie": ["Poison Powder", "Sleep Powder", "Take Down"],
+          "rank_3_standard": ["Razor Leaf", "Sweet Scent", "Growth"],
+          "rank_4_advanced": ["Double-Edge", "Synthesis", "Solar Beam"]
+        },
+        "biology": {
+          "egg_group": ["Monster", "Grass"],
+          "diet": "Phototroph",
+          "habitat": ["Forest", "Grassland"]
+        },
+        "evolution": "Evolves into Ivysaur."
+      }
+    ]
+  }
+}
