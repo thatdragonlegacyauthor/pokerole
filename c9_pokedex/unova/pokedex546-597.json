@@ -1,0 +1,1306 @@
+{
+  "pokedex": {
+    "unova_pokedex_part_2": [
+      {
+        "id": "546",
+        "name": "Cottonee",
+        "description": "When attacked, it escapes by shooting cotton from its body. The cotton serves as a decoy to distract the attacker.",
+        "types": ["Grass", "Fairy"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 2, "limit": 5},
+          "dexterity": {"value": 4, "limit": 8},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 3, "limit": 5},
+          "insight": {"value": 3, "limit": 6}
+        },
+        "derived_stats": {"base_hp": 4, "hp": 8, "defense": 4, "special_defense": 3},
+        "abilities": ["Prankster", "Infiltrator", "Chlorophyll (Hidden)"],
+        "skills": ["Flight"],
+        "move_pool": {
+          "rank_1_starter": ["Absorb", "Fairy Wind", "Growth", "Leech Seed"],
+          "rank_2_rookie": ["Stun Spore", "Mega Drain", "Cotton Spore", "Razor Leaf"],
+          "rank_3_standard": ["Poison Powder", "Giga Drain", "Charm", "Helping Hand"],
+          "rank_4_advanced": ["Energy Ball", "Cotton Guard", "Sunny Day", "Endeavor", "Solar Beam"]
+        },
+        "biology": {"egg_group": ["Fairy", "Grass"], "diet": "Phototroph", "habitat": ["Forest", "Grassland"]},
+        "evolution": "Evolves into Whimsicott with a Sun Stone."
+      },
+      {
+        "id": "547",
+        "name": "Whimsicott",
+        "description": "Like a puff of cotton, it can slip through cracks in walls. It appears wherever there are whirlwinds.",
+        "types": ["Grass", "Fairy"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 4, "limit": 8},
+          "dexterity": {"value": 7, "limit": 13},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 5, "limit": 9},
+          "insight": {"value": 4, "limit": 9}
+        },
+        "derived_stats": {"base_hp": 7, "hp": 12, "defense": 5, "special_defense": 4},
+        "abilities": ["Prankster", "Infiltrator", "Chlorophyll (Hidden)"],
+        "skills": ["Flight"],
+        "move_pool": {
+          "rank_1_starter": ["Growth", "Leech Seed", "Mega Drain", "Gust", "Tailwind", "Hurricane"],
+          "rank_2_rookie": ["Stun Spore", "Cotton Spore", "Razor Leaf"],
+          "rank_3_standard": ["Giga Drain", "Helping Hand"],
+          "rank_4_advanced": ["Energy Ball", "Cotton Guard", "Sunny Day", "Endeavor", "Solar Beam", "Moonblast"]
+        },
+        "biology": {"egg_group": ["Fairy", "Grass"], "diet": "Phototroph", "habitat": ["Forest", "Grassland"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "548",
+        "name": "Petilil",
+        "description": "The leaves on its head are bitter, but they can be used to relieve fatigue.",
+        "types": ["Grass"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 3, "limit": 5},
+          "dexterity": {"value": 2, "limit": 5},
+          "vitality": {"value": 3, "limit": 6},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 3, "limit": 6}
+        },
+        "derived_stats": {"base_hp": 5, "hp": 8, "defense": 3, "special_defense": 3},
+        "abilities": ["Chlorophyll", "Own Tempo", "Leaf Guard (Hidden)"],
+        "skills": ["Sprouter"],
+        "move_pool": {
+          "rank_1_starter": ["Absorb", "Growth", "Leech Seed", "Sleep Powder"],
+          "rank_2_rookie": ["Mega Drain", "Synthesis", "Magical Leaf"],
+          "rank_3_standard": ["Stun Spore", "Giga Drain", "Aromatherapy", "Helping Hand"],
+          "rank_4_advanced": ["Energy Ball", "Entrainment", "Sunny Day", "After You", "Leaf Storm"]
+        },
+        "biology": {"egg_group": ["Grass"], "diet": "Phototroph", "habitat": ["Forest"]},
+        "evolution": "Evolves into Lilligant with a Sun Stone."
+      },
+      {
+        "id": "549",
+        "name": "Lilligant",
+        "description": "The flower on its head gives off a relaxing fragrance, but it will wilt if neglected.",
+        "types": ["Grass"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 4, "limit": 8},
+          "dexterity": {"value": 5, "limit": 10},
+          "vitality": {"value": 5, "limit": 9},
+          "special": {"value": 7, "limit": 13},
+          "insight": {"value": 4, "limit": 9}
+        },
+        "derived_stats": {"base_hp": 8, "hp": 13, "defense": 5, "special_defense": 4},
+        "abilities": ["Chlorophyll", "Own Tempo", "Leaf Guard (Hidden)"],
+        "skills": ["Sprouter"],
+        "move_pool": {
+          "rank_1_starter": ["Growth", "Leech Seed", "Mega Drain", "Synthesis", "Teeter Dance"],
+          "rank_2_rookie": ["Stun Spore", "Giga Drain", "Aromatherapy"],
+          "rank_3_standard": ["Helping Hand", "Energy Ball", "Entrainment"],
+          "rank_4_advanced": ["Sunny Day", "After You", "Leaf Storm", "Petal Dance", "Quiver Dance"]
+        },
+        "biology": {"egg_group": ["Grass"], "diet": "Phototroph", "habitat": ["Forest"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "550",
+        "name": "Basculin",
+        "description": "Red- and blue-striped Basculin are very hostile to each other. They are a rough, violent bunch.",
+        "types": ["Water"],
+        "suggested_rank": "Standard",
+        "attributes": {
+          "strength": {"value": 5, "limit": 10},
+          "dexterity": {"value": 6, "limit": 11},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 5, "limit": 10},
+          "insight": {"value": 4, "limit": 7}
+        },
+        "derived_stats": {"base_hp": 8, "hp": 12, "defense": 4, "special_defense": 4},
+        "abilities": ["Reckless (Red-Stripe)", "Rock Head (Blue-Stripe)", "Adaptability", "Mold Breaker (Hidden)"],
+        "skills": ["Swimmer"],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Tail Whip", "Water Gun", "Uproar"],
+          "rank_2_rookie": ["Headbutt", "Bite", "Aqua Jet", "Chip Away"],
+          "rank_3_standard": ["Take Down", "Crunch", "Aqua Tail", "Soak"],
+          "rank_4_advanced": ["Double-Edge", "Scary Face", "Flail", "Final Gambit", "Thrash", "Head Smash"]
+        },
+        "biology": {"egg_group": ["Water 2"], "diet": "Carnivore", "habitat": ["Freshwater"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "551",
+        "name": "Sandile",
+        "description": "It moves along below the sand's surface, except for its nose and eyes. A dark membrane shields its eyes from the sun.",
+        "types": ["Ground", "Dark"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 4, "limit": 8},
+          "dexterity": {"value": 4, "limit": 8},
+          "vitality": {"value": 2, "limit": 5},
+          "special": {"value": 3, "limit": 5},
+          "insight": {"value": 2, "limit": 5}
+        },
+        "derived_stats": {"base_hp": 6, "hp": 8, "defense": 2, "special_defense": 2},
+        "abilities": ["Intimidate", "Moxie", "Anger Point (Hidden)"],
+        "skills": ["Burrow"],
+        "move_pool": {
+          "rank_1_starter": ["Leer", "Rage", "Bite", "Sand Attack"],
+          "rank_2_rookie": ["Torment", "Sand Tomb", "Assurance", "Mud-Slap", "Embargo"],
+          "rank_3_standard": ["Swagger", "Crunch", "Dig", "Scary Face"],
+          "rank_4_advanced": ["Foul Play", "Sandstorm", "Earthquake", "Thrash"]
+        },
+        "biology": {"egg_group": ["Field"], "diet": "Carnivore", "habitat": ["Desert"]},
+        "evolution": "Evolves into Krokorok."
+      },
+      {
+        "id": "552",
+        "name": "Krokorok",
+        "description": "They live in a pack of several individuals. The special membrane that covers their eyes can sense the heat of objects.",
+        "types": ["Ground", "Dark"],
+        "suggested_rank": "Standard",
+        "attributes": {
+          "strength": {"value": 5, "limit": 10},
+          "dexterity": {"value": 4, "limit": 9},
+          "vitality": {"value": 3, "limit": 6},
+          "special": {"value": 3, "limit": 6},
+          "insight": {"value": 3, "limit": 6}
+        },
+        "derived_stats": {"base_hp": 7, "hp": 10, "defense": 3, "special_defense": 3},
+        "abilities": ["Intimidate", "Moxie", "Anger Point (Hidden)"],
+        "skills": ["Burrow"],
+        "move_pool": {
+          "rank_1_starter": ["Leer", "Rage", "Bite", "Sand Attack"],
+          "rank_2_rookie": ["Torment", "Sand Tomb", "Assurance", "Mud-Slap", "Embargo"],
+          "rank_3_standard": ["Swagger", "Crunch", "Dig", "Scary Face"],
+          "rank_4_advanced": ["Foul Play", "Sandstorm", "Earthquake", "Thrash"]
+        },
+        "biology": {"egg_group": ["Field"], "diet": "Carnivore", "habitat": ["Desert"]},
+        "evolution": "Evolves into Krookodile."
+      },
+      {
+        "id": "553",
+        "name": "Krookodile",
+        "description": "It can expand the focus of its eyes, enabling it to see objects in the far distance as if it were using binoculars.",
+        "types": ["Ground", "Dark"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 7, "limit": 13},
+          "dexterity": {"value": 5, "limit": 10},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 10, "hp": 15, "defense": 5, "special_defense": 4},
+        "abilities": ["Intimidate", "Moxie", "Anger Point (Hidden)"],
+        "skills": ["Burrow"],
+        "move_pool": {
+          "rank_1_starter": ["Leer", "Rage", "Bite", "Sand Attack"],
+          "rank_2_rookie": ["Torment", "Sand Tomb", "Assurance", "Mud-Slap", "Embargo"],
+          "rank_3_standard": ["Swagger", "Crunch", "Dig", "Scary Face", "Power Trip"],
+          "rank_4_advanced": ["Foul Play", "Sandstorm", "Earthquake", "Thrash", "Outrage"]
+        },
+        "biology": {"egg_group": ["Field"], "diet": "Carnivore", "habitat": ["Desert"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "554",
+        "name": "Darumaka",
+        "description": "When it sleeps, it pulls its limbs into its body and its internal fire goes down to 1,100 degrees Fahrenheit.",
+        "types": ["Fire"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 5, "limit": 10},
+          "dexterity": {"value": 3, "limit": 6},
+          "vitality": {"value": 3, "limit": 6},
+          "special": {"value": 1, "limit": 4},
+          "insight": {"value": 3, "limit": 6}
+        },
+        "derived_stats": {"base_hp": 8, "hp": 11, "defense": 3, "special_defense": 3},
+        "abilities": ["Hustle", "Inner Focus (Hidden)"],
+        "skills": ["Firestarter"],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Rollout", "Incinerate"],
+          "rank_2_rookie": ["Rage", "Fire Fang", "Headbutt", "Uproar"],
+          "rank_3_standard": ["Facade", "Fire Punch", "Work Up", "Thrash"],
+          "rank_4_advanced": ["Belly Drum", "Flare Blitz", "Superpower", "Overheat"]
+        },
+        "biology": {"egg_group": ["Field"], "diet": "Omnivore", "habitat": ["Desert"]},
+        "evolution": "Evolves into Darmanitan."
+      },
+      {
+        "id": "555",
+        "name": "Darmanitan",
+        "description": "When it gets injured in a battle, it transforms into a stone statue. Then it sharpens its mind and fights on mentally.",
+        "types": ["Fire"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 8, "limit": 16},
+          "dexterity": {"value": 6, "limit": 11},
+          "vitality": {"value": 4, "limit": 7},
+          "special": {"value": 2, "limit": 5},
+          "insight": {"value": 4, "limit": 7}
+        },
+        "derived_stats": {"base_hp": 11, "hp": 15, "defense": 4, "special_defense": 4},
+        "abilities": ["Sheer Force", "Zen Mode (Hidden)"],
+        "skills": ["Firestarter"],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Rollout", "Incinerate", "Hammer Arm"],
+          "rank_2_rookie": ["Rage", "Fire Fang", "Headbutt", "Uproar", "Swagger"],
+          "rank_3_standard": ["Facade", "Fire Punch", "Work Up", "Thrash"],
+          "rank_4_advanced": ["Belly Drum", "Flare Blitz", "Superpower", "Overheat"]
+        },
+        "biology": {"egg_group": ["Field"], "diet": "Omnivore", "habitat": ["Desert"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "556",
+        "name": "Maractus",
+        "description": "It uses an up-tempo song and dance to drive away the bird Pokémon that prey on its flower seeds.",
+        "types": ["Grass"],
+        "suggested_rank": "Standard",
+        "attributes": {
+          "strength": {"value": 5, "limit": 10},
+          "dexterity": {"value": 4, "limit": 8},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 6, "limit": 13},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 8, "hp": 12, "defense": 4, "special_defense": 4},
+        "abilities": ["Water Absorb", "Chlorophyll", "Storm Drain (Hidden)"],
+        "skills": ["Sprouter"],
+        "move_pool": {
+          "rank_1_starter": ["Peck", "Absorb", "Sweet Scent", "Growth", "Pin Missile"],
+          "rank_2_rookie": ["Mega Drain", "Synthesis", "Cotton Spore"],
+          "rank_3_standard": ["Needle Arm", "Giga Drain", "Acupressure", "Ingrain", "Payback"],
+          "rank_4_advanced": ["Sucker Punch", "Sunny Day", "Solar Beam", "Cotton Guard", "After You", "Petal Dance"]
+        },
+        "biology": {"egg_group": ["Grass"], "diet": "Phototroph", "habitat": ["Desert"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "557",
+        "name": "Dwebble",
+        "description": "This Pokémon can easily melt holes in hard rocks with a liquid secreted from its mouth.",
+        "types": ["Bug", "Rock"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 4, "limit": 8},
+          "dexterity": {"value": 3, "limit": 6},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 3, "limit": 5},
+          "insight": {"value": 3, "limit": 5}
+        },
+        "derived_stats": {"base_hp": 6, "hp": 11, "defense": 5, "special_defense": 3},
+        "abilities": ["Sturdy", "Shell Armor", "Weak Armor (Hidden)"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Fury Cutter", "Rock Blast", "Sand Attack"],
+          "rank_2_rookie": ["Withdraw", "Smack Down", "Rock Polish", "Bug Bite"],
+          "rank_3_standard": ["Stealth Rock", "Rock Slide", "Slash", "X-Scissor"],
+          "rank_4_advanced": ["Shell Smash", "Flail", "Rock Wrecker"]
+        },
+        "biology": {"egg_group": ["Bug", "Mineral"], "diet": "Terravore", "habitat": ["Beach", "Desert"]},
+        "evolution": "Evolves into Crustle."
+      },
+      {
+        "id": "558",
+        "name": "Crustle",
+        "description": "It can Psik a heavy boulder with ease. It fights over territory with other Crustle.",
+        "types": ["Bug", "Rock"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 6, "limit": 12},
+          "dexterity": {"value": 3, "limit": 6},
+          "vitality": {"value": 7, "limit": 14},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 4, "limit": 9}
+        },
+        "derived_stats": {"base_hp": 8, "hp": 15, "defense": 7, "special_defense": 4},
+        "abilities": ["Sturdy", "Shell Armor", "Weak Armor (Hidden)"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Fury Cutter", "Rock Blast", "Sand Attack"],
+          "rank_2_rookie": ["Withdraw", "Smack Down", "Rock Polish", "Bug Bite"],
+          "rank_3_standard": ["Stealth Rock", "Rock Slide", "Slash", "X-Scissor"],
+          "rank_4_advanced": ["Shell Smash", "Flail", "Rock Wrecker"]
+        },
+        "biology": {"egg_group": ["Bug", "Mineral"], "diet": "Terravore", "habitat": ["Beach", "Desert"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "559",
+        "name": "Scraggy",
+        "description": "It pulls up its shed skin to protect itself. It is a ruffian that will attack anything that meets its gaze.",
+        "types": ["Dark", "Fighting"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 5, "limit": 9},
+          "dexterity": {"value": 3, "limit": 6},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 3, "limit": 5},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 6, "hp": 10, "defense": 4, "special_defense": 4},
+        "abilities": ["Shed Skin", "Moxie", "Intimidate (Hidden)"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Leer", "Headbutt", "Sand Attack"],
+          "rank_2_rookie": ["Feint Attack", "Swagger", "Low Kick", "Payback"],
+          "rank_3_standard": ["Brick Break", "Chip Away", "High Jump Kick", "Scary Face", "Crunch"],
+          "rank_4_advanced": ["Facade", "Rock Climb", "Focus Punch", "Head Smash"]
+        },
+        "biology": {"egg_group": ["Field", "Dragon"], "diet": "Omnivore", "habitat": ["Urban"]},
+        "evolution": "Evolves into Scrafty."
+      },
+      {
+        "id": "560",
+        "name": "Scrafty",
+        "description": "It can smash concrete blocks with its kicking attacks. The one with the biggest crest is the leader.",
+        "types": ["Dark", "Fighting"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 5, "limit": 10},
+          "dexterity": {"value": 4, "limit": 7},
+          "vitality": {"value": 7, "limit": 13},
+          "special": {"value": 3, "limit": 6},
+          "insight": {"value": 7, "limit": 13}
+        },
+        "derived_stats": {"base_hp": 7, "hp": 14, "defense": 7, "special_defense": 7},
+        "abilities": ["Shed Skin", "Moxie", "Intimidate (Hidden)"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Leer", "Headbutt", "Sand Attack"],
+          "rank_2_rookie": ["Feint Attack", "Swagger", "Low Kick", "Payback"],
+          "rank_3_standard": ["Brick Break", "Chip Away", "High Jump Kick", "Scary Face", "Crunch"],
+          "rank_4_advanced": ["Facade", "Rock Climb", "Focus Punch", "Head Smash"]
+        },
+        "biology": {"egg_group": ["Field", "Dragon"], "diet": "Omnivore", "habitat": ["Urban"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "561",
+        "name": "Sigilyph",
+        "description": "It was the guardian of cities in ancient times. It uses its psychic powers to attack foes that invade its territory.",
+        "types": ["Psychic", "Flying"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 4, "limit": 7},
+          "dexterity": {"value": 6, "limit": 11},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 6, "limit": 12},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 8, "hp": 13, "defense": 5, "special_defense": 5},
+        "abilities": ["Wonder Skin", "Magic Guard", "Tinted Lens (Hidden)"],
+        "skills": ["Flight"],
+        "move_pool": {
+          "rank_1_starter": ["Gust", "Miracle Eye", "Hypnosis", "Psywave"],
+          "rank_2_rookie": ["Tailwind", "Whirlwind", "Psybeam", "Air Cutter"],
+          "rank_3_standard": ["Light Screen", "Reflect", "Synchronoise", "Mirror Move", "Gravity"],
+          "rank_4_advanced": ["Air Slash", "Psychic", "Cosmic Power", "Sky Attack", "Skill Swap"]
+        },
+        "biology": {"egg_group": ["Flying"], "diet": "Nullivore", "habitat": ["Ruins", "Desert"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "562",
+        "name": "Yamask",
+        "description": "Each of them carries a mask that used to be its face when it was human. Sometimes they look at it and cry.",
+        "types": ["Ghost"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 2, "limit": 5},
+          "dexterity": {"value": 2, "limit": 5},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 4, "limit": 7},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 4, "hp": 9, "defense": 5, "special_defense": 4},
+        "abilities": ["Mummy"],
+        "skills": ["Phasing"],
+        "move_pool": {
+          "rank_1_starter": ["Astonish", "Protect", "Disable", "Haze"],
+          "rank_2_rookie": ["Night Shade", "Hex", "Will-O-Wisp", "Ominous Wind"],
+          "rank_3_standard": ["Curse", "Power Split", "Guard Split", "Shadow Ball", "Grudge"],
+          "rank_4_advanced": ["Mean Look", "Destiny Bond"]
+        },
+        "biology": {"egg_group": ["Mineral", "Amorphous"], "diet": "Psiotroph", "habitat": ["Ruins"]},
+        "evolution": "Evolves into Cofagrigus."
+      },
+      {
+        "id": "563",
+        "name": "Cofagrigus",
+        "description": "It has been said that they swallow those who get too close and turn them into mummies.",
+        "types": ["Ghost"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 3, "limit": 6},
+          "dexterity": {"value": 2, "limit": 5},
+          "vitality": {"value": 8, "limit": 16},
+          "special": {"value": 6, "limit": 11},
+          "insight": {"value": 6, "limit": 12}
+        },
+        "derived_stats": {"base_hp": 6, "hp": 14, "defense": 8, "special_defense": 6},
+        "abilities": ["Mummy"],
+        "skills": ["Phasing"],
+        "move_pool": {
+          "rank_1_starter": ["Astonish", "Protect", "Disable", "Haze", "Scary Face"],
+          "rank_2_rookie": ["Night Shade", "Hex", "Will-O-Wisp", "Ominous Wind"],
+          "rank_3_standard": ["Curse", "Power Split", "Guard Split", "Shadow Ball", "Grudge"],
+          "rank_4_advanced": ["Mean Look", "Destiny Bond"]
+        },
+        "biology": {"egg_group": ["Mineral", "Amorphous"], "diet": "Psiotroph", "habitat": ["Ruins"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "564",
+        "name": "Tirtouga",
+        "description": "About 100 million years ago, these Pokémon swam in oceans. It is thought they also went on land to attack prey.",
+        "types": ["Water", "Rock"],
+        "suggested_rank": "Standard",
+        "attributes": {
+          "strength": {"value": 5, "limit": 9},
+          "dexterity": {"value": 2, "limit": 4},
+          "vitality": {"value": 6, "limit": 12},
+          "special": {"value": 4, "limit": 7},
+          "insight": {"value": 3, "limit": 6}
+        },
+        "derived_stats": {"base_hp": 6, "hp": 12, "defense": 6, "special_defense": 3},
+        "abilities": ["Solid Rock", "Sturdy", "Swift Swim (Hidden)"],
+        "skills": ["Swimmer"],
+        "move_pool": {
+          "rank_1_starter": ["Bide", "Withdraw", "Water Gun", "Rollout"],
+          "rank_2_rookie": ["Bite", "Protect", "Aqua Jet", "Ancient Power"],
+          "rank_3_standard": ["Crunch", "Wide Guard", "Brine", "Smack Down"],
+          "rank_4_advanced": ["Curse", "Shell Smash", "Aqua Tail", "Rock Slide", "Rain Dance", "Hydro Pump"]
+        },
+        "biology": {"egg_group": ["Water 1", "Water 3"], "diet": "Carnivore", "habitat": ["Ocean"]},
+        "evolution": "Evolves into Carracosta."
+      },
+      {
+        "id": "565",
+        "name": "Carracosta",
+        "description": "It can smash a tanker truck with a single slap. It is a very powerful and ferocious Pokémon.",
+        "types": ["Water", "Rock"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 7, "limit": 13},
+          "dexterity": {"value": 2, "limit": 5},
+          "vitality": {"value": 7, "limit": 14},
+          "special": {"value": 5, "limit": 10},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 8, "hp": 15, "defense": 7, "special_defense": 4},
+        "abilities": ["Solid Rock", "Sturdy", "Swift Swim (Hidden)"],
+        "skills": ["Swimmer"],
+        "move_pool": {
+          "rank_1_starter": ["Bide", "Withdraw", "Water Gun", "Rollout"],
+          "rank_2_rookie": ["Bite", "Protect", "Aqua Jet", "Ancient Power"],
+          "rank_3_standard": ["Crunch", "Wide Guard", "Brine", "Smack Down"],
+          "rank_4_advanced": ["Curse", "Shell Smash", "Aqua Tail", "Rock Slide", "Rain Dance", "Hydro Pump"]
+        },
+        "biology": {"egg_group": ["Water 1", "Water 3"], "diet": "Carnivore", "habitat": ["Ocean"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "566",
+        "name": "Archen",
+        "description": "It is said to be the ancestor of all bird Pokémon. It can't fly, so it lives in treetops.",
+        "types": ["Rock", "Flying"],
+        "suggested_rank": "Standard",
+        "attributes": {
+          "strength": {"value": 7, "limit": 13},
+          "dexterity": {"value": 4, "limit": 8},
+          "vitality": {"value": 3, "limit": 6},
+          "special": {"value": 4, "limit": 9},
+          "insight": {"value": 3, "limit": 6}
+        },
+        "derived_stats": {"base_hp": 6, "hp": 9, "defense": 3, "special_defense": 3},
+        "abilities": ["Defeatist"],
+        "skills": ["Climber"],
+        "move_pool": {
+          "rank_1_starter": ["Quick Attack", "Leer", "Wing Attack", "Rock Throw"],
+          "rank_2_rookie": ["Agility", "Ancient Power", "Pluck", "Quick Guard"],
+          "rank_3_standard": ["U-turn", "Rock Slide", "Dragon Breath", "Crunch"],
+          "rank_4_advanced": ["Acrobatics", "Dragon Claw", "Thrash", "Endeavor", "Tailwind"]
+        },
+        "biology": {"egg_group": ["Flying", "Water 3"], "diet": "Carnivore", "habitat": ["Jungle"]},
+        "evolution": "Evolves into Archeops."
+      },
+      {
+        "id": "567",
+        "name": "Archeops",
+        "description": "It can fly, but it is more adept at running. It is said to be able to outrun a car.",
+        "types": ["Rock", "Flying"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 8, "limit": 16},
+          "dexterity": {"value": 7, "limit": 13},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 7, "limit": 13},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 8, "hp": 12, "defense": 4, "special_defense": 4},
+        "abilities": ["Defeatist"],
+        "skills": ["Flight"],
+        "move_pool": {
+          "rank_1_starter": ["Quick Attack", "Leer", "Wing Attack", "Rock Throw"],
+          "rank_2_rookie": ["Agility", "Ancient Power", "Pluck", "Quick Guard"],
+          "rank_3_standard": ["U-turn", "Rock Slide", "Dragon Breath", "Crunch", "Acrobatics"],
+          "rank_4_advanced": ["Dragon Claw", "Thrash", "Endeavor", "Tailwind"]
+        },
+        "biology": {"egg_group": ["Flying", "Water 3"], "diet": "Carnivore", "habitat": ["Jungle"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "568",
+        "name": "Trubbish",
+        "description": "The combination of garbage bags and industrial waste caused this Pokémon to be born.",
+        "types": ["Poison"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 3, "limit": 6},
+          "dexterity": {"value": 4, "limit": 8},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 3, "limit": 6},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 6, "hp": 10, "defense": 4, "special_defense": 4},
+        "abilities": ["Stench", "Sticky Hold", "Aftermath (Hidden)"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Pound", "Poison Gas", "Recycle", "Toxic Spikes"],
+          "rank_2_rookie": ["Acid Spray", "Double Slap", "Sludge", "Stockpile"],
+          "rank_3_standard": ["Swallow", "Spit Up", "Take Down", "Sludge Bomb", "Clear Smog"],
+          "rank_4_advanced": ["Toxic", "Amnesia", "Belch", "Gunk Shot", "Explosion"]
+        },
+        "biology": {"egg_group": ["Amorphous"], "diet": "Pollutivore", "habitat": ["Urban"]},
+        "evolution": "Evolves into Garbodor."
+      },
+      {
+        "id": "569",
+        "name": "Garbodor",
+        "description": "It clenches opponents with its left arm and finishes them off with a belch of poison gas.",
+        "types": ["Poison"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 6, "limit": 11},
+          "dexterity": {"value": 4, "limit": 9},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 9, "hp": 14, "defense": 5, "special_defense": 5},
+        "abilities": ["Stench", "Weak Armor", "Aftermath (Hidden)"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Pound", "Poison Gas", "Recycle", "Toxic Spikes"],
+          "rank_2_rookie": ["Acid Spray", "Double Slap", "Sludge", "Stockpile"],
+          "rank_3_standard": ["Swallow", "Spit Up", "Take Down", "Sludge Bomb", "Clear Smog", "Body Slam"],
+          "rank_4_advanced": ["Toxic", "Amnesia", "Belch", "Gunk Shot", "Explosion"]
+        },
+        "biology": {"egg_group": ["Amorphous"], "diet": "Pollutivore", "habitat": ["Urban"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "570",
+        "name": "Zorua",
+        "description": "It changes into the forms of others to surprise them. It often transforms into a silent child.",
+        "types": ["Dark"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 4, "limit": 8},
+          "dexterity": {"value": 4, "limit": 8},
+          "vitality": {"value": 3, "limit": 6},
+          "special": {"value": 5, "limit": 10},
+          "insight": {"value": 3, "limit": 6}
+        },
+        "derived_stats": {"base_hp": 4, "hp": 7, "defense": 3, "special_defense": 3},
+        "abilities": ["Illusion"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Scratch", "Leer", "Pursuit", "Fake Tears"],
+          "rank_2_rookie": ["Fury Swipes", "Feint Attack", "Scary Face", "Taunt"],
+          "rank_3_standard": ["Knock Off", "Torment", "Agility", "Embargo"],
+          "rank_4_advanced": ["Punishment", "Nasty Plot", "Imprison", "Foul Play"]
+        },
+        "biology": {"egg_group": ["Field"], "diet": "Omnivore", "habitat": ["Forest", "Urban"]},
+        "evolution": "Evolves into Zoroark."
+      },
+      {
+        "id": "571",
+        "name": "Zoroark",
+        "description": "It can fool a crowd of people. It protects its lair with illusory scenery.",
+        "types": ["Dark"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 6, "limit": 12},
+          "dexterity": {"value": 6, "limit": 12},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 7, "limit": 14},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 7, "hp": 11, "defense": 4, "special_defense": 4},
+        "abilities": ["Illusion"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Scratch", "Leer", "Pursuit", "Fake Tears", "Night Slash", "U-turn"],
+          "rank_2_rookie": ["Fury Swipes", "Feint Attack", "Scary Face", "Taunt"],
+          "rank_3_standard": ["Knock Off", "Torment", "Agility", "Embargo", "Hone Claws"],
+          "rank_4_advanced": ["Punishment", "Nasty Plot", "Imprison", "Foul Play"]
+        },
+        "biology": {"egg_group": ["Field"], "diet": "Omnivore", "habitat": ["Forest", "Urban"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "572",
+        "name": "Minccino",
+        "description": "It uses its tail to clean its den. It is a very tidy Pokémon.",
+        "types": ["Normal"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 3, "limit": 6},
+          "dexterity": {"value": 4, "limit": 9},
+          "vitality": {"value": 3, "limit": 6},
+          "special": {"value": 3, "limit": 6},
+          "insight": {"value": 3, "limit": 6}
+        },
+        "derived_stats": {"base_hp": 6, "hp": 9, "defense": 3, "special_defense": 3},
+        "abilities": ["Cute Charm", "Technician", "Skill Link (Hidden)"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Pound", "Baby-Doll Eyes", "Helping Hand", "Tickle"],
+          "rank_2_rookie": ["Double Slap", "Encore", "Swift", "Sing"],
+          "rank_3_standard": ["Tail Slap", "Charm", "Wake-Up Slap", "Echoed Voice"],
+          "rank_4_advanced": ["Slam", "Captivate", "Hyper Voice", "Last Resort", "After You"]
+        },
+        "biology": {"egg_group": ["Field"], "diet": "Omnivore", "habitat": ["Urban"]},
+        "evolution": "Evolves into Cinccino with a Shiny Stone."
+      },
+      {
+        "id": "573",
+        "name": "Cinccino",
+        "description": "Its body is coated in a special oil that helps it deflect attacks.",
+        "types": ["Normal"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 6, "limit": 11},
+          "dexterity": {"value": 7, "limit": 13},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 8, "hp": 12, "defense": 4, "special_defense": 4},
+        "abilities": ["Cute Charm", "Technician", "Skill Link (Hidden)"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Bullet Seed", "Rock Blast", "Helping Hand", "Tickle", "Sing", "Tail Slap"],
+          "rank_2_rookie": ["Swift"],
+          "rank_3_standard": ["Wake-Up Slap", "Echoed Voice"],
+          "rank_4_advanced": ["Hyper Voice", "Last Resort"]
+        },
+        "biology": {"egg_group": ["Field"], "diet": "Omnivore", "habitat": ["Urban"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "574",
+        "name": "Gothita",
+        "description": "It stares at something only it can see. It is said that it can see the spirits of the dead.",
+        "types": ["Psychic"],
+        "suggested_rank": "Starter",
+        "attributes": {
+          "strength": {"value": 2, "limit": 5},
+          "dexterity": {"value": 3, "limit": 6},
+          "vitality": {"value": 3, "limit": 6},
+          "special": {"value": 4, "limit": 7},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 5, "hp": 8, "defense": 3, "special_defense": 4},
+        "abilities": ["Frisk", "Competitive", "Shadow Tag (Hidden)"],
+        "skills": ["Telepath"],
+        "move_pool": {
+          "rank_1_starter": ["Pound", "Confusion", "Tickle", "Play Nice"],
+          "rank_2_rookie": ["Psybeam", "Embargo", "Feint Attack", "Psyshock"],
+          "rank_3_standard": ["Flatter", "Future Sight", "Heal Block", "Psychic", "Telekinesis"],
+          "rank_4_advanced": ["Charm", "Magic Room", "Dark Pulse", "Power Swap"]
+        },
+        "biology": {"egg_group": ["Human-Like"], "diet": "Psiotroph", "habitat": ["Urban"]},
+        "evolution": "Evolves into Gothorita."
+      },
+      {
+        "id": "575",
+        "name": "Gothorita",
+        "description": "It uses hypnosis to control people and Pokémon. It is said that it can steal people away.",
+        "types": ["Psychic"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 3, "limit": 6},
+          "dexterity": {"value": 4, "limit": 7},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 4, "limit": 9},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 7, "hp": 11, "defense": 4, "special_defense": 5},
+        "abilities": ["Frisk", "Competitive", "Shadow Tag (Hidden)"],
+        "skills": ["Telepath"],
+        "move_pool": {
+          "rank_1_starter": ["Pound", "Confusion", "Tickle", "Play Nice"],
+          "rank_2_rookie": ["Psybeam", "Embargo", "Feint Attack", "Psyshock"],
+          "rank_3_standard": ["Flatter", "Future Sight", "Heal Block", "Psychic", "Telekinesis"],
+          "rank_4_advanced": ["Charm", "Magic Room", "Dark Pulse", "Power Swap"]
+        },
+        "biology": {"egg_group": ["Human-Like"], "diet": "Psiotroph", "habitat": ["Urban"]},
+        "evolution": "Evolves into Gothitelle."
+      },
+      {
+        "id": "576",
+        "name": "Gothitelle",
+        "description": "It can see the future from the movement of the stars. It can also see a Trainer's life span.",
+        "types": ["Psychic"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 4, "limit": 7},
+          "dexterity": {"value": 4, "limit": 8},
+          "vitality": {"value": 6, "limit": 11},
+          "special": {"value": 6, "limit": 11},
+          "insight": {"value": 7, "limit": 13}
+        },
+        "derived_stats": {"base_hp": 8, "hp": 14, "defense": 6, "special_defense": 7},
+        "abilities": ["Frisk", "Competitive", "Shadow Tag (Hidden)"],
+        "skills": ["Telepath"],
+        "move_pool": {
+          "rank_1_starter": ["Pound", "Confusion", "Tickle", "Play Nice"],
+          "rank_2_rookie": ["Psybeam", "Embargo", "Feint Attack", "Psyshock"],
+          "rank_3_standard": ["Flatter", "Future Sight", "Heal Block", "Psychic", "Telekinesis"],
+          "rank_4_advanced": ["Charm", "Magic Room", "Dark Pulse", "Power Swap"]
+        },
+        "biology": {"egg_group": ["Human-Like"], "diet": "Psiotroph", "habitat": ["Urban"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "577",
+        "name": "Solosis",
+        "description": "It communicates with others telepathically. Its body is enveloped in a special liquid.",
+        "types": ["Psychic"],
+        "suggested_rank": "Starter",
+        "attributes": {
+          "strength": {"value": 2, "limit": 5},
+          "dexterity": {"value": 2, "limit": 4},
+          "vitality": {"value": 3, "limit": 6},
+          "special": {"value": 6, "limit": 12},
+          "insight": {"value": 3, "limit": 6}
+        },
+        "derived_stats": {"base_hp": 5, "hp": 8, "defense": 3, "special_defense": 3},
+        "abilities": ["Overcoat", "Magic Guard", "Regenerator (Hidden)"],
+        "skills": ["Telepath", "Amorphous"],
+        "move_pool": {
+          "rank_1_starter": ["Psywave", "Reflect", "Rollout", "Snatch"],
+          "rank_2_rookie": ["Hidden Power", "Light Screen", "Charm", "Recover"],
+          "rank_3_standard": ["Psyshock", "Endeavor", "Future Sight", "Pain Split"],
+          "rank_4_advanced": ["Psychic", "Skill Swap", "Heal Block", "Wonder Room"]
+        },
+        "biology": {"egg_group": ["Amorphous"], "diet": "Psiotroph", "habitat": ["Cave"]},
+        "evolution": "Evolves into Duosion."
+      },
+      {
+        "id": "578",
+        "name": "Duosion",
+        "description": "It has two brains that are linked by a psychic power. It can cause its foe's head to ache.",
+        "types": ["Psychic"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 3, "limit": 6},
+          "dexterity": {"value": 2, "limit": 5},
+          "vitality": {"value": 3, "limit": 6},
+          "special": {"value": 7, "limit": 14},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 7, "hp": 10, "defense": 3, "special_defense": 4},
+        "abilities": ["Overcoat", "Magic Guard", "Regenerator (Hidden)"],
+        "skills": ["Telepath", "Amorphous"],
+        "move_pool": {
+          "rank_1_starter": ["Psywave", "Reflect", "Rollout", "Snatch"],
+          "rank_2_rookie": ["Hidden Power", "Light Screen", "Charm", "Recover"],
+          "rank_3_standard": ["Psyshock", "Endeavor", "Future Sight", "Pain Split"],
+          "rank_4_advanced": ["Psychic", "Skill Swap", "Heal Block", "Wonder Room"]
+        },
+        "biology": {"egg_group": ["Amorphous"], "diet": "Psiotroph", "habitat": ["Cave"]},
+        "evolution": "Evolves into Reuniclus."
+      },
+      {
+        "id": "579",
+        "name": "Reuniclus",
+        "description": "It has magnificent intelligence. It can form a network with other Reuniclus by making their arms link together.",
+        "types": ["Psychic"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 4, "limit": 8},
+          "dexterity": {"value": 2, "limit": 5},
+          "vitality": {"value": 5, "limit": 9},
+          "special": {"value": 7, "limit": 14},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 12, "hp": 17, "defense": 5, "special_defense": 5},
+        "abilities": ["Overcoat", "Magic Guard", "Regenerator (Hidden)"],
+        "skills": ["Telepath", "Amorphous"],
+        "move_pool": {
+          "rank_1_starter": ["Psywave", "Reflect", "Rollout", "Snatch", "Dizzy Punch", "Arm Hammer"],
+          "rank_2_rookie": ["Hidden Power", "Light Screen", "Charm", "Recover"],
+          "rank_3_standard": ["Psyshock", "Endeavor", "Future Sight", "Pain Split"],
+          "rank_4_advanced": ["Psychic", "Skill Swap", "Heal Block", "Wonder Room", "Trick Room"]
+        },
+        "biology": {"egg_group": ["Amorphous"], "diet": "Psiotroph", "habitat": ["Cave"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "580",
+        "name": "Ducklett",
+        "description": "It is a skilled diver. It can shoot a powerful jet of water from its mouth.",
+        "types": ["Water", "Flying"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 3, "limit": 6},
+          "dexterity": {"value": 4, "limit": 7},
+          "vitality": {"value": 3, "limit": 6},
+          "special": {"value": 3, "limit": 6},
+          "insight": {"value": 3, "limit": 6}
+        },
+        "derived_stats": {"base_hp": 7, "hp": 10, "defense": 3, "special_defense": 3},
+        "abilities": ["Keen Eye", "Big Pecks", "Hydration (Hidden)"],
+        "skills": ["Flight", "Swimmer"],
+        "move_pool": {
+          "rank_1_starter": ["Water Gun", "Water Sport", "Defog", "Wing Attack"],
+          "rank_2_rookie": ["Water Pulse", "Aerial Ace", "Bubble Beam", "Feather Dance"],
+          "rank_3_standard": ["Aqua Ring", "Air Slash", "Roost", "Rain Dance"],
+          "rank_4_advanced": ["Tailwind", "Brave Bird", "Hurricane"]
+        },
+        "biology": {"egg_group": ["Water 1", "Flying"], "diet": "Omnivore", "habitat": ["Swamp", "Freshwater"]},
+        "evolution": "Evolves into Swanna."
+      },
+      {
+        "id": "581",
+        "name": "Swanna",
+        "description": "It is a graceful dancer. It is said that the leader of the flock is the one that can dance most gracefully.",
+        "types": ["Water", "Flying"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 5, "limit": 10},
+          "dexterity": {"value": 6, "limit": 11},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 5, "limit": 10},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 8, "hp": 12, "defense": 4, "special_defense": 4},
+        "abilities": ["Keen Eye", "Big Pecks", "Hydration (Hidden)"],
+        "skills": ["Flight", "Swimmer"],
+        "move_pool": {
+          "rank_1_starter": ["Water Gun", "Water Sport", "Defog", "Wing Attack"],
+          "rank_2_rookie": ["Water Pulse", "Aerial Ace", "Bubble Beam", "Feather Dance"],
+          "rank_3_standard": ["Aqua Ring", "Air Slash", "Roost", "Rain Dance"],
+          "rank_4_advanced": ["Tailwind", "Brave Bird", "Hurricane"]
+        },
+        "biology": {"egg_group": ["Water 1", "Flying"], "diet": "Omnivore", "habitat": ["Swamp", "Freshwater"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "582",
+        "name": "Vanillite",
+        "description": "It was born from an icicle that was bathed in the morning sun. It sleeps buried in snow.",
+        "types": ["Ice"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 3, "limit": 6},
+          "dexterity": {"value": 3, "limit": 6},
+          "vitality": {"value": 3, "limit": 6},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 4, "hp": 7, "defense": 3, "special_defense": 4},
+        "abilities": ["Ice Body", "Snow Cloak", "Weak Armor (Hidden)"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Icicle Spear", "Harden", "Astonish", "Uproar"],
+          "rank_2_rookie": ["Icy Wind", "Mist", "Avalanche", "Taunt"],
+          "rank_3_standard": ["Mirror Shot", "Acid Armor", "Ice Beam", "Hail"],
+          "rank_4_advanced": ["Mirror Coat", "Blizzard", "Sheer Cold"]
+        },
+        "biology": {"egg_group": ["Mineral"], "diet": "Nullivore", "habitat": ["Arctic"]},
+        "evolution": "Evolves into Vanillish."
+      },
+      {
+        "id": "583",
+        "name": "Vanillish",
+        "description": "It freezes particles of water in the air to make its body. It can survive in temperatures of 14 degrees Fahrenheit.",
+        "types": ["Ice"],
+        "suggested_rank": "Standard",
+        "attributes": {
+          "strength": {"value": 4, "limit": 8},
+          "dexterity": {"value": 4, "limit": 8},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 5, "limit": 9},
+          "insight": {"value": 4, "limit": 9}
+        },
+        "derived_stats": {"base_hp": 6, "hp": 10, "defense": 4, "special_defense": 4},
+        "abilities": ["Ice Body", "Snow Cloak", "Weak Armor (Hidden)"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Icicle Spear", "Harden", "Astonish", "Uproar"],
+          "rank_2_rookie": ["Icy Wind", "Mist", "Avalanche", "Taunt"],
+          "rank_3_standard": ["Mirror Shot", "Acid Armor", "Ice Beam", "Hail"],
+          "rank_4_advanced": ["Mirror Coat", "Blizzard", "Sheer Cold"]
+        },
+        "biology": {"egg_group": ["Mineral"], "diet": "Nullivore", "habitat": ["Arctic"]},
+        "evolution": "Evolves into Vanilluxe."
+      },
+      {
+        "id": "584",
+        "name": "Vanilluxe",
+        "description": "It swallows large amounts of water, then creates snow clouds inside its body.",
+        "types": ["Ice"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 6, "limit": 11},
+          "dexterity": {"value": 5, "limit": 9},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 7, "limit": 13},
+          "insight": {"value": 6, "limit": 11}
+        },
+        "derived_stats": {"base_hp": 8, "hp": 13, "defense": 5, "special_defense": 6},
+        "abilities": ["Ice Body", "Snow Warning", "Weak Armor (Hidden)"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Icicle Spear", "Harden", "Astonish", "Uproar", "Weather Ball", "Sheer Cold"],
+          "rank_2_rookie": ["Icy Wind", "Mist", "Avalanche", "Taunt"],
+          "rank_3_standard": ["Mirror Shot", "Acid Armor", "Ice Beam", "Hail", "Icicle Crash"],
+          "rank_4_advanced": ["Mirror Coat", "Blizzard"]
+        },
+        "biology": {"egg_group": ["Mineral"], "diet": "Nullivore", "habitat": ["Arctic"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "585",
+        "name": "Deerling",
+        "description": "The color and scent of their fur changes to match the mountain grass. They hide from enemies by hiding in patches of grass.",
+        "types": ["Normal", "Grass"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 4, "limit": 8},
+          "dexterity": {"value": 4, "limit": 9},
+          "vitality": {"value": 3, "limit": 6},
+          "special": {"value": 3, "limit": 6},
+          "insight": {"value": 3, "limit": 6}
+        },
+        "derived_stats": {"base_hp": 7, "hp": 10, "defense": 3, "special_defense": 3},
+        "abilities": ["Chlorophyll", "Sap Sipper", "Serene Grace (Hidden)"],
+        "skills": ["Sprouter"],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Camouflage", "Growl", "Sand Attack"],
+          "rank_2_rookie": ["Double Kick", "Leech Seed", "Feint Attack", "Take Down"],
+          "rank_3_standard": ["Jump Kick", "Aromatherapy", "Energy Ball", "Charm"],
+          "rank_4_advanced": ["Nature Power", "Double-Edge", "Solar Beam"]
+        },
+        "biology": {"egg_group": ["Field"], "diet": "Herbivore", "habitat": ["Forest"]},
+        "evolution": "Evolves into Sawsbuck."
+      },
+      {
+        "id": "586",
+        "name": "Sawsbuck",
+        "description": "The plants on its horns change depending on the season. The leader of the herd is the one with the most splendid horns.",
+        "types": ["Normal", "Grass"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 6, "limit": 12},
+          "dexterity": {"value": 6, "limit": 11},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 9, "hp": 13, "defense": 4, "special_defense": 4},
+        "abilities": ["Chlorophyll", "Sap Sipper", "Serene Grace (Hidden)"],
+        "skills": ["Sprouter"],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Camouflage", "Growl", "Sand Attack", "Megahorn", "Horn Leech"],
+          "rank_2_rookie": ["Double Kick", "Leech Seed", "Feint Attack", "Take Down"],
+          "rank_3_standard": ["Jump Kick", "Aromatherapy", "Energy Ball", "Charm"],
+          "rank_4_advanced": ["Nature Power", "Double-Edge", "Solar Beam"]
+        },
+        "biology": {"egg_group": ["Field"], "diet": "Herbivore", "habitat": ["Forest"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "587",
+        "name": "Emolga",
+        "description": "It glides on its cape-like membranes. It grills berries with electricity and eats them.",
+        "types": ["Electric", "Flying"],
+        "suggested_rank": "Standard",
+        "attributes": {
+          "strength": {"value": 5, "limit": 9},
+          "dexterity": {"value": 6, "limit": 12},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 5, "limit": 9},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 6, "hp": 10, "defense": 4, "special_defense": 4},
+        "abilities": ["Static", "Motor Drive (Hidden)"],
+        "skills": ["Flight", "Zapper"],
+        "move_pool": {
+          "rank_1_starter": ["Thunder Shock", "Quick Attack", "Tail Whip", "Charge"],
+          "rank_2_rookie": ["Spark", "Nuzzle", "Pursuit", "Double Team"],
+          "rank_3_standard": ["Shock Wave", "Electro Ball", "Acrobatics", "Light Screen"],
+          "rank_4_advanced": ["Encore", "Volt Switch", "Agility", "Discharge"]
+        },
+        "biology": {"egg_group": ["Field"], "diet": "Herbivore", "habitat": ["Forest"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "588",
+        "name": "Karrablast",
+        "description": "When they feel threatened, they spit an acidic liquid to drive attackers away. They are often targeted by Shelmet.",
+        "types": ["Bug"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 4, "limit": 9},
+          "dexterity": {"value": 4, "limit": 8},
+          "vitality": {"value": 3, "limit": 6},
+          "special": {"value": 3, "limit": 6},
+          "insight": {"value": 3, "limit": 6}
+        },
+        "derived_stats": {"base_hp": 6, "hp": 9, "defense": 3, "special_defense": 3},
+        "abilities": ["Swarm", "Shed Skin", "No Guard (Hidden)"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Peck", "Leer", "Endure", "Fury Cutter"],
+          "rank_2_rookie": ["False Swipe", "Acid Spray", "Headbutt", "Flail"],
+          "rank_3_standard": ["Scary Face", "X-Scissor", "Swords Dance", "Take Down"],
+          "rank_4_advanced": ["Bug Buzz", "Double-Edge"]
+        },
+        "biology": {"egg_group": ["Bug"], "diet": "Carnivore", "habitat": ["Forest", "Swamp"]},
+        "evolution": "Evolves into Escavalier when traded for a Shelmet."
+      },
+      {
+        "id": "589",
+        "name": "Escavalier",
+        "description": "They fly around at high speed, striking with their pointed spears. They are bravely defiant.",
+        "types": ["Bug", "Steel"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 8, "limit": 15},
+          "dexterity": {"value": 2, "limit": 4},
+          "vitality": {"value": 6, "limit": 12},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 6, "limit": 12}
+        },
+        "derived_stats": {"base_hp": 8, "hp": 14, "defense": 6, "special_defense": 6},
+        "abilities": ["Swarm", "Shell Armor", "Overcoat (Hidden)"],
+        "skills": ["Flight"],
+        "move_pool": {
+          "rank_1_starter": ["Peck", "Leer", "Quick Guard", "Twineedle"],
+          "rank_2_rookie": ["Endure", "Fury Cutter", "False Swipe", "Acid Spray"],
+          "rank_3_standard": ["Headbutt", "Flail", "Scary Face", "X-Scissor", "Reversal"],
+          "rank_4_advanced": ["Swords Dance", "Iron Head", "Bug Buzz", "Giga Impact", "Fell Stinger", "Metal Burst"]
+        },
+        "biology": {"egg_group": ["Bug"], "diet": "Carnivore", "habitat": ["Forest", "Swamp"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "590",
+        "name": "Foongus",
+        "description": "It lures people in with its Poké Ball pattern, then releases poison spores.",
+        "types": ["Grass", "Poison"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 4, "limit": 7},
+          "dexterity": {"value": 1, "limit": 4},
+          "vitality": {"value": 3, "limit": 6},
+          "special": {"value": 4, "limit": 7},
+          "insight": {"value": 4, "limit": 7}
+        },
+        "derived_stats": {"base_hp": 7, "hp": 10, "defense": 3, "special_defense": 4},
+        "abilities": ["Effect Spore", "Regenerator (Hidden)"],
+        "skills": ["Sprouter"],
+        "move_pool": {
+          "rank_1_starter": ["Absorb", "Growth", "Astonish", "Bide"],
+          "rank_2_rookie": ["Mega Drain", "Ingrain", "Feint Attack", "Sweet Scent"],
+          "rank_3_standard": ["Giga Drain", "Toxic", "Synthesis", "Clear Smog"],
+          "rank_4_advanced": ["Solar Beam", "Rage Powder", "Spore"]
+        },
+        "biology": {"egg_group": ["Grass"], "diet": "Saprophyte", "habitat": ["Forest"]},
+        "evolution": "Evolves into Amoonguss."
+      },
+      {
+        "id": "591",
+        "name": "Amoonguss",
+        "description": "It lures prey close with its Poké Ball-like arms, then sprays them with poison spores.",
+        "types": ["Grass", "Poison"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 5, "limit": 10},
+          "dexterity": {"value": 2, "limit": 5},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 5, "limit": 10},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 12, "hp": 16, "defense": 4, "special_defense": 5},
+        "abilities": ["Effect Spore", "Regenerator (Hidden)"],
+        "skills": ["Sprouter"],
+        "move_pool": {
+          "rank_1_starter": ["Absorb", "Growth", "Astonish", "Bide"],
+          "rank_2_rookie": ["Mega Drain", "Ingrain", "Feint Attack", "Sweet Scent"],
+          "rank_3_standard": ["Giga Drain", "Toxic", "Synthesis", "Clear Smog", "Solar Beam"],
+          "rank_4_advanced": ["Rage Powder", "Spore"]
+        },
+        "biology": {"egg_group": ["Grass"], "diet": "Saprophyte", "habitat": ["Forest"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "592",
+        "name": "Frillish",
+        "description": "They paralyze prey with poison, then drag them down to their lairs, five miles below the surface.",
+        "types": ["Water", "Ghost"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 3, "limit": 6},
+          "dexterity": {"value": 3, "limit": 6},
+          "vitality": {"value": 3, "limit": 6},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 6, "hp": 9, "defense": 3, "special_defense": 5},
+        "abilities": ["Water Absorb", "Cursed Body", "Damp (Hidden)"],
+        "skills": ["Swimmer", "Phasing"],
+        "move_pool": {
+          "rank_1_starter": ["Bubble", "Water Sport", "Absorb", "Night Shade"],
+          "rank_2_rookie": ["Bubble Beam", "Recover", "Water Pulse"],
+          "rank_3_standard": ["Ominous Wind", "Brine", "Rain Dance", "Hex"],
+          "rank_4_advanced": ["Hydro Pump", "Wring Out", "Water Spout"]
+        },
+        "biology": {"egg_group": ["Amorphous"], "diet": "Carnivore", "habitat": ["Ocean"]},
+        "evolution": "Evolves into Jellicent."
+      },
+      {
+        "id": "593",
+        "name": "Jellicent",
+        "description": "The fate of the ships and crew that wander into Jellicent's territory: All sunken, all lost, all vanished.",
+        "types": ["Water", "Ghost"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 4, "limit": 8},
+          "dexterity": {"value": 4, "limit": 8},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 5, "limit": 10},
+          "insight": {"value": 6, "limit": 12}
+        },
+        "derived_stats": {"base_hp": 11, "hp": 15, "defense": 4, "special_defense": 6},
+        "abilities": ["Water Absorb", "Cursed Body", "Damp (Hidden)"],
+        "skills": ["Swimmer", "Phasing"],
+        "move_pool": {
+          "rank_1_starter": ["Bubble", "Water Sport", "Absorb", "Night Shade", "Acid Armor"],
+          "rank_2_rookie": ["Bubble Beam", "Recover", "Water Pulse"],
+          "rank_3_standard": ["Ominous Wind", "Brine", "Rain Dance", "Hex"],
+          "rank_4_advanced": ["Hydro Pump", "Wring Out", "Water Spout"]
+        },
+        "biology": {"egg_group": ["Amorphous"], "diet": "Carnivore", "habitat": ["Ocean"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "594",
+        "name": "Alomomola",
+        "description": "Floating in the open sea is how they live. When they find a wounded Pokémon, they embrace it and use their special membrane to heal it.",
+        "types": ["Water"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 5, "limit": 9},
+          "dexterity": {"value": 4, "limit": 8},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 3, "limit": 6},
+          "insight": {"value": 3, "limit": 6}
+        },
+        "derived_stats": {"base_hp": 17, "hp": 22, "defense": 5, "special_defense": 3},
+        "abilities": ["Healer", "Hydration", "Regenerator (Hidden)"],
+        "skills": ["Swimmer"],
+        "move_pool": {
+          "rank_1_starter": ["Play Nice", "Pound", "Water Sport", "Aqua Ring"],
+          "rank_2_rookie": ["Aqua Jet", "Double Slap", "Heal Pulse", "Protect"],
+          "rank_3_standard": ["Water Pulse", "Helping Hand", "Wide Guard", "Wake-Up Slap"],
+          "rank_4_advanced": ["Soak", "Wish", "Brine", "Safeguard", "Hydro Pump"]
+        },
+        "biology": {"egg_group": ["Water 1", "Water 2"], "diet": "Omnivore", "habitat": ["Ocean"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "595",
+        "name": "Joltik",
+        "description": "They attach themselves to large-bodied Pokémon and absorb static electricity, which they store in an electric pouch.",
+        "types": ["Bug", "Electric"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 3, "limit": 6},
+          "dexterity": {"value": 4, "limit": 8},
+          "vitality": {"value": 3, "limit": 6},
+          "special": {"value": 4, "limit": 7},
+          "insight": {"value": 3, "limit": 6}
+        },
+        "derived_stats": {"base_hp": 6, "hp": 9, "defense": 3, "special_defense": 3},
+        "abilities": ["Compound Eyes", "Unnerve", "Swarm (Hidden)"],
+        "skills": ["Threaded", "Zapper"],
+        "move_pool": {
+          "rank_1_starter": ["String Shot", "Absorb", "Spider Web", "Thunder Wave"],
+          "rank_2_rookie": ["Screech", "Fury Cutter", "Electroweb", "Bug Bite"],
+          "rank_3_standard": ["Gastro Acid", "Slash", "Electro Ball", "Signal Beam"],
+          "rank_4_advanced": ["Agility", "Sucker Punch", "Discharge", "Bug Buzz"]
+        },
+        "biology": {"egg_group": ["Bug"], "diet": "Ergovore", "habitat": ["Cave"]},
+        "evolution": "Evolves into Galvantula."
+      },
+      {
+        "id": "596",
+        "name": "Galvantula",
+        "description": "They employ an electrically charged web to trap their prey. While it is immobilized by shock, they leisurely consume it.",
+        "types": ["Bug", "Electric"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 5, "limit": 9},
+          "dexterity": {"value": 6, "limit": 13},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 6, "limit": 11},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 8, "hp": 12, "defense": 4, "special_defense": 4},
+        "abilities": ["Compound Eyes", "Unnerve", "Swarm (Hidden)"],
+        "skills": ["Threaded", "Zapper"],
+        "move_pool": {
+          "rank_1_starter": ["String Shot", "Absorb", "Spider Web", "Thunder Wave", "Sticky Web"],
+          "rank_2_rookie": ["Screech", "Fury Cutter", "Electroweb", "Bug Bite"],
+          "rank_3_standard": ["Gastro Acid", "Slash", "Electro Ball", "Signal Beam"],
+          "rank_4_advanced": ["Agility", "Sucker Punch", "Discharge", "Bug Buzz"]
+        },
+        "biology": {"egg_group": ["Bug"], "diet": "Carnivore", "habitat": ["Cave"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "597",
+        "name": "Ferroseed",
+        "description": "When threatened, it attacks by shooting a barrage of spikes, which gives it a chance to escape by rolling away.",
+        "types": ["Grass", "Steel"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 3, "limit": 6},
+          "dexterity": {"value": 1, "limit": 3},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 2, "limit": 5},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 5, "hp": 10, "defense": 5, "special_defense": 5},
+        "abilities": ["Iron Barbs"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Harden", "Rollout", "Curse"],
+          "rank_2_rookie": ["Metal Claw", "Pin Missile", "Gyro Ball"],
+          "rank_3_standard": ["Iron Defense", "Mirror Shot", "Ingrain", "Self-Destruct"],
+          "rank_4_advanced": ["Iron Head", "Payback", "Flash Cannon", "Explosion"]
+        },
+        "biology": {"egg_group": ["Grass", "Mineral"], "diet": "Terravore", "habitat": ["Cave"]},
+        "evolution": "Evolves into Ferrothorn."
+      }
+    ]
+  }
+}
