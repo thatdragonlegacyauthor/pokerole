@@ -1,0 +1,29 @@
+{
+  "chapter_11": {
+    "title": "The Movedex",
+    "type": "Ghost",
+    "moves": [
+      { "name": "Astonish", "type": "Ghost", "accuracy": "Strength + Brawl", "damage": "Strength + 2", "effect": "On a successful hit, roll 1d6. On a 5 or 6, the target Flinches." },
+      { "name": "Confuse Ray", "type": "Ghost", "accuracy": "Special + Charm", "damage": "None", "effect": "The target is Confused." },
+      { "name": "Curse", "type": "Ghost", "accuracy": "Automatic", "damage": "None", "effect": "If the user is a Ghost-type, they lose half their max HP and the target is Cursed, losing 1/4 of its max HP each turn. If the user is not a Ghost-type, it lowers the user's Dexterity by 1 and raises its Strength and Vitality by 1." },
+      { "name": "Destiny Bond", "type": "Ghost", "accuracy": "Automatic", "damage": "None", "effect": "If the user is knocked out by an attack this round, the attacker also faints." },
+      { "name": "Dream Eater", "type": "Ghost", "accuracy": "Special + Channel", "damage": "Special + 6", "effect": "This move only works on a sleeping target. The user regains HP equal to half the damage dealt." },
+      { "name": "Grudge", "type": "Ghost", "accuracy": "Automatic", "damage": "None", "effect": "If the user is knocked out by an attack this round, the move that knocked it out loses all its Power Points." },
+      { "name": "Hex", "type": "Ghost", "accuracy": "Special + Channel", "damage": "Special + 4", "effect": "If the target has a status condition, this move's damage is doubled." },
+      { "name": "Lick", "type": "Ghost", "accuracy": "Strength + Brawl", "damage": "Strength + 2", "effect": "On a successful hit, roll 1d6. On a 5 or 6, the target is Paralyzed." },
+      { "name": "Mean Look", "type": "Ghost", "accuracy": "Special + Intimidate", "damage": "None", "effect": "The target cannot switch out or flee for the rest of the scene." },
+      { "name": "Memento", "type": "Ghost", "accuracy": "Automatic", "damage": "None", "effect": "The user faints, but the target's Strength and Special are lowered by 2." },
+      { "name": "Night Shade", "type": "Ghost", "accuracy": "Special + Channel", "damage": "Fixed", "effect": "Deals damage equal to the user's Rank multiplied by 5." },
+      { "name": "Nightmare", "type": "Ghost", "accuracy": "Special + Channel", "damage": "None", "effect": "A sleeping target loses 1/4 of its max HP at the end of each turn." },
+      { "name": "Ominous Wind", "type": "Ghost", "accuracy": "Special + Channel", "damage": "Special + 3", "effect": "On a successful hit, roll 1d6. On a 6, all of the user's stats are raised by 1." },
+      { "name": "Pain Split", "type": "Ghost", "accuracy": "Special + Channel", "damage": "None", "effect": "The user and the target's current HP are added together and then split evenly between them." },
+      { "name": "Phantom Force", "type": "Ghost", "accuracy": "Strength + Brawl", "damage": "Strength + 5", "effect": "The user vanishes for one turn, becoming untargetable. It attacks on the second turn. This move bypasses Protect and Detect." },
+      { "name": "Shadow Ball", "type": "Ghost", "accuracy": "Special + Channel", "damage": "Special + 4", "effect": "On a successful hit, roll 1d6. On a 5 or 6, the target's Insight is lowered by 1." },
+      { "name": "Shadow Claw", "type": "Ghost", "accuracy": "Strength + Brawl", "damage": "Strength + 4", "effect": "High critical hit ratio." },
+      { "name": "Shadow Punch", "type": "Ghost", "accuracy": "Automatic", "damage": "Strength + 3", "effect": "This move cannot miss." },
+      { "name": "Shadow Sneak", "type": "Ghost", "accuracy": "Strength + Brawl", "damage": "Strength + 2", "effect": "This move has Priority." },
+      { "name": "Spite", "type": "Ghost", "accuracy": "Special + Intimidate", "damage": "None", "effect": "The target's last used move loses 1d4 Power Points." },
+      { "name": "Trick-or-Treat", "type": "Ghost", "accuracy": "Special + Charm", "damage": "None", "effect": "Adds the Ghost type to the target's current typing for the rest of the scene." }
+    ]
+  }
+}
