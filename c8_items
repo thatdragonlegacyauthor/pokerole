@@ -1,0 +1,134 @@
+{
+  "chapter_8": {
+    "title": "Items for the Journey",
+    "description": "A comprehensive catalog of the tools, medicines, and artifacts a Trainer can buy, find, and use on their adventure.",
+    "source": ["PTA3PlayersHandbook.pdf", "POKEROLE COREBOOK 3.0-001.pdf"],
+    "trainer_gear": {
+      "title": "Trainer's Gear & Equipment",
+      "trainer_pack_bundles": {
+        "source": "PTA3PlayersHandbook.pdf",
+        "description": "Pre-packaged kits for various lifestyles, often included with a Trainer's Origin. (Prices are for purchasing the kits whole).",
+        "list": [
+          {"name": "Traveler’s Pack", "price": 150, "contents": "Collapsible tent, tarp, sleeping bag, pocket knife, solar flashlight, compass, waterproof matches, water bottle, compression sack."},
+          {"name": "Medical Field Kit", "price": 2150, "contents": "Pain relievers, antihistamines, cold/flu relievers, electrolyte tablets, antiseptic solution and gel, medical tape, slings, bandages, gauze, stitch strips, and various tools like scissors and tweezers."},
+          {"name": "Studious Pack", "price": 80, "contents": "Solar charger, universal adapter, memory stick, binder, folders, notebooks, pencils, pens, and a backpack."},
+          {"name": "Miscreant's Pack", "price": 250, "contents": "Solar charger, universal adapter, memory sticks, lock picks, multi-head screwdriver, crowbar, and other tools for infiltration."},
+          {"name": "Cooking Kit", "price": 850, "contents": "Portable electric stove, cast iron pan, pot with lid, water purifier, cutting board, and various utensils."},
+          {"name": "Fishing Kit", "price": 750, "contents": "Telescoping fishing rod, spare reel lines, assorted hooks, assorted bobbers, sinkers, assorted lures, and a tackle box."},
+          {"name": "Grooming Kit", "price": 150, "contents": "Electronic trimmer, combs, brushes, scissors, clippers, nail file, soap, and shampoo."}
+        ]
+      }
+    },
+    "healing_items": {
+      "title": "Healing Items",
+      "potions": {
+        "source": "PTA3PlayersHandbook.pdf",
+        "list": [
+          {"name": "Potion", "price": 25, "effect": "Heals 10 HP."},
+          {"name": "Super Potion", "price": 250, "effect": "Heals 20 HP."},
+          {"name": "Hyper Potion", "price": 550, "effect": "Heals 30 HP."},
+          {"name": "Max Potion", "price": 850, "effect": "Heals a Pokémon to their Max HP."},
+          {"name": "Full Restore", "price": 1200, "effect": "Heals to Max HP and cures all status ailments."}
+        ]
+      },
+      "status_heals": {
+        "source": ["PTA3PlayersHandbook.pdf", "POKEROLE COREBOOK 3.0-001.pdf"],
+        "description": "Items that cure specific status ailments.",
+        "list": [
+          {"name": "Antidote", "price": 120, "effect": "Cures Poison and Badly Poisoned."},
+          {"name": "Paralyze Heal", "price": 120, "effect": "Cures Paralysis."},
+          {"name": "Awakening", "price": 120, "effect": "Cures Sleep."},
+          {"name": "Burn Heal", "price": 120, "effect": "Cures Burned."},
+          {"name": "Ice Heal", "price": 120, "effect": "Cures Frozen."},
+          {"name": "Full Heal", "price": 520, "effect": "Cures all status ailments."}
+        ]
+      },
+      "berries": {
+        "source": ["PTA3PlayersHandbook.pdf", "POKEROLE COREBOOK 3.0-001.pdf"],
+        "description": "Natural remedies Pokémon can hold and consume automatically as a free action when their condition is met.",
+        "list": [
+          {"name": "Oran Berry", "rarity": "Common", "effect": "When HP drops below half, consume to heal 5 HP."},
+          {"name": "Sitrus Berry", "rarity": "Uncommon", "effect": "When HP drops below half, consume to heal 12 HP."},
+          {"name": "Pecha Berry", "rarity": "Common", "effect": "Consume immediately when Poisoned to be cured."},
+          {"name": "Cheri Berry", "rarity": "Common", "effect": "Consume immediately when Paralyzed to be cured."},
+          {"name": "Chesto Berry", "rarity": "Common", "effect": "Consume immediately when put to Sleep to be cured."},
+          {"name": "Rawst Berry", "rarity": "Common", "effect": "Consume immediately when Burned to be cured."},
+          {"name": "Aspear Berry", "rarity": "Common", "effect": "Consume immediately when Frozen to be cured."},
+          {"name": "Lum Berry", "rarity": "Rare", "effect": "Consume immediately when inflicted with any status ailment to be cured."}
+        ]
+      },
+      "revival_items": {
+        "source": ["PTA3PlayersHandbook.pdf", "POKEROLE COREBOOK 3.0-001.pdf"],
+        "list": [
+          {"name": "Revive", "price": 1350, "effect": "Restores a fainted Pokémon to half of its max HP."},
+          {"name": "Max Revive", "price": "Not for Sale", "effect": "Restores a fainted Pokémon to its full max HP."}
+        ]
+      }
+    },
+    "held_items": {
+      "title": "Held Items",
+      "description": "A Pokémon can hold one item to gain an advantage in battle.",
+      "type_enhancing_items": {
+        "name": "Type-Enhancing Items",
+        "description": "These items add 1 Extra Die to the Damage Pool of moves of the corresponding type.",
+        "source": "POKEROLE COREBOOK 3.0-001.pdf",
+        "list": [
+          {"name": "Charcoal", "type": "Fire"},
+          {"name": "Mystic Water", "type": "Water"},
+          {"name": "Magnet", "type": "Electric"},
+          {"name": "Miracle Seed", "type": "Grass"},
+          {"name": "Black Belt", "type": "Fighting"},
+          {"name": "Sharp Beak", "type": "Flying"},
+          {"name": "Poison Barb", "type": "Poison"},
+          {"name": "Soft Sand", "type": "Ground"},
+          {"name": "Hard Stone", "type": "Rock"},
+          {"name": "Silver Powder", "type": "Bug"},
+          {"name": "Spell Tag", "type": "Ghost"},
+          {"name": "Metal Coat", "type": "Steel"},
+          {"name": "Dragon Fang", "type": "Dragon"},
+          {"name": "Black Glasses", "type": "Dark"},
+          {"name": "Twisted Spoon", "type": "Psychic"},
+          {"name": "Never-Melt Ice", "type": "Ice"},
+          {"name": "Silk Scarf", "type": "Normal"},
+          {"name": "Fairy Wings", "type": "Fairy"}
+        ]
+      },
+      "choice_items": {
+        "name": "Choice Items",
+        "description": "Greatly boost one stat but lock the user into the first move they select for 3 minutes.",
+        "source": ["PTA3PlayersHandbook.pdf", "POKEROLE COREBOOK 3.0-001.pdf"],
+        "list": [
+          {"name": "Choice Band", "effect": "Increases the user's Strength by 2."},
+          {"name": "Choice Specs", "effect": "Increases the user's Special by 2."},
+          {"name": "Choice Scarf", "effect": "Increases the user's Dexterity by 2."}
+        ]
+      }
+    },
+    "evolutionary_items": {
+      "title": "Evolutionary Items",
+      "description": "Rare items used to evolve certain species of Pokémon.",
+      "source": ["PTA3PlayersHandbook.pdf", "POKEROLE COREBOOK 3.0-001.pdf"],
+      "elemental_stones": {
+        "name": "Elemental Stones",
+        "description": "Radioactive stones that induce evolution in specific species when touched.",
+        "list": [
+          {"name": "Fire Stone", "price": 9800},
+          {"name": "Water Stone", "price": 9800},
+          {"name": "Thunder Stone", "price": 9800},
+          {"name": "Leaf Stone", "price": 9800},
+          {"name": "Moon Stone", "price": 9800},
+          {"name": "Sun Stone", "price": 9800},
+          {"name": "Shiny Stone", "price": 9800},
+          {"name": "Dusk Stone", "price": 9800},
+          {"name": "Dawn Stone", "price": 9800},
+          {"name": "Ice Stone", "price": 9800}
+        ]
+      },
+      "trade_evolution_items": {
+        "name": "Trade-Evolution Items",
+        "description": "Items that trigger evolution when the Pokémon holding them is traded.",
+        "list": ["Metal Coat", "King's Rock", "Protector", "Electirizer", "Magmarizer", "Deep Sea Tooth", "Deep Sea Scale", "Dragon Scale"]
+      }
+    }
+  }
+}
