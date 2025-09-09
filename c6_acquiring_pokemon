@@ -1,0 +1,84 @@
+{
+  "chapter_6": {
+    "title": "Acquiring Pokémon",
+    "description": "This chapter covers the rules for finding, battling, and befriending the countless creatures that inhabit the world.",
+    "source": ["POKEROLE COREBOOK 3.0-001.pdf", "PTA3PlayersHandbook.pdf"],
+    "finding_wild_pokemon": {
+      "title": "Habitats",
+      "description": "Pokémon live in habitats that suit their biology. To find a specific Pokémon, you must explore the environments they call home.",
+      "source": "POKEROLE COREBOOK 3.0-001.pdf",
+      "habitat_list": [
+        {"name": "Towns/Cities", "description": "Home to Normal, Electric, Dark, and Poison-types adapted to urban life."},
+        {"name": "Plains/Grassland", "description": "The iconic tall grass is where you're most likely to find Normal, Flying, and other common Pokémon."},
+        {"name": "Forest/Jungle", "description": "Teeming with Grass, Bug, and Poison-types. At night, Ghost and Fairy-types may emerge."},
+        {"name": "Lakes/Rivers/Sea", "description": "The domain of Water-types, accessible by surfing or with a fishing rod."},
+        {"name": "Caves/Mountains", "description": "The natural home of Rock, Ground, and Steel-types. Fighting-types often train here."},
+        {"name": "Desert/Volcanoes", "description": "Harsh environments that attract resilient Ground, Fire, and Dragon-type Pokémon."},
+        {"name": "Arctic Regions", "description": "Frigid landscapes where Ice-types are most commonly found."}
+      ]
+    },
+    "capture_mechanic": {
+      "title": "The Capture Mechanic",
+      "description": "To capture a wild Pokémon, a Trainer must typically weaken it in battle first. The process uses our core d6 Dice Pool system.",
+      "source": "POKEROLE COREBOOK 3.0-001.pdf",
+      "steps": [
+        {"step": 1, "name": "Weaken the Target", "details": "Lower the Pokémon's HP and inflict Status Ailments to earn bonus successes on your capture roll."},
+        {"step": 2, "name": "Throw a Poké Ball", "details": "As an action, make an accuracy roll of Dexterity + Throw to hit the wild Pokémon."},
+        {"step": 3, "name": "Make the Capture Roll", "details": "If the ball hits, roll a d6 Dice Pool equal to the Poké Ball's 'Seal Potency'."},
+        {"step": 4, "name": "Determine Success", "details": "Compare your total successes (dice roll + bonus successes) to the successes required by the Pokémon's Rank."}
+      ],
+      "required_successes_by_rank": [
+        {"rank": "Starter", "successes": 3},
+        {"rank": "Rookie", "successes": 4},
+        {"rank": "Standard", "successes": 6},
+        {"rank": "Advanced", "successes": 8},
+        {"rank": "Expert", "successes": 9},
+        {"rank": "Ace", "successes": 10}
+      ],
+      "bonus_successes_from_condition": [
+        {"condition": "Pokémon is at Half HP or less", "bonus": "+1 Success"},
+        {"condition": "Pokémon is at 1 HP", "bonus": "+2 Successes"},
+        {"condition": "Pokémon has a Status Ailment", "bonus": "+1 Success per Ailment"}
+      ],
+      "fainting_note": "Capturing a fainted Pokémon is difficult. You lose ALL bonus successes. If successful, the Pokémon's starting Happiness and Loyalty will be 0."
+    },
+    "poke_balls": {
+      "title": "Poké Balls",
+      "description": "Different Poké Balls have different Seal Potencies and special effects that can aid in capture.",
+      "ball_list": [
+        {"name": "Poké Ball", "seal_potency": "4 dice", "effect": "The standard device."},
+        {"name": "Great Ball", "seal_potency": "6 dice", "effect": "A higher performance model."},
+        {"name": "Ultra Ball", "seal_potency": "8 dice", "effect": "The best commercially available ball."},
+        {"name": "Quick Ball", "seal_potency": "9 dice", "effect": "Potency is 9 on the first round of combat only, decreasing by 2 dice each round after."},
+        {"name": "Timer Ball", "seal_potency": "4 dice", "effect": "Gains +1 die to its pool for every two rounds that have passed, up to a maximum of 10 dice."},
+        {"name": "Net Ball", "seal_potency": "6 dice", "effect": "Grants +4 automatic successes if the target is a Bug or Water type."},
+        {"name": "Heavy Ball", "seal_potency": "6 dice", "effect": "Grants +4 automatic successes if the target is Heavy or Superweight."},
+        {"name": "Luxury Ball", "seal_potency": "6 dice", "effect": "If the capture is successful, the Pokémon starts with +1 Happiness."},
+        {"name": "Master Ball", "seal_potency": "Automatic Success", "effect": "A prototype that is said to never fail against non-Legendary Pokémon."}
+      ]
+    },
+    "alternatives_to_capturing": {
+      "title": "Alternatives to Capturing",
+      "description": "Not all Pokémon are met in battle. There are several other ways to add a new member to your team.",
+      "methods": [
+        {
+          "name": "Pokémon Eggs",
+          "description": "Leave two compatible Pokémon in a Day-Care or other private space. The trainer may then make a Breeding Check.",
+          "mechanic": "Roll 1d100. On a result of 15 or lower, an egg is found.",
+          "source": "PTA3PlayersHandbook.pdf"
+        },
+        {
+          "name": "Fossil Reanimation",
+          "description": "Ancient fossils can be taken to a lab to be revived.",
+          "mechanic": "Make a Reanimation Check by rolling 1d20. On a 9-19, an egg is created. On a 20, an egg is created and the fossil might survive.",
+          "source": "PTA3PlayersHandbook.pdf"
+        },
+        {
+          "name": "Adopting & Trading",
+          "description": "Trainers can adopt Pokémon from shelters or trade with other Trainers at Pokémon Centers. Be aware this may affect the Pokémon's Loyalty and Happiness.",
+          "source": "POKEROLE COREBOOK 3.0-001.pdf"
+        }
+      ]
+    }
+  }
+}
