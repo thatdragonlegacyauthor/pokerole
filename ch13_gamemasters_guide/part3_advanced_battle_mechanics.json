@@ -1,0 +1,112 @@
+{
+  "chapter_13_gamemaster_guide": {
+    "part_3": {
+      "section_6_advanced_battle_mechanics": {
+        "title": "Advanced Battle Mechanics",
+        "introduction": "On top of the regular combat mechanics, these Advanced Battle Tactics exist to give experienced Trainers an extra leverage against their foes. Mastering at least one of these is necessary to become a real champion.",
+        "mechanics": [
+          {
+            "name": "Battle Bond",
+            "lore": "Your bond with your Pokémon is measured through the Happiness and Loyalty traits. As these traits grow through role-play and shared experiences, you can unlock a Battle Bond, allowing your Pokémon to go the distance for you in a fight.",
+            "rules": [
+              "Battle Bond level is determined by both Happiness and Loyalty scores.",
+              "Only one Pokémon per party can have the highest level of Battle Bond at one time.",
+              "Each level of Battle Bond can be activated only once per Pokémon per battle.",
+              "Disobedient Pokémon cannot use Battle Bonds."
+            ],
+            "levels": [
+              {
+                "level": 1,
+                "name": "Wanna Be The Very Best",
+                "requirements": "Min. Scores: 2 Happiness, 3 Loyalty",
+                "effects": [
+                  "Re-roll all dice in one of your Rolls (Accuracy, Damage, etc.) and keep the highest result.",
+                  "Obtain extra Training Points at the end of the battle equal to the Trainer's Rank."
+                ]
+              },
+              {
+                "level": 2,
+                "name": "You Teach Me, I'll Teach You!",
+                "requirements": "Min. Scores: 3 Happiness, 4 Loyalty",
+                "effects": [
+                  "Roll 5 Chance dice for the Pokémon to cure itself of a Status Ailment.",
+                  "On a successful Clash, the Pokémon may roll their full Damage Pool against their Target."
+                ]
+              },
+              {
+                "level": 3,
+                "name": "And I Believe!",
+                "requirements": "Min. Scores: 4 Happiness, 5 Loyalty",
+                "effects": [
+                  "For the rest of the battle, if you spend Will Points for an automatic success on a roll and that roll gets 3 more successes than required, you recover one Will Point.",
+                  "On a successful Move, Add 3 Extra damage dice to the Damage pool."
+                ]
+              },
+              {
+                "level": 4,
+                "name": "Oh, We Are Unbeatable!",
+                "requirements": "Min. Scores: 5 Happiness, 5 Loyalty",
+                "effects": [
+                  "Go first in the initiative order.",
+                  "The Trainer can mount or march alongside the Pokémon, being considered in both the battlefield and Trainer Zone without any of the downsides."
+                ]
+              },
+              {
+                "level": 5,
+                "name": "Together Forever",
+                "requirements": "Min. Scores: 6 Happiness, 6 Loyalty",
+                "effects": [
+                  "Your Pokémon undergoes a transformation (custom or from another Advanced Tactic). Upon transforming, it restores Full HP and Will, and heals all Status Ailments/Conditions. If the Pokémon reaches 0 HP, it remains conscious until the end of the Round."
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Dynamax & Gigantamax",
+            "lore": "This phenomenon, unique to certain 'Power Spots,' allows a Pokémon to grow to an enormous size for a short period. Gigantamax is a rarer form where the Pokémon not only grows but also changes its appearance.",
+            "rules": [
+              "The Trainer must have a Dynamax Band, and the Pokémon must be in a Dynamax-Ball.",
+              "Transformation happens at the beginning of a Round and lasts for only 3 Rounds.",
+              "Only one Pokémon may be 'Maxed' per Trainer per battle.",
+              "While transformed, all of the Pokémon's damaging moves become powerful Max Moves, and all Support moves become Max Guard.",
+              "Dynamax Pokémon get 6 Extra HP.",
+              "Gigantamax Pokémon get 12 Extra HP and increase their Strength, Special, Dexterity, Defense, and Sp. Defense by 2.",
+              "Max Pokémon are immune to Flinch, In-Love, weight-based moves, OHKO moves, Destiny Bond, and Switcher moves."
+            ]
+          },
+          {
+            "name": "Mega-Evolution",
+            "lore": "A temporary evolution that pushes a Pokémon beyond its normal physical limitations, unlocked through the powerful bond between a Trainer with a Key Stone and a Pokémon holding its specific Mega Stone.",
+            "rules": [
+              "Mega-Evolution is triggered during the Pokémon's Turn and costs 1 Will Point.",
+              "The transformation lasts for the entire scene or battle. Only one Pokémon can be Mega-Evolved per battle.",
+              "Upon Mega-Evolving, the Pokémon restores its full HP and Will, and is cured of all Status Ailments/Conditions.",
+              "The Mega-Evolved form is the same Rank as the original, but all of its points may be re-distributed by the Trainer. It can also have a different Move-Set and Ability."
+            ]
+          },
+          {
+            "name": "Terastallization",
+            "lore": "A phenomenon from the Paldea region where a Trainer uses a Tera Orb to change their Pokémon's type mid-battle, causing it to become crystalline and wear a Tera Jewel crown.",
+            "rules": [
+              "The Trainer must have a Tera Orb, and the Pokémon must hold a Tera Jewel/Shard.",
+              "Terastallization costs 1 Will Point and can be used as a Reaction. It lasts for the entire scene or battle.",
+              "Upon transformation, the Pokémon's Type is changed to its 'Tera Type.' This replaces its original typing for weaknesses and resistances, but it keeps getting STAB on its original type moves in addition to its new Tera Type.",
+              "If the Tera Type matches one of the Pokémon's original types, add 3 Extra Damage Dice to the first Move of that Type it uses. If the Tera Type is different, add 2 Extra Damage Dice to the first move it uses. After this initial boost, add 1 Damage die to the Tera Pokémon's moves for the remainder of the transformation."
+            ]
+          },
+          {
+            "name": "Z-Moves",
+            "lore": "The ultimate expression of the bond between a Trainer and Pokémon, Z-Moves are incredibly powerful, one-time-use attacks unleashed through a Z-Ring and a Z-Crystal.",
+            "rules": [
+              "The Trainer must have a Z-Ring and the Pokémon must hold a Z-Crystal that matches the type of one of its known moves.",
+              "Z-Moves can only be used once per day (or again at the cost of 3 Will Points for both Trainer and Pokémon).",
+              "A Z-Move's power is calculated by adding the Pokémon's Happiness and Loyalty scores to the base damage pool (Strength/Special + Move's Power).",
+              "Z-Moves cannot be Evaded or Clashed.",
+              "The Added Effects of the base move are replaced by the customizable effects of the Z-Move."
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
