@@ -1,0 +1,37 @@
+{
+  "chapter_11": {
+    "title": "The Movedex",
+    "type": "Steel",
+    "moves": [
+      { "name": "Anchor Shot", "type": "Steel", "accuracy": "Strength + Brawl", "damage": "Strength + 4", "effect": "The target is trapped and cannot switch out." },
+      { "name": "Autotomize", "type": "Steel", "accuracy": "Automatic", "damage": "None", "effect": "The user's Dexterity is sharply raised by 2, and its weight is halved." },
+      { "name": "Behemoth Bash", "type": "Steel", "accuracy": "Strength + Brawl", "damage": "Strength + 6", "effect": "Deals double damage to Dynamaxed Pokémon." },
+      { "name": "Behemoth Blade", "type": "Steel", "accuracy": "Strength + Weapons", "damage": "Strength + 6", "effect": "Deals double damage to Dynamaxed Pokémon." },
+      { "name": "Bullet Punch", "type": "Steel", "accuracy": "Strength + Brawl", "damage": "Strength + 2", "effect": "This move has Priority." },
+      { "name": "Corkscrew Crash", "type": "Steel", "accuracy": "Varies", "damage": "Varies", "effect": "Z-Move. Base power depends on the original move." },
+      { "name": "Doom Desire", "type": "Steel", "accuracy": "Special + Channel", "damage": "Special + 8", "effect": "The attack strikes two turns after it is used." },
+      { "name": "Double Iron Bash", "type": "Steel", "accuracy": "Strength + Brawl", "damage": "Strength + 3 (per hit)", "effect": "Hits twice. On each hit, roll 1d6. On a 5 or 6, the target Flinches." },
+      { "name": "Flash Cannon", "type": "Steel", "accuracy": "Special + Channel", "damage": "Special + 4", "effect": "On a successful hit, roll 1d6. On a 6, the target's Insight is lowered by 1." },
+      { "name": "Gear Grind", "type": "Steel", "accuracy": "Strength + Brawl", "damage": "Strength + 3 (per hit)", "effect": "Hits twice." },
+      { "name": "Gear Up", "type": "Steel", "accuracy": "Automatic", "damage": "None", "effect": "Raises the Strength and Special of all allied Pokémon with the Plus or Minus ability by 1." },
+      { "name": "Gyro Ball", "type": "Steel", "accuracy": "Strength + Brawl", "damage": "Strength + Varies", "effect": "Damage increases the slower the user is than the target." },
+      { "name": "Heavy Slam", "type": "Steel", "accuracy": "Strength + Brawl", "damage": "Strength + Varies", "effect": "Damage increases the heavier the user is than the target." },
+      { "name": "Iron Defense", "type": "Steel", "accuracy": "Automatic", "damage": "None", "effect": "The user raises its Vitality by 2 for the rest of the scene." },
+      { "name": "Iron Head", "type": "Steel", "accuracy": "Strength + Brawl", "damage": "Strength + 4", "effect": "On a successful hit, roll 1d6. On a 5 or 6, the target Flinches." },
+      { "name": "Iron Tail", "type": "Steel", "accuracy": "Strength + Brawl", "damage": "Strength + 6", "effect": "High chance to miss. On a hit, roll 1d6. On a 5 or 6, the target's Vitality is lowered by 1." },
+      { "name": "King's Shield", "type": "Steel", "accuracy": "Automatic", "damage": "None", "effect": "Protects the user from all effects. If hit by a physical move, the attacker's Strength is lowered by 2. Changes Aegislash's form." },
+      { "name": "Make It Rain", "type": "Steel", "accuracy": "Special + Channel", "damage": "Special + 7", "effect": "Hits all adjacent opponents. After use, the user's Special is lowered by 1. Scatters money on the ground." },
+      { "name": "Metal Burst", "type": "Steel", "accuracy": "Automatic", "damage": "Varies", "effect": "Deals 1.5 times the damage the user last received." },
+      { "name": "Metal Claw", "type": "Steel", "accuracy": "Strength + Brawl", "damage": "Strength + 3", "effect": "On a successful hit, roll 1d6. On a 6, the user's Strength is raised by 1." },
+      { "name": "Metal Sound", "type": "Steel", "accuracy": "Special + Perform", "damage": "None", "effect": "Lowers the target's Insight by 2." },
+      { "name": "Meteor Mash", "type": "Steel", "accuracy": "Strength + Brawl", "damage": "Strength + 5", "effect": "On a successful hit, roll 1d6. On a 5 or 6, the user's Strength is raised by 1." },
+      { "name": "Mirror Shot", "type": "Steel", "accuracy": "Special + Channel", "damage": "Special + 4", "effect": "On a successful hit, roll 1d6. On a 5 or 6, the target's accuracy is lowered by 1." },
+      { "name": "Shift Gear", "type": "Steel", "accuracy": "Automatic", "damage": "None", "effect": "Raises the user's Strength by 1 and Dexterity by 2." },
+      { "name": "Smart Strike", "type": "Steel", "accuracy": "Automatic", "damage": "Strength + 4", "effect": "This move cannot miss." },
+      { "name": "Steel Beam", "type": "Steel", "accuracy": "Special + Channel", "damage": "Special + 8", "effect": "The user takes recoil damage equal to half of its maximum HP." },
+      { "name": "Steel Roller", "type": "Steel", "accuracy": "Strength + Brawl", "damage": "Strength + 7", "effect": "Fails if there is no terrain on the field. Removes any active terrain." },
+      { "name": "Steel Wing", "type": "Steel", "accuracy": "Strength + Brawl", "damage": "Strength + 4", "effect": "On a successful hit, roll 1d6. On a 6, the user's Vitality is raised by 1." },
+      { "name": "Sunsteel Strike", "type": "Steel", "accuracy": "Strength + Brawl", "damage": "Strength + 6", "effect": "This move ignores the target's Ability." }
+    ]
+  }
+}
