@@ -1,0 +1,124 @@
+{
+  "chapter_4": {
+    "title": "The Rank System - Forging Your Legacy",
+    "description": "A character's growth is measured by Ranks. This progression system, rooted in Pokerole 3.0, provides a clear path for both Trainers and their Pokémon to become more powerful and skilled as they accumulate experience.",
+    "source": "POKEROLE COREBOOK 3.0-001.pdf",
+    "trainer_progression": {
+      "title": "The Path of a Trainer: Ranks and Achievements",
+      "description": "To advance to a new Rank, a Trainer must complete a series of Achievements—narrative milestones that signify their progress. These are set by the Storyteller and inspired by the 'Honors' system from PTA.",
+      "source": ["POKEROLE COREBOOK 3.0-001.pdf", "PTA3PlayersHandbook.pdf"],
+      "example_achievements": [
+        "Winning your first Gym Badge.",
+        "Evolving one of your Pokémon.",
+        "Winning a Contest Ribbon.",
+        "Thwarting the plans of a villainous team.",
+        "Seeing a set number of different Pokémon species."
+      ]
+    },
+    "ranks": [
+      {
+        "rank": 1,
+        "name": "Starter",
+        "description": "The rank of a beginner with no real experience. Kids, baby Pokémon, and sheltered creatures are all at this Rank.",
+        "source": "POKEROLE COREBOOK 3.0-001.pdf",
+        "benefits": {
+          "skill_points": 5,
+          "skill_limit": 1,
+          "max_targets_in_battle": 1
+        }
+      },
+      {
+        "rank": 2,
+        "name": "Rookie",
+        "description": "The starting Rank for most aspiring Trainers embarking on their journey. Pokémon of this Rank are young with little combat experience.",
+        "source": "POKEROLE COREBOOK 3.0-001.pdf",
+        "benefits": {
+          "attribute_points": 2,
+          "social_attribute_points": 2,
+          "skill_points": 10,
+          "skill_limit": 2,
+          "max_targets_in_battle": 2
+        }
+      },
+      {
+        "rank": 3,
+        "name": "Standard",
+        "description": "Represents most Trainers in the world. No longer a novice, but still a long way from the top.",
+        "source": "POKEROLE COREBOOK 3.0-001.pdf",
+        "benefits": {
+          "attribute_points": 4,
+          "social_attribute_points": 4,
+          "skill_points": 14,
+          "skill_limit": 3,
+          "max_targets_in_battle": 3
+        }
+      },
+      {
+        "rank": 4,
+        "name": "Advanced",
+        "description": "Trainers who have the dedication and talent to rise above the average.",
+        "source": "POKEROLE COREBOOK 3.0-001.pdf",
+        "benefits": {
+          "attribute_points": 6,
+          "social_attribute_points": 6,
+          "skill_points": 17,
+          "skill_limit": 4,
+          "max_targets_in_battle": 4
+        }
+      },
+      {
+        "rank": 5,
+        "name": "Expert",
+        "description": "Trainers of the big leagues with top-tier strategies. Most Pokémon at this rank are fully evolved.",
+        "source": "POKEROLE COREBOOK 3.0-001.pdf",
+        "benefits": {
+          "attribute_points": 8,
+          "social_attribute_points": 8,
+          "skill_points": 19,
+          "skill_limit": 5,
+          "max_targets_in_battle": 5
+        }
+      },
+      {
+        "rank": 6,
+        "name": "Ace",
+        "description": "A role model among Trainers, on par with most Gym Leaders. Wild Pokémon of this rank are extremely rare.",
+        "source": "POKEROLE COREBOOK 3.0-001.pdf",
+        "benefits": {
+          "attribute_points": 10,
+          "social_attribute_points": 10,
+          "skill_points": 20,
+          "skill_limit": 5,
+          "max_targets_in_battle": 6
+        }
+      },
+      {
+        "rank": 7,
+        "name": "Master",
+        "description": "A Trainer who has explored every corner of their region and tamed the most ferocious Pokémon.",
+        "source": "POKEROLE COREBOOK 3.0-001.pdf",
+        "benefits": {
+          "attribute_points": 10,
+          "social_attribute_points": 10,
+          "skill_points": 22,
+          "special_bonus_1": "Roll 2 additional dice on all Rolls involving a Skill.",
+          "special_bonus_2": "HP, WILL, Base Initiative, DEF/S.DEF are increased by 3.",
+          "max_targets_in_battle": 8
+        }
+      },
+      {
+        "rank": 8,
+        "name": "Champion",
+        "description": "The highest title a Trainer can achieve, representing the pinnacle of the sport.",
+        "source": "POKEROLE COREBOOK 3.0-001.pdf",
+        "benefits": {
+          "attribute_points": 14,
+          "social_attribute_points": 14,
+          "skill_points": 25,
+          "special_bonus": "Attribute Scores can go up to 2 Points beyond the Limit.",
+          "max_targets_in_battle": 10
+        }
+      }
+    ]
+  }
+}
