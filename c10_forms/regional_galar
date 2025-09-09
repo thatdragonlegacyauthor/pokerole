@@ -1,0 +1,234 @@
+{
+  "chapter_10": {
+    "regional_variants": {
+      "galar": [
+        {
+          "id": "052-G",
+          "name": "Galarian Meowth",
+          "types": ["Steel"],
+          "suggested_rank": "Rookie",
+          "attributes": { "strength": {"value": 4, "limit": 8}, "dexterity": {"value": 3, "limit": 6}, "vitality": {"value": 4, "limit": 7}, "special": {"value": 3, "limit": 6}, "insight": {"value": 3, "limit": 6} },
+          "derived_stats": {"base_hp": 6, "hp": 10, "defense": 4, "special_defense": 3},
+          "abilities": ["Pickup", "Tough Claws", "Unnerve (Hidden)"],
+          "skills": [],
+          "move_pool": {
+            "rank_1_starter": ["Fake Out", "Growl", "Hone Claws", "Scratch"],
+            "rank_2_rookie": ["Pay Day", "Metal Claw", "Taunt", "Swagger"],
+            "rank_3_standard": ["Fury Swipes", "Screech", "Slash", "Metal Sound"],
+            "rank_4_advanced": ["Thrash", "Swords Dance"]
+          },
+          "evolution": "Evolves into Perrserker."
+        },
+        {
+          "id": "863",
+          "name": "Perrserker",
+          "types": ["Steel"],
+          "suggested_rank": "Standard",
+          "attributes": { "strength": {"value": 7, "limit": 13}, "dexterity": {"value": 3, "limit": 6}, "vitality": {"value": 6, "limit": 12}, "special": {"value": 3, "limit": 6}, "insight": {"value": 4, "limit": 8} },
+          "derived_stats": {"base_hp": 8, "hp": 14, "defense": 6, "special_defense": 4},
+          "abilities": ["Battle Armor", "Tough Claws", "Steely Spirit (Hidden)"],
+          "move_pool": { "rank_1_starter": ["Iron Head", "Metal Burst", "Fake Out", "Growl", "Hone Claws", "Scratch"], "rank_2_rookie": ["Pay Day", "Metal Claw", "Taunt", "Swagger", "Fury Swipes"], "rank_3_standard": ["Screech", "Slash", "Metal Sound", "Thrash"], "rank_4_advanced": ["Swords Dance", "Close Combat"] },
+          "evolution": "Final Stage."
+        },
+        {
+          "id": "077-G",
+          "name": "Galarian Ponyta",
+          "types": ["Psychic"],
+          "suggested_rank": "Rookie",
+          "attributes": { "strength": {"value": 5, "limit": 10}, "dexterity": {"value": 5, "limit": 10}, "vitality": {"value": 4, "limit": 7}, "special": {"value": 4, "limit": 8}, "insight": {"value": 4, "limit": 8} },
+          "derived_stats": {"base_hp": 6, "hp": 10, "defense": 4, "special_defense": 4},
+          "abilities": ["Run Away", "Pastel Veil", "Anticipation (Hidden)"],
+          "move_pool": { "rank_1_starter": ["Tackle", "Growl", "Tail Whip", "Confusion"], "rank_2_rookie": ["Fairy Wind", "Agility", "Psybeam"], "rank_3_standard": ["Stomp", "Heal Pulse", "Take Down", "Dazzling Gleam"], "rank_4_advanced": ["Psychic", "Healing Wish"] },
+          "evolution": "Evolves into Galarian Rapidash."
+        },
+        {
+          "id": "078-G",
+          "name": "Galarian Rapidash",
+          "types": ["Psychic", "Fairy"],
+          "suggested_rank": "Standard",
+          "attributes": { "strength": {"value": 6, "limit": 12}, "dexterity": {"value": 6, "limit": 13}, "vitality": {"value": 4, "limit": 8}, "special": {"value": 5, "limit": 10}, "insight": {"value": 5, "limit": 10} },
+          "derived_stats": {"base_hp": 7, "hp": 11, "defense": 4, "special_defense": 5},
+          "abilities": ["Run Away", "Pastel Veil", "Anticipation (Hidden)"],
+          "move_pool": { "rank_1_starter": ["Psycho Cut", "Tackle", "Growl", "Tail Whip", "Confusion"], "rank_2_rookie": ["Fairy Wind", "Agility", "Psybeam"], "rank_3_standard": ["Stomp", "Heal Pulse", "Take Down", "Dazzling Gleam"], "rank_4_advanced": ["Psychic", "Healing Wish"] },
+          "evolution": "Final Stage."
+        },
+        {
+          "id": "079-G",
+          "name": "Galarian Slowpoke",
+          "types": ["Psychic"],
+          "suggested_rank": "Rookie",
+           "attributes": { "strength": {"value": 4, "limit": 8}, "dexterity": {"value": 1, "limit": 4}, "vitality": {"value": 4, "limit": 8}, "special": {"value": 3, "limit": 6}, "insight": {"value": 3, "limit": 6} },
+          "derived_stats": {"base_hp": 10, "hp": 14, "defense": 4, "special_defense": 3},
+          "abilities": ["Gluttony", "Own Tempo", "Regenerator (Hidden)"],
+          "move_pool": { "rank_1_starter": ["Tackle", "Curse", "Growl", "Acid"], "rank_2_rookie": ["Yawn", "Confusion", "Disable", "Water Pulse"], "rank_3_standard": ["Headbutt", "Zen Headbutt", "Amnesia", "Surf"], "rank_4_advanced": ["Slack Off", "Psychic", "Heal Pulse"] },
+          "evolution": "Evolves into Galarian Slowbro or Galarian Slowking."
+        },
+        {
+          "id": "080-G",
+          "name": "Galarian Slowbro",
+          "types": ["Poison", "Psychic"],
+          "suggested_rank": "Advanced",
+          "attributes": { "strength": {"value": 6, "limit": 12}, "dexterity": {"value": 2, "limit": 5}, "vitality": {"value": 6, "limit": 11}, "special": {"value": 6, "limit": 12}, "insight": {"value": 4, "limit": 8} },
+          "derived_stats": {"base_hp": 10, "hp": 16, "defense": 6, "special_defense": 4},
+          "abilities": ["Quick Draw", "Own Tempo", "Regenerator (Hidden)"],
+          "move_pool": { "rank_1_starter": ["Withdraw", "Tackle", "Water Gun", "Confusion", "Shell Side Arm"], "rank_2_rookie": ["Disable", "Water Pulse", "Headbutt", "Zen Headbutt"], "rank_3_standard": ["Amnesia", "Surf", "Slack Off", "Psychic"], "rank_4_advanced": ["Heal Pulse", "Rain Dance"] },
+          "evolution": "Final Stage."
+        },
+        {
+          "id": "199-G",
+          "name": "Galarian Slowking",
+          "types": ["Poison", "Psychic"],
+          "suggested_rank": "Advanced",
+          "attributes": { "strength": {"value": 4, "limit": 8}, "dexterity": {"value": 2, "limit": 5}, "vitality": {"value": 5, "limit": 10}, "special": {"value": 7, "limit": 13}, "insight": {"value": 6, "limit": 12} },
+          "derived_stats": {"base_hp": 10, "hp": 15, "defense": 5, "special_defense": 6},
+          "abilities": ["Curious Medicine", "Own Tempo", "Regenerator (Hidden)"],
+          "move_pool": { "rank_1_starter": ["Power Gem", "Nasty Plot", "Swagger", "Tackle", "Curse", "Growl", "Acid", "Eerie Spell"], "rank_2_rookie": ["Yawn", "Confusion", "Disable", "Water Pulse"], "rank_3_standard": ["Headbutt", "Zen Headbutt", "Amnesia", "Surf"], "rank_4_advanced": ["Slack Off", "Psychic", "Heal Pulse", "Trump Card", "Psych Up"] },
+          "evolution": "Final Stage."
+        },
+        {
+          "id": "083-G",
+          "name": "Galarian Farfetch'd",
+          "types": ["Fighting"],
+          "suggested_rank": "Standard",
+          "attributes": { "strength": {"value": 5, "limit": 10}, "dexterity": {"value": 4, "limit": 8}, "vitality": {"value": 4, "limit": 7}, "special": {"value": 4, "limit": 7}, "insight": {"value": 4, "limit": 8} },
+          "derived_stats": {"base_hp": 6, "hp": 10, "defense": 4, "special_defense": 4},
+          "abilities": ["Steadfast", "Scrappy (Hidden)"],
+          "move_pool": { "rank_1_starter": ["Peck", "Sand Attack", "Leer", "Fury Cutter"], "rank_2_rookie": ["Rock Smash", "Brutal Swing", "Detect", "Knock Off"], "rank_3_standard": ["Defog", "Brick Break", "Slam", "Leaf Blade"], "rank_4_advanced": ["Final Gambit", "Brave Bird", "Swords Dance"] },
+          "evolution": "Evolves into Sirfetch'd after landing 3 critical hits in one battle."
+        },
+        {
+          "id": "865",
+          "name": "Sirfetch'd",
+          "types": ["Fighting"],
+          "suggested_rank": "Advanced",
+          "attributes": { "strength": {"value": 8, "limit": 15}, "dexterity": {"value": 4, "limit": 8}, "vitality": {"value": 6, "limit": 11}, "special": {"value": 4, "limit": 8}, "insight": {"value": 5, "limit": 10} },
+          "derived_stats": {"base_hp": 7, "hp": 13, "defense": 6, "special_defense": 5},
+          "abilities": ["Steadfast", "Scrappy (Hidden)"],
+          "move_pool": { "rank_1_starter": ["Peck", "Sand Attack", "Leer", "Fury Cutter", "Iron Defense", "First Impression"], "rank_2_rookie": ["Detect", "Brutal Swing", "Knock Off"], "rank_3_standard": ["Defog", "Brick Break", "Slam", "Swords Dance"], "rank_4_advanced": ["Leaf Blade", "Meteor Assault", "Brave Bird", "Final Gambit"] },
+          "evolution": "Final Stage."
+        },
+        {
+          "id": "110-G",
+          "name": "Galarian Weezing",
+          "types": ["Poison", "Fairy"],
+          "suggested_rank": "Advanced",
+          "attributes": { "strength": {"value": 5, "limit": 10}, "dexterity": {"value": 4, "limit": 8}, "vitality": {"value": 7, "limit": 14}, "special": {"value": 5, "limit": 10}, "insight": {"value": 4, "limit": 8} },
+          "derived_stats": {"base_hp": 7, "hp": 14, "defense": 7, "special_defense": 4},
+          "abilities": ["Levitate", "Neutralizing Gas", "Misty Surge (Hidden)"],
+          "move_pool": { "rank_1_starter": ["Heat Wave", "Smog", "Smokescreen", "Haze", "Clear Smog", "Strange Steam"], "rank_2_rookie": ["Assurance", "Sludge", "Aromatic Mist"], "rank_3_standard": ["Self-Destruct", "Sludge Bomb", "Toxic", "Belch", "Memento"], "rank_4_advanced": ["Explosion", "Double Hit"] },
+          "evolution": "Final Stage."
+        },
+        {
+          "id": "122-G",
+          "name": "Galarian Mr. Mime",
+          "types": ["Ice", "Psychic"],
+          "suggested_rank": "Standard",
+          "attributes": { "strength": {"value": 5, "limit": 10}, "dexterity": {"value": 6, "limit": 12}, "vitality": {"value": 3, "limit": 6}, "special": {"value": 5, "limit": 10}, "insight": {"value": 5, "limit": 10} },
+          "derived_stats": {"base_hp": 6, "hp": 9, "defense": 3, "special_defense": 5},
+          "abilities": ["Vital Spirit", "Screen Cleaner", "Ice Body (Hidden)"],
+          "move_pool": { "rank_1_starter": ["Pound", "Copycat", "Encore", "Ice Shard"], "rank_2_rookie": ["Confusion", "Role Play", "Protect", "Recycle"], "rank_3_standard": ["Psybeam", "Substitute", "Light Screen", "Reflect", "Safeguard"], "rank_4_advanced": ["Sucker Punch", "Dazzling Gleam", "Psychic", "Trick", "Baton Pass", "Freeze-Dry"] },
+          "evolution": "Evolves into Mr. Rime."
+        },
+        {
+          "id": "222-G",
+          "name": "Galarian Corsola",
+          "types": ["Ghost"],
+          "suggested_rank": "Standard",
+          "attributes": { "strength": {"value": 4, "limit": 7}, "dexterity": {"value": 2, "limit": 5}, "vitality": {"value": 6, "limit": 12}, "special": {"value": 4, "limit": 8}, "insight": {"value": 6, "limit": 12} },
+          "derived_stats": {"base_hp": 7, "hp": 13, "defense": 6, "special_defense": 6},
+          "abilities": ["Weak Armor", "Cursed Body (Hidden)"],
+          "move_pool": { "rank_1_starter": ["Tackle", "Harden", "Astonish", "Disable"], "rank_2_rookie": ["Spite", "Ancient Power", "Hex", "Curse"], "rank_3_standard": ["Strength Sap", "Power Gem", "Night Shade", "Grudge"], "rank_4_advanced": ["Mirror Coat", "Amnesia"] },
+          "evolution": "Evolves into Cursola."
+        },
+        {
+          "id": "864",
+          "name": "Cursola",
+          "types": ["Ghost"],
+          "suggested_rank": "Advanced",
+          "attributes": { "strength": {"value": 6, "limit": 11}, "dexterity": {"value": 2, "limit": 5}, "vitality": {"value": 3, "limit": 6}, "special": {"value": 8, "limit": 16}, "insight": {"value": 8, "limit": 15} },
+          "derived_stats": {"base_hp": 7, "hp": 10, "defense": 3, "special_defense": 8},
+          "abilities": ["Weak Armor", "Perish Body (Hidden)"],
+          "move_pool": { "rank_1_starter": ["Tackle", "Harden", "Astonish", "Disable", "Perish Song"], "rank_2_rookie": ["Spite", "Ancient Power", "Hex", "Curse"], "rank_3_standard": ["Strength Sap", "Power Gem", "Night Shade", "Grudge"], "rank_4_advanced": ["Mirror Coat", "Amnesia"] },
+          "evolution": "Final Stage."
+        },
+        {
+          "id": "263-G",
+          "name": "Galarian Zigzagoon",
+          "types": ["Dark", "Normal"],
+          "suggested_rank": "Starter",
+          "attributes": { "strength": {"value": 2, "limit": 5}, "dexterity": {"value": 4, "limit": 8}, "vitality": {"value": 3, "limit": 6}, "special": {"value": 2, "limit": 5}, "insight": {"value": 3, "limit": 6} },
+          "derived_stats": {"base_hp": 4, "hp": 7, "defense": 3, "special_defense": 3},
+          "abilities": ["Pickup", "Gluttony", "Quick Feet (Hidden)"],
+          "move_pool": { "rank_1_starter": ["Tackle", "Leer", "Sand Attack", "Lick"], "rank_2_rookie": ["Snarl", "Headbutt", "Baby-Doll Eyes", "Pin Missile"], "rank_3_standard": ["Rest", "Take Down", "Scary Face", "Counter"], "rank_4_advanced": ["Taunt", "Double-Edge"] },
+          "evolution": "Evolves into Galarian Linoone."
+        },
+        {
+          "id": "264-G",
+          "name": "Galarian Linoone",
+          "types": ["Dark", "Normal"],
+          "suggested_rank": "Standard",
+          "attributes": { "strength": {"value": 4, "limit": 8}, "dexterity": {"value": 6, "limit": 12}, "vitality": {"value": 4, "limit": 8}, "special": {"value": 3, "limit": 6}, "insight": {"value": 4, "limit": 8} },
+          "derived_stats": {"base_hp": 8, "hp": 12, "defense": 4, "special_defense": 4},
+          "abilities": ["Pickup", "Gluttony", "Quick Feet (Hidden)"],
+          "move_pool": { "rank_1_starter": ["Tackle", "Leer", "Sand Attack", "Lick", "Night Slash"], "rank_2_rookie": ["Snarl", "Headbutt", "Hone Claws", "Fury Swipes"], "rank_3_standard": ["Rest", "Take Down", "Scary Face", "Counter"], "rank_4_advanced": ["Taunt", "Double-Edge"] },
+          "evolution": "Evolves into Obstagoon."
+        },
+        {
+          "id": "554-G",
+          "name": "Galarian Darumaka",
+          "types": ["Ice"],
+          "suggested_rank": "Rookie",
+          "attributes": { "strength": {"value": 5, "limit": 10}, "dexterity": {"value": 3, "limit": 6}, "vitality": {"value": 3, "limit": 6}, "special": {"value": 1, "limit": 4}, "insight": {"value": 3, "limit": 6} },
+          "derived_stats": {"base_hp": 8, "hp": 11, "defense": 3, "special_defense": 3},
+          "abilities": ["Hustle", "Inner Focus (Hidden)"],
+          "move_pool": { "rank_1_starter": ["Powder Snow", "Tackle", "Taunt", "Bite"], "rank_2_rookie": ["Avalanche", "Work Up", "Ice Fang", "Headbutt"], "rank_3_standard": ["Ice Punch", "Uproar", "Belly Drum", "Blizzard"], "rank_4_advanced": ["Thrash", "Superpower"] },
+          "evolution": "Evolves into Galarian Darmanitan with an Ice Stone."
+        },
+        {
+          "id": "555-G",
+          "name": "Galarian Darmanitan",
+          "types": ["Ice"],
+          "suggested_rank": "Advanced",
+          "attributes": { "strength": {"value": 8, "limit": 16}, "dexterity": {"value": 6, "limit": 11}, "vitality": {"value": 4, "limit": 7}, "special": {"value": 2, "limit": 5}, "insight": {"value": 4, "limit": 7} },
+          "derived_stats": {"base_hp": 11, "hp": 15, "defense": 4, "special_defense": 4},
+          "abilities": ["Gorilla Tactics", "Zen Mode (Hidden)"],
+          "move_pool": { "rank_1_starter": ["Powder Snow", "Tackle", "Taunt", "Bite"], "rank_2_rookie": ["Avalanche", "Work Up", "Ice Fang", "Headbutt"], "rank_3_standard": ["Ice Punch", "Uproar", "Belly Drum", "Blizzard", "Icicle Crash"], "rank_4_advanced": ["Thrash", "Superpower"] },
+          "evolution": "Final Stage. Zen Mode changes its type to Ice/Fire and alters its stats."
+        },
+        {
+          "id": "562-G",
+          "name": "Galarian Yamask",
+          "types": ["Ground", "Ghost"],
+          "suggested_rank": "Rookie",
+          "attributes": { "strength": {"value": 2, "limit": 5}, "dexterity": {"value": 2, "limit": 5}, "vitality": {"value": 5, "limit": 10}, "special": {"value": 4, "limit": 7}, "insight": {"value": 4, "limit": 8} },
+          "derived_stats": {"base_hp": 4, "hp": 9, "defense": 5, "special_defense": 4},
+          "abilities": ["Wandering Spirit"],
+          "move_pool": { "rank_1_starter": ["Astonish", "Protect", "Haze", "Night Shade"], "rank_2_rookie": ["Disable", "Brutal Swing", "Crafty Shield", "Hex"], "rank_3_standard": ["Mean Look", "Slam", "Curse", "Shadow Ball"], "rank_4_advanced": ["Earthquake", "Power Split", "Guard Split", "Destiny Bond"] },
+          "evolution": "Evolves into Runerigus after taking significant damage and passing under a specific stone arch."
+        },
+        {
+          "id": "867",
+          "name": "Runerigus",
+          "types": ["Ground", "Ghost"],
+          "suggested_rank": "Advanced",
+          "attributes": { "strength": {"value": 6, "limit": 11}, "dexterity": {"value": 2, "limit": 5}, "vitality": {"value": 8, "limit": 16}, "special": {"value": 3, "limit": 6}, "insight": {"value": 6, "limit": 12} },
+          "derived_stats": {"base_hp": 6, "hp": 14, "defense": 8, "special_defense": 6},
+          "abilities": ["Wandering Spirit"],
+          "move_pool": { "rank_1_starter": ["Astonish", "Protect", "Haze", "Night Shade", "Shadow Claw", "Scary Face"], "rank_2_rookie": ["Disable", "Brutal Swing", "Crafty Shield", "Hex"], "rank_3_standard": ["Mean Look", "Slam", "Curse", "Shadow Ball"], "rank_4_advanced": ["Earthquake", "Power Split", "Guard Split", "Destiny Bond"] },
+          "evolution": "Final Stage."
+        },
+        {
+          "id": "618-G",
+          "name": "Galarian Stunfisk",
+          "types": ["Ground", "Steel"],
+          "suggested_rank": "Advanced",
+          "attributes": { "strength": {"value": 5, "limit": 10}, "dexterity": {"value": 2, "limit": 5}, "vitality": {"value": 6, "limit": 12}, "special": {"value": 4, "limit": 8}, "insight": {"value": 5, "limit": 10} },
+          "derived_stats": {"base_hp": 11, "hp": 17, "defense": 6, "special_defense": 5},
+          "abilities": ["Mimicry"],
+          "move_pool": { "rank_1_starter": ["Mud-Slap", "Tackle", "Water Gun", "Metal Claw", "Endure"], "rank_2_rookie": ["Mud Shot", "Revenge", "Mat Block", "Sucker Punch"], "rank_3_standard": ["Iron Defense", "Bounce", "Muddy Water", "Snap Trap"], "rank_4_advanced": ["Flail", "Fissure"] },
+          "evolution": "Final Stage."
+        }
+      ]
+    }
+  }
+}
