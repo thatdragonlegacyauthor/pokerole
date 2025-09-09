@@ -1,0 +1,35 @@
+{
+  "chapter_11": {
+    "title": "The Movedex",
+    "type": "Ground",
+    "moves": [
+      { "name": "Bone Club", "type": "Ground", "accuracy": "Strength + Brawl", "damage": "Strength + 4", "effect": "On a successful hit, roll 1d6. On a 6, the target Flinches." },
+      { "name": "Bone Rush", "type": "Ground", "accuracy": "Strength + Weapons", "damage": "Strength + 1 (per hit)", "effect": "Hits 2 to 5 times." },
+      { "name": "Bonemerang", "type": "Ground", "accuracy": "Strength + Throw", "damage": "Strength + 3 (per hit)", "effect": "Hits twice." },
+      { "name": "Bulldoze", "type": "Ground", "accuracy": "Strength + Brawl", "damage": "Strength + 3", "effect": "Lowers the Dexterity of all opponents hit by 1." },
+      { "name": "Dig", "type": "Ground", "accuracy": "Strength + Brawl", "damage": "Strength + 4", "effect": "The user digs underground for one turn, becoming untargetable. It attacks on the second turn." },
+      { "name": "Drill Run", "type": "Ground", "accuracy": "Strength + Brawl", "damage": "Strength + 4", "effect": "High critical hit ratio." },
+      { "name": "Earth Power", "type": "Ground", "accuracy": "Special + Channel", "damage": "Special + 5", "effect": "On a successful hit, roll 1d6. On a 6, the target's Insight is lowered by 1." },
+      { "name": "Earthquake", "type": "Ground", "accuracy": "Strength + Brawl", "damage": "Strength + 6", "effect": "Hits all Pokémon on the field except the user. Damage is doubled against targets using Dig." },
+      { "name": "Fissure", "type": "Ground", "accuracy": "Strength + Brawl", "damage": "KO", "effect": "This is a one-hit KO move. Its accuracy is very low." },
+      { "name": "Headlong Rush", "type": "Ground", "accuracy": "Strength + Brawl", "damage": "Strength + 7", "effect": "After use, the user's Vitality and Insight are lowered by 1." },
+      { "name": "High Horsepower", "type": "Ground", "accuracy": "Strength + Brawl", "damage": "Strength + 5", "effect": "No additional effects." },
+      { "name": "Land's Wrath", "type": "Ground", "accuracy": "Special + Channel", "damage": "Special + 5", "effect": "Hits all adjacent opponents." },
+      { "name": "Magnitude", "type": "Ground", "accuracy": "Strength + Brawl", "damage": "Varies", "effect": "The user rolls 1d10 to determine the magnitude. The damage is Strength + Magnitude." },
+      { "name": "Mud Bomb", "type": "Ground", "accuracy": "Special + Channel", "damage": "Special + 4", "effect": "On a successful hit, roll 1d6. On a 5 or 6, the target's accuracy is lowered by 1." },
+      { "name": "Mud Shot", "type": "Ground", "accuracy": "Special + Channel", "damage": "Special + 3", "effect": "Lowers the target's Dexterity by 1." },
+      { "name": "Mud Sport", "type": "Ground", "accuracy": "Automatic", "damage": "None", "effect": "Reduces the damage of all Electric-type moves by half for 5 rounds." },
+      { "name": "Mud-Slap", "type": "Ground", "accuracy": "Special + Channel", "damage": "Special + 1", "effect": "Lowers the target's accuracy by 1." },
+      { "name": "Precipice Blades", "type": "Ground", "accuracy": "Strength + Brawl", "damage": "Strength + 7", "effect": "Hits all adjacent opponents." },
+      { "name": "Rototiller", "type": "Ground", "accuracy": "Automatic", "damage": "None", "effect": "Raises the Strength and Special of all Grass-type Pokémon on the field by 1." },
+      { "name": "Sand Attack", "type": "Ground", "accuracy": "Dexterity + Stealth", "damage": "None", "effect": "Lowers the target's accuracy by 1." },
+      { "name": "Sand Tomb", "type": "Ground", "accuracy": "Strength + Brawl", "damage": "Strength + 2", "effect": "The target is trapped and takes damage for 1d4+1 rounds." },
+      { "name": "Sandsear Storm", "type": "Ground", "accuracy": "Special + Channel", "damage": "Special + 6", "effect": "Hits all adjacent opponents. On a hit, roll 1d6. On a 5 or 6, the target is Burned." },
+      { "name": "Shore Up", "type": "Ground", "accuracy": "Automatic", "damage": "None", "effect": "The user recovers HP. The amount is doubled during a Sandstorm." },
+      { "name": "Spikes", "type": "Ground", "accuracy": "Automatic", "damage": "None", "effect": "Lays a hazard on the opponent's side of the field. Grounded Pokémon that switch in take damage. Can be stacked up to 3 times." },
+      { "name": "Stomping Tantrum", "type": "Ground", "accuracy": "Strength + Brawl", "damage": "Strength + 4", "effect": "If the user's last move failed, this move's damage is doubled." },
+      { "name": "Thousand Arrows", "type": "Ground", "accuracy": "Strength + Brawl", "damage": "Strength + 5", "effect": "This move can hit Flying-type Pokémon and bring them to the ground." },
+      { "name": "Thousand Waves", "type": "Ground", "accuracy": "Strength + Brawl", "damage": "Strength + 5", "effect": "Prevents the target from switching out." }
+    ]
+  }
+}
