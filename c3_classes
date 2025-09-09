@@ -1,0 +1,140 @@
+{
+  "chapter_3": {
+    "title": "Trainer Classes - Your Path to Mastery",
+    "description": "Your Trainer Class defines your specializations, granting unique abilities and defining your role within the party. When you create your character, you choose a Base Class. As you achieve new Ranks, you can specialize by choosing an Advanced Class.",
+    "source": "PTA3PlayersHandbook.pdf",
+    "base_classes": {
+      "ace_trainer": {
+        "name": "Ace Trainer",
+        "description": "The expert battler, using wit and strength to maneuver the battlefield and power through any forces that might stand in their way.",
+        "primary_stats": ["Attack", "Special Attack"],
+        "skill_talents": "Choose two from: Acrobatics, Athletics, Concentration, Diplomacy/Persuasion, History, Pokémon Handling.",
+        "starting_features_rank_1": [
+          {
+            "name": "Improved Attacks",
+            "description": "Your Pokémon deal additional damage equal to your Attack or Special Attack modifier when they hit with a corresponding attack."
+          },
+          {
+            "name": "Affirmation",
+            "description": "When your Pokémon knocks out an opponent or scores a critical hit, they gain temporary hit points equal to your Attack or Special Attack modifier."
+          }
+        ],
+        "advanced_classes": {
+            "stat_ace": "Obsesses over fine-tuning a specific trait, like building a team of ultimate strikers or unbreakable defenders.",
+            "strategist": "Prefers to set up the field of battle in their favor, creating openings and tricky advantages.",
+            "tag_battler": "Works with two Pokémon in harmony, overwhelming foes through coordination and teamwork.",
+            "type_ace": "Possesses an undying love for a specific elemental type, driving their Pokémon to embrace that element.",
+            "underdog": "Sees the potential in unevolved Pokémon, bringing out their hidden strength."
+        }
+      },
+      "breeder": {
+        "name": "Breeder",
+        "description": "Lovingly raises Pokémon as if they are their own children from the first day they hatch, imbuing them with care and nurturing.",
+        "primary_stats": ["Defense", "Special Defense"],
+        "skill_talents": "Choose two from: Constitution, Diplomacy/Persuasion, History, Medicine, Nature, Pokémon Handling.",
+        "starting_features_rank_1": [
+          {
+            "name": "Hatcher",
+            "description": "Pokémon eggs in your care hatch with particular haste, never taking longer than 72 hours."
+          },
+          {
+            "name": "Natural Edge",
+            "description": "When you hatch an egg, you can choose one of the Pokémon's stats to be permanently raised."
+          }
+        ],
+        "advanced_classes": {
+            "botanist": "Raises various miniature plants and berries with special care and attention.",
+            "chef": "A culinary expert whose friends and Pokémon eat like kings.",
+            "evolver": "Creates highly sought-after mega stones, revealing a powerful bond with their Pokémon.",
+            "medic": "Studies human and Pokémon anatomy to provide life-saving medical precision on the field of battle.",
+            "move_tutor": "Observes Pokémon and brings out unusual abilities and moves from where you'd least expect them."
+        }
+      },
+      "coordinator": {
+        "name": "Coordinator",
+        "description": "Always at the center of attention, Coordinators invent beautiful strategies to dazzle and amaze in contests.",
+        "primary_stats": ["Special Defense", "Speed"],
+        "skill_talents": "Choose two from: Acrobatics, Athletics, Bluff/Deception, Diplomacy/Persuasion, Perform, Sleight of Hand.",
+        "starting_features_rank_1": [
+          {
+            "name": "Put Your Hands in the Air",
+            "description": "3/day, you can either boost a contest appeal or have your Pokémon use Helping Hand."
+          },
+          {
+            "name": "Wonderous Applause",
+            "description": "3/day, you can either enhance a contest appeal or have your Pokémon use Encore."
+          }
+        ],
+        "advanced_classes": {
+            "choreographer": "Teaches Pokémon to always move with intention to the rhythm of battle and the stage.",
+            "coach": "Pushes Pokémon through harsh physical training to help them perform better than ever.",
+            "designer": "Creates beautiful and practical works of art for people and Pokémon to wear.",
+            "groomer": "Tends to the individual needs of Pokémon, styling them to perfection.",
+            "rising_star": "Knows how to manage their brand and climb the social echelon, benefiting from fame and fandom."
+        }
+      },
+      "ranger": {
+        "name": "Ranger",
+        "description": "As the guardians of the Pokémon world's natural spaces, Rangers serve and protect Pokémon, putting themselves on the line.",
+        "primary_stats": ["Defense", "Speed"],
+        "prerequisite": "You must have the Ranger Union/Law Enforcement origin to take this class.",
+        "skill_talents": "Choose two from: Acrobatics, Athletics, Diplomacy/Persuasion, Perception, Pokémon Handling, Stealth.",
+        "starting_features_rank_1": [
+          {
+            "name": "Authority Figure",
+            "description": "You are respected by other Rangers and the public. Ranger stations are obligated to lend you aid."
+          },
+          {
+            "name": "Befriend",
+            "description": "3/day, you can use your styler to make a non-agitated wild Pokémon 'Helpful,' placing it temporarily under your guidance."
+          }
+        ],
+        "advanced_classes": {
+            "invoker": "Practices the use of guardian symbols to summon forth the power of legendary Pokémon.",
+            "officer": "A gumshoe ranger concerned with the city limits, paying close attention to the manmade world to solve cases.",
+            "rider": "Masters acrobatic prowess on Pokémon mounts, staying on top of the action.",
+            "special_operative": "Gears up for serious conflict with a license to wield powerful, complicated ranger gear.",
+            "survivalist": "Could disappear into the wilds and live comfortably, dedicating themselves to preserving nature."
+        }
+      },
+      "researcher": {
+        "name": "Researcher",
+        "description": "A walking database who spends years committing every bit of knowledge to memory in order to maximize their chances of success.",
+        "primary_stats": ["Special Attack", "Special Defense"],
+        "skill_talents": "Choose two from: Engineering/Operation, History, Investigate, Medicine, Perception, Programming.",
+        "starting_features_rank_1": [
+          {
+            "name": "Field Commander",
+            "description": "You may issue commands to an allied Trainer's Pokémon (with their consent)."
+          },
+          {
+            "name": "Walking Encyclopedia",
+            "description": "You have already memorized the Pokédex and can access its information freely without using a device in-game."
+          }
+        ],
+        "advanced_classes": {
+            "archeologist": "Looks to the past to solve the problems of the present, using fossils to reanimate ancient Pokémon.",
+            "ball_smith": "Studies the ancient art of transforming apricorns into capture devices, inventing any kind of Poké Ball.",
+            "photographer": "Uses a skilled eye and a steady hand to bring out the best of any shot, an alternative to strictly academic studies.",
+            "scientist": "Throws formulas together to produce various items and concoctions.",
+            "watcher": "A field researcher who studies, tracks, and locates wild Pokémon with a calm and unobtrusive presence."
+        }
+      }
+    },
+    "class_progression": {
+      "title": "Gaining Advanced Classes",
+      "description": "As you progress and gain Ranks, you will unlock the ability to specialize further. This progression is based on milestones from the PTA system, adapted to our Ranks.",
+      "source": "PTA3PlayersHandbook.pdf",
+      "milestones": [
+        {
+          "rank_requirement": "Standard Rank (Rank 3)",
+          "reward": "Choose your first Advanced Class or a new Base Class."
+        },
+        {
+          "rank_requirement": "Master Rank (Rank 7)",
+          "reward": "Choose your second Advanced Class or a new Base Class."
+        }
+      ]
+    }
+  }
+}
