@@ -1,0 +1,859 @@
+{
+  "pokedex": {
+    "alola_pokedex_part_2": [
+      {
+        "id": "766",
+        "name": "Passimian",
+        "description": "It forms groups of about 20 to train its teamwork. It passes berries to others by throwing them over their heads.",
+        "types": ["Fighting"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 7, "limit": 14},
+          "dexterity": {"value": 5, "limit": 10},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 11, "hp": 16, "defense": 5, "special_defense": 4},
+        "abilities": ["Receiver", "Defiant (Hidden)"],
+        "skills": ["Strength"],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Leer", "Rock Smash", "Focus Energy"],
+          "rank_2_rookie": ["Beat Up", "Scary Face", "Take Down", "Bestow"],
+          "rank_3_standard": ["Thrash", "Bulk Up", "Double-Edge", "Close Combat"],
+          "rank_4_advanced": ["Reversal", "Giga Impact", "Fling", "Counter"]
+        },
+        "biology": {"egg_group": ["Field"], "diet": "Herbivore", "habitat": ["Jungle"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "767",
+        "name": "Wimpod",
+        "description": "This Pokémon is a coward. As soon as it senses danger, it sprays a poisonous liquid and scurries away.",
+        "types": ["Bug", "Water"],
+        "suggested_rank": "Starter",
+        "attributes": {
+          "strength": {"value": 3, "limit": 5},
+          "dexterity": {"value": 5, "limit": 10},
+          "vitality": {"value": 3, "limit": 6},
+          "special": {"value": 2, "limit": 4},
+          "insight": {"value": 2, "limit": 5}
+        },
+        "derived_stats": {"base_hp": 3, "hp": 6, "defense": 3, "special_defense": 2},
+        "abilities": ["Wimp Out"],
+        "skills": ["Swimmer"],
+        "move_pool": {
+          "rank_1_starter": ["Struggle Bug", "Sand Attack", "Defense Curl"]
+        },
+        "biology": {"egg_group": ["Bug", "Water 3"], "diet": "Omnivore", "habitat": ["Beach"]},
+        "evolution": "Evolves into Golisopod."
+      },
+      {
+        "id": "768",
+        "name": "Golisopod",
+        "description": "It battles skillfully with its six arms, but spends most of its time meditating in a cave.",
+        "types": ["Bug", "Water"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 7, "limit": 14},
+          "dexterity": {"value": 3, "limit": 6},
+          "vitality": {"value": 8, "limit": 15},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 8, "hp": 16, "defense": 8, "special_defense": 5},
+        "abilities": ["Emergency Exit"],
+        "skills": ["Swimmer"],
+        "move_pool": {
+          "rank_1_starter": ["Struggle Bug", "Sand Attack", "Defense Curl", "First Impression"],
+          "rank_2_rookie": ["Rock Smash", "Fury Cutter", "Slash", "Spikes"],
+          "rank_3_standard": ["Wide Guard", "Sucker Punch", "Iron Defense", "Pin Missile"],
+          "rank_4_advanced": ["Razor Shell", "Swords Dance", "Liquidation"]
+        },
+        "biology": {"egg_group": ["Bug", "Water 3"], "diet": "Carnivore", "habitat": ["Beach", "Ocean"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "769",
+        "name": "Sandygast",
+        "description": "It is a possessed lump of sand. It can control humans and Pokémon by stealing their vitality.",
+        "types": ["Ghost", "Ground"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 4, "limit": 7},
+          "dexterity": {"value": 1, "limitT": 4},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 3, "limit": 6}
+        },
+        "derived_stats": {"base_hp": 6, "hp": 10, "defense": 4, "special_defense": 3},
+        "abilities": ["Water Compaction", "Sand Veil (Hidden)"],
+        "skills": ["Burrow", "Phasing"],
+        "move_pool": {
+          "rank_1_starter": ["Harden", "Absorb", "Astonish", "Sand Attack"],
+          "rank_2_rookie": ["Sand Tomb", "Mega Drain", "Bulldoze", "Hypnosis"],
+          "rank_3_standard": ["Iron Defense", "Giga Drain", "Shadow Ball", "Earth Power"],
+          "rank_4_advanced": ["Shore Up", "Sandstorm", "Destiny Bond"]
+        },
+        "biology": {"egg_group": ["Amorphous"], "diet": "Psiotroph", "habitat": ["Beach"]},
+        "evolution": "Evolves into Palossand."
+      },
+      {
+        "id": "770",
+        "name": "Palossand",
+        "description": "It has become a sand castle. It can control the sand to make a sandstorm.",
+        "types": ["Ghost", "Ground"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 5, "limit": 9},
+          "dexterity": {"value": 3, "limit": 5},
+          "vitality": {"value": 7, "limit": 13},
+          "special": {"value": 6, "limit": 12},
+          "insight": {"value": 4, "limit": 9}
+        },
+        "derived_stats": {"base_hp": 9, "hp": 16, "defense": 7, "special_defense": 4},
+        "abilities": ["Water Compaction", "Sand Veil (Hidden)"],
+        "skills": ["Burrow", "Phasing"],
+        "move_pool": {
+          "rank_1_starter": ["Harden", "Absorb", "Astonish", "Sand Attack"],
+          "rank_2_rookie": ["Sand Tomb", "Mega Drain", "Bulldoze", "Hypnosis"],
+          "rank_3_standard": ["Iron Defense", "Giga Drain", "Shadow Ball", "Earth Power"],
+          "rank_4_advanced": ["Shore Up", "Sandstorm", "Destiny Bond"]
+        },
+        "biology": {"egg_group": ["Amorphous"], "diet": "Psiotroph", "habitat": ["Beach"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "771",
+        "name": "Pyukumuku",
+        "description": "It lives in shallow seas, leaving its viscera behind to capture prey. It is a very timid Pokémon.",
+        "types": ["Water"],
+        "suggested_rank": "Standard",
+        "attributes": {
+          "strength": {"value": 4, "limit": 8},
+          "dexterity": {"value": 1, "limit": 3},
+          "vitality": {"value": 8, "limit": 15},
+          "special": {"value": 2, "limit": 5},
+          "insight": {"value": 8, "limit": 15}
+        },
+        "derived_stats": {"base_hp": 6, "hp": 14, "defense": 8, "special_defense": 8},
+        "abilities": ["Innards Out", "Unaware (Hidden)"],
+        "skills": ["Swimmer"],
+        "move_pool": {
+          "rank_1_starter": ["Baton Pass", "Water Sport", "Mud Sport", "Harden", "Bide"],
+          "rank_2_rookie": ["Helping Hand", "Taunt", "Safeguard", "Counter", "Purify"],
+          "rank_3_standard": ["Curse", "Gastro Acid", "Pain Split", "Recover"],
+          "rank_4_advanced": ["Soak", "Toxic", "Hail", "Memento", "Endure"]
+        },
+        "biology": {"egg_group": ["Water 1"], "diet": "Filter Feeder", "habitat": ["Beach", "Ocean"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "772",
+        "name": "Type: Null",
+        "description": "The heavy control mask it wears suppresses its latent powers. It was created to synthesize the strengths of various Pokémon.",
+        "types": ["Normal"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 6, "limit": 11},
+          "dexterity": {"value": 4, "limit": 7},
+          "vitality": {"value": 6, "limit": 11},
+          "special": {"value": 6, "limit": 11},
+          "insight": {"value": 6, "limit": 11}
+        },
+        "derived_stats": {"base_hp": 10, "hp": 16, "defense": 6, "special_defense": 6},
+        "abilities": ["Battle Armor"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Imprison"],
+          "rank_2_rookie": ["Pursuit", "Take Down", "Scary Face", "Double Hit"],
+          "rank_3_standard": ["Crush Claw", "X-Scissor", "Metal Sound", "Iron Head", "Air Slash"],
+          "rank_4_advanced": ["Punishment", "Heal Block", "Tri Attack", "Swords Dance", "Double-Edge"]
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Omnivore", "habitat": ["Urban"]},
+        "evolution": "Evolves into Silvally with high Happiness."
+      },
+      {
+        "id": "773",
+        "name": "Silvally",
+        "description": "It has the ability to change its type to match any situation. It is said to be the only Pokémon that can defeat the Ultra Beasts.",
+        "types": ["Normal"],
+        "suggested_rank": "Master",
+        "attributes": {
+          "strength": {"value": 6, "limit": 11},
+          "dexterity": {"value": 6, "limit": 11},
+          "vitality": {"value": 6, "limit": 11},
+          "special": {"value": 6, "limit": 11},
+          "insight": {"value": 6, "limit": 11}
+        },
+        "derived_stats": {"base_hp": 10, "hp": 16, "defense": 6, "special_defense": 6},
+        "abilities": ["RKS System"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Multi-Attack", "Poison Fang", "Ice Fang", "Fire Fang", "Thunder Fang"],
+          "rank_2_rookie": ["Tackle", "Bite", "Aerial Ace", "Scary Face"],
+          "rank_3_standard": ["Crush Claw", "X-Scissor", "Metal Sound", "Iron Head", "Air Slash"],
+          "rank_4_advanced": ["Punishment", "Heal Block", "Tri Attack", "Swords Dance", "Double-Edge"]
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Omnivore", "habitat": ["Urban"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "774",
+        "name": "Minior",
+        "description": "It is born in the stratosphere. It lives there until it becomes heavy and falls to the ground.",
+        "types": ["Rock", "Flying"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 6, "limit": 12},
+          "dexterity": {"value": 7, "limit": 14},
+          "vitality": {"value": 6, "limit": 12},
+          "special": {"value": 6, "limit": 12},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 7, "hp": 13, "defense": 6, "special_defense": 4},
+        "abilities": ["Shields Down"],
+        "skills": ["Flight"],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Defense Curl", "Rollout"],
+          "rank_2_rookie": ["Confuse Ray", "Swift", "Ancient Power"],
+          "rank_3_standard": ["Self-Destruct", "Stealth Rock", "Take Down", "Autotomize", "Cosmic Power"],
+          "rank_4_advanced": ["Power Gem", "Double-Edge", "Shell Smash", "Explosion"]
+        },
+        "biology": {"egg_group": ["Mineral"], "diet": "Terravore", "habitat": ["Mountain", "Sky"]},
+        "evolution": "Final Stage. Can change from Meteor Form to Core Form."
+      },
+      {
+        "id": "775",
+        "name": "Komala",
+        "description": "It is born asleep, and it dies asleep. All its movements are supposedly things it is doing in its dreams.",
+        "types": ["Normal"],
+        "suggested_rank": "Standard",
+        "attributes": {
+          "strength": {"value": 7, "limit": 13},
+          "dexterity": {"value": 4, "limit": 8},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 4, "limit": 9},
+          "insight": {"value": 6, "limit": 11}
+        },
+        "derived_stats": {"base_hp": 7, "hp": 11, "defense": 4, "special_defense": 6},
+        "abilities": ["Comatose"],
+        "skills": ["Climber"],
+        "move_pool": {
+          "rank_1_starter": ["Defense Curl", "Rollout", "Stockpile", "Spit Up", "Swallow"],
+          "rank_2_rookie": ["Rapid Spin", "Yawn", "Slam", "Flail"],
+          "rank_3_standard": ["Sucker Punch", "Psych Up", "Wood Hammer", "Thrash"],
+          "rank_4_advanced": ["Bulk Up", "Play Rough", "Chip Away"]
+        },
+        "biology": {"egg_group": ["Field"], "diet": "Herbivore", "habitat": ["Forest"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "776",
+        "name": "Turtonator",
+        "description": "The shell on its back is chemically unstable and explodes when struck. The hole in its stomach is its weak point.",
+        "types": ["Fire", "Dragon"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 5, "limit": 9},
+          "dexterity": {"value": 3, "limit": 5},
+          "vitality": {"value": 8, "limit": 15},
+          "special": {"value": 5, "limit": 10},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 7, "hp": 15, "defense": 8, "special_defense": 5},
+        "abilities": ["Shell Armor"],
+        "skills": ["Firestarter"],
+        "move_pool": {
+          "rank_1_starter": ["Ember", "Tackle", "Smog", "Protect"],
+          "rank_2_rookie": ["Incinerate", "Flail", "Endure", "Iron Defense", "Flamethrower"],
+          "rank_3_standard": ["Body Slam", "Shell Smash", "Dragon Pulse", "Shell Trap"],
+          "rank_4_advanced": ["Overheat", "Explosion", "Head Smash"]
+        },
+        "biology": {"egg_group": ["Monster", "Dragon"], "diet": "Terravore", "habitat": ["Volcano"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "777",
+        "name": "Togedemaru",
+        "description": "The long hairs on its back act as lightning rods. It can attract lightning and store electricity.",
+        "types": ["Electric", "Steel"],
+        "suggested_rank": "Standard",
+        "attributes": {
+          "strength": {"value": 6, "limit": 11},
+          "dexterity": {"value": 6, "limit": 11},
+          "vitality": {"value": 4, "limitT": 8},
+          "special": {"value": 3, "limit": 6},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 7, "hp": 11, "defense": 4, "special_defense": 4},
+        "abilities": ["Iron Barbs", "Lightning Rod", "Sturdy (Hidden)"],
+        "skills": ["Zapper"],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Thunder Shock", "Defense Curl"],
+          "rank_2_rookie": ["Rollout", "Charge", "Spark", "Nuzzle", "Magnet Rise"],
+          "rank_3_standard": ["Pin Missile", "Discharge", "Zing Zap", "Electric Terrain"],
+          "rank_4_advanced": ["Wild Charge", "Fell Stinger", "Spiky Shield"]
+        },
+        "biology": {"egg_group": ["Field", "Fairy"], "diet": "Ergovore", "habitat": ["Mountain"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "778",
+        "name": "Mimikyu",
+        "description": "A lonely Pokémon, it conceals its terrifying appearance beneath an old rag so it can get closer to people and other Pokémon.",
+        "types": ["Ghost", "Fairy"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 5, "limit": 10},
+          "dexterity": {"value": 6, "limit": 11},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 3, "limit": 6},
+          "insight": {"value": 6, "limit": 12}
+        },
+        "derived_stats": {"base_hp": 6, "hp": 11, "defense": 5, "special_defense": 6},
+        "abilities": ["Disguise"],
+        "skills": ["Phasing"],
+        "move_pool": {
+          "rank_1_starter": ["Wood Hammer", "Scratch", "Splash", "Astonish", "Copycat"],
+          "rank_2_rookie": ["Shadow Sneak", "Double Team", "Baby-Doll Eyes", "Mimic", "Hone Claws"],
+          "rank_3_standard": ["Feint Attack", "Charm", "Slash", "Shadow Claw", "Play Rough"],
+          "rank_4_advanced": ["Pain Split", "Swords Dance", "Wood Hammer"]
+        },
+        "biology": {"egg_group": ["Amorphous"], "diet": "Psiotroph", "habitat": ["Urban"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "779",
+        "name": "Bruxish",
+        "description": "It grinds its teeth with such force that it generates psychic power. It is a very dangerous Pokémon.",
+        "types": ["Water", "Psychic"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 6, "limit": 12},
+          "dexterity": {"value": 5, "limit": 10},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 7, "hp": 11, "defense": 4, "special_defense": 4},
+        "abilities": ["Dazzling", "Strong Jaw", "Wonder Skin (Hidden)"],
+        "skills": ["Swimmer", "Telekinetic"],
+        "move_pool": {
+          "rank_1_starter": ["Water Gun", "Astonish", "Confusion", "Bite"],
+          "rank_2_rookie": ["Aqua Jet", "Disable", "Psywave", "Crunch"],
+          "rank_3_standard": ["Aqua Tail", "Screech", "Psychic Fangs", "Synchronoise"],
+          "rank_4_advanced": ["Wave Crash"]
+        },
+        "biology": {"egg_group": ["Water 2"], "diet": "Carnivore", "habitat": ["Ocean"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "780",
+        "name": "Drampa",
+        "description": "It has a compassionate personality, but if it is angered, it will destroy buildings with its breath.",
+        "types": ["Normal", "Dragon"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 4, "limit": 8},
+          "dexterity": {"value": 3, "limit": 5},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 8, "limit": 15},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 8, "hp": 13, "defense": 5, "special_defense": 5},
+        "abilities": ["Berserk", "Sap Sipper", "Cloud Nine (Hidden)"],
+        "skills": ["Flight"],
+        "move_pool": {
+          "rank_1_starter": ["Play Nice", "Echoed Voice", "Twister", "Protect"],
+          "rank_2_rookie": ["Glare", "Light Screen", "Dragon Rage", "Natural Gift"],
+          "rank_3_standard": ["Dragon Breath", "Safeguard", "Extrasensory", "Dragon Pulse"],
+          "rank_4_advanced": ["Fly", "Hyper Voice", "Outrage", "Hurricane"]
+        },
+        "biology": {"egg_group": ["Monster", "Dragon"], "diet": "Omnivore", "habitat": ["Mountain"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "781",
+        "name": "Dhelmise",
+        "description": "The soul of seaweed adrift in the waves became reborn as this Pokémon.",
+        "types": ["Ghost", "Grass"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 8, "limit": 15},
+          "dexterity": {"value": 3, "limit": 6},
+          "vitality": {"value": 6, "limit": 12},
+          "special": {"value": 5, "limit": 10},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 8, "hp": 14, "defense": 6, "special_defense": 5},
+        "abilities": ["Steelworker"],
+        "skills": ["Phasing", "Swimmer"],
+        "move_pool": {
+          "rank_1_starter": ["Absorb", "Rapid Spin", "Astonish", "Wrap", "Mega Drain"],
+          "rank_2_rookie": ["Growth", "Gyro Ball", "Switcheroo", "Giga Drain"],
+          "rank_3_standard": ["Whirlpool", "Heavy Slam", "Slam", "Shadow Ball"],
+          "rank_4_advanced": ["Metal Sound", "Anchor Shot", "Energy Ball", "Phantom Force", "Power Whip"]
+        },
+        "biology": {"egg_group": ["Mineral"], "diet": "Nullivore", "habitat": ["Ocean"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "782",
+        "name": "Jangmo-o",
+        "description": "It expresses its feelings by smacking its scales. It has a prideful heart.",
+        "types": ["Dragon"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 4, "limit": 7},
+          "dexterity": {"value": 3, "limit": 6},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 3, "limit": 6},
+          "insight": {"value": 3, "limit": 6}
+        },
+        "derived_stats": {"base_hp": 5, "hp": 9, "defense": 4, "special_defense": 3},
+        "abilities": ["Bulletproof", "Soundproof", "Overcoat (Hidden)"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Leer", "Bide", "Protect"],
+          "rank_2_rookie": ["Dragon Tail", "Scary Face", "Headbutt", "Work Up"],
+          "rank_3_standard": ["Screech", "Iron Defense", "Dragon Claw", "Noble Roar"],
+          "rank_4_advanced": ["Dragon Dance", "Outrage"]
+        },
+        "biology": {"egg_group": ["Dragon"], "diet": "Omnivore", "habitat": ["Mountain", "Cave"]},
+        "evolution": "Evolves into Hakamo-o."
+      },
+      {
+        "id": "783",
+        "name": "Hakamo-o",
+        "description": "It dances to show its strength. The scales on its arms are its best weapon.",
+        "types": ["Dragon", "Fighting"],
+        "suggested_rank": "Standard",
+        "attributes": {
+          "strength": {"value": 5, "limit": 9},
+          "dexterity": {"value": 4, "limit": 8},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 4, "limitT": 8},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 6, "hp": 11, "defense": 5, "special_defense": 4},
+        "abilities": ["Bulletproof", "Soundproof", "Overcoat (Hidden)"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Leer", "Bide", "Protect", "Sky Uppercut", "Autotomize"],
+          "rank_2_rookie": ["Dragon Tail", "Scary Face", "Headbutt", "Work Up"],
+          "rank_3_standard": ["Screech", "Iron Defense", "Dragon Claw", "Noble Roar"],
+          "rank_4_advanced": ["Dragon Dance", "Outrage", "Close Combat"]
+        },
+        "biology": {"egg_group": ["Dragon"], "diet": "Omnivore", "habitat": ["Mountain", "Cave"]},
+        "evolution": "Evolves into Kommo-o."
+      },
+      {
+        "id": "784",
+        "name": "Kommo-o",
+        "description": "When it spots a foe, it attacks with a force that can shatter rock.",
+        "types": ["Dragon", "Fighting"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 7, "limit": 13},
+          "dexterity": {"value": 5, "limit": 10},
+          "vitality": {"value": 7, "limit": 14},
+          "special": {"value": 6, "limit": 12},
+          "insight": {"value": 6, "limit": 12}
+        },
+        "derived_stats": {"base_hp": 8, "hp": 15, "defense": 7, "special_defense": 6},
+        "abilities": ["Bulletproof", "Soundproof", "Overcoat (Hidden)"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Leer", "Bide", "Protect", "Sky Uppercut", "Autotomize", "Clanging Scales"],
+          "rank_2_rookie": ["Dragon Tail", "Scary Face", "Headbutt", "Work Up"],
+          "rank_3_standard": ["Screech", "Iron Defense", "Dragon Claw", "Noble Roar"],
+          "rank_4_advanced": ["Dragon Dance", "Outrage", "Close Combat", "Belly Drum", "Boomburst"]
+        },
+        "biology": {"egg_group": ["Dragon"], "diet": "Omnivore", "habitat": ["Mountain", "Cave"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "785",
+        "name": "Tapu Koko",
+        "description": "It is called the guardian deity of Melemele Island. It is a curious Pokémon.",
+        "types": ["Electric", "Fairy"],
+        "suggested_rank": "Master",
+        "attributes": {
+          "strength": {"value": 7, "limit": 13},
+          "dexterity": {"value": 8, "limit": 15},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 6, "limit": 11},
+          "insight": {"value": 4, "limit": 9}
+        },
+        "derived_stats": {"base_hp": 8, "hp": 13, "defense": 5, "special_defense": 4},
+        "abilities": ["Electric Surge", "Telepathy (Hidden)"],
+        "skills": ["Flight", "Zapper"],
+        "move_pool": {
+          "rank_1_starter": ["Quick Attack", "Thunder Shock", "Withdraw", "Fairy Wind"],
+          "rank_2_rookie": ["False Swipe", "Spark", "Shock Wave"],
+          "rank_3_standard": ["Charge", "Agility", "Screech", "Discharge"],
+          "rank_4_advanced": ["Mean Look", "Nature's Madness", "Wild Charge", "Brave Bird", "Power Swap"],
+          "rank_5_expert": ["Electric Terrain", "Guardian of Alola"]
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Ergovore", "habitat": ["Jungle", "Ruins"]},
+        "evolution": "Legendary."
+      },
+      {
+        "id": "786",
+        "name": "Tapu Lele",
+        "description": "It is the guardian deity of Akala Island. It is a cruel Pokémon that scatters glowing scales that are also explosive.",
+        "types": ["Psychic", "Fairy"],
+        "suggested_rank": "Master",
+        "attributes": {
+          "strength": {"value": 5, "limit": 10},
+          "dexterity": {"value": 6, "limit": 11},
+          "vitality": {"value": 4, "limit": 9},
+          "special": {"value": 8, "limit": 15},
+          "insight": {"value": 7, "limit": 13}
+        },
+        "derived_stats": {"base_hp": 8, "hp": 12, "defense": 4, "special_defense": 7},
+        "abilities": ["Psychic Surge", "Telepathy (Hidden)"],
+        "skills": ["Flight"],
+        "move_pool": {
+          "rank_1_starter": ["Astonish", "Confusion", "Withdraw", "Aromatherapy"],
+          "rank_2_rookie": ["Draining Kiss", "Psybeam", "Flatter"],
+          "rank_3_standard": ["Psyshock", "Sweet Scent", "Extrasensory", "Skill Swap"],
+          "rank_4_advanced": ["Nature's Madness", "Moonblast", "Tickle", "Psychic"],
+          "rank_5_expert": ["Psychic Terrain", "Guardian of Alola"]
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Psiotroph", "habitat": ["Jungle", "Ruins"]},
+        "evolution": "Legendary."
+      },
+      {
+        "id": "787",
+        "name": "Tapu Bulu",
+        "description": "It is the guardian deity of Ula'ula Island. It can command vegetation to grow and change its shape.",
+        "types": ["Grass", "Fairy"],
+        "suggested_rank": "Master",
+        "attributes": {
+          "strength": {"value": 8, "limit": 15},
+          "dexterity": {"value": 4, "limit": 9},
+          "vitality": {"value": 7, "limit": 13},
+          "special": {"value": 5, "limit": 10},
+          "insight": {"value": 6, "limit": 11}
+        },
+        "derived_stats": {"base_hp": 8, "hp": 15, "defense": 7, "special_defense": 6},
+        "abilities": ["Grassy Surge", "Telepathy (Hidden)"],
+        "skills": ["Sprouter"],
+        "move_pool": {
+          "rank_1_starter": ["Leafage", "Rock Smash", "Withdraw", "Disable"],
+          "rank_2_rookie": ["Leech Seed", "Mega Drain", "Whirlwind", "Horn Attack"],
+          "rank_3_standard": ["Scary Face", "Horn Leech", "Zen Headbutt", "Mean Look"],
+          "rank_4_advanced": ["Nature's Madness", "Wood Hammer", "Megahorn", "Skull Bash"],
+          "rank_5_expert": ["Grassy Terrain", "Guardian of Alola"]
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Phototroph", "habitat": ["Jungle", "Ruins"]},
+        "evolution": "Legendary."
+      },
+      {
+        "id": "788",
+        "name": "Tapu Fini",
+        "description": "It is the guardian deity of Poni Island. It can create a special water that purifies anything it touches.",
+        "types": ["Water", "Fairy"],
+        "suggested_rank": "Master",
+        "attributes": {
+          "strength": {"value": 5, "limit": 9},
+          "dexterity": {"value": 5, "limit": 10},
+          "vitality": {"value": 7, "limit": 13},
+          "special": {"value": 6, "limit": 11},
+          "insight": {"value": 8, "limit": 15}
+        },
+        "derived_stats": {"base_hp": 8, "hp": 15, "defense": 7, "special_defense": 8},
+        "abilities": ["Misty Surge", "Telepathy (Hidden)"],
+        "skills": ["Swimmer"],
+        "move_pool": {
+          "rank_1_starter": ["Disarming Voice", "Water Gun", "Withdraw", "Mist", "Haze"],
+          "rank_2_rookie": ["Aqua Ring", "Water Pulse", "Brine"],
+          "rank_3_standard": ["Refresh", "Soak", "Defog", "Heal Pulse"],
+          "rank_4_advanced": ["Nature's Madness", "Moonblast", "Hydro Pump", "Mean Look"],
+          "rank_5_expert": ["Misty Terrain", "Guardian of Alola"]
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Nullivore", "habitat": ["Ocean", "Ruins"]},
+        "evolution": "Legendary."
+      },
+      {
+        "id": "789",
+        "name": "Cosmog",
+        "description": "Its body is gaseous. It is so light that even a gentle breeze can blow it away.",
+        "types": ["Psychic"],
+        "suggested_rank": "Starter",
+        "attributes": {
+          "strength": {"value": 2, "limit": 5},
+          "dexterity": {"value": 3, "limit": 5},
+          "vitality": {"value": 2, "limitT": 5},
+          "special": {"value": 2, "limit": 5},
+          "insight": {"value": 2, "limit": 5}
+        },
+        "derived_stats": {"base_hp": 5, "hp": 7, "defense": 2, "special_defense": 2},
+        "abilities": ["Unaware"],
+        "skills": ["Hover"],
+        "move_pool": {
+          "rank_1_starter": ["Splash", "Teleport"]
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Nullivore", "habitat": ["Ruins"]},
+        "evolution": "Evolves into Cosmoem."
+      },
+      {
+        "id": "790",
+        "name": "Cosmoem",
+        "description": "It is said to be a cocoon of the stars. It is motionless, as if dead.",
+        "types": ["Psychic"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 2, "limit": 5},
+          "dexterity": {"value": 2, "limit": 5},
+          "vitality": {"value": 8, "limit": 15},
+          "special": {"value": 2, "limit": 5},
+          "insight": {"value": 8, "limit": 15}
+        },
+        "derived_stats": {"base_hp": 5, "hp": 13, "defense": 8, "special_defense": 8},
+        "abilities": ["Sturdy"],
+        "skills": ["Hover"],
+        "move_pool": {
+          "rank_1_starter": ["Teleport", "Cosmic Power"]
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Nullivore", "habitat": ["Ruins"]},
+        "evolution": "Evolves into Solgaleo or Lunala."
+      },
+      {
+        "id": "791",
+        "name": "Solgaleo",
+        "description": "It is said to live in another world. The light that radiates from its body can make the darkest night light up like midday.",
+        "types": ["Psychic", "Steel"],
+        "suggested_rank": "Champion",
+        "attributes": {
+          "strength": {"value": 8, "limit": 15},
+          "dexterity": {"value": 6, "limit": 11},
+          "vitality": {"value": 6, "limit": 12},
+          "special": {"value": 7, "limit": 13},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 14, "hp": 20, "defense": 6, "special_defense": 5},
+        "abilities": ["Full Metal Body"],
+        "skills": ["Teleporter"],
+        "move_pool": {
+          "rank_1_starter": ["Teleport", "Cosmic Power", "Metal Claw", "Iron Head"],
+          "rank_2_rookie": ["Noble Roar", "Zen Headbutt", "Flash Cannon", "Morning Sun"],
+          "rank_3_standard": ["Crunch", "Metal Burst", "Solar Beam", "Wild Charge"],
+          "rank_4_advanced": ["Sunsteel Strike", "Flare Blitz", "Giga Impact"],
+          "rank_5_expert": [],
+          "rank_6_ace": []
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Ergovore", "habitat": ["Ruins"]},
+        "evolution": "Legendary."
+      },
+      {
+        "id": "792",
+        "name": "Lunala",
+        "description": "It is said to be a female evolution of Cosmog. When its third eye opens, it flies to another world.",
+        "types": ["Psychic", "Ghost"],
+        "suggested_rank": "Champion",
+        "attributes": {
+          "strength": {"value": 7, "limit": 13},
+          "dexterity": {"value": 6, "limit": 11},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 8, "limit": 15},
+          "insight": {"value": 6, "limit": 12}
+        },
+        "derived_stats": {"base_hp": 14, "hp": 19, "defense": 5, "special_defense": 6},
+        "abilities": ["Shadow Shield"],
+        "skills": ["Flight", "Phasing"],
+        "move_pool": {
+          "rank_1_starter": ["Teleport", "Cosmic Power", "Confusion", "Hypnosis"],
+          "rank_2_rookie": ["Night Daze", "Moongeist Beam", "Psyshock", "Air Slash"],
+          "rank_3_standard": ["Shadow Ball", "Moonblast", "Moonlight", "Magic Coat"],
+          "rank_4_advanced": ["Phantom Force", "Dream Eater", "Wide Guard"],
+          "rank_5_expert": [],
+          "rank_6_ace": []
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Psiotroph", "habitat": ["Ruins"]},
+        "evolution": "Legendary."
+      },
+      {
+        "id": "803",
+        "name": "Poipole",
+        "description": "This Ultra Beast is well enough liked to be chosen as a first partner in its own world.",
+        "types": ["Poison"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 4, "limit": 8},
+          "dexterity": {"value": 4, "limit": 8},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 7, "hp": 11, "defense": 4, "special_defense": 4},
+        "abilities": ["Beast Boost"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Dragon Pulse", "Peck", "Growl", "Helping Hand", "Acid"],
+          "rank_2_rookie": ["Fury Attack", "Venoshock", "Charm", "Venom Drench"],
+          "rank_3_standard": ["Nasty Plot", "Poison Jab", "Gastro Acid", "Toxic"],
+          "rank_4_advanced": ["Fell Stinger"]
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Omnivore", "habitat": ["Unknown"]},
+        "evolution": "Evolves into Naganadel after learning Dragon Pulse."
+      },
+      {
+        "id": "804",
+        "name": "Naganadel",
+        "description": "It stores hundreds of liters of poisonous liquid inside its body. It is one of the Ultra Beasts.",
+        "types": ["Poison", "Dragon"],
+        "suggested_rank": "Master",
+        "attributes": {
+          "strength": {"value": 4, "limit": 8},
+          "dexterity": {"value": 7, "limit": 14},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 7, "limit": 14},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 8, "hp": 12, "defense": 4, "special_defense": 4},
+        "abilities": ["Beast Boost"],
+        "skills": ["Flight"],
+        "move_pool": {
+          "rank_1_starter": ["Dragon Pulse", "Peck", "Growl", "Helping Hand", "Acid", "Air Cutter"],
+          "rank_2_rookie": ["Fury Attack", "Venoshock", "Charm", "Venom Drench"],
+          "rank_3_standard": ["Nasty Plot", "Poison Jab", "Gastro Acid", "Toxic"],
+          "rank_4_advanced": ["Fell Stinger", "Dragon Rush"]
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Omnivore", "habitat": ["Unknown"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "805",
+        "name": "Stakataka",
+        "description": "It appeared from an Ultra Wormhole. It is made up of many life-forms.",
+        "types": ["Rock", "Steel"],
+        "suggested_rank": "Master",
+        "attributes": {
+          "strength": {"value": 8, "limit": 15},
+          "dexterity": {"value": 1, "limit": 3},
+          "vitality": {"value": 12, "limit": 21},
+          "special": {"value": 3, "limit": 6},
+          "insight": {"value": 6, "limit": 12}
+        },
+        "derived_stats": {"base_hp": 7, "hp": 19, "defense": 12, "special_defense": 6},
+        "abilities": ["Beast Boost"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Harden", "Rock Throw", "Protect", "Stomp"],
+          "rank_2_rookie": ["Rock Slide", "Block", "Rock Blast", "Wide Guard"],
+          "rank_3_standard": ["Autotomize", "Iron Defense", "Iron Head", "Take Down"],
+          "rank_4_advanced": ["Stealth Rock", "Double-Edge", "Magnet Rise"],
+          "rank_5_expert": ["Gyro Ball"]
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Terravore", "habitat": ["Unknown"]},
+        "evolution": "Ultra Beast."
+      },
+      {
+        "id": "806",
+        "name": "Blacephalon",
+        "description": "It is a Pokémon that was born from an Ultra Wormhole. It can make its head explode.",
+        "types": ["Fire", "Ghost"],
+        "suggested_rank": "Master",
+        "attributes": {
+          "strength": {"value": 7, "limit": 14},
+          "dexterity": {"value": 6, "limit": 12},
+          "vitality": {"value": 3, "limit": 6},
+          "special": {"value": 9, "limit": 17},
+          "insight": {"value": 5, "limit": 9}
+        },
+        "derived_stats": {"base_hp": 6, "hp": 9, "defense": 3, "special_defense": 5},
+        "abilities": ["Beast Boost"],
+        "skills": ["Firestarter", "Phasing"],
+        "move_pool": {
+          "rank_1_starter": ["Ember", "Astonish", "Fire Spin", "Light Screen"],
+          "rank_2_rookie": ["Incinerate", "Night Shade", "Flame Burst"],
+          "rank_3_standard": ["Confuse Ray", "Magic Coat", "Shadow Ball", "Calm Mind"],
+          "rank_4_advanced": ["Will-O-Wisp", "Trick", "Fire Blast"],
+          "rank_5_expert": ["Mind Blown"]
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Nullivore", "habitat": ["Unknown"]},
+        "evolution": "Ultra Beast."
+      },
+      {
+        "id": "807",
+        "name": "Zeraora",
+        "description": "It can tear its opponents apart with its electrified claws. It can move with the speed of lightning.",
+        "types": ["Electric"],
+        "suggested_rank": "Champion",
+        "attributes": {
+          "strength": {"value": 7, "limit": 13},
+          "dexterity": {"value": 8, "limit": 16},
+          "vitality": {"value": 4, "limit": 9},
+          "special": {"value": 6, "limit": 12},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 9, "hp": 13, "defense": 4, "special_defense": 5},
+        "abilities": ["Volt Absorb"],
+        "skills": ["Zapper"],
+        "move_pool": {
+          "rank_1_starter": ["Scratch", "Spark", "Hone Claws", "Quick Attack", "Fury Swipes"],
+          "rank_2_rookie": ["Volt Switch", "Snarl", "Fake Out", "Charge"],
+          "rank_3_standard": ["Thunder Punch", "Slash", "Wild Charge", "Quick Guard"],
+          "rank_4_advanced": ["Plasma Fists", "Close Combat", "Discharge"],
+          "rank_5_expert": [],
+          "rank_6_ace": []
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Ergovore", "habitat": ["Unknown"]},
+        "evolution": "Mythical."
+      },
+      {
+        "id": "808",
+        "name": "Meltan",
+        "description": "It melts particles of iron and other metals found in the subsoil, so it can absorb them into its body of molten steel.",
+        "types": ["Steel"],
+        "suggested_rank": "Standard",
+        "attributes": {
+          "strength": {"value": 4, "limit": 8},
+          "dexterity": {"value": 3, "limit": 5},
+          "vitality": {"value": 2, "limit": 5},
+          "special": {"value": 4, "limit": 7},
+          "insight": {"value": 2, "limit": 5}
+        },
+        "derived_stats": {"base_hp": 5, "hp": 7, "defense": 2, "special_defense": 2},
+        "abilities": ["Magnet Pull"],
+        "skills": ["Amorphous"],
+        "move_pool": {
+          "rank_1_starter": ["Headbutt", "Harden", "Tail Whip", "Thunder Shock", "Thunder Wave"],
+          "rank_2_rookie": ["Acid Armor"],
+          "rank_3_standard": ["Flash Cannon"],
+          "rank_4_advanced": []
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Terravore", "habitat": ["Cave", "Urban"]},
+        "evolution": "Evolves into Melmetal."
+      },
+      {
+        "id": "809",
+        "name": "Melmetal",
+        "description": "At the end of its life-span, Melmetal will rust and fall apart. The small shards left behind will eventually be reborn as Meltan.",
+        "types": ["Steel"],
+        "suggested_rank": "Champion",
+        "attributes": {
+          "strength": {"value": 8, "limit": 16},
+          "dexterity": {"value": 2, "limit": 5},
+          "vitality": {"value": 8, "limit": 16},
+          "special": {"value": 5, "limit": 10},
+          "insight": {"value": 4, "limitT": 8}
+        },
+        "derived_stats": {"base_hp": 14, "hp": 22, "defense": 8, "special_defense": 4},
+        "abilities": ["Iron Fist"],
+        "skills": ["Amorphous"],
+        "move_pool": {
+          "rank_1_starter": ["Headbutt", "Harden", "Tail Whip", "Thunder Shock", "Thunder Wave", "Thunder Punch"],
+          "rank_2_rookie": ["Acid Armor"],
+          "rank_3_standard": ["Flash Cannon", "Mega Punch"],
+          "rank_4_advanced": ["Protect", "Discharge", "Dynamic Punch", "Superpower", "Double Iron Bash", "Hyper Beam"]
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Terravore", "habitat": ["Cave", "Urban"]},
+        "evolution": "Final Stage."
+      }
+    ]
+  }
+}
