@@ -1,0 +1,23 @@
+{
+  "chapter_11": {
+    "title": "The Movedex",
+    "type": "Dark",
+    "moves": [
+      { "name": "Bite", "type": "Dark", "accuracy": "Strength + Brawl", "damage": "Strength + 3", "effect": "On a successful hit, roll 1d6. On a 5 or 6, the target Flinches." },
+      { "name": "Crunch", "type": "Dark", "accuracy": "Strength + Brawl", "damage": "Strength + 4", "effect": "On a successful hit, roll 1d6. On a 5 or 6, the target's Vitality is lowered by 1." },
+      { "name": "Dark Pulse", "type": "Dark", "accuracy": "Special + Channel", "damage": "Special + 4", "effect": "On a successful hit, roll 1d6. On a 5 or 6, the target Flinches." },
+      { "name": "Pursuit", "type": "Dark", "accuracy": "Strength + Brawl", "damage": "Strength + 2", "effect": "If the target attempts to switch out, this move hits before they switch and its damage is doubled." },
+      { "name": "Sucker Punch", "type": "Dark", "accuracy": "Strength + Brawl", "damage": "Strength + 4", "effect": "This move has Priority, but it only works if the target is also using an attacking move." },
+      { "name": "Nasty Plot", "type": "Dark", "accuracy": "Automatic", "damage": "None", "effect": "The user raises its Special by 2 for the rest of the scene." },
+      { "name": "Taunt", "type": "Dark", "accuracy": "Special + Intimidate", "damage": "None", "effect": "For 3 rounds, the target can only use attacking moves." },
+      { "name": "Knock Off", "type": "Dark", "accuracy": "Strength + Brawl", "damage": "Strength + 4", "effect": "If the target is holding an item, it is knocked off and cannot be used for the rest of the scene. Damage is increased if an item is knocked off." },
+      { "name": "Foul Play", "type": "Dark", "accuracy": "Strength + Brawl", "damage": "Target's Strength + 5", "effect": "Uses the target's Strength stat instead of the user's for the damage roll." },
+      { "name": "Assurance", "type": "Dark", "accuracy": "Strength + Brawl", "damage": "Strength + 3", "effect": "If the target has already taken damage this turn, this move's damage is doubled." },
+      { "name": "Brutal Swing", "type": "Dark", "accuracy": "Strength + Brawl", "damage": "Strength + 3", "effect": "Hits all adjacent Pokémon." },
+      { "name": "Comeuppance", "type": "Dark", "accuracy": "Strength + Brawl", "damage": "Varies", "effect": "Deals 1.5 times the damage the user last received." },
+      { "name": "Darkest Lariat", "type": "Dark", "accuracy": "Strength + Brawl", "damage": "Strength + 5", "effect": "This move ignores any changes to the target's Vitality and Evasion stats." },
+      { "name": "Embargo", "type": "Dark", "accuracy": "Special + Channel", "damage": "None", "effect": "For 5 rounds, the target cannot use any held items." },
+      { "name": "Fake Tears", "type": "Dark", "accuracy": "Special + Charm", "damage": "None", "effect": "Lowers the target's Insight by 2." }
+    ]
+  }
+}
