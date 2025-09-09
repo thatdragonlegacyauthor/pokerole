@@ -72,7 +72,37 @@
               "Dynamax Pokémon get 6 Extra HP.",
               "Gigantamax Pokémon get 12 Extra HP and increase their Strength, Special, Dexterity, Defense, and Sp. Defense by 2.",
               "Max Pokémon are immune to Flinch, In-Love, weight-based moves, OHKO moves, Destiny Bond, and Switcher moves."
-            ]
+            ],
+            "max_moves": {
+              "title": "Full Max Move List",
+              "rules": [
+                "Can only be used by a Dynamax or Gigantamax Pokémon.",
+                "A Pokémon uses the Max Move corresponding to the Type of one of its known moves (e.g., Ember allows the use of Max Flare).",
+                "All Support moves become Max Guard.",
+                "Max Moves target all foes in range by default (or a single Max Target if one is present) and cannot be Clashed."
+              ],
+              "moves": [
+                {"name": "Max Airstream", "type": "Flying", "effect": "Increase the Dexterity of the User and Allies by 1."},
+                {"name": "Max Darkness", "type": "Dark", "effect": "Reduce the Special Defense of all foes by 1."},
+                {"name": "Max Flare", "type": "Fire", "effect": "Activate Sunny Weather for 4 Rounds."},
+                {"name": "Max Flutterby", "type": "Bug", "effect": "Reduce the Special of all foes by 1."},
+                {"name": "Max Geyser", "type": "Water", "effect": "Activate Rain Weather for 4 Rounds."},
+                {"name": "Max Guard", "type": "Support", "effect": "A Shield Move that reduces 5 damage the Max Pokémon would receive and negates the Added Effects of any move targeting the user."},
+                {"name": "Max Hailstorm", "type": "Ice", "effect": "Activate Hail Weather for 4 Rounds."},
+                {"name": "Max Knuckle", "type": "Fighting", "effect": "Increase the Strength of the User and Allies by 1."},
+                {"name": "Max Lightning", "type": "Electric", "effect": "Activate Electric Terrain for 4 Rounds."},
+                {"name": "Max Mindstorm", "type": "Psychic", "effect": "Activate Psychic Terrain for 4 Rounds."},
+                {"name": "Max Ooze", "type": "Poison", "effect": "Increase the Special of the User and Allies by 1."},
+                {"name": "Max Overgrowth", "type": "Grass", "effect": "Activate Grassy Terrain for 4 Rounds."},
+                {"name": "Max Phantasm", "type": "Ghost", "effect": "Reduce the Defense of all foes by 1."},
+                {"name": "Max Quake", "type": "Ground", "effect": "Increase the Special Defense of the User and Allies by 1."},
+                {"name": "Max Rockfall", "type": "Rock", "effect": "Activate Sandstorm Weather for 4 Rounds."},
+                {"name": "Max Starfall", "type": "Fairy", "effect": "Activate Misty Terrain for 4 Rounds."},
+                {"name": "Max Steelspike", "type": "Steel", "effect": "Increase the Defense of the User and Allies by 1."},
+                {"name": "Max Strike", "type": "Normal", "effect": "Reduce the Dexterity of all foes by 1."},
+                {"name": "Max Wyrmwind", "type": "Dragon", "effect": "Reduce the Strength of all foes by 1."}
+              ]
+            }
           },
           {
             "name": "Mega-Evolution",
