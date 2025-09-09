@@ -1,0 +1,81 @@
+{
+  "pokerole_index": {
+    "title": "Pokémon Legacy TTRPG - Master Index",
+    "description": "A comprehensive index of all core rulebooks and data compendiums for the Pokémon Legacy TTRPG.",
+    "chapters": [
+      {
+        "chapter_number": "1",
+        "title": "The Core System",
+        "file_path": "c1_the_core.json",
+        "contents": ["Attributes", "Skills", "Derived Stats", "Dice System", "Progression Concepts"]
+      },
+      {
+        "chapter_number": "5",
+        "title": "Pokémon Battles",
+        "file_path": "c5_battles",
+        "contents": ["Type Effectiveness", "Flow of Battle", "Action Resolution", "Health & Fainting", "Status Ailments", "Weather Conditions"]
+      },
+      {
+        "chapter_number": "9",
+        "title": "Pokédex",
+        "file_path": "c9_pokedex/",
+        "contents": [
+          {
+            "region": "Kanto",
+            "files": ["pokedex001-009.json", "pokedex010-060.json", "pokedex061-105.json", "pokedex106-151.json"]
+          },
+          {
+            "region": "Johto",
+            "files": ["pokedex152-202.json", "pokedex203-251.json"]
+          },
+          {
+            "region": "Hoenn",
+            "files": ["pokedex252-319.json", "pokedex320-370.json", "pokedex371-386.json"]
+          },
+          {
+            "region": "Sinnoh",
+            "files": ["pokedex387-440.json", "pokedex441-470.json"]
+          },
+          {
+            "region": "Unova",
+            "files": ["pokedex494-545.json", "pokedex546-597.json", "pokedex598-649.json"]
+          },
+          {
+            "region": "Kalos",
+            "files": ["pokedex650-685.json", "pokedex686-721.json"]
+          },
+          {
+            "region": "Alola",
+            "files": ["pokedex722-765.json", "pokedex766-809.json"]
+          },
+          {
+            "region": "Galar",
+            "files": ["pokedex810-857.json", "pokedex858-905.json"]
+          },
+          {
+            "region": "Paldea",
+            "files": ["pokedex906-943.json", "pokedex944-981.json", "pokedex982-1025.json"]
+          }
+        ]
+      },
+      {
+        "chapter_number": "11",
+        "title": "Movedex",
+        "file_path": "c11_moves/",
+        "contents": ["Bug Moves", "Dark Moves", "Dragon Moves", "Electric Moves", "Fairy Moves", "Fighting Moves", "Fire Moves", "Flying Moves", "Ghost Moves", "Grass Moves", "Ground Moves", "Ice Moves", "Normal Moves", "Poison Moves", "Psychic Moves", "Rock Moves", "Steel Moves", "Water Moves"]
+      },
+      {
+        "chapter_number": "12",
+        "title": "Abilitydex",
+        "file_path": "c12_abilitydex/",
+        "contents": ["Abilities A-C", "Abilities D-J", "Abilities K-R", "Abilities S-Z"]
+      },
+      {
+        "chapter_number": "13",
+        "title": "Gamemaster's Guide",
+        "file_path": "ch13_gamemasters_guide/",
+        "contents": ["Storytelling", "NPCs & Encounters", "Advanced Battle Mechanics", "League & Adversaries"]
+      }
+    ]
+  }
+}
