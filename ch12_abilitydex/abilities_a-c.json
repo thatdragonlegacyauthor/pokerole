@@ -1,0 +1,168 @@
+{
+  "abilitydex_part1": {
+    "Adaptability": {
+      "lore": "The Pokémon will easily adapt to its surroundings. It will travel with ease, no matter the terrain.",
+      "effect": "Whenever this Pokémon uses a Physical or Special Move that matches its Type, add 1 Extra die to the Damage pool of that Move."
+    },
+    "Aerilate": {
+      "lore": "The Pokémon never touches the ground; a never-ending wind current can be felt swirling around it.",
+      "effect": "Normal-Type Moves that the Pokémon uses will deal damage as if they were Flying-Type, affecting STAB, weakness, and resistance. Add 1 Extra die to the Damage Pool of Flying moves."
+    },
+    "Aftermath": {
+      "lore": "When hurt or upset, the Pokémon will prepare to burst. If hit hard enough, it will explode on contact. They also tend to hold grudges.",
+      "effect": "If this Pokémon faints due to a Non-Ranged Physical Move, the user of that attack is dealt 2 Damage."
+    },
+    "Air Lock": {
+      "lore": "The Pokémon surrounds itself in a vacuum. Every particle of rain, sand, and hail stands floating still around it, and even heat is filtered out of the place.",
+      "effect": "Negate all the effects of Weather in the field. If no weather is active, it cannot be activated by Moves or Abilities. If one is already active, it does not disappear but provides no effects. This is a Unique Ability."
+    },
+    "Analytic": {
+      "lore": "The Pokémon will never charge recklessly; it will take a moment to think about the best decision to make in any situation.",
+      "effect": "If this Pokémon has a lower initiative than its target, add 1 Extra die to all their Damage Pools."
+    },
+    "Anger Point": {
+      "lore": "The Pokémon will easily get aggressive. Little to no provocation is needed for it to start throwing a tantrum and ripping everything to shreds.",
+      "effect": "If a foe lands a Critical Hit on this Pokémon, increase this Pokémon's Strength Attribute by 3."
+    },
+    "Anger Shell": {
+      "lore": "The Pokémon gets frustrated if things are not going their way; they are prone to break their own shell in their rage.",
+      "effect": "When this Pokémon's HP is at half or less, Increase its Strength, Special, and Dexterity Attributes by 1, but Reduce its Defense and Sp. Defense by 1."
+    },
+    "Anticipation": {
+      "lore": "The Pokémon is always alert for threats and rarely sits to relax. If it perceives a potential danger it will get anxious and start shuddering.",
+      "effect": "If any foe knows a Move that could deal Lethal or Super Effective damage against this Pokémon, it will alert its Trainer."
+    },
+    "Arena Trap": {
+      "lore": "The ground around this Pokémon becomes really soft and hard to walk in. When in danger, it will sink the ground around itself creating a shifting sand pit.",
+      "effect": "Pokémon entering or already on the foe's side of the field become blocked as long as this Pokémon is on the field. Pokémon with immunity to Ground-Type Moves are not affected."
+    },
+    "Armor Tail": {
+      "lore": "The Pokémon's uses its tail as an armor. Almost like it had eyes on its back, always alert against surprise attacks.",
+      "effect": "The User and allies in range can't be the target of Physical or Special Moves with the Reaction Added Effect."
+    },
+    "Aroma Veil": {
+      "lore": "This Pokémon lets off a nice smell that helps you to stay relaxed and focused even under stressful situations.",
+      "effect": "User and Allies in Range are immune to the \"Love\" Status Condition and the effects of the moves: Taunt, Torment, Spite, Attract, Disable, Encore, and Heal Block."
+    },
+    "As One": {
+      "lore": "Two Pokémon join forces, one riding on the other's back. Together, they ride for ruin and the world's ending.",
+      "effect": "This ability triggers a form change that combines the attributes & movepool of two Allied Pokémon. Choose one ability from each of the two Pokémon forming this union; the joint form of these Pokémon may use those two Abilities at the same time. This is a Unique Ability."
+    },
+    "Aura Break": {
+      "lore": "Anyone emitting a particularly evil aura will be purified, anyone with an aura of purity will be corrupted by evil, just for coming close to this Pokémon.",
+      "effect": "Invert the effects that the Abilities Dark Aura and Fairy Aura have on their users. If said Abilities would increase a Dice Pool for their User, reduce it instead. This is a Unique Ability."
+    },
+    "Bad Dreams": {
+      "lore": "This Pokémon can transfer its evil intent through the world of dreams, wreaking havoc and bringing fear into the minds of those deep in slumber.",
+      "effect": "At the end of the Round, deal 1 Damage to anyone on the battlefield that has the Sleep Status Condition. This is a Unique Ability."
+    },
+    "Ball Fetch": {
+      "lore": "The Pokémon is a bit obsessed with playing \"Fetch the Ball.\" It can play for hours and hours and never get bored of it.",
+      "effect": "Whenever you throw a Poké Ball at a wild Pokémon, if the roll for catching it is unsuccessful, the Poké Ball won't break. This Pokémon will bring it back to you at the end of the Round instead."
+    },
+    "Battery": {
+      "lore": "This Pokémon's presence creates an electric field that charges up electronics and even makes others feel energized.",
+      "effect": "Increase by 1 the Special Attribute of all Ally Pokémon in Range. Ally Pokémon get 1 Extra die to all their Special Move's Damage Pool. The User does not get these effects."
+    },
+    "Battle Armor": {
+      "lore": "The skin of the Pokémon is covered by plates of a very resistant material, like rock, steel or an exoskeleton.",
+      "effect": "If a foe lands a Critical Hit on this Pokémon, it won't get any Bonus Dice on its Damage Dice Pool for it."
+    },
+    "Beads of Ruin": {
+      "lore": "There is a cursed artifact on this Pokémon. A burning envy will corrupt the souls of anyone close. This Pokémon loves to create discord amongst others.",
+      "effect": "Reduce by 2 the Special Defense of everyone in the field, except this Pokémon. This Pokémon is immune to the effects of the Abilities: Beads of Ruin, Sword of Ruin, Tablets of Ruin, and Vessel of Ruin. This is a Unique Ability."
+    },
+    "Beast Boost": {
+      "lore": "A wicked satisfaction grows as this creature brings out destruction, for it becomes more savage with every foe that falls to its power.",
+      "effect": "If a foe faints because of an attack dealt by this Ultra Beast, Increase by 1 their highest Attribute. Up to 3 points can be increased this way. This is a Unique Ability."
+    },
+    "Berserk": {
+      "lore": "This Pokémon is usually calm in demeanor, but when its life or someone it cares for is in danger, the adrenaline rush will transform it into an enraged beast.",
+      "effect": "When this Pokémon's HP is half or less, Increase its Special Attribute by 2."
+    },
+    "Big Pecks": {
+      "lore": "This tenacious Pokémon uses its beak to cover its weak spots.",
+      "effect": "This Pokémon cannot have its Defense reduced."
+    },
+    "Blaze": {
+      "lore": "The inner and outer fire of this Pokémon's body will burn incredibly fierce just before fading.",
+      "effect": "Pain Penalization won't reduce successes from Accuracy or Damage rolls of Fire-Type Moves used by this Pokémon. Fire-Type Moves get 2 Extra dice to their Damage Pool when this Pokémon is at half HP or less."
+    },
+    "Bulletproof": {
+      "lore": "The armor on this Pokémon's body protects it from projectiles and small explosions.",
+      "effect": "Reduce by 1 all damage from Ranged Physical Moves dealt to this Pokémon. Reduce by 1 all damage from Special Moves with the words: Ball, Blast, Bomb, Cannon, Octazooka, Puff, Shot, Sphere & Wrecker on their name."
+    },
+    "Cheek Pouch": {
+      "lore": "The Pokémon is able to store food and objects inside its stretchy cheeks for later consumption, often looking adorable while doing so.",
+      "effect": "This Pokémon restores 2 HP whenever it eats a berry with no HP healing effect (e.g., Pecha Berry, Lum Berry)."
+    },
+    "Chilling Neigh": {
+      "lore": "This Pokémon emits a chilling and furious neigh. In ancient times of war, hearing it made the opposing armies tremble in fear.",
+      "effect": "If a foe faints because of a Physical or Special Move dealt by this Pokémon, Increase its Strength Attribute by 1. Up to 3 points can be increased this way."
+    },
+    "Chlorophyll": {
+      "lore": "The Pokémon synthesizes sunlight to get energy; if it's kept in a sunny environment it will rarely need to eat.",
+      "effect": "While Sunny Weather is active, Increase this Pokémon's Dexterity Attribute by 2."
+    },
+    "Clear Body": {
+      "lore": "The Pokémon is completely aware of all its body surroundings; trying to sneak up on it will be incredibly difficult.",
+      "effect": "Other Pokémon cannot Increase or Reduce the Attributes of this Pokémon. This Pokémon can still Increase or Reduce its own Attributes."
+    },
+    "Cloud Nine": {
+      "lore": "This Pokémon will easily feel pleased, and it's prone to be happier than others. No matter if it's sunny or rainy it will never feel gloomy.",
+      "effect": "Negate the effects of Weather Conditions on this Pokémon."
+    },
+    "Color Change": {
+      "lore": "This Pokémon can change its color and energy to camouflage and merge with the surroundings.",
+      "effect": "When this Pokémon is dealt damage it will temporarily change its type to match the type of the move that just hit it. The effect ends if the Pokémon is removed from battle."
+    },
+    "Comatose": {
+      "lore": "For some reason this Pokémon is always asleep and can't wake up. Still, it is able to understand commands and move just as if it were sleepwalking.",
+      "effect": "The Pokémon permanently has the \"Sleep\" Status Ailment but it is immune to its effects. This Pokémon can't be inflicted with other Status Ailments or Conditions. Moves and Abilities affecting Asleep Pokémon still have an effect on it."
+    },
+    "Commander": {
+      "lore": "The Pokémon has a strategic mind; even if its body is frail it can devise clever plans and tell its Dodonzo friend exactly what to do.",
+      "effect": "If there is an Allied Dodonzo on the field, increase its Attributes and Defenses by 2. Dodonzo is blocked for the rest of the scene. All damage that would be dealt to this Pokémon is dealt to Dodonzo instead. This is a Unique Ability."
+    },
+    "Competitive": {
+      "lore": "This Pokémon's determination grows in the face of adversity. It is always trying to compete with those around it.",
+      "effect": "The first time this Pokémon gets an Attribute reduced by a foe during a battle, Increase its Special by 2."
+    },
+    "Compound Eyes": {
+      "lore": "This Pokémon has a peripheral vision that allows it to locate its targets with great precision.",
+      "effect": "This Pokémon gets 2 Extra Dice on the Accuracy Pool of any move with Low Accuracy."
+    },
+    "Contrary": {
+      "lore": "Most of the time this Pokémon will want to do the opposite of what you want. Sometimes it even contradicts itself.",
+      "effect": "If anything would reduce an Attribute of this Pokémon, increase it instead. If anything would increase an Attribute of this Pokémon, reduce it instead."
+    },
+    "Corrosion": {
+      "lore": "This Pokémon's venom can eat through metal, wood, and most inorganic and organic materials. Be careful not to touch it!",
+      "effect": "Ignore any immunity the foe has to Poison-Type Damage and/or to be inflicted with Poison and Badly Poisoned Status Ailments."
+    },
+    "Costar": {
+      "lore": "This Pokémon is a true pal, friend, and wingman. It will follow you on any crazy plan you concoct. The player-2 of your dynamic duo.",
+      "effect": "If there's an Ally with increased Attributes/Traits as this Pokémon enters the field, copy all of the Increases onto this Pokémon. If more than one Ally has increased Attributes/Traits, choose one to copy from."
+    },
+    "Cotton Down": {
+      "lore": "The cotton fluff on this Pokémon's body is constantly being shed; it can be used to make beautiful clothes but it's also bothersome to walk on.",
+      "effect": "If this Pokémon is hit with a Non-Ranged Physical Move, reduce the speed of all Pokémon in an Area close to it."
+    },
+    "Cud Chew": {
+      "lore": "This Pokémon regurgitates food back into its mouth whenever it gets hungry. A bit disgusting but the good news is that you'll save a lot on food.",
+      "effect": "If this Pokémon has a Berry as a Held Item or it is hit by a Berry, it will activate its effects two times during the battle. This effect does stack with the Move \"Recycle\"."
+    },
+    "Curious Medicine": {
+      "lore": "The Pokémon likes to mix disgusting substances to supposedly create medicine. The resulting potions are dubious at best, toxic at worst.",
+      "effect": "When this Pokémon comes into battle, remove all Attribute Increases and Reductions on all Ally Pokémon in range. Outside of battle, the Pokémon is able to create potions that may heal HP or deal damage at storyteller's discretion."
+    },
+    "Cursed Body": {
+      "lore": "This Pokémon carries a curse within itself. Crossing this Pokémon is not a good idea.",
+      "effect": "Whenever this Pokémon is dealt damage with a Physical or Special Move, Roll 3 Chance Dice to Disable that Move. Up to 3 Moves may be disabled this way."
+    },
+    "Cute Charm": {
+      "lore": "It may be its twinkly eyes or its rosy cheeks, but other people and Pokémon will try to win this Pokémon's heart.",
+      "effect": "If this Pokémon is hit with a Non-Ranged Physical Move, roll 3 Chance Dice to make the foe fall in Love."
+    }
+  }
+}
