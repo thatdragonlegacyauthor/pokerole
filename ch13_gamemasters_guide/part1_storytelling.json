@@ -1,0 +1,87 @@
+{
+  "chapter_13_gamemaster_guide": {
+    "part_1": {
+      "section_1_introduction_to_storytelling": {
+        "title": "Introduction to Storytelling",
+        "introduction": "You have learned the game, now, are you ready to master it? In this section of the book, we'll give you ideas and frameworks for you to create your story. Use them as inspiration for your games with your friends.",
+        "core_principle": "Your primary goal as a storyteller is to make sure that everyone is having fun—both your players and yourself. The first step is to talk to your players. Ask them what kind of story they wish to play and what their perceptions of the Pokémon world are to ensure everyone is on the same page."
+      },
+      "section_2_story_structure": {
+        "title": "Story Structure",
+        "introduction": "The structure you choose will determine the scope and pacing of your game. Your main options are a One-Shot, an Episodic Story, or a Chronicle.",
+        "structures": [
+          {
+            "name": "One-Shot",
+            "description": "A self-contained adventure designed to be completed in a single session, perfect for beginners. It follows a simple three-act structure with an introduction, development, resolution, and epilogue."
+          },
+          {
+            "name": "Episodic Story",
+            "description": "A series of self-contained adventures featuring the same cast of characters. This allows for more significant character development over time without the commitment of a single, overarching plot."
+          },
+          {
+            "name": "Chronicle",
+            "description": "A grand adventure with a single main plot and recurring villains, often taking months or even years of game sessions to complete. This is 'hard mode' and requires significant commitment from the entire group."
+          }
+        ]
+      },
+      "section_3_types_of_stories": {
+        "title": "Types of Stories",
+        "introduction": "This is the genre and theme of your campaign.",
+        "story_types": [
+          {
+            "name": "Basic Adventure",
+            "description": "The classic Pokémon journey—travel the region, collect badges, challenge the league, and stop an evil team along the way. Best structured as a Chronicle."
+          },
+          {
+            "name": "Slice of Life",
+            "description": "Smaller-scale stories focusing on the everyday fantasy of living in the Pokémon world. Great for One-Shots and Episodic play (e.g., helping a town with a troublesome Pokémon, entering a Pokémon race)."
+          },
+          {
+            "name": "Dungeon Crawling",
+            "description": "Adventures focused on exploring a specific, contained area filled with secrets, rewards, and foes. The 'dungeon' can be anything from ancient ruins to a haunted mansion."
+          },
+          {
+            "name": "Epic Story",
+            "description": "A story focused on grand themes like saving the world, facing insurmountable odds, or battling against fate itself."
+          }
+        ]
+      },
+      "section_4_storytelling_principles_and_styles": {
+        "title": "Storytelling Principles & Styles",
+        "introduction": "This section covers the philosophy of running the game and how the storytelling duties can be shared.",
+        "laws_of_storytelling": [
+          "Don't create a story to win.",
+          "Don't fret over minuscule details.",
+          "Help the players get in-character.",
+          "The game is not only about mechanics.",
+          "Actively Role-Play.",
+          "Use tools.",
+          "Get prepared.",
+          "Make it feel real, not 'realistic.'",
+          "The storyteller is not 'God.'"
+        ],
+        "laws_for_players": [
+          "Go with the flow.",
+          "Stay Focused.",
+          "Work as a Team.",
+          "Rule-Lawyers overruled!",
+          "Try out Storytelling!"
+        ],
+        "storytelling_styles": [
+          {
+            "name": "Single Storyteller",
+            "description": "The traditional approach where one person runs the game."
+          },
+          {
+            "name": "Storyteller Rotation",
+            "description": "Players take turns running episodes, which is great for preventing burnout and bringing in fresh ideas."
+          },
+          {
+            "name": "Team Storytelling",
+            "description": "Two or more people share the GM duties, allowing for larger groups and more complex stories."
+          }
+        ]
+      }
+    }
+  }
+}
