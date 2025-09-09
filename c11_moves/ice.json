@@ -1,0 +1,28 @@
+{
+  "chapter_11": {
+    "title": "The Movedex",
+    "type": "Ice",
+    "moves": [
+      { "name": "Aurora Beam", "type": "Ice", "accuracy": "Special + Channel", "damage": "Special + 4", "effect": "On a successful hit, roll 1d6. On a 6, the target's Strength is lowered by 1." },
+      { "name": "Aurora Veil", "type": "Ice", "accuracy": "Automatic", "damage": "None", "effect": "For 5 rounds, all damage taken by the user and its allies is halved. This move can only be used during Hail." },
+      { "name": "Avalanche", "type": "Ice", "accuracy": "Strength + Brawl", "damage": "Strength + 3", "effect": "If the user was damaged by the target this turn, this move's damage is doubled." },
+      { "name": "Blizzard", "type": "Ice", "accuracy": "Special + Channel", "damage": "Special + 7", "effect": "High chance to miss. Hits all adjacent opponents. On a hit, roll 1d6. On a 6, the target is Frozen. Cannot miss during Hail." },
+      { "name": "Freeze-Dry", "type": "Ice", "accuracy": "Special + Channel", "damage": "Special + 4", "effect": "This move is super-effective against Water-type Pokémon." },
+      { "name": "Frost Breath", "type": "Ice", "accuracy": "Special + Channel", "damage": "Special + 3", "effect": "This move always results in a critical hit." },
+      { "name": "Glaciate", "type": "Ice", "accuracy": "Special + Channel", "damage": "Special + 4", "effect": "Lowers the Dexterity of all opponents hit by 1." },
+      { "name": "Hail", "type": "Ice", "accuracy": "Automatic", "damage": "None", "effect": "Changes the weather to Hail for 5 rounds. All non-Ice-type Pokémon take damage at the end of each round." },
+      { "name": "Haze", "type": "Ice", "accuracy": "Automatic", "damage": "None", "effect": "Resets all stat changes for all Pokémon on the field to zero." },
+      { "name": "Ice Ball", "type": "Ice", "accuracy": "Strength + Brawl", "damage": "Strength + 1", "effect": "For 5 turns, this move's damage doubles with each consecutive hit. If it misses, the chain is broken." },
+      { "name": "Ice Beam", "type": "Ice", "accuracy": "Special + Channel", "damage": "Special + 5", "effect": "On a successful hit, roll 1d6. On a 6, the target is Frozen." },
+      { "name": "Ice Fang", "type": "Ice", "accuracy": "Strength + Brawl", "damage": "Strength + 4", "effect": "On a hit, roll 1d6. On a 6, the target is Frozen or Flinches." },
+      { "name": "Ice Punch", "type": "Ice", "accuracy": "Strength + Brawl", "damage": "Strength + 4", "effect": "On a successful hit, roll 1d6. On a 6, the target is Frozen." },
+      { "name": "Ice Shard", "type": "Ice", "accuracy": "Strength + Brawl", "damage": "Strength + 2", "effect": "This move has Priority." },
+      { "name": "Icicle Crash", "type": "Ice", "accuracy": "Strength + Brawl", "damage": "Strength + 5", "effect": "On a successful hit, roll 1d6. On a 5 or 6, the target Flinches." },
+      { "name": "Icicle Spear", "type": "Ice", "accuracy": "Strength + Brawl", "damage": "Strength + 1 (per hit)", "effect": "Hits 2 to 5 times. Roll 1d4+1 to determine the number of hits." },
+      { "name": "Icy Wind", "type": "Ice", "accuracy": "Special + Channel", "damage": "Special + 3", "effect": "Lowers the Dexterity of all opponents hit by 1." },
+      { "name": "Mist", "type": "Ice", "accuracy": "Automatic", "damage": "None", "effect": "The user and its allies are protected from stat-lowering effects for 5 rounds." },
+      { "name": "Powder Snow", "type": "Ice", "accuracy": "Special + Channel", "damage": "Special + 2", "effect": "Hits all adjacent opponents. On a hit, roll 1d6. On a 6, the target is Frozen." },
+      { "name": "Sheer Cold", "type": "Ice", "accuracy": "Special + Channel", "damage": "KO", "effect": "This is a one-hit KO move. It automatically misses if the target is a higher Rank than the user. Its accuracy is very low." }
+    ]
+  }
+}
