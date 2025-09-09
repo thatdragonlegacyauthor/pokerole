@@ -1,0 +1,19 @@
+{
+  "chapter_11": {
+    "title": "The Movedex",
+    "type": "Rock",
+    "moves": [
+      { "name": "Rock Throw", "type": "Rock", "accuracy": "Strength + Throw", "damage": "Strength + 3", "effect": "No additional effects." },
+      { "name": "Rock Slide", "type": "Rock", "accuracy": "Strength + Throw", "damage": "Strength + 4", "effect": "Hits all adjacent opponents. On a successful hit, roll 1d6. On a 5 or 6, the target Flinches." },
+      { "name": "Stone Edge", "type": "Rock", "accuracy": "Strength + Brawl", "damage": "Strength + 6", "effect": "High critical hit ratio." },
+      { "name": "Head Smash", "type": "Rock", "accuracy": "Strength + Brawl", "damage": "Strength + 8", "effect": "The user takes recoil damage equal to half of the damage it deals." },
+      { "name": "Ancient Power", "type": "Rock", "accuracy": "Special + Channel", "damage": "Special + 3", "effect": "On a successful hit, roll 1d6. On a 6, all of the user's stats are raised by 1." },
+      { "name": "Stealth Rock", "type": "Rock", "accuracy": "Automatic", "damage": "None", "effect": "Lays a hazard on the opponent's side of the field. Pokémon that switch in take Rock-type damage based on their weakness to Rock." },
+      { "name": "Rock Polish", "type": "Rock", "accuracy": "Automatic", "damage": "None", "effect": "The user raises its Dexterity by 2 for the rest of the scene." },
+      { "name": "Sandstorm", "type": "Rock", "accuracy": "Automatic", "damage": "None", "effect": "Changes the weather to a Sandstorm for 5 rounds. All non-Rock, Ground, or Steel-types take damage at the end of each round. The Insight of Rock-types is boosted." },
+      { "name": "Accelerock", "type": "Rock", "accuracy": "Strength + Brawl", "damage": "Strength + 2", "effect": "This move has Priority." },
+      { "name": "Diamond Storm", "type": "Rock", "accuracy": "Special + Channel", "damage": "Special + 6", "effect": "Hits all adjacent opponents. On a successful hit, roll 1d6. On a 5 or 6, the user's Vitality is raised by 2." },
+      { "name": "Power Gem", "type": "Rock", "accuracy": "Special + Channel", "damage": "Special + 4", "effect": "No additional effects." }
+    ]
+  }
+}
