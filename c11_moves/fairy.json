@@ -1,0 +1,31 @@
+{
+  "chapter_11": {
+    "title": "The Movedex",
+    "type": "Fairy",
+    "moves": [
+      { "name": "Aromatic Mist", "type": "Fairy", "accuracy": "Automatic", "damage": "None", "effect": "Raises an ally's Insight by 1." },
+      { "name": "Baby-Doll Eyes", "type": "Fairy", "accuracy": "Special + Charm", "damage": "None", "effect": "Lowers the target's Strength by 1. This move has Priority." },
+      { "name": "Charm", "type": "Fairy", "accuracy": "Special + Charm", "damage": "None", "effect": "Lowers the target's Strength by 2." },
+      { "name": "Crafty Shield", "type": "Fairy", "accuracy": "Automatic", "damage": "None", "effect": "Protects the user and its allies from status moves for one turn." },
+      { "name": "Dazzling Gleam", "type": "Fairy", "accuracy": "Special + Channel", "damage": "Special + 4", "effect": "Hits all adjacent opponents." },
+      { "name": "Disarming Voice", "type": "Fairy", "accuracy": "Automatic", "damage": "Special + 2", "effect": "This move cannot miss." },
+      { "name": "Draining Kiss", "type": "Fairy", "accuracy": "Special + Charm", "damage": "Special + 3", "effect": "The user regains HP equal to 75% of the damage dealt." },
+      { "name": "Fairy Lock", "type": "Fairy", "accuracy": "Automatic", "damage": "None", "effect": "Prevents all Pokémon on the field from switching out on the next turn." },
+      { "name": "Fairy Wind", "type": "Fairy", "accuracy": "Special + Channel", "damage": "Special + 2", "effect": "No additional effects." },
+      { "name": "Fleur Cannon", "type": "Fairy", "accuracy": "Special + Channel", "damage": "Special + 8", "effect": "After use, the user's Special is lowered by 2." },
+      { "name": "Flower Shield", "type": "Fairy", "accuracy": "Automatic", "damage": "None", "effect": "Raises the Vitality of all Grass-type Pokémon on the field by 1." },
+      { "name": "Geomancy", "type": "Fairy", "accuracy": "Automatic", "damage": "None", "effect": "Requires one turn to charge. On the second turn, the user's Special, Insight, and Dexterity are raised by 2." },
+      { "name": "Guardian of Alola", "type": "Fairy", "accuracy": "Special + Channel", "damage": "Varies", "effect": "Z-Move. Deals damage equal to 75% of the target's current HP." },
+      { "name": "Light of Ruin", "type": "Fairy", "accuracy": "Special + Channel", "damage": "Special + 8", "effect": "The user takes recoil damage equal to half of the damage it deals." },
+      { "name": "Misty Terrain", "type": "Fairy", "accuracy": "Automatic", "damage": "None", "effect": "Creates a Misty Terrain for 5 rounds. Grounded Pokémon are protected from status conditions and the power of Dragon-type moves is halved." },
+      { "name": "Moonblast", "type": "Fairy", "accuracy": "Special + Channel", "damage": "Special + 5", "effect": "On a successful hit, roll 1d6. On a 5 or 6, the target's Special is lowered by 1." },
+      { "name": "Moonlight", "type": "Fairy", "accuracy": "Automatic", "damage": "None", "effect": "The user recovers HP. The amount depends on the weather (more in Sun, less in other weather)." },
+      { "name": "Nature's Madness", "type": "Fairy", "accuracy": "Special + Nature", "damage": "Varies", "effect": "Deals damage equal to half of the target's current HP." },
+      { "name": "Play Rough", "type": "Fairy", "accuracy": "Strength + Brawl", "damage": "Strength + 5", "effect": "On a successful hit, roll 1d6. On a 6, the target's Strength is lowered by 1." },
+      { "name": "Spirit Break", "type": "Fairy", "accuracy": "Strength + Brawl", "damage": "Strength + 4", "effect": "On a successful hit, the target's Special is lowered by 1." },
+      { "name": "Strange Steam", "type": "Fairy", "accuracy": "Special + Channel", "damage": "Special + 5", "effect": "On a successful hit, roll 1d6. On a 5 or 6, the target is Confused." },
+      { "name": "Sweet Kiss", "type": "Fairy", "accuracy": "Special + Charm", "damage": "None", "effect": "The target is Confused. This move has a high chance of missing." },
+      { "name": "Sweet Scent", "type": "Fairy", "accuracy": "Special + Charm", "damage": "None", "effect": "Lowers the Evasion of all adjacent opponents by 1." }
+    ]
+  }
+}
