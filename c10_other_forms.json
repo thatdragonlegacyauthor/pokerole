@@ -1,0 +1,168 @@
+{
+  "chapter_10": {
+    "forme_changes": {
+      "title": "Strategic Forme Changes",
+      "description": "Pokémon that can actively shift between different formes, often resulting in changes to their Type, Attributes, and Abilities.",
+      "deoxys": {
+        "id": "386",
+        "name": "Deoxys",
+        "forms": [
+          {
+            "form_name": "Attack Forme",
+            "description": "Its body is optimized for offense, but it is extremely frail.",
+            "attributes": { "strength": 10, "special": 10, "vitality": 1, "insight": 1 }
+          },
+          {
+            "form_name": "Defense Forme",
+            "description": "Its body is optimized for defense, but its offensive capabilities are low.",
+            "attributes": { "strength": 4, "special": 4, "vitality": 9, "insight": 9 }
+          },
+          {
+            "form_name": "Speed Forme",
+            "description": "Its body is streamlined for speed, sacrificing some power and bulk.",
+            "attributes": { "strength": 6, "dexterity": 10, "vitality": 3, "special": 6, "insight": 5 }
+          }
+        ]
+      },
+      "rotom": {
+        "id": "479",
+        "name": "Rotom",
+        "forms": [
+          { "form_name": "Heat Rotom", "types": ["Electric", "Fire"], "signature_move": "Overheat" },
+          { "form_name": "Wash Rotom", "types": ["Electric", "Water"], "signature_move": "Hydro Pump" },
+          { "form_name": "Frost Rotom", "types": ["Electric", "Ice"], "signature_move": "Blizzard" },
+          { "form_name": "Fan Rotom", "types": ["Electric", "Flying"], "signature_move": "Air Slash" },
+          { "form_name": "Mow Rotom", "types": ["Electric", "Grass"], "signature_move": "Leaf Storm" }
+        ]
+      },
+      "giratina": {
+        "id": "487",
+        "name": "Giratina",
+        "forms": [
+          {
+            "form_name": "Origin Forme",
+            "description": "It can travel through dimensions. It is said to live in a world on the reverse side of ours.",
+            "ability": "Levitate",
+            "attribute_changes": "+1 Strength, -1 Vitality, +1 Special, -1 Insight"
+          }
+        ]
+      },
+      "shaymin": {
+        "id": "492",
+        "name": "Shaymin",
+        "forms": [
+          {
+            "form_name": "Sky Forme",
+            "description": "When it blooms, it can fly. It is said to deliver feelings of gratitude.",
+            "types": ["Grass", "Flying"],
+            "ability": "Serene Grace",
+            "attribute_changes": "+1 Dexterity, +1 Special, -1 Vitality, -1 Insight"
+          }
+        ]
+      },
+      "castform": {
+        "id": "351",
+        "name": "Castform",
+        "forms": [
+          { "form_name": "Sunny Form", "types": ["Fire"], "notes": "Changes with the move Sunny Day." },
+          { "form_name": "Rainy Form", "types": ["Water"], "notes": "Changes with the move Rain Dance." },
+          { "form_name": "Snowy Form", "types": ["Ice"], "notes": "Changes with the move Hail." }
+        ]
+      },
+      "meloetta": {
+        "id": "648",
+        "name": "Meloetta",
+        "forms": [
+          {
+            "form_name": "Pirouette Forme",
+            "description": "It can sing melodies that can control the emotions of those who hear it.",
+            "types": ["Normal", "Fighting"],
+            "attribute_changes": "+2 Strength, +1 Dexterity, -1 Special, -1 Insight"
+          }
+        ]
+      },
+      "aegislash": {
+        "id": "681",
+        "name": "Aegislash",
+        "forms": [
+          {
+            "form_name": "Blade Forme",
+            "description": "In this form, it uses its sharp edges to attack. Its defenses are lowered.",
+            "attribute_changes": "+5 Strength, -5 Vitality, +5 Special, -5 Insight"
+          }
+        ]
+      },
+      "urshifu": {
+        "id": "892",
+        "name": "Urshifu",
+        "forms": [
+          { "form_name": "Single Strike Style", "types": ["Fighting", "Dark"], "signature_move": "Wicked Blow" },
+          { "form_name": "Rapid Strike Style", "types": ["Fighting", "Water"], "signature_move": "Surging Strikes" }
+        ]
+      },
+      "morpeko": {
+        "id": "877",
+        "name": "Morpeko",
+        "forms": [
+          { "form_name": "Hangry Mode", "description": "When it is hungry, its fur changes color and it becomes more aggressive. Its Aura Wheel becomes a Dark-type move." }
+        ]
+      },
+      "eiscue": {
+        "id": "875",
+        "name": "Eiscue",
+        "forms": [
+          {
+            "form_name": "Noice Face",
+            "description": "When its ice block is broken, it becomes faster but more vulnerable.",
+            "attribute_changes": "+2 Dexterity, -2 Vitality"
+          }
+        ]
+      },
+      "the_forces_of_nature": {
+        "description": "Tornadus, Thundurus, Landorus, and Enamorus can change to their Therian Formes using the Reveal Glass.",
+        "forms": [
+          { "name": "Tornadus (Therian)", "ability": "Regenerator", "attribute_changes": "-1 Strength, +1 Dexterity, +1 Vitality" },
+          { "name": "Thundurus (Therian)", "ability": "Volt Absorb", "attribute_changes": "-1 Strength, -1 Dexterity, +2 Special" },
+          { "name": "Landorus (Therian)", "ability": "Intimidate", "attribute_changes": "+1 Strength, -1 Dexterity, -1 Special" },
+          { "name": "Enamorus (Therian)", "ability": "Overcoat", "attribute_changes": "+1 Dexterity, +1 Vitality, -2 Insight" }
+        ]
+      }
+    },
+    "gender_forms": {
+      "title": "Gender-Based Forms",
+      "description": "Pokémon that exhibit significant differences between males and females.",
+      "meowstic": {
+        "id": "678",
+        "name": "Meowstic",
+        "forms": [
+          {
+            "form_name": "Male",
+            "hidden_ability": "Prankster",
+            "unique_moves": ["Helping Hand", "Charm", "Miracle Eye", "Quick Guard"]
+          },
+          {
+            "form_name": "Female",
+            "hidden_ability": "Competitive",
+            "unique_moves": ["Charge Beam", "Shadow Ball", "Extrasensory", "Stored Power"]
+          }
+        ]
+      },
+      "indeedee": {
+        "id": "876",
+        "name": "Indeedee",
+        "forms": [
+          {
+            "form_name": "Male",
+            "attribute_changes": "+1 Strength, +1 Dexterity, -1 Vitality, -1 Insight",
+            "unique_moves": ["After You", "Stored Power"]
+          },
+          {
+            "form_name": "Female",
+            "attribute_changes": "-1 Strength, -1 Dexterity, +1 Vitality, +1 Insight",
+            "unique_moves": ["Follow Me", "Helping Hand"]
+          }
+        ]
+      }
+    }
+  }
+}
