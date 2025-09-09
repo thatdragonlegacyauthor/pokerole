@@ -1,0 +1,156 @@
+{
+  "pokedex": {
+    "kanto_pokedex": [
+      {
+        "id": "106",
+        "name": "Hitmonlee",
+        "description": "Its legs can stretch and contract freely. Using this elasticity, it overwhelms foes with a dizzying flurry of kicks.",
+        "types": ["Fighting"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 7, "limit": 14},
+          "dexterity": {"value": 5, "limit": 10},
+          "vitality": {"value": 3, "limit": 7},
+          "special": {"value": 2, "limit": 5},
+          "insight": {"value": 7, "limit": 13}
+        },
+        "derived_stats": {"base_hp": 5, "hp": 8, "defense": 3, "special_defense": 7},
+        "abilities": ["Limber", "Reckless", "Unburden (Hidden)"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Double Kick", "Meditate", "Rolling Kick", "Jump Kick"],
+          "rank_2_rookie": ["Brick Break", "Focus Energy"],
+          "rank_3_standard": ["Feint", "High Jump Kick", "Mind Reader"],
+          "rank_4_advanced": ["Foresight", "Wide Guard", "Blaze Kick", "Mega Kick", "Close Combat"]
+        },
+        "biology": {"egg_group": ["Human-Like"], "diet": "Omnivore", "habitat": ["Urban"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "107",
+        "name": "Hitmonchan",
+        "description": "The arm-twisting punches it throws are fast enough to drill through concrete. It rests after three minutes of fighting.",
+        "types": ["Fighting"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 6, "limit": 13},
+          "dexterity": {"value": 5, "limit": 9},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 2, "limit": 5},
+          "insight": {"value": 7, "limit": 13}
+        },
+        "derived_stats": {"base_hp": 5, "hp": 10, "defense": 5, "special_defense": 7},
+        "abilities": ["Keen Eye", "Iron Fist", "Inner Focus (Hidden)"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Comet Punch", "Agility", "Pursuit"],
+          "rank_2_rookie": ["Mach Punch", "Bullet Punch"],
+          "rank_3_standard": ["Feint", "Vacuum Wave", "Quick Guard"],
+          "rank_4_advanced": ["Fire Punch", "Ice Punch", "Thunder Punch", "Sky Uppercut", "Mega Punch", "Close Combat"]
+        },
+        "biology": {"egg_group": ["Human-Like"], "diet": "Omnivore", "habitat": ["Urban"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "108",
+        "name": "Lickitung",
+        "description": "Its tongue can be extended to twice its body length. It weakens prey by licking them all over.",
+        "types": ["Normal"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 4, "limit": 7},
+          "dexterity": {"value": 2, "limit": 5},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 5, "limit": 9}
+        },
+        "derived_stats": {"base_hp": 10, "hp": 15, "defense": 5, "special_defense": 5},
+        "abilities": ["Own Tempo", "Oblivious", "Cloud Nine (Hidden)"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Lick", "Supersonic", "Defense Curl"],
+          "rank_2_rookie": ["Knock Off", "Wrap", "Stomp"],
+          "rank_3_standard": ["Disable", "Slam", "Screech"],
+          "rank_4_advanced": ["Rollout", "Wring Out", "Power Whip", "Belly Drum"]
+        },
+        "biology": {"egg_group": ["Monster"], "diet": "Omnivore", "habitat": ["Grassland"]},
+        "evolution": "Evolves into Lickilicky when leveled up knowing Rollout."
+      },
+      {
+        "id": "109",
+        "name": "Koffing",
+        "description": "It floats in the air, thanks to the poisonous gases it stores in its body. It smells awful.",
+        "types": ["Poison"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 4, "limit": 8},
+          "dexterity": {"value": 3, "limit": 5},
+          "vitality": {"value": 6, "limit": 11},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 3, "limit": 6}
+        },
+        "derived_stats": {"base_hp": 4, "hp": 10, "defense": 6, "special_defense": 3},
+        "abilities": ["Levitate", "Neutralizing Gas", "Stench (Hidden)"],
+        "skills": ["Hover"],
+        "move_pool": {
+          "rank_1_starter": ["Poison Gas", "Tackle", "Smog", "Smokescreen"],
+          "rank_2_rookie": ["Assurance", "Clear Smog", "Sludge"],
+          "rank_3_standard": ["Self-Destruct", "Haze", "Gyro Ball", "Sludge Bomb"],
+          "rank_4_advanced": ["Explosion", "Memento", "Belch", "Destiny Bond"]
+        },
+        "biology": {"egg_group": ["Amorphous"], "diet": "Pollutivore", "habitat": ["Urban"]},
+        "evolution": "Evolves into Weezing."
+      },
+      {
+        "id": "110",
+        "name": "Weezing",
+        "description": "It mixes gases between its two bodies. It is said that these Pokémon were first seen in a factory.",
+        "types": ["Poison"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 5, "limit": 10},
+          "dexterity": {"value": 4, "limit": 8},
+          "vitality": {"value": 7, "limit": 14},
+          "special": {"value": 5, "limit": 10},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 7, "hp": 14, "defense": 7, "special_defense": 4},
+        "abilities": ["Levitate", "Neutralizing Gas", "Stench (Hidden)"],
+        "skills": ["Hover"],
+        "move_pool": {
+          "rank_1_starter": ["Poison Gas", "Tackle", "Smog", "Smokescreen", "Double Hit"],
+          "rank_2_rookie": ["Assurance", "Clear Smog", "Sludge"],
+          "rank_3_standard": ["Self-Destruct", "Haze", "Gyro Ball", "Sludge Bomb"],
+          "rank_4_advanced": ["Explosion", "Memento", "Belch", "Destiny Bond"]
+        },
+        "biology": {"egg_group": ["Amorphous"], "diet": "Pollutivore", "habitat": ["Urban"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "111",
+        "name": "Rhyhorn",
+        "description": "Its massive bones are 1,000 times harder than human bones. It can easily knock a trailer flying.",
+        "types": ["Rock", "Ground"],
+        "suggested_rank": "Standard",
+        "attributes": {
+          "strength": {"value": 5, "limit": 10},
+          "dexterity": {"value": 2, "limit": 5},
+          "vitality": {"value": 6, "limit": 11},
+          "special": {"value": 2, "limit": 5},
+          "insight": {"value": 2, "limit": 5}
+        },
+        "derived_stats": {"base_hp": 9, "hp": 15, "defense": 6, "special_defense": 2},
+        "abilities": ["Lightning Rod", "Rock Head", "Reckless (Hidden)"],
+        "skills": ["Burrow"],
+        "move_pool": {
+          "rank_1_starter": ["Horn Attack", "Tail Whip", "Smack Down", "Bulldoze"],
+          "rank_2_rookie": ["Fury Attack", "Scary Face", "Stomp"],
+          "rank_3_standard": ["Rock Blast", "Drill Run", "Take Down"],
+          "rank_4_advanced": ["Stone Edge", "Earthquake", "Megahorn", "Horn Drill"]
+        },
+        "biology": {"egg_group": ["Monster", "Field"], "diet": "Terravore", "habitat": ["Mountain", "Cave"]},
+        "evolution": "Evolves into Rhydon."
+      }
+    ]
+  }
+}
