@@ -1,0 +1,81 @@
+{
+  "chapter_2": {
+    "title": "Character Creation - The Trainer's Journey Begins",
+    "description": "This chapter guides you through a multi-step process that combines narrative background with mechanical choices to create a unique and compelling Trainer character.",
+    "source": "POKEROLE COREBOOK 3.0-001.pdf",
+    "steps": [
+      {
+        "step": 1,
+        "name": "The Core Concept - Who Are You?",
+        "description": "Before assigning any points, conceptualize your character by answering key questions about their identity, goals, and background.",
+        "source": "POKEROLE COREBOOK 3.0-001.pdf",
+        "prompts": [
+          {
+            "question": "What is your name and age?",
+            "mechanic": "Your character's age grants bonus points to distribute in Attributes and Social Attributes.",
+            "source": "POKEROLE COREBOOK 3.0-001.pdf",
+            "age_bonuses": {
+              "Teen (Base)": "+2 Attribute Points, +2 Social Points",
+              "Adult": "+4 Attribute Points, +4 Social Points",
+              "Senior": "+3 Attribute Points, +6 Social Points"
+            }
+          },
+          {
+            "question": "What is your Nature?",
+            "mechanic": "Choose a Nature from the list in the Pokerole Corebook (p. 46) to guide your roleplaying.",
+            "source": "POKEROLE COREBOOK 3.0-001.pdf"
+          },
+          {
+            "question": "What is your goal and motivation?",
+            "mechanic": "Define your character's primary objective, which will drive their actions throughout the story.",
+            "source": "POKEROLE COREBOOK 3.0-001.pdf"
+          }
+        ]
+      },
+      {
+        "step": 2,
+        "name": "Origins - Where Do You Come From?",
+        "description": "Your Origin provides a mechanical foundation for your backstory, granting you skill talents, a special feature, starting equipment, and your first Pokémon partner(s).",
+        "source": "PTA3PlayersHandbook.pdf",
+        "reference": "Choose one Origin from the PTA Player's Handbook (p. 90).",
+        "benefits": [
+          "Skill Talents",
+          "A unique Feature",
+          "Starting Equipment and Money (based on Lifestyle)",
+          "Starting Pokémon"
+        ]
+      },
+      {
+        "step": 3,
+        "name": "Attributes & Skills - Defining Your Capabilities",
+        "description": "Assign the points that define your character's raw abilities and trained skills.",
+        "source": "POKEROLE COREBOOK 3.0-001.pdf",
+        "attributes": {
+          "action": "Distribute points granted by your Age and starting Rank. All humans start with a base of 1 point in each.",
+          "source": "POKEROLE COREBOOK 3.0-001.pdf"
+        },
+        "skills": {
+          "action": "Distribute the points granted by your starting Rank. Your Rank also determines the maximum number of points you can place in a single skill.",
+          "source": "POKEROLE COREBOOK 3.0-001.pdf"
+        }
+      },
+      {
+        "step": 4,
+        "name": "Final Touches",
+        "description": "Calculate your final derived stats.",
+        "derived_stats": [
+          {
+            "name": "Health Points (HP)",
+            "formula": "Base HP (4 for humans) + your Vitality score",
+            "source": "POKEROLE COREBOOK 3.0-001.pdf"
+          },
+          {
+            "name": "Will Points (WP)",
+            "formula": "Your Insight score + 3",
+            "source": "POKEROLE COREBOOK 3.0-001.pdf"
+          }
+        ]
+      }
+    ]
+  }
+}
