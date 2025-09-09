@@ -1,0 +1,39 @@
+{
+  "chapter_11": {
+    "title": "The Movedex",
+    "type": "Fire",
+    "moves": [
+      { "name": "Blast Burn", "accuracy": "Special + Channel", "damage": "Special + 8", "effect": "The user cannot act on the next turn." },
+      { "name": "Blaze Kick", "accuracy": "Strength + Brawl", "damage": "Strength + 5", "effect": "High critical hit ratio. On a successful hit, roll 1d6. On a 6, the target is Burned." },
+      { "name": "Blue Flare", "accuracy": "Special + Channel", "damage": "Special + 7", "effect": "On a successful hit, roll 1d6. On a 5 or 6, the target is Burned." },
+      { "name": "Burn Up", "accuracy": "Special + Channel", "damage": "Special + 7", "effect": "After using this move, the user loses its Fire typing for the rest of the scene." },
+      { "name": "Ember", "accuracy": "Special + Channel", "damage": "Special + 2", "effect": "On a successful hit, roll 1d6. On a 6, the target is Burned." },
+      { "name": "Eruption", "accuracy": "Special + Channel", "damage": "Special + 8", "effect": "This move's damage is reduced proportionally to the user's remaining HP." },
+      { "name": "Fiery Dance", "accuracy": "Special + Perform", "damage": "Special + 4", "effect": "On a successful hit, the user's Special is raised by 1." },
+      { "name": "Fire Blast", "accuracy": "Special + Channel", "damage": "Special + 7", "effect": "This move has a high chance of missing. On a roll of 1 or 2 on any die, that die is a failure. On a successful hit, roll 1d6. On a 6, the target is Burned." },
+      { "name": "Fire Fang", "accuracy": "Strength + Brawl", "damage": "Strength + 4", "effect": "On a successful hit, roll 1d6. On a 6, the target is Burned or Flinches." },
+      { "name": "Fire Lash", "accuracy": "Strength + Brawl", "damage": "Strength + 4", "effect": "On a successful hit, the target's Vitality is lowered by 1." },
+      { "name": "Fire Pledge", "accuracy": "Special + Channel", "damage": "Special + 4", "effect": "If used after Grass Pledge, creates a sea of fire on the battlefield. If used before Water Pledge, creates a rainbow." },
+      { "name": "Fire Punch", "accuracy": "Strength + Brawl", "damage": "Strength + 4", "effect": "On a successful hit, roll 1d6. On a 6, the target is Burned." },
+      { "name": "Fire Spin", "accuracy": "Special + Channel", "damage": "Special + 2", "effect": "The target is trapped and takes damage for 1d4+1 rounds." },
+      { "name": "Flame Burst", "accuracy": "Special + Channel", "damage": "Special + 4", "effect": "Hits all adjacent opponents." },
+      { "name": "Flame Charge", "accuracy": "Strength + Brawl", "damage": "Strength + 3", "effect": "On a successful hit, the user's Dexterity is raised by 1." },
+      { "name": "Flame Wheel", "accuracy": "Strength + Brawl", "damage": "Strength + 3", "effect": "On a successful hit, roll 1d6. On a 6, the target is Burned. May thaw the user if frozen." },
+      { "name": "Flamethrower", "accuracy": "Special + Channel", "damage": "Special + 5", "effect": "On a successful hit, roll 1d6. On a 6, the target is Burned." },
+      { "name": "Flare Blitz", "accuracy": "Strength + Brawl", "damage": "Strength + 7", "effect": "The user takes recoil damage equal to one-third of the damage it deals. On a successful hit, roll 1d6. On a 6, the target is Burned." },
+      { "name": "Heat Crash", "accuracy": "Strength + Brawl", "damage": "Strength + Varies", "effect": "Damage depends on the weight difference between the user and the target." },
+      { "name": "Heat Wave", "accuracy": "Special + Channel", "damage": "Special + 5", "effect": "Hits all adjacent opponents. On a successful hit, roll 1d6. On a 6, the target is Burned." },
+      { "name": "Incinerate", "accuracy": "Special + Channel", "damage": "Special + 3", "effect": "If the target is holding a Berry, it is destroyed." },
+      { "name": "Inferno", "accuracy": "Special + Channel", "damage": "Special + 6", "effect": "This move has a high chance of missing. On a roll of 1, 2 or 3 on any die, that die is a failure. Always Burns the target on a successful hit." },
+      { "name": "Lava Plume", "accuracy": "Special + Channel", "damage": "Special + 4", "effect": "Hits all Pokémon on the field. On a successful hit, roll 1d6. On a 5 or 6, the target is Burned." },
+      { "name": "Magma Storm", "accuracy": "Special + Channel", "damage": "Special + 6", "effect": "The target is trapped and takes damage for 1d4+1 rounds." },
+      { "name": "Mystical Fire", "accuracy": "Special + Channel", "damage": "Special + 4", "effect": "On a successful hit, the target's Special is lowered by 1." },
+      { "name": "Overheat", "accuracy": "Special + Channel", "damage": "Special + 8", "effect": "After use, the user's Special is lowered by 2 for the rest of the scene." },
+      { "name": "Pyro Ball", "accuracy": "Strength + Brawl", "damage": "Strength + 7", "effect": "On a successful hit, roll 1d6. On a 6, the target is Burned." },
+      { "name": "Sacred Fire", "accuracy": "Strength + Brawl", "damage": "Strength + 6", "effect": "On a successful hit, roll 1d6. On a 5 or 6, the target is Burned. May thaw the user if frozen." },
+      { "name": "Searing Shot", "accuracy": "Special + Channel", "damage": "Special + 6", "effect": "Hits all adjacent opponents. On a successful hit, roll 1d6. On a 5 or 6, the target is Burned." },
+      { "name": "Sunny Day", "accuracy": "Automatic", "damage": "None", "effect": "Changes the weather to Sunny Weather for 5 rounds." },
+      { "name": "Will-O-Wisp", "accuracy": "Special + Channel", "damage": "None", "effect": "The target is Burned." }
+    ]
+  }
+}
