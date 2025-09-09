@@ -1,0 +1,956 @@
+{
+  "pokedex": {
+    "paldea_pokedex_part_2": [
+      {
+        "id": "944",
+        "name": "Shroodle",
+        "description": "It marks its territory with a bitter, pungent saliva. It is a very timid Pokémon.",
+        "types": ["Poison", "Normal"],
+        "suggested_rank": "Starter",
+        "attributes": {
+          "strength": {"value": 4, "limit": 8},
+          "dexterity": {"value": 4, "limit": 9},
+          "vitality": {"value": 3, "limit": 6},
+          "special": {"value": 3, "limit": 6},
+          "insight": {"value": 3, "limit": 5}
+        },
+        "derived_stats": {"base_hp": 4, "hp": 7, "defense": 3, "special_defense": 3},
+        "abilities": ["Unburden", "Pickpocket", "Prankster (Hidden)"],
+        "skills": ["Climber"],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Leer", "Acid Spray", "Bite"],
+          "rank_2_rookie": ["Fury Swipes", "Switcheroo", "Poison Fang", "Flatter"],
+          "rank_3_standard": ["Slash", "U-turn", "Poison Jab", "Taunt"],
+          "rank_4_advanced": ["Knock Off", "Gunk Shot"]
+        },
+        "biology": {"egg_group": ["Field"], "diet": "Omnivore", "habitat": ["Forest", "Swamp"]},
+        "evolution": "Evolves into Grafaiai."
+      },
+      {
+        "id": "945",
+        "name": "Grafaiai",
+        "description": "It licks its fingers to coat them with poison, then uses them to draw patterns on trees in its territory.",
+        "types": ["Poison", "Normal"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 6, "limit": 11},
+          "dexterity": {"value": 7, "limit": 13},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 5, "limit": 10},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 7, "hp": 11, "defense": 4, "special_defense": 4},
+        "abilities": ["Unburden", "Poison Touch", "Prankster (Hidden)"],
+        "skills": ["Climber"],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Leer", "Acid Spray", "Bite", "Doodle"],
+          "rank_2_rookie": ["Fury Swipes", "Switcheroo", "Poison Fang", "Flatter"],
+          "rank_3_standard": ["Slash", "U-turn", "Poison Jab", "Taunt"],
+          "rank_4_advanced": ["Knock Off", "Gunk Shot"]
+        },
+        "biology": {"egg_group": ["Field"], "diet": "Omnivore", "habitat": ["Forest", "Swamp"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "946",
+        "name": "Bramblin",
+        "description": "A soul unable to move on to the afterlife was blown by the wind until it got tangled in a thorny bush and became a Pokémon.",
+        "types": ["Grass", "Ghost"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 4, "limit": 8},
+          "dexterity": {"value": 3, "limit": 6},
+          "vitality": {"value": 2, "limit": 5},
+          "special": {"value": 3, "limit": 6},
+          "insight": {"value": 2, "limit": 5}
+        },
+        "derived_stats": {"base_hp": 4, "hp": 6, "defense": 2, "special_defense": 2},
+        "abilities": ["Wind Rider", "Infiltrator (Hidden)"],
+        "skills": ["Sprouter", "Phasing"],
+        "move_pool": {
+          "rank_1_starter": ["Defense Curl", "Rollout", "Astonish"],
+          "rank_2_rookie": ["Absorb", "Rapid Spin", "Bullet Seed", "Infestation"],
+          "rank_3_standard": ["Hex", "Mega Drain", "Disable", "Phantom Force"],
+          "rank_4_advanced": ["Giga Drain", "Curse", "Pain Split", "Power Whip"]
+        },
+        "biology": {"egg_group": ["Grass"], "diet": "Psiotroph", "habitat": ["Desert", "Grassland"]},
+        "evolution": "Evolves into Brambleghast after walking 1000 steps with the Let's Go! feature."
+      },
+      {
+        "id": "947",
+        "name": "Brambleghast",
+        "description": "It will open the branches of its head to swallow up its prey. It is a very dangerous Pokémon.",
+        "types": ["Grass", "Ghost"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 7, "limit": 13},
+          "dexterity": {"value": 5, "limit": 10},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 5, "limit": 10},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 6, "hp": 10, "defense": 4, "special_defense": 4},
+        "abilities": ["Wind Rider", "Infiltrator (Hidden)"],
+        "skills": ["Sprouter", "Phasing"],
+        "move_pool": {
+          "rank_1_starter": ["Defense Curl", "Rollout", "Astonish"],
+          "rank_2_rookie": ["Absorb", "Rapid Spin", "Bullet Seed", "Infestation"],
+          "rank_3_standard": ["Hex", "Mega Drain", "Disable", "Phantom Force"],
+          "rank_4_advanced": ["Giga Drain", "Curse", "Pain Split", "Power Whip"]
+        },
+        "biology": {"egg_group": ["Grass"], "diet": "Psiotroph", "habitat": ["Desert", "Grassland"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "948",
+        "name": "Toedscool",
+        "description": "It is a Pokémon that looks like a mushroom. It can run at a speed of 30 mph.",
+        "types": ["Ground", "Grass"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 3, "limit": 6},
+          "dexterity": {"value": 4, "limitT": 8},
+          "vitality": {"value": 2, "limit": 5},
+          "special": {"value": 3, "limit": 6},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 4, "hp": 6, "defense": 2, "special_defense": 5},
+        "abilities": ["Mycelium Might"],
+        "skills": ["Sprouter"],
+        "move_pool": {
+          "rank_1_starter": ["Wrap", "Mud-Slap", "Absorb", "Poison Powder"],
+          "rank_2_rookie": ["Stun Spore", "Supersonic", "Tackle", "Mega Drain"],
+          "rank_3_standard": ["Screech", "Mud Shot", "Hex", "Seed Bomb"],
+          "rank_4_advanced": ["Spore", "Growth", "Giga Drain", "Earth Power", "Power Whip"]
+        },
+        "biology": {"egg_group": ["Grass"], "diet": "Saprophyte", "habitat": ["Forest", "Swamp"]},
+        "evolution": "Evolves into Toedscruel."
+      },
+      {
+        "id": "949",
+        "name": "Toedscruel",
+        "description": "It is a very intelligent Pokémon. It can create a powerful poison from the mushrooms on its head.",
+        "types": ["Ground", "Grass"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 4, "limit": 8},
+          "dexterity": {"value": 6, "limit": 12},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 5, "limit": 10},
+          "insight": {"value": 7, "limit": 14}
+        },
+        "derived_stats": {"base_hp": 9, "hp": 13, "defense": 4, "special_defense": 7},
+        "abilities": ["Mycelium Might"],
+        "skills": ["Sprouter"],
+        "move_pool": {
+          "rank_1_starter": ["Wrap", "Mud-Slap", "Absorb", "Poison Powder", "Reflect Type"],
+          "rank_2_rookie": ["Stun Spore", "Supersonic", "Tackle", "Mega Drain"],
+          "rank_3_standard": ["Screech", "Mud Shot", "Hex", "Seed Bomb"],
+          "rank_4_advanced": ["Spore", "Growth", "Giga Drain", "Earth Power", "Power Whip"]
+        },
+        "biology": {"egg_group": ["Grass"], "diet": "Saprophyte", "habitat": ["Forest", "Swamp"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "950",
+        "name": "Klawf",
+        "description": "It can rotate its eyes 360 degrees, eliminating all blind spots. It is a very powerful Pokémon.",
+        "types": ["Rock"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 6, "limit": 12},
+          "dexterity": {"value": 4, "limit": 9},
+          "vitality": {"value": 7, "limit": 13},
+          "special": {"value": 3, "limit": 5},
+          "insight": {"value": 4, "limit": 7}
+        },
+        "derived_stats": {"base_hp": 8, "hp": 15, "defense": 7, "special_defense": 4},
+        "abilities": ["Anger Shell", "Shell Armor", "Regenerator (Hidden)"],
+        "skills": ["Climber"],
+        "move_pool": {
+          "rank_1_starter": ["Vice Grip", "Rock Throw", "Harden", "Rock Smash"],
+          "rank_2_rookie": ["Stealth Rock", "Rock Tomb", "X-Scissor", "Swords Dance"],
+          "rank_3_standard": ["Rock Slide", "High Horsepower", "Iron Defense", "Guillotine"],
+          "rank_4_advanced": ["Protect"]
+        },
+        "biology": {"egg_group": ["Water 3"], "diet": "Carnivore", "habitat": ["Beach", "Mountain"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "951",
+        "name": "Capsakid",
+        "description": "The spiciness of its body is a result of its diet. It is a very popular Pokémon for its flavor.",
+        "types": ["Grass"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 4, "limit": 8},
+          "dexterity": {"value": 3, "limit": 6},
+          "vitality": {"value": 3, "limit": 6},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 3, "limit": 6}
+        },
+        "derived_stats": {"base_hp": 6, "hp": 9, "defense": 3, "special_defense": 3},
+        "abilities": ["Chlorophyll", "Insomnia", "Klutz (Hidden)"],
+        "skills": ["Sprouter"],
+        "move_pool": {
+          "rank_1_starter": ["Leer", "Leafage", "Bite", "Growth"],
+          "rank_2_rookie": ["Razor Leaf", "Sunny Day", "Bullet Seed", "Headbutt"],
+          "rank_3_standard": ["Zen Headbutt", "Crunch", "Seed Bomb", "Solar Beam"],
+          "rank_4_advanced": ["Spicy Extract"]
+        },
+        "biology": {"egg_group": ["Grass"], "diet": "Herbivore", "habitat": ["Desert", "Grassland"]},
+        "evolution": "Evolves into Scovillain with a Fire Stone."
+      },
+      {
+        "id": "952",
+        "name": "Scovillain",
+        "description": "It has two heads. The green head is mild, while the red head is spicy. It can breathe fire from both heads.",
+        "types": ["Grass", "Fire"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 6, "limit": 12},
+          "dexterity": {"value": 4, "limit": 9},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 6, "limit": 12},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 7, "hp": 11, "defense": 4, "special_defense": 4},
+        "abilities": ["Chlorophyll", "Insomnia", "Moody (Hidden)"],
+        "skills": ["Sprouter", "Firestarter"],
+        "move_pool": {
+          "rank_1_starter": ["Leer", "Fire Fang", "Leafage", "Spicy Extract", "Bite"],
+          "rank_2_rookie": ["Growth", "Razor Leaf", "Sunny Day", "Bullet Seed"],
+          "rank_3_standard": ["Headbutt", "Zen Headbutt", "Crunch", "Seed Bomb"],
+          "rank_4_advanced": ["Solar Beam", "Overheat", "Flamethrower"]
+        },
+        "biology": {"egg_group": ["Grass"], "diet": "Herbivore", "habitat": ["Desert", "Grassland"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "953",
+        "name": "Rellor",
+        "description": "It rolls a mud ball around. The mud ball is said to be made of psychic energy.",
+        "types": ["Bug"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 2, "limit": 5},
+          "dexterity": {"value": 2, "limit": 5},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 3, "limit": 5},
+          "insight": {"value": 3, "limit": 6}
+        },
+        "derived_stats": {"base_hp": 4, "hp": 8, "defense": 4, "special_defense": 3},
+        "abilities": ["Compound Eyes", "Shed Skin (Hidden)"],
+        "skills": ["Burrow"],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Sand Attack", "Struggle Bug", "Rollout"],
+          "rank_2_rookie": ["Mud Shot", "Bug Bite", "Take Down", "Dig"],
+          "rank_3_standard": ["Lunge"],
+          "rank_4_advanced": []
+        },
+        "biology": {"egg_group": ["Bug"], "diet": "Terravore", "habitat": ["Desert"]},
+        "evolution": "Evolves into Rabsca after walking 1000 steps with the Let's Go! feature."
+      },
+      {
+        "id": "954",
+        "name": "Rabsca",
+        "description": "The ball on its head is its true body. It is said that the ball is a cradle for its baby.",
+        "types": ["Bug", "Psychic"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 3, "limit": 6},
+          "dexterity": {"value": 3, "limit": 6},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 7, "limit": 13},
+          "insight": {"value": 6, "limit": 12}
+        },
+        "derived_stats": {"base_hp": 8, "hp": 13, "defense": 5, "special_defense": 6},
+        "abilities": ["Synchronize", "Telepathy (Hidden)"],
+        "skills": ["Hover"],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Sand Attack", "Struggle Bug", "Rollout", "Confusion"],
+          "rank_2_rookie": ["Mud Shot", "Bug Bite", "Take Down", "Dig", "Psybeam", "Bug Buzz"],
+          "rank_3_standard": ["Lunge", "Guard Swap", "Power Swap", "Psychic", "Ally Switch"],
+          "rank_4_advanced": ["Speed Swap", "Revival Blessing"]
+        },
+        "biology": {"egg_group": ["Bug"], "diet": "Psiotroph", "habitat": ["Desert"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "955",
+        "name": "Flittle",
+        "description": "It is a very small Pokémon. It can float in the air with the frills on its head.",
+        "types": ["Psychic"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 3, "limit": 5},
+          "dexterity": {"value": 4, "limit": 9},
+          "vitality": {"value": 2, "limitT": 5},
+          "special": {"value": 4, "limit": 7},
+          "insight": {"value": 2, "limit": 5}
+        },
+        "derived_stats": {"base_hp": 3, "hp": 5, "defense": 2, "special_defense": 2},
+        "abilities": ["Anticipation", "Frisk", "Speed Boost (Hidden)"],
+        "skills": ["Hover"],
+        "move_pool": {
+          "rank_1_starter": ["Growl", "Peck", "Confusion", "Baby-Doll Eyes"],
+          "rank_2_rookie": ["Disarming Voice", "Quick Attack", "Psybeam", "Pluck"],
+          "rank_3_standard": ["Agility", "Uproar", "Dazzling Gleam", "Psyshock"],
+          "rank_4_advanced": ["Psychic", "Last Resort"]
+        },
+        "biology": {"egg_group": ["Flying"], "diet": "Psiotroph", "habitat": ["Mountain", "Desert"]},
+        "evolution": "Evolves into Espathra."
+      },
+      {
+        "id": "956",
+        "name": "Espathra",
+        "description": "It can run at a speed of 120 mph. It can unleash a powerful psychic blast from its eyes.",
+        "types": ["Psychic"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 4, "limit": 8},
+          "dexterity": {"value": 6, "limit": 12},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 6, "limit": 12},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 10, "hp": 14, "defense": 4, "special_defense": 4},
+        "abilities": ["Opportunist", "Frisk", "Speed Boost (Hidden)"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Growl", "Peck", "Confusion", "Baby-Doll Eyes", "Feather Dance"],
+          "rank_2_rookie": ["Disarming Voice", "Quick Attack", "Psybeam", "Pluck"],
+          "rank_3_standard": ["Agility", "Uproar", "Dazzling Gleam", "Psyshock", "Lumina Crash"],
+          "rank_4_advanced": ["Psychic", "Last Resort"]
+        },
+        "biology": {"egg_group": ["Flying"], "diet": "Psiotroph", "habitat": ["Mountain", "Desert"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "957",
+        "name": "Tinkatink",
+        "description": "It swings its hammer around to protect itself. It is a very cheerful Pokémon.",
+        "types": ["Fairy", "Steel"],
+        "suggested_rank": "Starter",
+        "attributes": {
+          "strength": {"value": 3, "limit": 6},
+          "dexterity": {"value": 4, "limit": 7},
+          "vitality": {"value": 3, "limit": 6},
+          "special": {"value": 3, "limit": 6},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 6, "hp": 9, "defense": 3, "special_defense": 4},
+        "abilities": ["Mold Breaker", "Own Tempo", "Pickpocket (Hidden)"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Astonish", "Fairy Wind", "Baby-Doll Eyes", "Metal Claw"],
+          "rank_2_rookie": ["Covet", "Rock Smash", "Draining Kiss", "Sweet Kiss"],
+          "rank_3_standard": ["Brutal Swing", "Slam", "Flash Cannon", "Play Rough"],
+          "rank_4_advanced": ["Fake Out", "Flatter", "Skitter Smack", "Knock Off"]
+        },
+        "biology": {"egg_group": ["Fairy"], "diet": "Terravore", "habitat": ["Ruins"]},
+        "evolution": "Evolves into Tinkatuff."
+      },
+      {
+        "id": "958",
+        "name": "Tinkatuff",
+        "description": "It will test the strength of its hammer by hitting rocks. It is a very strong Pokémon.",
+        "types": ["Fairy", "Steel"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 4, "limit": 7},
+          "dexterity": {"value": 4, "limit": 9},
+          "vitality": {"value": 4, "limit": 7},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 7, "hp": 11, "defense": 4, "special_defense": 5},
+        "abilities": ["Mold Breaker", "Own Tempo", "Pickpocket (Hidden)"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Astonish", "Fairy Wind", "Baby-Doll Eyes", "Metal Claw"],
+          "rank_2_rookie": ["Covet", "Rock Smash", "Draining Kiss", "Sweet Kiss"],
+          "rank_3_standard": ["Brutal Swing", "Slam", "Flash Cannon", "Play Rough"],
+          "rank_4_advanced": ["Fake Out", "Flatter", "Skitter Smack", "Knock Off"]
+        },
+        "biology": {"egg_group": ["Fairy"], "diet": "Terravore", "habitat": ["Ruins"]},
+        "evolution": "Evolves into Tinkaton."
+      },
+      {
+        "id": "959",
+        "name": "Tinkaton",
+        "description": "It can knock a boulder flying with a swing of its hammer. It is a very intelligent Pokémon.",
+        "types": ["Fairy", "Steel"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 4, "limit": 9},
+          "dexterity": {"value": 5, "limit": 10},
+          "vitality": {"value": 5, "limit": 9},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 6, "limit": 12}
+        },
+        "derived_stats": {"base_hp": 9, "hp": 14, "defense": 5, "special_defense": 6},
+        "abilities": ["Mold Breaker", "Own Tempo", "Pickpocket (Hidden)"],
+        "skills": ["Strength"],
+        "move_pool": {
+          "rank_1_starter": ["Astonish", "Fairy Wind", "Baby-Doll Eyes", "Metal Claw", "Gigaton Hammer"],
+          "rank_2_rookie": ["Covet", "Rock Smash", "Draining Kiss", "Sweet Kiss"],
+          "rank_3_standard": ["Brutal Swing", "Slam", "Flash Cannon", "Play Rough", "Knock Off"],
+          "rank_4_advanced": ["Fake Out", "Flatter", "Skitter Smack", "Stone Edge"]
+        },
+        "biology": {"egg_group": ["Fairy"], "diet": "Terravore", "habitat": ["Ruins"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "960",
+        "name": "Wiglett",
+        "description": "It is a Pokémon that looks like a Diglett. It is said that it is a different species.",
+        "types": ["Water"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 4, "limit": 7},
+          "dexterity": {"value": 6, "limit": 11},
+          "vitality": {"value": 2, "limit": 4},
+          "special": {"value": 3, "limit": 5},
+          "insight": {"value": 2, "limit": 5}
+        },
+        "derived_stats": {"base_hp": 1, "hp": 3, "defense": 2, "special_defense": 2},
+        "abilities": ["Gooey", "Rattled", "Sand Veil (Hidden)"],
+        "skills": ["Swimmer", "Burrow"],
+        "move_pool": {
+          "rank_1_starter": ["Sand Attack", "Water Gun", "Mud-Slap"],
+          "rank_2_rookie": ["Wrap", "Aqua Jet", "Slam", "Water Pulse"],
+          "rank_3_standard": ["Headbutt", "Dig", "Sucker Punch", "Liquidation"],
+          "rank_4_advanced": ["Throat Chop"]
+        },
+        "biology": {"egg_group": ["Water 3"], "diet": "Omnivore", "habitat": ["Beach", "Ocean"]},
+        "evolution": "Evolves into Wugtrio."
+      },
+      {
+        "id": "961",
+        "name": "Wugtrio",
+        "description": "It has three heads. It is a very vicious Pokémon that will attack anything that moves.",
+        "types": ["Water"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 6, "limit": 12},
+          "dexterity": {"value": 7, "limit": 14},
+          "vitality": {"value": 2, "limit": 5},
+          "special": {"value": 3, "limit": 6},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 4, "hp": 6, "defense": 2, "special_defense": 4},
+        "abilities": ["Gooey", "Rattled", "Sand Veil (Hidden)"],
+        "skills": ["Swimmer", "Burrow"],
+        "move_pool": {
+          "rank_1_starter": ["Sand Attack", "Water Gun", "Mud-Slap", "Triple Dive"],
+          "rank_2_rookie": ["Wrap", "Aqua Jet", "Slam", "Water Pulse"],
+          "rank_3_standard": ["Headbutt", "Dig", "Sucker Punch", "Liquidation"],
+          "rank_4_advanced": ["Throat Chop"]
+        },
+        "biology": {"egg_group": ["Water 3"], "diet": "Omnivore", "habitat": ["Beach", "Ocean"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "962",
+        "name": "Bombirdier",
+        "description": "It gathers things in its beak and drops them from the sky. It is a very mischievous Pokémon.",
+        "types": ["Flying", "Dark"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 6, "limit": 12},
+          "dexterity": {"value": 5, "limit": 10},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 8, "hp": 12, "defense": 4, "special_defense": 5},
+        "abilities": ["Big Pecks", "Keen Eye", "Rocky Payload (Hidden)"],
+        "skills": ["Flight"],
+        "move_pool": {
+          "rank_1_starter": ["Wing Attack", "Leer", "Peck", "Hone Claws"],
+          "rank_2_rookie": ["Rock Throw", "Pluck", "Torment", "Rock Tomb"],
+          "rank_3_standard": ["Payback", "Dual Wingbeat", "Rock Slide", "Knock Off"],
+          "rank_4_advanced": ["Parting Shot", "Drill Run", "Brave Bird", "Thrash"]
+        },
+        "biology": {"egg_group": ["Flying"], "diet": "Carnivore", "habitat": ["Mountain", "Beach"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "963",
+        "name": "Finizen",
+        "description": "It likes to play with other Finizen using a ring of water made from its blowhole.",
+        "types": ["Water"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 3, "limit": 6},
+          "dexterity": {"value": 4, "limit": 8},
+          "vitality": {"value": 3, "limit": 6},
+          "special": {"value": 3, "limit": 6},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 8, "hp": 11, "defense": 3, "special_defense": 4},
+        "abilities": ["Water Veil"],
+        "skills": ["Swimmer"],
+        "move_pool": {
+          "rank_1_starter": ["Supersonic", "Water Gun", "Astonish", "Focus Energy"],
+          "rank_2_rookie": ["Aqua Jet", "Double Hit", "Dive", "Charm"],
+          "rank_3_standard": ["Acrobatics", "Encore", "Aqua Tail", "Mist"],
+          "rank_4_advanced": ["Hydro Pump", "Reversal"]
+        },
+        "biology": {"egg_group": ["Field", "Water 2"], "diet": "Omnivore", "habitat": ["Ocean"]},
+        "evolution": "Evolves into Palafin in multiplayer."
+      },
+      {
+        "id": "964",
+        "name": "Palafin",
+        "description": "This Pokémon has a mild disposition, but it can become a hero when its friends are in danger.",
+        "types": ["Water"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 4, "limit": 8},
+          "dexterity": {"value": 6, "limit": 12},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 5, "limit": 10},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 11, "hp": 15, "defense": 4, "special_defense": 4},
+        "abilities": ["Zero to Hero"],
+        "skills": ["Swimmer"],
+        "move_pool": {
+          "rank_1_starter": ["Supersonic", "Water Gun", "Astonish", "Focus Energy", "Jet Punch"],
+          "rank_2_rookie": ["Aqua Jet", "Double Hit", "Dive", "Charm"],
+          "rank_3_standard": ["Acrobatics", "Encore", "Aqua Tail", "Mist"],
+          "rank_4_advanced": ["Hydro Pump", "Reversal", "Wave Crash"]
+        },
+        "biology": {"egg_group": ["Field", "Water 2"], "diet": "Omnivore", "habitat": ["Ocean"]},
+        "evolution": "Final Stage. Can change from Zero Form to Hero Form with its ability."
+      },
+      {
+        "id": "965",
+        "name": "Varoom",
+        "description": "It is said that this Pokémon was born when a poisonous Pokémon possessed an engine.",
+        "types": ["Steel", "Poison"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 4, "limit": 8},
+          "dexterity": {"value": 3, "limit": 6},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 3, "limit": 6},
+          "insight": {"value": 3, "limit": 6}
+        },
+        "derived_stats": {"base_hp": 5, "hp": 9, "defense": 4, "special_defense": 3},
+        "abilities": ["Overcoat", "Slow Start (Hidden)"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Lick", "Poison Gas", "Smog", "Taunt"],
+          "rank_2_rookie": ["Assurance", "Sludge", "Gyro Ball", "Headbutt"],
+          "rank_3_standard": ["Screech", "Iron Head", "Sludge Bomb", "Swagger"],
+          "rank_4_advanced": ["Poison Jab", "Uproar", "Spin Out", "Gunk Shot"]
+        },
+        "biology": {"egg_group": ["Mineral"], "diet": "Pollutivore", "habitat": ["Urban"]},
+        "evolution": "Evolves into Revavroom."
+      },
+      {
+        "id": "966",
+        "name": "Revavroom",
+        "description": "It has eight cylinders that can generate a huge amount of energy. It can run at a speed of 50 mph.",
+        "types": ["Steel", "Poison"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 7, "limit": 13},
+          "dexterity": {"value": 5, "limit": 10},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 4, "limit": 7},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 9, "hp": 13, "defense": 4, "special_defense": 4},
+        "abilities": ["Overcoat", "Filter (Hidden)"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Lick", "Poison Gas", "Smog", "Taunt", "Shift Gear"],
+          "rank_2_rookie": ["Assurance", "Sludge", "Gyro Ball", "Headbutt"],
+          "rank_3_standard": ["Screech", "Iron Head", "Sludge Bomb", "Swagger"],
+          "rank_4_advanced": ["Poison Jab", "Uproar", "Spin Out", "Gunk Shot"]
+        },
+        "biology": {"egg_group": ["Mineral"], "diet": "Pollutivore", "habitat": ["Urban"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "967",
+        "name": "Cyclizar",
+        "description": "It can sprint at over 70 mph. It is a very friendly Pokémon.",
+        "types": ["Dragon", "Normal"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 6, "limit": 11},
+          "dexterity": {"value": 7, "limit": 14},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 5, "limit": 10},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 8, "hp": 12, "defense": 4, "special_defense": 4},
+        "abilities": ["Shed Skin", "Regenerator (Hidden)"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Growl", "Rapid Spin"],
+          "rank_2_rookie": ["Taunt", "Breaking Swipe", "Quick Attack", "Bite"],
+          "rank_3_standard": ["U-turn", "Dragon Claw", "Shift Gear", "Dragon Pulse"],
+          "rank_4_advanced": ["Double-Edge", "Dragon Rush", "Iron Head"]
+        },
+        "biology": {"egg_group": ["Dragon"], "diet": "Omnivore", "habitat": ["Urban", "Grassland"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "968",
+        "name": "Orthworm",
+        "description": "It is a very long Pokémon. It can be found in the deepest parts of the ocean.",
+        "types": ["Steel"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 5, "limit": 10},
+          "dexterity": {"value": 4, "limitT": 8},
+          "vitality": {"value": 8, "limit": 16},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 4, "limit": 7}
+        },
+        "derived_stats": {"base_hp": 8, "hp": 16, "defense": 8, "special_defense": 4},
+        "abilities": ["Earth Eater", "Sand Veil (Hidden)"],
+        "skills": ["Burrow"],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Wrap", "Harden", "Mud-Slap"],
+          "rank_2_rookie": ["Smack Down", "Bulldoze", "Iron Head", "Take Down"],
+          "rank_3_standard": ["Dig", "Sandstorm", "Iron Defense", "Iron Tail"],
+          "rank_4_advanced": ["Earthquake", "Shed Tail"]
+        },
+        "biology": {"egg_group": ["Field"], "diet": "Terravore", "habitat": ["Desert", "Cave"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "969",
+        "name": "Glimmet",
+        "description": "It is a Pokémon that looks like a flower. It is said that it can purify water.",
+        "types": ["Rock", "Poison"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 3, "limit": 5},
+          "dexterity": {"value": 4, "limit": 8},
+          "vitality": {"value": 3, "limit": 6},
+          "special": {"value": 6, "limit": 12},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 5, "hp": 8, "defense": 3, "special_defense": 4},
+        "abilities": ["Toxic Debris", "Corrosion (Hidden)"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Rock Throw", "Harden", "Smack Down", "Acid Spray"],
+          "rank_2_rookie": ["Ancient Power", "Rock Polish", "Stealth Rock", "Venoshock"],
+          "rank_3_standard": ["Sandstorm", "Sludge Wave", "Power Gem", "Acid Armor"],
+          "rank_4_advanced": ["Mortal Spin"]
+        },
+        "biology": {"egg_group": ["Mineral"], "diet": "Terravore", "habitat": ["Cave"]},
+        "evolution": "Evolves into Glimmora."
+      },
+      {
+        "id": "970",
+        "name": "Glimmora",
+        "description": "It can fire a powerful beam from its petals. It is a very rare Pokémon.",
+        "types": ["Rock", "Poison"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 4, "limit": 7},
+          "dexterity": {"value": 5, "limit": 10},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 8, "limit": 15},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 9, "hp": 13, "defense": 4, "special_defense": 5},
+        "abilities": ["Toxic Debris", "Corrosion (Hidden)"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Rock Throw", "Harden", "Smack Down", "Acid Spray", "Spiky Shield"],
+          "rank_2_rookie": ["Ancient Power", "Rock Polish", "Stealth Rock", "Venoshock"],
+          "rank_3_standard": ["Sandstorm", "Sludge Wave", "Power Gem", "Acid Armor"],
+          "rank_4_advanced": ["Mortal Spin"]
+        },
+        "biology": {"egg_group": ["Mineral"], "diet": "Terravore", "habitat": ["Cave"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "971",
+        "name": "Greavard",
+        "description": "It is a friendly Pokémon, but it can absorb the life force of those who get too close.",
+        "types": ["Ghost"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 4, "limit": 8},
+          "dexterity": {"value": 3, "limit": 5},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 2, "limit": 5},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 6, "hp": 10, "defense": 4, "special_defense": 4},
+        "abilities": ["Pickup", "Fluffy (Hidden)"],
+        "skills": ["Phasing"],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Leer", "Lick", "Tail Whip"],
+          "rank_2_rookie": ["Bite", "Roar", "Headbutt", "Payback"],
+          "rank_3_standard": ["Play Rough", "Crunch", "Rest", "Ice Fang", "Thunder Fang", "Fire Fang"],
+          "rank_4_advanced": ["Phantom Force", "Charm"]
+        },
+        "biology": {"egg_group": ["Field"], "diet": "Psiotroph", "habitat": ["Ruins"]},
+        "evolution": "Evolves into Houndstone at night."
+      },
+      {
+        "id": "972",
+        "name": "Houndstone",
+        "description": "It is the most loyal of all Pokémon. It will wait for its Trainer to return, even if it takes a hundred years.",
+        "types": ["Ghost"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 6, "limit": 12},
+          "dexterity": {"value": 4, "limit": 8},
+          "vitality": {"value": 6, "limit": 12},
+          "special": {"value": 3, "limit": 6},
+          "insight": {"value": 6, "limit": 11}
+        },
+        "derived_stats": {"base_hp": 8, "hp": 14, "defense": 6, "special_defense": 6},
+        "abilities": ["Sand Rush", "Fluffy (Hidden)"],
+        "skills": ["Phasing"],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Leer", "Lick", "Tail Whip", "Last Respects"],
+          "rank_2_rookie": ["Bite", "Roar", "Headbutt", "Payback"],
+          "rank_3_standard": ["Play Rough", "Crunch", "Rest", "Ice Fang", "Thunder Fang", "Fire Fang"],
+          "rank_4_advanced": ["Phantom Force", "Charm"]
+        },
+        "biology": {"egg_group": ["Field"], "diet": "Psiotroph", "habitat": ["Ruins"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "973",
+        "name": "Flamigo",
+        "description": "It is a very social Pokémon. It ties the base of its neck into a knot to keep its energy from leaking out.",
+        "types": ["Flying", "Fighting"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 7, "limit": 13},
+          "dexterity": {"value": 5, "limit": 10},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 9, "hp": 13, "defense": 4, "special_defense": 4},
+        "abilities": ["Scrappy", "Tangled Feet", "Costar (Hidden)"],
+        "skills": ["Flight"],
+        "move_pool": {
+          "rank_1_starter": ["Peck", "Copycat", "Double Kick"],
+          "rank_2_rookie": ["Wing Attack", "Detect", "Focus Energy", "Pluck"],
+          "rank_3_standard": ["Air Slash", "Roost", "Mega Kick", "Wide Guard"],
+          "rank_4_advanced": ["Throat Chop", "Brave Bird", "Close Combat"]
+        },
+        "biology": {"egg_group": ["Flying"], "diet": "Omnivore", "habitat": ["Swamp", "Beach"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "974",
+        "name": "Cetoddle",
+        "description": "It is a very friendly Pokémon. It can live in the coldest of climates.",
+        "types": ["Ice"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 4, "limit": 8},
+          "dexterity": {"value": 3, "limit": 6},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 2, "limitT": 5},
+          "insight": {"value": 3, "limit": 6}
+        },
+        "derived_stats": {"base_hp": 11, "hp": 15, "defense": 4, "special_defense": 3},
+        "abilities": ["Thick Fat", "Snow Cloak", "Sheer Force (Hidden)"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Powder Snow", "Growl", "Echoed Voice"],
+          "rank_2_rookie": ["Ice Shard", "Rest", "Take Down", "Flail"],
+          "rank_3_standard": ["Avalanche", "Body Slam", "Amnesia", "Ice Spinner"],
+          "rank_4_advanced": ["Double-Edge", "Blizzard"]
+        },
+        "biology": {"egg_group": ["Field"], "diet": "Omnivore", "habitat": ["Arctic"]},
+        "evolution": "Evolves into Cetitan with an Ice Stone."
+      },
+      {
+        "id": "975",
+        "name": "Cetitan",
+        "description": "It is a very powerful Pokémon. It can freeze its horn to make it as hard as steel.",
+        "types": ["Ice"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 7, "limit": 13},
+          "dexterity": {"value": 4, "limit": 8},
+          "vitality": {"value": 4, "limitT": 8},
+          "special": {"value": 3, "limit": 6},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 18, "hp": 22, "defense": 4, "special_defense": 4},
+        "abilities": ["Thick Fat", "Slush Rush", "Sheer Force (Hidden)"],
+        "skills": ["Strength"],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Powder Snow", "Growl", "Echoed Voice"],
+          "rank_2_rookie": ["Ice Shard", "Rest", "Take Down", "Flail"],
+          "rank_3_standard": ["Avalanche", "Body Slam", "Amnesia", "Ice Spinner"],
+          "rank_4_advanced": ["Double-Edge", "Blizzard", "Ice Beam", "Body Press"]
+        },
+        "biology": {"egg_group": ["Field"], "diet": "Omnivore", "habitat": ["Arctic"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "976",
+        "name": "Veluza",
+        "description": "It is a very fast Pokémon. It can shed its flesh to become faster.",
+        "types": ["Water", "Psychic"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 6, "limit": 12},
+          "dexterity": {"value": 4, "limit": 8},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 4, "limit": 9},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 10, "hp": 14, "defense": 4, "special_defense": 4},
+        "abilities": ["Mold Breaker", "Sharpness (Hidden)"],
+        "skills": ["Swimmer"],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Pluck", "Water Gun", "Focus Energy"],
+          "rank_2_rookie": ["Slash", "Aqua Cutter", "Fillet Away", "Night Slash"],
+          "rank_3_standard": ["Psycho Cut", "Liquidation", "Crunch", "Aqua Jet"],
+          "rank_4_advanced": ["Final Gambit", "Double-Edge"]
+        },
+        "biology": {"egg_group": ["Water 2"], "diet": "Carnivore", "habitat": ["Ocean"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "977",
+        "name": "Dondozo",
+        "description": "It is a very gluttonous Pokémon. It is always searching for food.",
+        "types": ["Water"],
+        "suggested_rank": "Master",
+        "attributes": {
+          "strength": {"value": 6, "limit": 12},
+          "dexterity": {"value": 3, "limit": 5},
+          "vitality": {"value": 7, "limit": 13},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 16, "hp": 23, "defense": 7, "special_defense": 4},
+        "abilities": ["Unaware", "Oblivious", "Water Veil (Hidden)"],
+        "skills": ["Swimmer"],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Supersonic", "Water Gun", "Tickle"],
+          "rank_2_rookie": ["Flail", "Rest", "Sleep Talk", "Dive", "Noble Roar"],
+          "rank_3_standard": ["Soak", "Body Slam", "Aqua Tail", "Rain Dance", "Order Up"],
+          "rank_4_advanced": ["Heavy Slam", "Double-Edge", "Wave Crash"]
+        },
+        "biology": {"egg_group": ["Water 2"], "diet": "Omnivore", "habitat": ["Ocean"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "978",
+        "name": "Tatsugiri",
+        "description": "It is a very small Pokémon. It can live in the mouth of a Dondozo.",
+        "types": ["Dragon", "Water"],
+        "suggested_rank": "Standard",
+        "attributes": {
+          "strength": {"value": 3, "limit": 6},
+          "dexterity": {"value": 5, "limit": 10},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 7, "limit": 14},
+          "insight": {"value": 6, "limit": 11}
+        },
+        "derived_stats": {"base_hp": 7, "hp": 11, "defense": 4, "special_defense": 6},
+        "abilities": ["Commander", "Storm Drain (Hidden)"],
+        "skills": ["Swimmer"],
+        "move_pool": {
+          "rank_1_starter": ["Water Gun", "Harden", "Helping Hand", "Water Pulse"],
+          "rank_2_rookie": ["Soak", "Taunt", "Memento", "Muddy Water"],
+          "rank_3_standard": ["Nasty Plot", "Mirror Coat", "Dragon Pulse", "Dragon Dance"],
+          "rank_4_advanced": ["Endure", "Icy Wind"]
+        },
+        "biology": {"egg_group": ["Water 2"], "diet": "Omnivore", "habitat": ["Ocean"]},
+        "evolution": "Final Stage. Has Curly, Droopy, and Stretchy Forms."
+      },
+      {
+        "id": "979",
+        "name": "Annihilape",
+        "description": "It is a Pokémon that has been consumed by rage. It will not stop fighting until it has defeated its foe.",
+        "types": ["Fighting", "Ghost"],
+        "suggested_rank": "Master",
+        "attributes": {
+          "strength": {"value": 7, "limit": 13},
+          "dexterity": {"value": 5, "limit": 10},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 3, "limit": 6},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 12, "hp": 17, "defense": 5, "special_defense": 5},
+        "abilities": ["Vital Spirit", "Inner Focus", "Defiant (Hidden)"],
+        "skills": ["Phasing"],
+        "move_pool": {
+          "rank_1_starter": ["Covet", "Scratch", "Leer", "Focus Energy", "Rage", "Shadow Punch"],
+          "rank_2_rookie": ["Fury Swipes", "Karate Chop", "Seismic Toss", "Screech", "Rage Fist"],
+          "rank_3_standard": ["Assurance", "Swagger", "Cross Chop", "Thrash", "Stomping Tantrum", "Close Combat"],
+          "rank_4_advanced": ["Outrage", "Final Gambit", "Phantom Force"]
+        },
+        "biology": {"egg_group": ["Field"], "diet": "Omnivore", "habitat": ["Mountain", "Jungle"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "980",
+        "name": "Clodsire",
+        "description": "It is a very lazy Pokémon. It can live for a hundred years without moving.",
+        "types": ["Poison", "Ground"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 4, "limit": 9},
+          "dexterity": {"value": 2, "limit": 4},
+          "vitality": {"value": 6, "limit": 12},
+          "special": {"value": 3, "limit": 6},
+          "insight": {"value": 6, "limit": 12}
+        },
+        "derived_stats": {"base_hp": 14, "hp": 20, "defense": 6, "special_defense": 6},
+        "abilities": ["Poison Point", "Water Absorb", "Unaware (Hidden)"],
+        "skills": ["Swimmer", "Burrow"],
+        "move_pool": {
+          "rank_1_starter": ["Tail Whip", "Poison Sting", "Amnesia"],
+          "rank_2_rookie": ["Slam", "Yawn", "Poison Tail", "Toxic Spikes"],
+          "rank_3_standard": ["Sludge Wave", "Megahorn", "Toxic", "Earthquake"],
+          "rank_4_advanced": ["Recover"]
+        },
+        "biology": {"egg_group": ["Water 1", "Field"], "diet": "Omnivore", "habitat": ["Swamp", "Freshwater"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "981",
+        "name": "Farigiraf",
+        "description": "The head of its tail is a powerful psychic weapon. It can fire a beam of psychic energy from its mouth.",
+        "types": ["Normal", "Psychic"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 5, "limit": 10},
+          "dexterity": {"value": 4, "limit": 8},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 7, "limit": 13},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 13, "hp": 17, "defense": 4, "special_defense": 4},
+        "abilities": ["Cud Chew", "Armor Tail", "Sap Sipper (Hidden)"],
+        "skills": ["Telepath"],
+        "move_pool": {
+          "rank_1_starter": ["Power Swap", "Guard Swap", "Astonish", "Tackle", "Growl", "Confusion"],
+          "rank_2_rookie": ["Odor Sleuth", "Assurance", "Stomp", "Psybeam", "Agility"],
+          "rank_3_standard": ["Double Hit", "Twin Beam", "Crunch", "Baton Pass", "Nasty Plot"],
+          "rank_4_advanced": ["Psychic"]
+        },
+        "biology": {"egg_group": ["Field"], "diet": "Herbivore", "habitat": ["Grassland"]},
+        "evolution": "Final Stage."
+      }
+    ]
+  }
+}
