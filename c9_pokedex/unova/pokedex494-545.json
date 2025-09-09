@@ -1,0 +1,1311 @@
+{
+  "pokedex": {
+    "unova_pokedex_part_1": [
+      {
+        "id": "494",
+        "name": "Victini",
+        "description": "This Pokémon brings victory. It is said that Trainers with Victini always win, regardless of the type of encounter.",
+        "types": ["Psychic", "Fire"],
+        "suggested_rank": "Champion",
+        "attributes": {
+          "strength": {"value": 6, "limit": 12},
+          "dexterity": {"value": 6, "limit": 12},
+          "vitality": {"value": 6, "limit": 12},
+          "special": {"value": 6, "limit": 12},
+          "insight": {"value": 6, "limit": 12}
+        },
+        "derived_stats": {"base_hp": 11, "hp": 17, "defense": 6, "special_defense": 6},
+        "abilities": ["Victory Star"],
+        "skills": ["Firestarter"],
+        "move_pool": {
+          "rank_1_starter": ["Focus Energy", "Confusion", "Incinerate", "Quick Attack"],
+          "rank_2_rookie": ["Endure", "Headbutt", "Flame Charge", "Stored Power"],
+          "rank_3_standard": ["Inferno", "Reversal", "Flame Burst", "Zen Headbutt"],
+          "rank_4_advanced": ["Psychic", "Searing Shot", "Double-Edge", "Flare Blitz"],
+          "rank_5_expert": ["Overheat"],
+          "rank_6_ace": ["V-create"]
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Nullivore", "habitat": ["Urban"]},
+        "evolution": "Mythical."
+      },
+      {
+        "id": "495",
+        "name": "Snivy",
+        "description": "It is very intelligent and calm. Being exposed to sunlight makes its movements swifter.",
+        "types": ["Grass"],
+        "suggested_rank": "Starter",
+        "attributes": {
+          "strength": {"value": 3, "limit": 6},
+          "dexterity": {"value": 4, "limit": 8},
+          "vitality": {"value": 4, "limit": 7},
+          "special": {"value": 3, "limit": 6},
+          "insight": {"value": 4, "limit": 7}
+        },
+        "derived_stats": {"base_hp": 5, "hp": 9, "defense": 4, "special_defense": 4},
+        "abilities": ["Overgrow", "Contrary (Hidden)"],
+        "skills": ["Sprouter"],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Leer", "Vine Whip", "Wrap"],
+          "rank_2_rookie": ["Growth", "Leaf Tornado", "Leech Seed"],
+          "rank_3_standard": ["Mega Drain", "Slam", "Leaf Blade", "Coil"],
+          "rank_4_advanced": ["Giga Drain", "Wring Out", "Gastro Acid", "Leaf Storm"]
+        },
+        "biology": {"egg_group": ["Field", "Grass"], "diet": "Phototroph", "habitat": ["Forest"]},
+        "evolution": "Evolves into Servine."
+      },
+      {
+        "id": "496",
+        "name": "Servine",
+        "description": "It can betwitch foes with a single glare. It is protected by a coat of leaves.",
+        "types": ["Grass"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 4, "limit": 8},
+          "dexterity": {"value": 5, "limit": 10},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 7, "hp": 11, "defense": 4, "special_defense": 4},
+        "abilities": ["Overgrow", "Contrary (Hidden)"],
+        "skills": ["Sprouter"],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Leer", "Vine Whip", "Wrap"],
+          "rank_2_rookie": ["Growth", "Leaf Tornado", "Leech Seed"],
+          "rank_3_standard": ["Mega Drain", "Slam", "Leaf Blade", "Coil"],
+          "rank_4_advanced": ["Giga Drain", "Wring Out", "Gastro Acid", "Leaf Storm"]
+        },
+        "biology": {"egg_group": ["Field", "Grass"], "diet": "Phototroph", "habitat": ["Forest"]},
+        "evolution": "Evolves into Serperior."
+      },
+      {
+        "id": "497",
+        "name": "Serperior",
+        "description": "It can stop its opponents' movements with just a glare. It takes in solar energy and boosts it internally.",
+        "types": ["Grass"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 5, "limit": 9},
+          "dexterity": {"value": 7, "limit": 13},
+          "vitality": {"value": 6, "limit": 11},
+          "special": {"value": 5, "limit": 9},
+          "insight": {"value": 6, "limit": 11}
+        },
+        "derived_stats": {"base_hp": 8, "hp": 14, "defense": 6, "special_defense": 6},
+        "abilities": ["Overgrow", "Contrary (Hidden)"],
+        "skills": ["Sprouter"],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Leer", "Vine Whip", "Wrap"],
+          "rank_2_rookie": ["Growth", "Leaf Tornado", "Leech Seed"],
+          "rank_3_standard": ["Mega Drain", "Slam", "Leaf Blade", "Coil"],
+          "rank_4_advanced": ["Giga Drain", "Wring Out", "Gastro Acid", "Leaf Storm"],
+          "rank_5_expert": ["Frenzy Plant"]
+        },
+        "biology": {"egg_group": ["Field", "Grass"], "diet": "Phototroph", "habitat": ["Forest"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "498",
+        "name": "Tepig",
+        "description": "It can deftly dodge its foe's attacks while shooting fireballs from its nose. It roasts berries before it eats them.",
+        "types": ["Fire"],
+        "suggested_rank": "Starter",
+        "attributes": {
+          "strength": {"value": 4, "limit": 8},
+          "dexterity": {"value": 3, "limit": 6},
+          "vitality": {"value": 3, "limit": 6},
+          "special": {"value": 3, "limit": 6},
+          "insight": {"value": 3, "limit": 6}
+        },
+        "derived_stats": {"base_hp": 7, "hp": 10, "defense": 3, "special_defense": 3},
+        "abilities": ["Blaze", "Thick Fat (Hidden)"],
+        "skills": ["Firestarter"],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Tail Whip", "Ember", "Odor Sleuth"],
+          "rank_2_rookie": ["Defense Curl", "Flame Charge", "Smog"],
+          "rank_3_standard": ["Rollout", "Take Down", "Heat Crash", "Assurance"],
+          "rank_4_advanced": ["Flamethrower", "Head Smash", "Roar", "Flare Blitz"]
+        },
+        "biology": {"egg_group": ["Field"], "diet": "Omnivore", "habitat": ["Grassland"]},
+        "evolution": "Evolves into Pignite."
+      },
+      {
+        "id": "499",
+        "name": "Pignite",
+        "description": "When its internal fire flares up, its movements grow sharper and faster. When in a pinch, it will get smoke from its snout.",
+        "types": ["Fire", "Fighting"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 6, "limit": 11},
+          "dexterity": {"value": 4, "limit": 7},
+          "vitality": {"value": 4, "limit": 7},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 4, "limit": 7}
+        },
+        "derived_stats": {"base_hp": 10, "hp": 14, "defense": 4, "special_defense": 4},
+        "abilities": ["Blaze", "Thick Fat (Hidden)"],
+        "skills": ["Firestarter"],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Tail Whip", "Ember", "Odor Sleuth", "Arm Thrust"],
+          "rank_2_rookie": ["Defense Curl", "Flame Charge", "Smog"],
+          "rank_3_standard": ["Rollout", "Take Down", "Heat Crash", "Assurance"],
+          "rank_4_advanced": ["Flamethrower", "Head Smash", "Roar", "Flare Blitz"]
+        },
+        "biology": {"egg_group": ["Field"], "diet": "Omnivore", "habitat": ["Grassland"]},
+        "evolution": "Evolves into Emboar."
+      },
+      {
+        "id": "500",
+        "name": "Emboar",
+        "description": "It can throw a fire punch by setting its fists on fire with its fiery chin. It cares deeply about its friends.",
+        "types": ["Fire", "Fighting"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 7, "limit": 14},
+          "dexterity": {"value": 4, "limit": 8},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 6, "limit": 12},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 12, "hp": 16, "defense": 4, "special_defense": 4},
+        "abilities": ["Blaze", "Reckless (Hidden)"],
+        "skills": ["Firestarter"],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Tail Whip", "Ember", "Odor Sleuth", "Arm Thrust", "Hammer Arm"],
+          "rank_2_rookie": ["Defense Curl", "Flame Charge", "Smog"],
+          "rank_3_standard": ["Rollout", "Take Down", "Heat Crash", "Assurance"],
+          "rank_4_advanced": ["Flamethrower", "Head Smash", "Roar", "Flare Blitz"],
+          "rank_5_expert": ["Blast Burn"]
+        },
+        "biology": {"egg_group": ["Field"], "diet": "Omnivore", "habitat": ["Grassland"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "501",
+        "name": "Oshawott",
+        "description": "It fights using the scalchop on its stomach. In response to an attack, it retaliates immediately by slashing.",
+        "types": ["Water"],
+        "suggested_rank": "Starter",
+        "attributes": {
+          "strength": {"value": 4, "limit": 7},
+          "dexterity": {"value": 3, "limit": 6},
+          "vitality": {"value": 3, "limit": 6},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 3, "limit": 6}
+        },
+        "derived_stats": {"base_hp": 6, "hp": 9, "defense": 3, "special_defense": 3},
+        "abilities": ["Torrent", "Shell Armor (Hidden)"],
+        "skills": ["Swimmer"],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Tail Whip", "Water Gun", "Water Sport"],
+          "rank_2_rookie": ["Focus Energy", "Razor Shell", "Fury Cutter"],
+          "rank_3_standard": ["Water Pulse", "Revenge", "Aqua Jet", "Encore"],
+          "rank_4_advanced": ["Aqua Tail", "Retaliate", "Swords Dance", "Hydro Pump"]
+        },
+        "biology": {"egg_group": ["Field"], "diet": "Omnivore", "habitat": ["Beach", "Freshwater"]},
+        "evolution": "Evolves into Dewott."
+      },
+      {
+        "id": "502",
+        "name": "Dewott",
+        "description": "It is a master of the scalchop. It can defeat foes with the dual-wielding scalchop techniques it learned through rigorous training.",
+        "types": ["Water"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 5, "limit": 9},
+          "dexterity": {"value": 4, "limit": 8},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 5, "limit": 10},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 8, "hp": 12, "defense": 4, "special_defense": 4},
+        "abilities": ["Torrent", "Shell Armor (Hidden)"],
+        "skills": ["Swimmer"],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Tail Whip", "Water Gun", "Water Sport"],
+          "rank_2_rookie": ["Focus Energy", "Razor Shell", "Fury Cutter"],
+          "rank_3_standard": ["Water Pulse", "Revenge", "Aqua Jet", "Encore"],
+          "rank_4_advanced": ["Aqua Tail", "Retaliate", "Swords Dance", "Hydro Pump"]
+        },
+        "biology": {"egg_group": ["Field"], "diet": "Omnivore", "habitat": ["Beach", "Freshwater"]},
+        "evolution": "Evolves into Samurott."
+      },
+      {
+        "id": "503",
+        "name": "Samurott",
+        "description": "One swing of the seamitar on its arm can fell an opponent. A simple glare from this Pokémon is enough to intimidate most foes.",
+        "types": ["Water"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 6, "limit": 12},
+          "dexterity": {"value": 4, "limit": 8},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 7, "limit": 13},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 10, "hp": 15, "defense": 5, "special_defense": 4},
+        "abilities": ["Torrent", "Shell Armor (Hidden)"],
+        "skills": ["Swimmer"],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Tail Whip", "Water Gun", "Water Sport", "Megahorn", "Slash"],
+          "rank_2_rookie": ["Focus Energy", "Razor Shell", "Fury Cutter"],
+          "rank_3_standard": ["Water Pulse", "Revenge", "Aqua Jet", "Encore"],
+          "rank_4_advanced": ["Aqua Tail", "Retaliate", "Swords Dance", "Hydro Pump"],
+          "rank_5_expert": ["Hydro Cannon"]
+        },
+        "biology": {"egg_group": ["Field"], "diet": "Omnivore", "habitat": ["Beach", "Ocean"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "504",
+        "name": "Patrat",
+        "description": "It is a very cautious Pokémon. It stands on its tail to get a better view of its surroundings.",
+        "types": ["Normal"],
+        "suggested_rank": "Starter",
+        "attributes": {
+          "strength": {"value": 4, "limit": 7},
+          "dexterity": {"value": 3, "limit": 6},
+          "vitality": {"value": 3, "limit": 6},
+          "special": {"value": 3, "limit": 5},
+          "insight": {"value": 3, "limit": 6}
+        },
+        "derived_stats": {"base_hp": 5, "hp": 8, "defense": 3, "special_defense": 3},
+        "abilities": ["Run Away", "Keen Eye", "Analytic (Hidden)"],
+        "skills": ["Burrow"],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Leer", "Bite", "Bide"],
+          "rank_2_rookie": ["Detect", "Sand Attack", "Crunch", "Hypnosis"],
+          "rank_3_standard": ["Super Fang", "After You", "Focus Energy", "Work Up"],
+          "rank_4_advanced": ["Hyper Fang", "Mean Look", "Baton Pass", "Slam"]
+        },
+        "biology": {"egg_group": ["Field"], "diet": "Omnivore", "habitat": ["Grassland"]},
+        "evolution": "Evolves into Watchog."
+      },
+      {
+        "id": "505",
+        "name": "Watchog",
+        "description": "It makes the patterns on its body glow to startle predators. It can see in the dark.",
+        "types": ["Normal"],
+        "suggested_rank": "Standard",
+        "attributes": {
+          "strength": {"value": 5, "limit": 10},
+          "dexterity": {"value": 4, "limit": 9},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 7, "hp": 11, "defense": 4, "special_defense": 4},
+        "abilities": ["Illuminate", "Keen Eye", "Analytic (Hidden)"],
+        "skills": ["Burrow"],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Leer", "Bite", "Bide", "Confuse Ray"],
+          "rank_2_rookie": ["Detect", "Sand Attack", "Crunch", "Hypnosis"],
+          "rank_3_standard": ["Super Fang", "After You", "Focus Energy", "Work Up", "Psych Up"],
+          "rank_4_advanced": ["Hyper Fang", "Mean Look", "Baton Pass", "Slam"]
+        },
+        "biology": {"egg_group": ["Field"], "diet": "Omnivore", "habitat": ["Grassland"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "506",
+        "name": "Lillipup",
+        "description": "It is a brave Pokémon. It is said that it can stand up to foes much bigger than itself.",
+        "types": ["Normal"],
+        "suggested_rank": "Starter",
+        "attributes": {
+          "strength": {"value": 4, "limit": 8},
+          "dexterity": {"value": 4, "limit": 7},
+          "vitality": {"value": 3, "limit": 6},
+          "special": {"value": 2, "limit": 5},
+          "insight": {"value": 3, "limit": 6}
+        },
+        "derived_stats": {"base_hp": 5, "hp": 8, "defense": 3, "special_defense": 3},
+        "abilities": ["Vital Spirit", "Pickup", "Run Away (Hidden)"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Leer", "Tackle", "Odor Sleuth", "Bite"],
+          "rank_2_rookie": ["Helping Hand", "Take Down", "Work Up", "Crunch"],
+          "rank_3_standard": ["Roar", "Retaliate", "Reversal", "Last Resort"],
+          "rank_4_advanced": ["Giga Impact", "Play Rough"]
+        },
+        "biology": {"egg_group": ["Field"], "diet": "Omnivore", "habitat": ["Urban"]},
+        "evolution": "Evolves into Herdier."
+      },
+      {
+        "id": "507",
+        "name": "Herdier",
+        "description": "It has been living with people for a long time. It is a very loyal and obedient Pokémon.",
+        "types": ["Normal"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 5, "limit": 10},
+          "dexterity": {"value": 4, "limit": 8},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 3, "limit": 5},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 7, "hp": 11, "defense": 4, "special_defense": 4},
+        "abilities": ["Intimidate", "Sand Rush", "Scrappy (Hidden)"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Leer", "Tackle", "Odor Sleuth", "Bite"],
+          "rank_2_rookie": ["Helping Hand", "Take Down", "Work Up", "Crunch"],
+          "rank_3_standard": ["Roar", "Retaliate", "Reversal", "Last Resort"],
+          "rank_4_advanced": ["Giga Impact", "Play Rough"]
+        },
+        "biology": {"egg_group": ["Field"], "diet": "Omnivore", "habitat": ["Urban"]},
+        "evolution": "Evolves into Stoutland."
+      },
+      {
+        "id": "508",
+        "name": "Stoutland",
+        "description": "It is a very wise Pokémon. It is an expert at rescuing people stranded at sea or in the mountains.",
+        "types": ["Normal"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 7, "limit": 13},
+          "dexterity": {"value": 5, "limit": 10},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 3, "limit": 6},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 9, "hp": 14, "defense": 5, "special_defense": 5},
+        "abilities": ["Intimidate", "Sand Rush", "Scrappy (Hidden)"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Leer", "Tackle", "Odor Sleuth", "Bite", "Ice Fang", "Fire Fang", "Thunder Fang"],
+          "rank_2_rookie": ["Helping Hand", "Take Down", "Work Up", "Crunch"],
+          "rank_3_standard": ["Roar", "Retaliate", "Reversal", "Last Resort"],
+          "rank_4_advanced": ["Giga Impact", "Play Rough"]
+        },
+        "biology": {"egg_group": ["Field"], "diet": "Omnivore", "habitat": ["Urban"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "509",
+        "name": "Purrloin",
+        "description": "It steals things from people just to see the looks on their faces. It is a very fickle Pokémon.",
+        "types": ["Dark"],
+        "suggested_rank": "Starter",
+        "attributes": {
+          "strength": {"value": 3, "limit": 6},
+          "dexterity": {"value": 4, "limit": 8},
+          "vitality": {"value": 3, "limit": 5},
+          "special": {"value": 3, "limit": 6},
+          "insight": {"value": 2, "limit": 5}
+        },
+        "derived_stats": {"base_hp": 4, "hp": 7, "defense": 3, "special_defense": 2},
+        "abilities": ["Limber", "Unburden", "Prankster (Hidden)"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Scratch", "Growl", "Assist", "Sand Attack"],
+          "rank_2_rookie": ["Fury Swipes", "Pursuit", "Torment", "Fake Out"],
+          "rank_3_standard": ["Hone Claws", "Assurance", "Slash", "Captivate"],
+          "rank_4_advanced": ["Night Slash", "Snatch", "Nasty Plot", "Sucker Punch", "Play Rough"]
+        },
+        "biology": {"egg_group": ["Field"], "diet": "Omnivore", "habitat": ["Urban"]},
+        "evolution": "Evolves into Liepard."
+      },
+      {
+        "id": "510",
+        "name": "Liepard",
+        "description": "It has a beautiful coat of fur. It is a very fickle Pokémon, and it is said that it is difficult to befriend.",
+        "types": ["Dark"],
+        "suggested_rank": "Standard",
+        "attributes": {
+          "strength": {"value": 5, "limit": 10},
+          "dexterity": {"value": 6, "limit": 13},
+          "vitality": {"value": 3, "limit": 6},
+          "special": {"value": 5, "limit": 10},
+          "insight": {"value": 3, "limit": 6}
+        },
+        "derived_stats": {"base_hp": 7, "hp": 10, "defense": 3, "special_defense": 3},
+        "abilities": ["Limber", "Unburden", "Prankster (Hidden)"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Scratch", "Growl", "Assist", "Sand Attack"],
+          "rank_2_rookie": ["Fury Swipes", "Pursuit", "Torment", "Fake Out"],
+          "rank_3_standard": ["Hone Claws", "Assurance", "Slash", "Captivate", "Taunt"],
+          "rank_4_advanced": ["Night Slash", "Snatch", "Nasty Plot", "Sucker Punch", "Play Rough"]
+        },
+        "biology": {"egg_group": ["Field"], "diet": "Omnivore", "habitat": ["Urban"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "511",
+        "name": "Pansage",
+        "description": "It shares the leaf on its head with weary-looking Pokémon. These leaves are known to relieve stress.",
+        "types": ["Grass"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 3, "limit": 6},
+          "dexterity": {"value": 4, "limit": 8},
+          "vitality": {"value": 3, "limit": 6},
+          "special": {"value": 3, "limit": 6},
+          "insight": {"value": 3, "limit": 6}
+        },
+        "derived_stats": {"base_hp": 6, "hp": 9, "defense": 3, "special_defense": 3},
+        "abilities": ["Gluttony", "Overgrow (Hidden)"],
+        "skills": ["Sprouter"],
+        "move_pool": {
+          "rank_1_starter": ["Scratch", "Play Nice", "Leer", "Lick"],
+          "rank_2_rookie": ["Vine Whip", "Fury Swipes", "Leech Seed"],
+          "rank_3_standard": ["Bite", "Seed Bomb", "Torment", "Fling"],
+          "rank_4_advanced": ["Acrobatics", "Grass Knot", "Recycle", "Natural Gift", "Crunch"]
+        },
+        "biology": {"egg_group": ["Field"], "diet": "Herbivore", "habitat": ["Forest"]},
+        "evolution": "Evolves into Simisage with a Leaf Stone."
+      },
+      {
+        "id": "512",
+        "name": "Simisage",
+        "description": "It is a poor fighter, but it can make its opponents flinch with its thorned tail.",
+        "types": ["Grass"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 6, "limit": 11},
+          "dexterity": {"value": 6, "limit": 12},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 6, "limit": 11},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 8, "hp": 12, "defense": 4, "special_defense": 4},
+        "abilities": ["Gluttony", "Overgrow (Hidden)"],
+        "skills": ["Sprouter"],
+        "move_pool": {
+          "rank_1_starter": ["Leer", "Lick", "Fury Swipes", "Seed Bomb"],
+          "rank_2_rookie": [],
+          "rank_3_standard": [],
+          "rank_4_advanced": []
+        },
+        "biology": {"egg_group": ["Field"], "diet": "Herbivore", "habitat": ["Forest"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "513",
+        "name": "Pansear",
+        "description": "It can roast berries with the tuft on its head. It is said that it can reach 600 degrees Fahrenheit.",
+        "types": ["Fire"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 3, "limit": 6},
+          "dexterity": {"value": 4, "limit": 8},
+          "vitality": {"value": 3, "limit": 6},
+          "special": {"value": 3, "limit": 6},
+          "insight": {"value": 3, "limit": 6}
+        },
+        "derived_stats": {"base_hp": 6, "hp": 9, "defense": 3, "special_defense": 3},
+        "abilities": ["Gluttony", "Blaze (Hidden)"],
+        "skills": ["Firestarter"],
+        "move_pool": {
+          "rank_1_starter": ["Scratch", "Play Nice", "Leer", "Lick"],
+          "rank_2_rookie": ["Incinerate", "Fury Swipes", "Yawn"],
+          "rank_3_standard": ["Bite", "Flame Burst", "Amnesia", "Fling"],
+          "rank_4_advanced": ["Acrobatics", "Fire Blast", "Recycle", "Natural Gift", "Crunch"]
+        },
+        "biology": {"egg_group": ["Field"], "diet": "Omnivore", "habitat": ["Volcano"]},
+        "evolution": "Evolves into Simisear with a Fire Stone."
+      },
+      {
+        "id": "514",
+        "name": "Simisear",
+        "description": "It loves sweets. It uses the fire on its head to toast and eat berries.",
+        "types": ["Fire"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 6, "limit": 11},
+          "dexterity": {"value": 6, "limit": 12},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 6, "limit": 11},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 8, "hp": 12, "defense": 4, "special_defense": 4},
+        "abilities": ["Gluttony", "Blaze (Hidden)"],
+        "skills": ["Firestarter"],
+        "move_pool": {
+          "rank_1_starter": ["Leer", "Lick", "Fury Swipes", "Flame Burst"],
+          "rank_2_rookie": [],
+          "rank_3_standard": [],
+          "rank_4_advanced": []
+        },
+        "biology": {"egg_group": ["Field"], "diet": "Omnivore", "habitat": ["Volcano"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "515",
+        "name": "Panpour",
+        "description": "The water stored inside the tuft on its head is full of nutrients. It waters plants with its tail.",
+        "types": ["Water"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 3, "limit": 6},
+          "dexterity": {"value": 4, "limit": 8},
+          "vitality": {"value": 3, "limit": 6},
+          "special": {"value": 3, "limit": 6},
+          "insight": {"value": 3, "limit": 6}
+        },
+        "derived_stats": {"base_hp": 6, "hp": 9, "defense": 3, "special_defense": 3},
+        "abilities": ["Gluttony", "Torrent (Hidden)"],
+        "skills": ["Swimmer"],
+        "move_pool": {
+          "rank_1_starter": ["Scratch", "Play Nice", "Leer", "Lick"],
+          "rank_2_rookie": ["Water Gun", "Fury Swipes", "Water Sport"],
+          "rank_3_standard": ["Bite", "Scald", "Taunt", "Fling"],
+          "rank_4_advanced": ["Acrobatics", "Brine", "Recycle", "Natural Gift", "Crunch"]
+        },
+        "biology": {"egg_group": ["Field"], "diet": "Omnivore", "habitat": ["Freshwater"]},
+        "evolution": "Evolves into Simipour with a Water Stone."
+      },
+      {
+        "id": "516",
+        "name": "Simipour",
+        "description": "It can shoot water from its tail. It can put out a fire with a single shot.",
+        "types": ["Water"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 6, "limit": 11},
+          "dexterity": {"value": 6, "limit": 12},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 6, "limit": 11},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 8, "hp": 12, "defense": 4, "special_defense": 4},
+        "abilities": ["Gluttony", "Torrent (Hidden)"],
+        "skills": ["Swimmer"],
+        "move_pool": {
+          "rank_1_starter": ["Leer", "Lick", "Fury Swipes", "Scald"],
+          "rank_2_rookie": [],
+          "rank_3_standard": [],
+          "rank_4_advanced": []
+        },
+        "biology": {"egg_group": ["Field"], "diet": "Omnivore", "habitat": ["Freshwater"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "517",
+        "name": "Munna",
+        "description": "This Pokémon eats the dreams of people and Pokémon. When it eats a good dream, it releases a pink mist.",
+        "types": ["Psychic"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 2, "limit": 5},
+          "dexterity": {"value": 2, "limit": 4},
+          "vitality": {"value": 4, "limit": 7},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 4, "limit": 7}
+        },
+        "derived_stats": {"base_hp": 8, "hp": 12, "defense": 4, "special_defense": 4},
+        "abilities": ["Forewarn", "Synchronize", "Telepathy (Hidden)"],
+        "skills": ["Hover"],
+        "move_pool": {
+          "rank_1_starter": ["Psywave", "Defense Curl", "Lucky Chant", "Yawn"],
+          "rank_2_rookie": ["Psybeam", "Imprison", "Moonlight"],
+          "rank_3_standard": ["Hypnosis", "Zen Headbutt", "Synchronoise", "Nightmare"],
+          "rank_4_advanced": ["Future Sight", "Calm Mind", "Psychic", "Dream Eater", "Stored Power", "Moonblast"]
+        },
+        "biology": {"egg_group": ["Field"], "diet": "Psiotroph", "habitat": ["Ruins"]},
+        "evolution": "Evolves into Musharna with a Moon Stone."
+      },
+      {
+        "id": "518",
+        "name": "Musharna",
+        "description": "The mist emanating from its forehead is packed with the dreams of people and Pokémon.",
+        "types": ["Psychic"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 4, "limit": 7},
+          "dexterity": {"value": 2, "limit": 5},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 6, "limit": 13},
+          "insight": {"value": 6, "limit": 11}
+        },
+        "derived_stats": {"base_hp": 12, "hp": 17, "defense": 5, "special_defense": 6},
+        "abilities": ["Forewarn", "Synchronize", "Telepathy (Hidden)"],
+        "skills": ["Hover"],
+        "move_pool": {
+          "rank_1_starter": ["Psywave", "Defense Curl", "Lucky Chant", "Yawn", "Psychic Terrain"],
+          "rank_2_rookie": ["Psybeam", "Imprison", "Moonlight"],
+          "rank_3_standard": ["Hypnosis", "Zen Headbutt", "Synchronoise", "Nightmare"],
+          "rank_4_advanced": ["Future Sight", "Calm Mind", "Psychic", "Dream Eater", "Stored Power", "Moonblast"]
+        },
+        "biology": {"egg_group": ["Field"], "diet": "Psiotroph", "habitat": ["Ruins"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "519",
+        "name": "Pidove",
+        "description": "It is a very forgetful Pokémon. It may forget its Trainer's orders and wait for new ones.",
+        "types": ["Normal", "Flying"],
+        "suggested_rank": "Starter",
+        "attributes": {
+          "strength": {"value": 4, "limit": 7},
+          "dexterity": {"value": 3, "limit": 6},
+          "vitality": {"value": 3, "limit": 6},
+          "special": {"value": 3, "limit": 5},
+          "insight": {"value": 2, "limit": 5}
+        },
+        "derived_stats": {"base_hp": 6, "hp": 9, "defense": 3, "special_defense": 2},
+        "abilities": ["Big Pecks", "Super Luck", "Rivalry (Hidden)"],
+        "skills": ["Flight"],
+        "move_pool": {
+          "rank_1_starter": ["Gust", "Growl", "Leer", "Quick Attack"],
+          "rank_2_rookie": ["Taunt", "Air Cutter", "Swaggeer", "Feather Dance"],
+          "rank_3_standard": ["Detect", "Air Slash", "Roost", "Tailwind", "Sky Attack"],
+          "rank_4_advanced": ["Facade"]
+        },
+        "biology": {"egg_group": ["Flying"], "diet": "Omnivore", "habitat": ["Urban", "Forest"]},
+        "evolution": "Evolves into Tranquill."
+      },
+      {
+        "id": "520",
+        "name": "Tranquill",
+        "description": "It can fly for miles without rest. It is said that deep in the forests where Tranquill live, there is a peaceful place where there is no conflict.",
+        "types": ["Normal", "Flying"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 5, "limit": 9},
+          "dexterity": {"value": 4, "limit": 8},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 3, "limit": 6},
+          "insight": {"value": 3, "limit": 6}
+        },
+        "derived_stats": {"base_hp": 7, "hp": 11, "defense": 4, "special_defense": 3},
+        "abilities": ["Big Pecks", "Super Luck", "Rivalry (Hidden)"],
+        "skills": ["Flight"],
+        "move_pool": {
+          "rank_1_starter": ["Gust", "Growl", "Leer", "Quick Attack"],
+          "rank_2_rookie": ["Taunt", "Air Cutter", "Swaggeer", "Feather Dance"],
+          "rank_3_standard": ["Detect", "Air Slash", "Roost", "Tailwind", "Sky Attack"],
+          "rank_4_advanced": ["Facade"]
+        },
+        "biology": {"egg_group": ["Flying"], "diet": "Omnivore", "habitat": ["Urban", "Forest"]},
+        "evolution": "Evolves into Unfezant."
+      },
+      {
+        "id": "521",
+        "name": "Unfezant",
+        "description": "Males swing their head plumage to threaten foes. Females are better at flying.",
+        "types": ["Normal", "Flying"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 7, "limit": 13},
+          "dexterity": {"value": 5, "limit": 10},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 4, "limit": 7}
+        },
+        "derived_stats": {"base_hp": 9, "hp": 14, "defense": 5, "special_defense": 4},
+        "abilities": ["Big Pecks", "Super Luck", "Rivalry (Hidden)"],
+        "skills": ["Flight"],
+        "move_pool": {
+          "rank_1_starter": ["Gust", "Growl", "Leer", "Quick Attack"],
+          "rank_2_rookie": ["Taunt", "Air Cutter", "Swaggeer", "Feather Dance"],
+          "rank_3_standard": ["Detect", "Air Slash", "Roost", "Tailwind", "Sky Attack"],
+          "rank_4_advanced": ["Facade"]
+        },
+        "biology": {"egg_group": ["Flying"], "diet": "Omnivore", "habitat": ["Urban", "Forest"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "522",
+        "name": "Blitzle",
+        "description": "When lightning strikes, it catches the charge and stores it in its mane.",
+        "types": ["Electric"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 4, "limit": 8},
+          "dexterity": {"value": 4, "limit": 9},
+          "vitality": {"value": 2, "limit": 5},
+          "special": {"value": 3, "limit": 6},
+          "insight": {"value": 2, "limit": 5}
+        },
+        "derived_stats": {"base_hp": 5, "hp": 7, "defense": 2, "special_defense": 2},
+        "abilities": ["Lightning Rod", "Motor Drive", "Sap Sipper (Hidden)"],
+        "skills": ["Zapper"],
+        "move_pool": {
+          "rank_1_starter": ["Quick Attack", "Tail Whip", "Charge", "Shock Wave"],
+          "rank_2_rookie": ["Thunder Wave", "Flame Charge", "Pursuit", "Spark"],
+          "rank_3_standard": ["Stomp", "Discharge", "Agility", "Wild Charge"],
+          "rank_4_advanced": ["Thrash"]
+        },
+        "biology": {"egg_group": ["Field"], "diet": "Herbivore", "habitat": ["Grassland"]},
+        "evolution": "Evolves into Zebstrika."
+      },
+      {
+        "id": "523",
+        "name": "Zebstrika",
+        "description": "It has explosive speed. It can run as fast as a lightning bolt.",
+        "types": ["Electric"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 6, "limit": 12},
+          "dexterity": {"value": 7, "limit": 13},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 5, "limit": 10},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 8, "hp": 12, "defense": 4, "special_defense": 4},
+        "abilities": ["Lightning Rod", "Motor Drive", "Sap Sipper (Hidden)"],
+        "skills": ["Zapper"],
+        "move_pool": {
+          "rank_1_starter": ["Quick Attack", "Tail Whip", "Charge", "Shock Wave", "Ion Deluge"],
+          "rank_2_rookie": ["Thunder Wave", "Flame Charge", "Pursuit", "Spark"],
+          "rank_3_standard": ["Stomp", "Discharge", "Agility", "Wild Charge"],
+          "rank_4_advanced": ["Thrash"]
+        },
+        "biology": {"egg_group": ["Field"], "diet": "Herbivore", "habitat": ["Grassland"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "524",
+        "name": "Roggenrola",
+        "description": "It was discovered in a layer of earth that was formed 100 years ago. Its body is made of the same materials as the earth's core.",
+        "types": ["Rock"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 5, "limit": 9},
+          "dexterity": {"value": 1, "limit": 4},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 2, "limit": 5},
+          "insight": {"value": 2, "limit": 5}
+        },
+        "derived_stats": {"base_hp": 6, "hp": 11, "defense": 5, "special_defense": 2},
+        "abilities": ["Sturdy", "Weak Armor", "Sand Force (Hidden)"],
+        "skills": ["Burrow"],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Harden", "Sand Attack", "Headbutt"],
+          "rank_2_rookie": ["Rock Blast", "Mud-Slap", "Iron Defense", "Smack Down"],
+          "rank_3_standard": ["Rock Slide", "Stealth Rock", "Sandstorm", "Stone Edge"],
+          "rank_4_advanced": ["Explosion", "Rock Wrecker"]
+        },
+        "biology": {"egg_group": ["Mineral"], "diet": "Terravore", "habitat": ["Cave"]},
+        "evolution": "Evolves into Boldore."
+      },
+      {
+        "id": "525",
+        "name": "Boldore",
+        "description": "Because its energy was too great to be contained, the energy leaked out and formed orange crystals.",
+        "types": ["Rock"],
+        "suggested_rank": "Standard",
+        "attributes": {
+          "strength": {"value": 6, "limit": 13},
+          "dexterity": {"value": 2, "limit": 4},
+          "vitality": {"value": 6, "limit": 12},
+          "special": {"value": 3, "limit": 6},
+          "insight": {"value": 3, "limit": 6}
+        },
+        "derived_stats": {"base_hp": 8, "hp": 14, "defense": 6, "special_defense": 3},
+        "abilities": ["Sturdy", "Weak Armor", "Sand Force (Hidden)"],
+        "skills": ["Burrow"],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Harden", "Sand Attack", "Headbutt"],
+          "rank_2_rookie": ["Rock Blast", "Mud-Slap", "Iron Defense", "Smack Down", "Power Gem"],
+          "rank_3_standard": ["Rock Slide", "Stealth Rock", "Sandstorm", "Stone Edge"],
+          "rank_4_advanced": ["Explosion", "Rock Wrecker"]
+        },
+        "biology": {"egg_group": ["Mineral"], "diet": "Terravore", "habitat": ["Cave"]},
+        "evolution": "Evolves into Gigalith via trade."
+      },
+      {
+        "id": "526",
+        "name": "Gigalith",
+        "description": "It can compress the energy from the sun's rays and fire it from its mouth.",
+        "types": ["Rock"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 8, "limit": 15},
+          "dexterity": {"value": 2, "limit": 5},
+          "vitality": {"value": 8, "limit": 15},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 9, "hp": 17, "defense": 8, "special_defense": 5},
+        "abilities": ["Sturdy", "Sand Stream", "Sand Force (Hidden)"],
+        "skills": ["Burrow"],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Harden", "Sand Attack", "Headbutt", "Power Gem"],
+          "rank_2_rookie": ["Rock Blast", "Mud-Slap", "Iron Defense", "Smack Down"],
+          "rank_3_standard": ["Rock Slide", "Stealth Rock", "Sandstorm", "Stone Edge"],
+          "rank_4_advanced": ["Explosion", "Rock Wrecker"]
+        },
+        "biology": {"egg_group": ["Mineral"], "diet": "Terravore", "habitat": ["Cave"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "527",
+        "name": "Woobat",
+        "description": "It lives in forests and caves. It produces ultrasonic waves from its nose to search for prey.",
+        "types": ["Psychic", "Flying"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 3, "limit": 6},
+          "dexterity": {"value": 4, "limit": 8},
+          "vitality": {"value": 3, "limit": 6},
+          "special": {"value": 4, "limit": 7},
+          "insight": {"value": 3, "limit": 6}
+        },
+        "derived_stats": {"base_hp": 7, "hp": 10, "defense": 3, "special_defense": 3},
+        "abilities": ["Unaware", "Klutz", "Simple (Hidden)"],
+        "skills": ["Flight"],
+        "move_pool": {
+          "rank_1_starter": ["Confusion", "Odor Sleuth", "Gust", "Assurance"],
+          "rank_2_rookie": ["Heart Stamp", "Imprison", "Air Cutter"],
+          "rank_3_standard": ["Attract", "Amnesia", "Calm Mind", "Air Slash", "Future Sight"],
+          "rank_4_advanced": ["Psychic", "Endeavor"]
+        },
+        "biology": {"egg_group": ["Flying", "Field"], "diet": "Omnivore", "habitat": ["Cave", "Forest"]},
+        "evolution": "Evolves into Swoobat with high Happiness."
+      },
+      {
+        "id": "528",
+        "name": "Swoobat",
+        "description": "It produces sound waves of various frequencies from its nose. It can use them to knock out its prey.",
+        "types": ["Psychic", "Flying"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 4, "limit": 7},
+          "dexterity": {"value": 7, "limit": 13},
+          "vitality": {"value": 4, "limit": 7},
+          "special": {"value": 5, "limit": 9},
+          "insight": {"value": 4, "limit": 7}
+        },
+        "derived_stats": {"base_hp": 7, "hp": 11, "defense": 4, "special_defense": 4},
+        "abilities": ["Unaware", "Klutz", "Simple (Hidden)"],
+        "skills": ["Flight"],
+        "move_pool": {
+          "rank_1_starter": ["Confusion", "Odor Sleuth", "Gust", "Assurance"],
+          "rank_2_rookie": ["Heart Stamp", "Imprison", "Air Cutter"],
+          "rank_3_standard": ["Attract", "Amnesia", "Calm Mind", "Air Slash", "Future Sight"],
+          "rank_4_advanced": ["Psychic", "Endeavor"]
+        },
+        "biology": {"egg_group": ["Flying", "Field"], "diet": "Omnivore", "habitat": ["Cave", "Forest"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "529",
+        "name": "Drilbur",
+        "description": "It can dig through the ground at a speed of 30 mph. It has a rivalry with Diglett.",
+        "types": ["Ground"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 5, "limit": 10},
+          "dexterity": {"value": 4, "limit": 8},
+          "vitality": {"value": 3, "limit": 6},
+          "special": {"value": 2, "limit": 5},
+          "insight": {"value": 3, "limit": 6}
+        },
+        "derived_stats": {"base_hp": 7, "hp": 10, "defense": 3, "special_defense": 3},
+        "abilities": ["Sand Rush", "Sand Force", "Mold Breaker (Hidden)"],
+        "skills": ["Burrow"],
+        "move_pool": {
+          "rank_1_starter": ["Scratch", "Mud Sport", "Rapid Spin", "Mud-Slap"],
+          "rank_2_rookie": ["Fury Swipes", "Metal Claw", "Dig", "Hone Claws"],
+          "rank_3_standard": ["Slash", "Rock Slide", "Earthquake", "Swords Dance"],
+          "rank_4_advanced": ["Sandstorm", "Drill Run", "Fissure"]
+        },
+        "biology": {"egg_group": ["Field"], "diet": "Carnivore", "habitat": ["Cave"]},
+        "evolution": "Evolves into Excadrill."
+      },
+      {
+        "id": "530",
+        "name": "Excadrill",
+        "description": "It can help in tunnel construction. Its drill has the power to cut through iron plates.",
+        "types": ["Ground", "Steel"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 8, "limit": 15},
+          "dexterity": {"value": 5, "limit": 10},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 3, "limit": 6},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 12, "hp": 16, "defense": 4, "special_defense": 4},
+        "abilities": ["Sand Rush", "Sand Force", "Mold Breaker (Hidden)"],
+        "skills": ["Burrow"],
+        "move_pool": {
+          "rank_1_starter": ["Scratch", "Mud Sport", "Rapid Spin", "Mud-Slap", "Horn Drill"],
+          "rank_2_rookie": ["Fury Swipes", "Metal Claw", "Dig", "Hone Claws"],
+          "rank_3_standard": ["Slash", "Rock Slide", "Earthquake", "Swords Dance"],
+          "rank_4_advanced": ["Sandstorm", "Drill Run", "Fissure"]
+        },
+        "biology": {"egg_group": ["Field"], "diet": "Carnivore", "habitat": ["Cave"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "531",
+        "name": "Audino",
+        "description": "It has a caring nature. It will use its feelers to assess the health of people and Pokémon.",
+        "types": ["Normal"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 4, "limit": 8},
+          "dexterity": {"value": 3, "limit": 6},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 11, "hp": 16, "defense": 5, "special_defense": 5},
+        "abilities": ["Healer", "Regenerator", "Klutz (Hidden)"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Play Nice", "Pound", "Growl", "Helping Hand", "Baby-Doll Eyes"],
+          "rank_2_rookie": ["Refresh", "Double Slap", "Attract", "Secret Power"],
+          "rank_3_standard": ["Entrainment", "Take Down", "Heal Pulse", "After You"],
+          "rank_4_advanced": ["Simple Beam", "Double-Edge", "Last Resort", "Hyper Voice", "Misty Terrain"]
+        },
+        "biology": {"egg_group": ["Fairy"], "diet": "Omnivore", "habitat": ["Forest", "Urban"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "532",
+        "name": "Timburr",
+        "description": "It is always carrying a log. If it can lift its log without falling, it is ready to evolve.",
+        "types": ["Fighting"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 5, "limit": 10},
+          "dexterity": {"value": 2, "limit": 5},
+          "vitality": {"value": 4, "limit": 7},
+          "special": {"value": 2, "limit": 5},
+          "insight": {"value": 3, "limit": 5}
+        },
+        "derived_stats": {"base_hp": 8, "hp": 12, "defense": 4, "special_defense": 3},
+        "abilities": ["Guts", "Sheer Force", "Iron Fist (Hidden)"],
+        "skills": ["Strength"],
+        "move_pool": {
+          "rank_1_starter": ["Pound", "Leer", "Focus Energy", "Bide"],
+          "rank_2_rookie": ["Low Kick", "Rock Throw", "Wake-Up Slap", "Chip Away"],
+          "rank_3_standard": ["Bulk Up", "Rock Slide", "Dynamic Punch", "Scary Face"],
+          "rank_4_advanced": ["Hammer Arm", "Stone Edge", "Focus Punch", "Superpower"]
+        },
+        "biology": {"egg_group": ["Human-Like"], "diet": "Omnivore", "habitat": ["Urban"]},
+        "evolution": "Evolves into Gurdurr."
+      },
+      {
+        "id": "533",
+        "name": "Gurdurr",
+        "description": "It is so muscular that it can't be moved by a group of ordinary people. It is a master of construction.",
+        "types": ["Fighting"],
+        "suggested_rank": "Standard",
+        "attributes": {
+          "strength": {"value": 6, "limit": 13},
+          "dexterity": {"value": 3, "limit": 6},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 3, "limit": 6},
+          "insight": {"value": 3, "limit": 6}
+        },
+        "derived_stats": {"base_hp": 9, "hp": 14, "defense": 5, "special_defense": 3},
+        "abilities": ["Guts", "Sheer Force", "Iron Fist (Hidden)"],
+        "skills": ["Strength"],
+        "move_pool": {
+          "rank_1_starter": ["Pound", "Leer", "Focus Energy", "Bide"],
+          "rank_2_rookie": ["Low Kick", "Rock Throw", "Wake-Up Slap", "Chip Away"],
+          "rank_3_standard": ["Bulk Up", "Rock Slide", "Dynamic Punch", "Scary Face"],
+          "rank_4_advanced": ["Hammer Arm", "Stone Edge", "Focus Punch", "Superpower"]
+        },
+        "biology": {"egg_group": ["Human-Like"], "diet": "Omnivore", "habitat": ["Urban"]},
+        "evolution": "Evolves into Conkeldurr via trade."
+      },
+      {
+        "id": "534",
+        "name": "Conkeldurr",
+        "description": "It is said that it taught humans how to make concrete more than 2,000 years ago.",
+        "types": ["Fighting"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 8, "limit": 16},
+          "dexterity": {"value": 3, "limit": 6},
+          "vitality": {"value": 6, "limit": 11},
+          "special": {"value": 4, "limit": 7},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 11, "hp": 17, "defense": 6, "special_defense": 4},
+        "abilities": ["Guts", "Sheer Force", "Iron Fist (Hidden)"],
+        "skills": ["Strength"],
+        "move_pool": {
+          "rank_1_starter": ["Pound", "Leer", "Focus Energy", "Bide"],
+          "rank_2_rookie": ["Low Kick", "Rock Throw", "Wake-Up Slap", "Chip Away"],
+          "rank_3_standard": ["Bulk Up", "Rock Slide", "Dynamic Punch", "Scary Face", "Slam"],
+          "rank_4_advanced": ["Hammer Arm", "Stone Edge", "Focus Punch", "Superpower"]
+        },
+        "biology": {"egg_group": ["Human-Like"], "diet": "Omnivore", "habitat": ["Urban"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "535",
+        "name": "Tympole",
+        "description": "It warns others of danger by vibrating its cheeks to create a high-pitched sound.",
+        "types": ["Water"],
+        "suggested_rank": "Starter",
+        "attributes": {
+          "strength": {"value": 3, "limit": 6},
+          "dexterity": {"value": 4, "limit": 8},
+          "vitality": {"value": 3, "limit": 6},
+          "special": {"value": 3, "limit": 6},
+          "insight": {"value": 3, "limit": 6}
+        },
+        "derived_stats": {"base_hp": 6, "hp": 9, "defense": 3, "special_defense": 3},
+        "abilities": ["Swift Swim", "Hydration", "Water Absorb (Hidden)"],
+        "skills": ["Swimmer"],
+        "move_pool": {
+          "rank_1_starter": ["Bubble", "Growl", "Supersonic", "Round"],
+          "rank_2_rookie": ["Bubble Beam", "Mud Shot", "Aqua Ring"],
+          "rank_3_standard": ["Uproar", "Echoed Voice", "Muddy Water", "Screech"],
+          "rank_4_advanced": ["Hyper Voice", "Flail", "Hydro Pump"]
+        },
+        "biology": {"egg_group": ["Water 1"], "diet": "Omnivore", "habitat": ["Swamp", "Freshwater"]},
+        "evolution": "Evolves into Palpitoad."
+      },
+      {
+        "id": "536",
+        "name": "Palpitoad",
+        "description": "It lives on land and in water. It hunts by using the bumps on its head to create waves.",
+        "types": ["Water", "Ground"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 4, "limit": 8},
+          "dexterity": {"value": 4, "limit": 8},
+          "vitality": {"value": 4, "limit": 7},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 4, "limit": 7}
+        },
+        "derived_stats": {"base_hp": 8, "hp": 12, "defense": 4, "special_defense": 4},
+        "abilities": ["Swift Swim", "Hydration", "Water Absorb (Hidden)"],
+        "skills": ["Swimmer"],
+        "move_pool": {
+          "rank_1_starter": ["Bubble", "Growl", "Supersonic", "Round"],
+          "rank_2_rookie": ["Bubble Beam", "Mud Shot", "Aqua Ring"],
+          "rank_3_standard": ["Uproar", "Echoed Voice", "Muddy Water", "Screech"],
+          "rank_4_advanced": ["Hyper Voice", "Flail", "Hydro Pump"]
+        },
+        "biology": {"egg_group": ["Water 1"], "diet": "Omnivore", "habitat": ["Swamp", "Freshwater"]},
+        "evolution": "Evolves into Seismitoad."
+      },
+      {
+        "id": "537",
+        "name": "Seismitoad",
+        "description": "It increases the power of its punches by vibrating the bumps on its fists.",
+        "types": ["Water", "Ground"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 6, "limit": 11},
+          "dexterity": {"value": 4, "limit": 8},
+          "vitality": {"value": 5, "limit": 9},
+          "special": {"value": 5, "limit": 10},
+          "insight": {"value": 5, "limit": 9}
+        },
+        "derived_stats": {"base_hp": 11, "hp": 16, "defense": 5, "special_defense": 5},
+        "abilities": ["Swift Swim", "Poison Touch", "Water Absorb (Hidden)"],
+        "skills": ["Swimmer"],
+        "move_pool": {
+          "rank_1_starter": ["Bubble", "Growl", "Supersonic", "Round", "Acid"],
+          "rank_2_rookie": ["Bubble Beam", "Mud Shot", "Aqua Ring"],
+          "rank_3_standard": ["Uproar", "Echoed Voice", "Muddy Water", "Screech", "Drain Punch"],
+          "rank_4_advanced": ["Hyper Voice", "Flail", "Hydro Pump", "Gastro Acid"]
+        },
+        "biology": {"egg_group": ["Water 1"], "diet": "Omnivore", "habitat": ["Swamp", "Freshwater"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "538",
+        "name": "Throh",
+        "description": "When it tightens its belt, it becomes stronger. Wild Throh use vines to weave their own belts.",
+        "types": ["Fighting"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 6, "limit": 12},
+          "dexterity": {"value": 3, "limit": 6},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 2, "limit": 5},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 13, "hp": 18, "defense": 5, "special_defense": 5},
+        "abilities": ["Guts", "Inner Focus", "Mold Breaker (Hidden)"],
+        "skills": ["Strength"],
+        "move_pool": {
+          "rank_1_starter": ["Bind", "Leer", "Bide", "Focus Energy"],
+          "rank_2_rookie": ["Seismic Toss", "Vital Throw", "Revenge"],
+          "rank_3_standard": ["Storm Throw", "Body Slam", "Bulk Up", "Circle Throw"],
+          "rank_4_advanced": ["Wide Guard", "Superpower", "Reversal"]
+        },
+        "biology": {"egg_group": ["Human-Like"], "diet": "Omnivore", "habitat": ["Forest"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "539",
+        "name": "Sawk",
+        "description": "The sound of Sawk punching trees and rocks can be heard all the way from the mountains.",
+        "types": ["Fighting"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 8, "limit": 14},
+          "dexterity": {"value": 4, "limit": 9},
+          "vitality": {"value": 5, "limit": 9},
+          "special": {"value": 2, "limit": 5},
+          "insight": {"value": 5, "limit": 9}
+        },
+        "derived_stats": {"base_hp": 8, "hp": 13, "defense": 5, "special_defense": 5},
+        "abilities": ["Sturdy", "Inner Focus", "Mold Breaker (Hidden)"],
+        "skills": ["Strength"],
+        "move_pool": {
+          "rank_1_starter": ["Rock Smash", "Leer", "Bide", "Focus Energy"],
+          "rank_2_rookie": ["Double Kick", "Low Sweep", "Counter", "Karate Chop"],
+          "rank_3_standard": ["Brick Break", "Bulk Up", "Retaliate"],
+          "rank_4_advanced": ["Endure", "Reversal", "Close Combat", "Quick Guard"]
+        },
+        "biology": {"egg_group": ["Human-Like"], "diet": "Omnivore", "habitat": ["Forest"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "540",
+        "name": "Sewaddle",
+        "description": "It makes clothes for itself from leaves. The younger the Sewaddle, the better its sewing.",
+        "types": ["Bug", "Grass"],
+        "suggested_rank": "Starter",
+        "attributes": {
+          "strength": {"value": 3, "limit": 6},
+          "dexterity": {"value": 3, "limit": 6},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 3, "limit": 6},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 5, "hp": 9, "defense": 4, "special_defense": 4},
+        "abilities": ["Swarm", "Chlorophyll", "Overcoat (Hidden)"],
+        "skills": ["Threaded", "Sprouter"],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "String Shot", "Bug Bite", "Razor Leaf"],
+          "rank_2_rookie": ["Struggle Bug", "Endure", "Protect", "Bug Buzz"],
+          "rank_3_standard": ["Flail"],
+          "rank_4_advanced": []
+        },
+        "biology": {"egg_group": ["Bug"], "diet": "Herbivore", "habitat": ["Forest"]},
+        "evolution": "Evolves into Swadloon."
+      },
+      {
+        "id": "541",
+        "name": "Swadloon",
+        "description": "It protects itself from the cold by wrapping up in a leaf. It moves on the forest floor by wriggling.",
+        "types": ["Bug", "Grass"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 4, "limit": 8},
+          "dexterity": {"value": 3, "limit": 6},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 3, "limit": 6},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 6, "hp": 11, "defense": 5, "special_defense": 5},
+        "abilities": ["Leaf Guard", "Chlorophyll", "Overcoat (Hidden)"],
+        "skills": ["Threaded", "Sprouter"],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "String Shot", "Bug Bite", "Razor Leaf"],
+          "rank_2_rookie": ["Struggle Bug", "Endure", "Protect", "Bug Buzz"],
+          "rank_3_standard": ["Flail"],
+          "rank_4_advanced": []
+        },
+        "biology": {"egg_group": ["Bug"], "diet": "Herbivore", "habitat": ["Forest"]},
+        "evolution": "Evolves into Leavanny with high Happiness."
+      },
+      {
+        "id": "542",
+        "name": "Leavanny",
+        "description": "It makes clothes for small Pokémon. It uses its arms to measure and cut leaves.",
+        "types": ["Bug", "Grass"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 6, "limit": 12},
+          "dexterity": {"value": 5, "limit": 10},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 8, "hp": 13, "defense": 5, "special_defense": 5},
+        "abilities": ["Swarm", "Chlorophyll", "Overcoat (Hidden)"],
+        "skills": ["Threaded", "Sprouter"],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "String Shot", "Bug Bite", "Razor Leaf", "False Swipe"],
+          "rank_2_rookie": ["Struggle Bug", "Endure", "Protect", "Bug Buzz", "Slash"],
+          "rank_3_standard": ["Flail", "Swords Dance", "Leaf Blade", "X-Scissor"],
+          "rank_4_advanced": ["Leaf Storm", "Fell Stinger", "Heal Bell"]
+        },
+        "biology": {"egg_group": ["Bug"], "diet": "Herbivore", "habitat": ["Forest"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "543",
+        "name": "Venipede",
+        "description": "It discovers things with its antennae. It has a vicious nature, so it is best to stay away.",
+        "types": ["Bug", "Poison"],
+        "suggested_rank": "Starter",
+        "attributes": {
+          "strength": {"value": 3, "limit": 6},
+          "dexterity": {"value": 4, "limit": 7},
+          "vitality": {"value": 4, "limit": 7},
+          "special": {"value": 2, "limit": 5},
+          "insight": {"value": 3, "limit": 6}
+        },
+        "derived_stats": {"base_hp": 3, "hp": 7, "defense": 4, "special_defense": 3},
+        "abilities": ["Poison Point", "Swarm", "Speed Boost (Hidden)"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Defense Curl", "Rollout", "Poison Sting"],
+          "rank_2_rookie": ["Screech", "Pursuit", "Protect", "Poison Tail"],
+          "rank_3_standard": ["Bug Bite", "Venoshock", "Agility", "Steamroller", "Toxic"],
+          "rank_4_advanced": ["Venom Drench", "Rock Climb", "Double-Edge"]
+        },
+        "biology": {"egg_group": ["Bug"], "diet": "Herbivore", "habitat": ["Forest"]},
+        "evolution": "Evolves into Whirlipede."
+      },
+      {
+        "id": "544",
+        "name": "Whirlipede",
+        "description": "It is usually motionless, but when attacked, it rotates at high speed and then crashes into its foe.",
+        "types": ["Bug", "Poison"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 4, "limit": 7},
+          "dexterity": {"value": 3, "limit": 6},
+          "vitality": {"value": 6, "limit": 11},
+          "special": {"value": 3, "limit": 6},
+          "insight": {"value": 5, "limit": 9}
+        },
+        "derived_stats": {"base_hp": 4, "hp": 10, "defense": 6, "special_defense": 5},
+        "abilities": ["Poison Point", "Swarm", "Speed Boost (Hidden)"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Defense Curl", "Rollout", "Poison Sting"],
+          "rank_2_rookie": ["Screech", "Pursuit", "Protect", "Poison Tail"],
+          "rank_3_standard": ["Bug Bite", "Venoshock", "Agility", "Steamroller", "Toxic"],
+          "rank_4_advanced": ["Venom Drench", "Rock Climb", "Double-Edge", "Iron Defense"]
+        },
+        "biology": {"egg_group": ["Bug"], "diet": "Herbivore", "habitat": ["Forest"]},
+        "evolution": "Evolves into Scolipede."
+      },
+      {
+        "id": "545",
+        "name": "Scolipede",
+        "description": "It is very aggressive. It chases down foes with its powerful legs, then attacks with the claws on its neck.",
+        "types": ["Bug", "Poison"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 6, "limit": 12},
+          "dexterity": {"value": 7, "limit": 13},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 4, "limit": 7},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 7, "hp": 12, "defense": 5, "special_defense": 4},
+        "abilities": ["Poison Point", "Swarm", "Speed Boost (Hidden)"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Defense Curl", "Rollout", "Poison Sting", "Baton Pass"],
+          "rank_2_rookie": ["Screech", "Pursuit", "Protect", "Poison Tail"],
+          "rank_3_standard": ["Bug Bite", "Venoshock", "Agility", "Steamroller", "Toxic"],
+          "rank_4_advanced": ["Venom Drench", "Rock Climb", "Double-Edge", "Iron Defense", "Megahorn"]
+        },
+        "biology": {"egg_group": ["Bug"], "diet": "Carnivore", "habitat": ["Forest"]},
+        "evolution": "Final Stage."
+      }
+    ]
+  }
+}
