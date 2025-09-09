@@ -1,0 +1,104 @@
+{
+  "chapter_5": {
+    "title": "Pokémon Battles",
+    "description": "This chapter details the rules of engagement for combat, from the first move to the final outcome, blending tactical depth with narrative freedom.",
+    "source": ["POKEROLE COREBOOK 3.0-001.pdf", "PTA3PlayersHandbook.pdf", "thatdragonlegacyauthor/pokettrpg/pokettrpg-860569b685794d6c009868bd2304f0e3b474af3a/core/gameplay_protocols_combat.json"],
+    "type_effectiveness": {
+      "title": "Pokémon Types & Effectiveness",
+      "description": "Every Pokémon and every damaging move has one or two of the 18 known elemental Types. Understanding how these Types interact is crucial for victory.",
+      "source": "PTA3PlayersHandbook.pdf",
+      "mechanics": {
+        "super_effective": "Target is weak to the move's Type. Add 1 Extra Die to the Damage Dice Pool.",
+        "not_very_effective": "Target resists the move's Type. Remove 1 Die from the Damage Dice Pool.",
+        "immunity": "Target is immune to the move's Type. The move fails and deals no damage.",
+        "dual_types": "For Pokémon with two types, these effects stack (e.g., two weaknesses grants +2 dice; a weakness and a resistance cancel each other out)."
+      }
+    },
+    "flow_of_battle": {
+      "title": "The Flow of Battle",
+      "description": "Combat is structured in a sequence of rounds and turns to keep the action clear and organized.",
+      "initiative": {
+        "name": "Initiative",
+        "roll": "Dexterity + Alert",
+        "description": "At the start of battle, all participants roll. The character with the highest number of successes goes first.",
+        "source": "POKEROLE COREBOOK 3.0-001.pdf"
+      },
+      "round": {
+        "name": "Round",
+        "description": "A round consists of every combatant taking one turn in initiative order."
+      },
+      "turn": {
+        "name": "Turn & Multiple Actions",
+        "description": "On its turn, a character can perform up to five actions. The difficulty for each subsequent action increases.",
+        "source": ["thatdragonlegacyauthor/pokettrpg/pokettrpg-860569b685794d6c009868bd2304f0e3b474af3a/core/gameplay_protocols_combat.json", "POKEROLE COREBOOK 3.0-001.pdf"],
+        "difficulty_scale": [
+          {"action_number": 1, "required_successes": 1},
+          {"action_number": 2, "required_successes": 2},
+          {"action_number": 3, "required_successes": 3},
+          {"action_number": 4, "required_successes": 4},
+          {"action_number": 5, "required_successes": 5}
+        ]
+      }
+    },
+    "action_resolution": {
+      "title": "Resolving an Attack",
+      "description": "The sequence for determining the outcome of an attack.",
+      "sequence": [
+        {"step": 1, "name": "Declare Move & Target", "details": "The active Trainer declares which move their Pokémon is using and who the target is."},
+        {"step": 2, "name": "Roll Accuracy", "details": "The attacker rolls their dice pool (Attribute + Skill)."},
+        {"step": 3, "name": "Declare Reaction", "details": "The target may spend one of their actions to react by Evading (Dexterity + Evasion) or Clashing (Strength/Special + Clash)."},
+        {"step": 4, "name": "Determine Hit", "details": "If the attacker's successes are greater than the defender's successes, the attack hits."},
+        {"step": 5, "name": "Roll Damage", "details": "The attacker assembles a Damage Dice Pool: Attribute (Strength or Special) + Move Power, modified by Type-Effectiveness."},
+        {"step": 6, "name": "Apply Damage", "details": "The number of successes on the damage roll is the initial damage. The target reduces this damage by their Vitality score."}
+      ]
+    },
+    "health_and_fainting": {
+      "title": "Health & Fainting",
+      "pain_penalization": {
+        "description": "As a character takes damage, their performance suffers, removing successes from their rolls.",
+        "source": "POKEROLE COREBOOK 3.0-001.pdf",
+        "levels": [
+          {"hp_threshold": "Half HP or less", "penalty": "-1 Success from all action rolls."},
+          {"hp_threshold": "1 HP remaining", "penalty": "-2 Successes from all action rolls."}
+        ]
+      },
+      "fainting": {
+        "condition": "HP is reduced to 0.",
+        "effect": "The character is unable to take any more actions in the battle."
+      },
+      "lethal_damage_optional_rule": {
+        "description": "For a more gritty campaign, if a fainted character continues to take damage equal to their maximum HP, they are at risk of death.",
+        "source": "POKEROLE COREBOOK 3.0-001.pdf"
+      }
+    },
+    "status_effects": {
+      "title": "Status Ailments & Conditions",
+      "description": "Lasting effects that can turn the tide of battle. A Pokémon can only have one primary Status Ailment at a time, but can have multiple volatile Conditions.",
+      "source": ["PTA3PlayersHandbook.pdf", "POKEROLE COREBOOK 3.0-001.pdf"],
+      "primary_ailments": [
+        {"name": "Burned", "category": "Fixed", "effect": "Character has -2 to Attack stat and loses 1d10 HP after acting. Fire-types are immune."},
+        {"name": "Frozen", "category": "Fixed", "effect": "Character is unable to act. Can attempt to break free with a Strength + Athletic roll. Ice-types are immune."},
+        {"name": "Paralyzed", "category": "Fixed", "effect": "Character's Dexterity is reduced by 2. Has a chance to be unable to act on their turn. Electric-types are immune."},
+        {"name": "Poisoned", "category": "Fixed", "effect": "Character loses 1d10 HP after acting. Poison- and Steel-types are immune."},
+        {"name": "Badly Poisoned / Toxified", "category": "Aggravating", "effect": "Character takes increasing damage each turn. Poison- and Steel-types are immune."},
+        {"name": "Asleep", "category": "Fixed", "effect": "Character cannot act. Can attempt to wake up with an Insight roll."}
+      ],
+      "volatile_conditions": [
+        {"name": "Confused", "effect": "Character may hit themselves instead of performing an action."},
+        {"name": "Infatuated", "effect": "Character may be unable to attack the object of their affection."},
+        {"name": "Flinched", "effect": "Character loses their next action for the current round."}
+      ]
+    },
+    "weather_conditions": {
+      "title": "Weather Conditions",
+      "description": "Certain moves or abilities can alter the weather on the battlefield, creating advantages and disadvantages for all combatants.",
+      "source": "POKEROLE COREBOOK 3.0-001.pdf",
+      "types": [
+        {"name": "Sunny Weather", "effects": ["Fire-type moves add +1 die to damage.", "Water-type moves have total damage reduced by 1.", "Prevents the Frozen status."]},
+        {"name": "Rain Weather", "effects": ["Water-type moves add +1 die to damage.", "Fire-type moves have total damage reduced by 1.", "Prevents the Burned status."]},
+        {"name": "Sandstorm Weather", "effects": ["Damages non-Rock, Ground, or Steel-types each round.", "Increases the Special Defense of Rock-types by 1."]},
+        {"name": "Hail / Snowy Weather", "effects": ["Damages non-Ice-types each round.", "Increases the Defense of Ice-types by 1."]}
+      ]
+    }
+  }
+}
