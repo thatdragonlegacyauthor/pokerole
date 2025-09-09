@@ -1,0 +1,37 @@
+{
+  "chapter_11": {
+    "title": "The Movedex",
+    "type": "Water",
+    "moves": [
+      { "name": "Aqua Jet", "accuracy": "Strength + Brawl", "damage": "Strength + 2", "effect": "This move has Priority." },
+      { "name": "Aqua Ring", "accuracy": "Automatic", "damage": "None", "effect": "The user recovers 1d6 HP at the end of each of its turns." },
+      { "name": "Aqua Tail", "accuracy": "Strength + Brawl", "damage": "Strength + 5", "effect": "No additional effects." },
+      { "name": "Brine", "accuracy": "Special + Channel", "damage": "Special + 4", "effect": "If the target is at half HP or less, this move's damage becomes Special + 8." },
+      { "name": "Bubble", "accuracy": "Special + Channel", "damage": "Special + 2", "effect": "On a successful hit, roll 1d6. On a 6, the target's Dexterity is lowered by 1." },
+      { "name": "Bubble Beam", "accuracy": "Special + Channel", "damage": "Special + 4", "effect": "On a successful hit, roll 1d6. On a 6, the target's Dexterity is lowered by 1." },
+      { "name": "Clamp", "accuracy": "Strength + Brawl", "damage": "Strength + 2", "effect": "The target is trapped and takes damage for 1d4+1 rounds." },
+      { "name": "Crabhammer", "accuracy": "Strength + Brawl", "damage": "Strength + 6", "effect": "High critical hit ratio." },
+      { "name": "Dive", "accuracy": "Strength + Brawl", "damage": "Strength + 4", "effect": "The user dives underwater for one turn, becoming untargetable. It attacks on the second turn." },
+      { "name": "Hydro Cannon", "accuracy": "Special + Channel", "damage": "Special + 8", "effect": "The user cannot act on the next turn." },
+      { "name": "Hydro Pump", "accuracy": "Special + Channel", "damage": "Special + 7", "effect": "This move has a high chance of missing." },
+      { "name": "Liquidation", "accuracy": "Strength + Brawl", "damage": "Strength + 5", "effect": "On a successful hit, roll 1d6. On a 5 or 6, the target's Vitality is lowered by 1." },
+      { "name": "Mist", "accuracy": "Automatic", "damage": "None", "effect": "The user and its allies are protected from stat-lowering effects for 5 rounds." },
+      { "name": "Muddy Water", "accuracy": "Special + Channel", "damage": "Special + 5", "effect": "Hits all adjacent opponents. On a successful hit, roll 1d6. On a 5 or 6, the target's accuracy is lowered by 1." },
+      { "name": "Octazooka", "accuracy": "Special + Channel", "damage": "Special + 4", "effect": "On a successful hit, roll 1d6. On a 5 or 6, the target's accuracy is lowered by 1." },
+      { "name": "Protect", "accuracy": "Automatic", "damage": "None", "effect": "The user is immune to all damage and effects until its next turn. Chance to fail if used consecutively." },
+      { "name": "Rain Dance", "accuracy": "Automatic", "damage": "None", "effect": "Changes the weather to Rain Weather for 5 rounds." },
+      { "name": "Razor Shell", "accuracy": "Strength + Brawl", "damage": "Strength + 4", "effect": "On a successful hit, roll 1d6. On a 5 or 6, the target's Vitality is lowered by 1." },
+      { "name": "Scald", "accuracy": "Special + Channel", "damage": "Special + 4", "effect": "On a successful hit, roll 1d6. On a 5 or 6, the target is Burned." },
+      { "name": "Soak", "accuracy": "Special + Channel", "damage": "None", "effect": "Changes the target's Type to pure Water for the rest of the scene." },
+      { "name": "Surf", "accuracy": "Special + Channel", "damage": "Special + 5", "effect": "Hits all adjacent opponents. Can be used to travel across water." },
+      { "name": "Water Gun", "accuracy": "Special + Channel", "damage": "Special + 2", "effect": "No additional effects." },
+      { "name": "Water Pledge", "accuracy": "Special + Channel", "damage": "Special + 4", "effect": "If used after Fire Pledge, creates a rainbow. If used before Grass Pledge, creates a swamp." },
+      { "name": "Water Pulse", "accuracy": "Special + Channel", "damage": "Special + 3", "effect": "On a successful hit, roll 1d6. On a 5 or 6, the target is Confused." },
+      { "name": "Water Sport", "accuracy": "Automatic", "damage": "None", "effect": "Reduces the damage of all Fire-type moves by half for 5 rounds." },
+      { "name": "Water Spout", "accuracy": "Special + Channel", "damage": "Special + 8", "effect": "Damage is reduced proportionally to the user's remaining HP." },
+      { "name": "Waterfall", "accuracy": "Strength + Athletic", "damage": "Strength + 4", "effect": "On a successful hit, roll 1d6. On a 6, the target Flinches." },
+      { "name": "Whirlpool", "accuracy": "Special + Channel", "damage": "Special + 2", "effect": "The target is trapped and takes damage for 1d4+1 rounds." },
+      { "name": "Withdraw", "accuracy": "Automatic", "damage": "None", "effect": "The user raises its Vitality by 1 for the rest of the scene." }
+    ]
+  }
+}
