@@ -18,42 +18,6 @@
           {"name": "Evolution", "description": "How the Pokémon evolves into its next stage."}
         ]
       }
-    },
-    "kanto_pokedex": [
-      {
-        "id": "001",
-        "name": "Bulbasaur",
-        "description": "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokémon.",
-        "types": ["Grass", "Poison"],
-        "suggested_rank": "Starter",
-        "attributes": {
-          "strength": {"value": 3, "limit": 6},
-          "dexterity": {"value": 3, "limit": 6},
-          "vitality": {"value": 3, "limit": 6},
-          "special": {"value": 4, "limit": 8},
-          "insight": {"value": 4, "limit": 8}
-        },
-        "derived_stats": {
-          "base_hp": 5,
-          "hp": 8,
-          "defense": 3,
-          "special_defense": 4
-        },
-        "abilities": ["Overgrow", "Chlorophyll (Hidden)"],
-        "skills": ["Sprouter"],
-        "move_pool": {
-          "rank_1_starter": ["Tackle", "Growl", "Vine Whip", "Leech Seed"],
-          "rank_2_rookie": ["Poison Powder", "Sleep Powder", "Take Down"],
-          "rank_3_standard": ["Razor Leaf", "Sweet Scent", "Growth"],
-          "rank_4_advanced": ["Double-Edge", "Synthesis", "Solar Beam"]
-        },
-        "biology": {
-          "egg_group": ["Monster", "Grass"],
-          "diet": "Phototroph",
-          "habitat": ["Forest", "Grassland"]
-        },
-        "evolution": "Evolves into Ivysaur."
-      }
     ]
   }
 }
