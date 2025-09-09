@@ -1,0 +1,97 @@
+{
+  "chapter_7": {
+    "title": "Training & Growth",
+    "description": "A Pokémon's journey from a young companion to a powerful partner is forged through shared experience and hard work. This chapter details the system of Training Points (TP), the currency of growth.",
+    "source": "POKEROLE COREBOOK 3.0-001.pdf",
+    "earning_training_points": {
+      "title": "Earning Training Points (TP)",
+      "description": "Pokémon earn TP in two primary ways: through the crucible of battle and through dedicated Training Sessions.",
+      "methods": [
+        {
+          "name": "Training Through Battle",
+          "description": "At the end of a battle, any Pokémon that participated for at least one full round earns TP.",
+          "source": "POKEROLE COREBOOK 3.0-001.pdf",
+          "rewards": [
+            {"circumstance": "Participating in a Battle", "tp_earned": 1},
+            {"circumstance": "Winning a Battle", "tp_earned": "an additional +1 TP"},
+            {"circumstance": "Storyteller Discretion", "tp_earned": "Bonus TP may be awarded for creative strategies or overcoming a significant challenge."}
+          ]
+        },
+        {
+          "name": "Training Sessions",
+          "description": "The most effective way to grow. A session takes about two hours of in-game time.",
+          "source": "POKEROLE COREBOOK 3.0-001.pdf",
+          "steps": [
+            {"step": 1, "name": "Set the Task", "details": "The Trainer describes a training activity and sets its difficulty (1-5+ successes)."},
+            {"step": 2, "name": "Pokémon's Roll", "details": "The Pokémon performs a dice roll (Attribute + Skill) to complete the task. They get two attempts."},
+            {"step": 3, "name": "Trainer's Roll", "details": "If the Pokémon succeeds, the Trainer makes a Training Roll (Social Attribute + Skill). The task's difficulty is added as bonus automatic successes."},
+            {"step": 4, "name": "Earn TP", "details": "The Pokémon earns TP equal to the total number of successes on the Trainer's Training Roll."},
+            {"step": 5, "name": "Recover Will", "details": "The Trainer and the participating Pokémon each recover 2 Will Points."}
+          ]
+        }
+      ]
+    },
+    "spending_training_points": {
+      "title": "Spending Training Points",
+      "description": "TP is the resource used to unlock a Pokémon's full potential. It can be spent at any time outside of battle.",
+      "uses": [
+        {
+          "name": "Rank Up",
+          "description": "Increase a Pokémon's Rank, granting it more points in Attributes and Skills. A Pokémon's Rank cannot exceed its Trainer's.",
+          "source": "POKEROLE COREBOOK 3.0-001.pdf",
+          "cost_table": [
+            {"from_rank": "Starter", "to_rank": "Rookie", "cost": "5 TP"},
+            {"from_rank": "Rookie", "to_rank": "Standard", "cost": "10 TP"},
+            {"from_rank": "Standard", "to_rank": "Advanced", "cost": "15 TP"},
+            {"from_rank": "Advanced", "to_rank": "Expert", "cost": "20 TP"},
+            {"from_rank": "Expert", "to_rank": "Ace", "cost": "25 TP"},
+            {"from_rank": "Ace", "to_rank": "Master", "cost": "30 TP"}
+          ]
+        },
+        {
+          "name": "Evolve",
+          "description": "Trigger your Pokémon's evolution. The cost depends on the species' natural growth rate.",
+          "source": "POKEROLE COREBOOK 3.0-001.pdf",
+          "cost_table": [
+            {"evolution_speed": "Fast", "cost": "10 TP"},
+            {"evolution_speed": "Medium", "cost": "20 TP"},
+            {"evolution_speed": "Slow", "cost": "30 TP"}
+          ]
+        },
+        {
+          "name": "Learn New Moves",
+          "description": "Teach your Pokémon a new move from its move list. The cost increases as the Pokémon evolves.",
+          "source": "POKEROLE COREBOOK 3.0-001.pdf",
+          "cost_table": [
+            {"evolutive_stage": "First Stage", "cost": "5 TP"},
+            {"evolutive_stage": "Second Stage", "cost": "10 TP"},
+            {"evolutive_stage": "Final Stage", "cost": "15 TP"}
+          ]
+        },
+        {
+          "name": "Over-Rank",
+          "description": "Teach your Pokémon a move from a higher Rank than it has currently achieved. Requires a strong bond (minimum combined Happiness & Loyalty of 7).",
+          "source": "POKEROLE COREBOOK 3.0-001.pdf",
+          "cost_table": [
+            {"evolutive_stage": "First Stage", "cost": "10 TP"},
+            {"evolutive_stage": "Second Stage", "cost": "15 TP"},
+            {"evolutive_stage": "Final Stage", "cost": "20 TP"}
+          ]
+        },
+        {
+          "name": "Re-Train",
+          "description": "Rework a Pokémon's build by re-distributing all the Attribute and Skill points they've gained from ranking up.",
+          "source": "POKEROLE COREBOOK 3.0-001.pdf",
+          "cost": "20 TP"
+        }
+      ]
+    },
+    "alternative_training": {
+      "title": "Day-Care Centers",
+      "description": "For Trainers on the go, Day-Care Centers offer a place to leave Pokémon for care and passive training.",
+      "source": "POKEROLE COREBOOK 3.0-001.pdf",
+      "benefits": "A Pokémon left at a Day-Care gains up to 6 TP per day (e.g., roll 1d6) and their Happiness will increase.",
+      "drawback": "This does not strengthen your personal bond. For every 5 days a Pokémon remains at a Day-Care without a visit, its Loyalty will decrease by 1 point."
+    }
+  }
+}
