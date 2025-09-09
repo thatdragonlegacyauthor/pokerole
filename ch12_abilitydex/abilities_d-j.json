@@ -1,0 +1,308 @@
+{
+  "abilitydex_part2": {
+    "Damp": {
+      "lore": "The Pokémon gathers the humidity in the air around itself. Lighting a spark or keeping a fire on will be almost impossible close to it.",
+      "effect": "No one in the field will be able to use the moves: Self-Destruct, Explosion, Misty Explosion, Mind Blown and Burn Up while this Pokémon is in the field. The Ability Aftermath does not activate if this Pokémon is in the field."
+    },
+    "Dancer": {
+      "lore": "When someone begins to dance, this Pokémon dances too. It expresses its feelings and communicates through little jigs.",
+      "effect": "Once per Round, if a Pokémon uses a Move with the word \"Dance\" (e.g., Dragon Dance, Petal Dance etc.) this Pokémon gets one free action to use the same Move immediately after with the same number of successes on Accuracy. Damage must still be rolled; Rampage Moves are only used once."
+    },
+    "Dark Aura": {
+      "lore": "A powerful black aura comes out of this Pokémon, shrouding the field in darkness and filling everyone's hearts with evil, selfishness and corruption.",
+      "effect": "Increase by 2 dice to all Damage Pools of Dark-Type Moves of all Pokémon in the field. This effect does not stack with itself. Pokémon and Trainers on the field will not cooperate with each other. This is a Unique Ability."
+    },
+    "Dauntless Shield": {
+      "lore": "The valorous resolve of this Pokémon makes it impervious to physical damage through sheer will. Its presence can be unnerving.",
+      "effect": "Whenever this Pokémon enters battle, Increase its Defense by 2. Outside of battle, this Pokémon is immune to physical damage. This is a Unique Ability."
+    },
+    "Dazzling": {
+      "lore": "Its beautiful scales reflect light in a mirror-like manner; no one can help but to stop in their tracks when they glance at this Pokémon.",
+      "effect": "Foes cannot use Reaction Moves against this Pokémon. Maneuvers can still be used."
+    },
+    "Defeatist": {
+      "lore": "This Pokémon is a pessimist by nature. When things get difficult, it will be the first to give up.",
+      "effect": "If this Pokémon's HP is at half or less, roll its Loyalty requiring 2 successes every action; if the roll fails Reduce by 2 its Strength and Special for that action. If the roll is successful it keeps its attributes unchanged or restores them if they were reduced in a previous action."
+    },
+    "Defiant": {
+      "lore": "This Pokémon will not yield; the harder the situation gets, the higher its fighting spirit will grow. It may, however, be a bit of a rebel.",
+      "effect": "The first time this Pokémon has an Attribute reduced during a battle, Increase its Strength by 2."
+    },
+    "Delta Stream": {
+      "lore": "The wind currents blow through the entire battlefield; Pokémon might be blown away if they don't know how to fly.",
+      "effect": "When this Pokémon comes out, it automatically starts the effects of Strong Winds Weather. The effects end when the Pokémon leaves the battle. (In case of stalemate, the Pokémon with highest Will might keep the dominant weather). This is a Unique Ability."
+    },
+    "Desolate Land": {
+      "lore": "The heat is unbearable. Your skin gets red and blistered. All water evaporates, and every step of this Pokémon makes the ground become molten lava.",
+      "effect": "When this Pokémon comes out, it automatically starts the effects of Desolate Weather. The effects end when the Pokémon leaves the battle. (In case of stalemate, the Pokémon with highest Will might keep the dominant weather). This is a Unique Ability."
+    },
+    "Disguise": {
+      "lore": "This Pokémon wears a convincing disguise of another Pokémon. If it receives damage, the disguise breaks, making it appear as if it received a fatal injury.",
+      "effect": "The first time this Pokémon would receive damage due to a Physical or Special Move, reduce that damage to zero. Entry Hazards, Weather Conditions and Status Ailments do not trigger this Ability. This is a Unique Ability."
+    },
+    "Download": {
+      "lore": "This Pokémon is able to scan and access digital data within computers and download the info into itself. Too much data might make it feel bloated.",
+      "effect": "When this Pokémon comes out it will scan its foes and give information about them. It will then Increase 1 Point to either its Strength or Special Attribute at Storyteller's discretion. This is a Unique Ability."
+    },
+    "Dragon's Maw": {
+      "lore": "This Pokémon's mandibles are full of fury and fierceness. They'll rip and tear without mercy.",
+      "effect": "All Physical or Special Dragon-Type Moves that this Pokémon uses have 2 Extra dice on their Damage Pool. This effect does not apply to Moves with set damage."
+    },
+    "Drizzle": {
+      "lore": "The sky will keep raining in an apparent never-ending storm for as long as this Pokémon wants to.",
+      "effect": "When this Pokémon comes out, it automatically starts the effects of Rain Weather. The effects end when the Pokémon leaves the battle. (In case of stalemate the Pokémon with higher Will might keep the dominant weather)."
+    },
+    "Drought": {
+      "lore": "The Sunlight will be harshly bright, and the heat will increase in the field for as long as this Pokémon wants to.",
+      "effect": "When this Pokémon comes out, it automatically starts the effects of Sunny Weather. The effects end when the Pokémon leaves the battle. (In case of stalemate the Pokémon with higher Will might keep the dominant weather)."
+    },
+    "Dry Skin": {
+      "lore": "The skin of this Pokémon needs special care as it is very dry and brittle; it'll require constant hydration and protection against the sun.",
+      "effect": "While Sunny Weather is active, this Pokémon will receive 1 damage at the end of each round. Fire attacks will deal 1 additional Damage to this Pokémon. Water attacks may heal 1 HP to this Pokémon instead of dealing damage."
+    },
+    "Early Bird": {
+      "lore": "Pokémon with this ability are light sleepers that will easily rise from slumber. They wake up full of energy with just a couple hours of sleep.",
+      "effect": "The time this Pokémon would be asleep is reduced by half and it will only need to score 2 successes on its Insight roll to wake up in battle. This effect does not apply for the Move \"Rest\"."
+    },
+    "Earth Eater": {
+      "lore": "This Pokémon feeds on the minerals on earth, it loves mud baths and spends most of the time burrowed underneath the ground.",
+      "effect": "Whenever this Pokémon is hit by a Ground-Type Move, you may Heal 1 HP instead of receiving damage. Ground-type moves do not deal damage to this Pokémon."
+    },
+    "Effect Spore": {
+      "lore": "When stressed, this Pokémon will leak spores through its body that scatter in the air causing severe allergies.",
+      "effect": "If hit by a Non-Ranged Physical Move, the Pokémon rolls 3 Chance Dice to Poison, Paralyze or put the foe to Sleep at random."
+    },
+    "Electric Surge": {
+      "lore": "The Pokémon can surround itself with an electric field that fills the air with tension and keeps everyone on edge.",
+      "effect": "When this Pokémon comes out, it automatically starts the effects of the Move Electric Terrain. (In case of stalemate the Pokémon with higher Will might keep the dominant Terrain)."
+    },
+    "Electromorphosis": {
+      "lore": "This Pokémon can transform any kind of kinetic energy into electricity. Beware to touch it as it always has some excess charge on its body.",
+      "effect": "If this Pokémon receives Damage from a Physical or Special Move, Add 2 Extra Dice to the Damage Dice Pool of its next Electric Move."
+    },
+    "Embody Aspect": {
+      "lore": "This Pokémon's emotions are deeply affected by the masks it wears, its personality changing completely depending on which one it is using.",
+      "effect": "Increase by 2 an Attribute of this Pokémon depending on the mask it wears. Teal & Wellspring Mask - Dexterity / Heartflame & Cornerstone Mask - Strength. This is a Unique Ability."
+    },
+    "Emergency Exit": {
+      "lore": "The Pokémon makes tactical escapes when the situation escalates out of control. You may force him to fight despite this but it won't like it.",
+      "effect": "Whenever this Pokémon's HP reaches half or less, it will switch out to its Pokéball, sending an Ally to take its place. If there is no Ally, the battle may end. This Ability's effect is not affected by Block."
+    },
+    "Fairy Aura": {
+      "lore": "A powerful pink glowing aura comes out of this Pokémon, covering the field in a glimmering light, filling everyone's hearts with peace, hope and love.",
+      "effect": "Increase by 2 dice to all Damage Pools of Fairy-Type Moves of all Pokémon in the field. This effect does not stack. Pokémon and Trainers on the field will not attack the user of this Ability. This is a Unique Ability."
+    },
+    "Filter": {
+      "lore": "This Pokémon uses an invisible energy field to filter away harmful energies and substances.",
+      "effect": "If a foe uses a Move that would deal Super Effective Damage to this Pokémon, reduce by 1 the total Damage from that attack."
+    },
+    "Flame Body": {
+      "lore": "This Pokémon can willingly ignite its body on fire, receiving no harm from it. Objects that come in contact with this Pokémon may catch fire.",
+      "effect": "When hit by a Non-Ranged Physical Move, this Pokémon rolls 3 Chance Dice to inflict 2nd degree Burn on the foe."
+    },
+    "Flare Boost": {
+      "lore": "A Pokémon with this Ability benefits from the extreme heat produced by fire. But they might be somewhat of a pyromaniac.",
+      "effect": "If this Pokémon gets any degree of Burn, Increase 2 points to its Special Attribute."
+    },
+    "Flash Fire": {
+      "lore": "This Pokémon is capable of consuming other fire sources and adding them to its own. Walking through embers, fire, lava and hell feel like a breeze to it.",
+      "effect": "The first time this Pokémon is hit by a Fire-Type move, add 1 Extra die to the Damage Pool of Fire-type Moves this Pokémon uses until the end of the scene. Fire-type moves do not deal damage to this Pokémon."
+    },
+    "Flower Gift": {
+      "lore": "This Pokémon's petals radiate full of energy when the sun shines bright. The energy irradiated makes those around feel stronger.",
+      "effect": "While Sunny Weather is active, Increase 2 Points to the Strength and Sp. Defense Attribute of the User and allies in range."
+    },
+    "Flower Veil": {
+      "lore": "This Pokémon makes flowers grow in gardens and near other Pokémon to protect them from harm.",
+      "effect": "User and allies in range can't have their Attributes/Traits reduced. User and allies in range can't have any Status Ailment inflicted on them. Previously inflicted or self-inflicted Attribute reductions and/or ailments remain."
+    },
+    "Fluffy": {
+      "lore": "This Pokémon's fur is so fluffy you could die. So soft and snuggly that it invites you to hug it. Hand-wash only, tumble dry with no heat, do not iron.",
+      "effect": "Reduce by 2 the Damage dealt to this Pokémon by All Physical Moves. Increase by 2 the Damage dealt to this Pokémon by Fire-Type Moves."
+    },
+    "Forecast": {
+      "lore": "This Pokémon can absorb the elements around to adapt and survive even under extreme conditions.",
+      "effect": "The Type of this Pokémon will change depending on the active weather. Fire-Type under Sun, Water-Type under Rain, Ice-Type under Hail/Snow and Rock-Type under Sand."
+    },
+    "Forewarn": {
+      "lore": "When this Pokémon feels bad intentions or disaster approaching, it will mentally warn its trainer. The trainer must make a roll of Insight to get the message.",
+      "effect": "In battle, this Pokémon will warn about the strongest move one of its foes has. Storyteller has to reveal it to the trainer of this Pokémon in secret."
+    },
+    "Friend Guard": {
+      "lore": "The Pokémon is adorable and evokes parental instincts in others. All of its allies will seek to protect it all the time.",
+      "effect": "This Pokémon does not receive damage from Moves performed by allies. Added effects may still apply."
+    },
+    "Frisk": {
+      "lore": "This Pokémon can see the items others may be carrying, even if they are hidden.",
+      "effect": "When this Pokémon enters the battlefield, Storyteller must reveal to its trainer the held item of one foe."
+    },
+    "Full Metal Body": {
+      "lore": "This Pokémon's body is a thick metal armor; its shiny coat cannot be muddled. Look inside of it and you may be blinded by the sun's brightness.",
+      "effect": "Other Pokémon cannot Reduce the Attributes of this Pokémon. This Pokémon can still Reduce its own Attributes. This is a Unique Ability."
+    },
+    "Fur Coat": {
+      "lore": "This Pokémon's fluffy exterior is cuddly, soft, hypoallergenic, and also serves as a cushion against powerful blows.",
+      "effect": "Reduce by 2 the Damage dealt to this Pokémon by All Physical Moves."
+    },
+    "Gale Wings": {
+      "lore": "This Pokémon's wings are perfectly designed to ride the roughest winds effortlessly.",
+      "effect": "Add the Effect \"Reaction I\" to all Flying-Type Moves of this Pokémon."
+    },
+    "Galvanize": {
+      "lore": "The body of this Pokémon is surrounded by electrical currents; this makes it very energized in everything it does.",
+      "effect": "Normal-Type Moves that this Pokémon uses will deal damage as if they were Electric-Type, affecting STAB, weakness and resistance. Add 1 Extra die of Damage to Electric Moves."
+    },
+    "Gluttony": {
+      "lore": "This Pokémon eats all day long; it is always carrying food and has no problem to find food sources since it's not a picky eater. It, however, doesn't share.",
+      "effect": "This Pokémon can eat any type of food, medicine or herbal medicine with no negative effect. This Pokémon may have up to three berries as held item instead of just one. The berries must not be of the same effect."
+    },
+    "Good As Gold": {
+      "lore": "The Pokémon's body is made of the most pure gold you'd ever seen. It knows its worth, so its shine is always unbesmirched.",
+      "effect": "Neither foes nor Allies can Target this Pokémon with Support Moves."
+    },
+    "Gooey": {
+      "lore": "This Pokémon's sticky ooze will rub into anyone that touches it. This may become quite a burden. On the bright side, it is a natural and organic glue.",
+      "effect": "The first time a foe hits this Pokémon with a Non-Ranged Physical Move, reduce 1 Point from their Dexterity Attribute."
+    },
+    "Gorilla Tactics": {
+      "lore": "The Pokémon's manners leave a lot to be desired; it is brutish and uncivilized, its only approach to facing problems: \"Smash it!\"",
+      "effect": "Whenever this Pokémon comes into battle, choose a Move. This Pokémon can only perform that Move during battle, but can use it up to 5 times per round. Increase this Pokémon's Strength by 1."
+    },
+    "Grass Pelt": {
+      "lore": "This Pokémon has a lush coat of grass to protect its body; even if you cut it, it will regrow in a few days.",
+      "effect": "If Grassy Terrain is active, Increase this Pokémon's Defense by 2."
+    },
+    "Grassy Surge": {
+      "lore": "The Pokémon can surround itself with a grass field that makes it easy to relax and laze around in the sun.",
+      "effect": "When this Pokémon comes out, it automatically starts the effects of the Move Grassy Terrain. (In case of stalemate the Pokémon with higher Will might keep the dominant Terrain)."
+    },
+    "Grim Neigh": {
+      "lore": "This Pokémon emits a somber and eerie neigh. In ancient times, hearing it at night was a terrible omen.",
+      "effect": "If a foe faints because of a Physical or Special dealt by this Pokémon, Increase its Special Attribute by 1. Up to 3 points can be increased this way."
+    },
+    "Guard Dog": {
+      "lore": "A territorial and protective Pokémon. It won't ever back down or run away, not even from the most intimidating foes. Very loyal but can also be a bit scary.",
+      "effect": "If a foe uses a Move, Ability or Item to reduce this Pokémon's Strength Attribute, negate that effect and increase it by 2 instead. This Pokémon is immune to the effect of Switcher Moves that would remove it from battle."
+    },
+    "Gulp Missile": {
+      "lore": "This Pokémon is an excellent hunter; when diving into a pool of water it will always come out with prey. And it will sometimes use the prey as a weapon...",
+      "effect": "If this Pokémon uses the Moves Surf or Dive, it will change forms after dealing damage. \"Gulping Form\" at full or more than half HP remaining, \"Gorging Form\" at half or less HP. If the Pokémon is dealt damage by a foe while in any of these Forms, deal 2 Dice of Damage and an effect to that foe. The user returns to its regular form afterwards. This is a Unique Ability."
+    },
+    "Guts": {
+      "lore": "This Pokémon dares to do everything no one else dares to, and won't lose its determination easily; it may be a little reckless, though.",
+      "effect": "While affected by a Status Ailment (Burn, Frozen, Paralysis, Poison, Sleep), Increase this Pokémon's Strength Attribute by 2."
+    },
+    "Hadron Engine": {
+      "lore": "This Pokémon's body is able to accelerate particles and transform them into energy. Theory is that it's simply bringing forward energy from another universe.",
+      "effect": "When this Pokémon comes out, it automatically starts the effects of the Move Electric Terrain (In case of stalemate the Pokémon with higher Will might keep the dominant Terrain). While Electric Terrain is active, increase this Pokémon's Special Attribute by 2."
+    },
+    "Harvest": {
+      "lore": "This Pokémon will naturally produce edible fruits in a short period of time; if fed with berries it will start growing them too.",
+      "effect": "If this Pokémon uses a berry as a held item during a fight, the berry will grow back at the end of the battle."
+    },
+    "Healer": {
+      "lore": "The Pokémon has healing powers, and will use them without hesitation to aid others.",
+      "effect": "If an Ally on the battle field has a Status Ailment, at the End of the Round this Pokémon rolls 3 Chance Dice to heal it. Outside of battle it can heal Status Ailments by spending 1 Will Point."
+    },
+    "Heatproof": {
+      "lore": "This Pokémon can resist very high temperatures without trouble.",
+      "effect": "1st and 2nd Degree Burns deal no Damage to this Pokémon. If this Pokémon is hit by a Fire-Type Move, Reduce the total damage dealt by 2."
+    },
+    "Heavy Metal": {
+      "lore": "The metal covering the body of the Pokémon is so thick that it can double and sometimes triple the average weight of the Pokémon.",
+      "effect": "Increase the Pokémon's weight at storyteller's discretion. Moves with damage based on weight get their Damage Pool modified according to the increased weight of the user."
+    },
+    "Honey Gather": {
+      "lore": "The Pokémon produces its own honey; you can get a small barrel of high quality honey every day.",
+      "effect": "A small barrel of honey can be sold for up to $100. Honey attracts wild Pokémon and feeding a Pokémon with it will make it happy."
+    },
+    "Hospitality": {
+      "lore": "The Pokémon can transform the most bitter herb into a delicious medicinal tea. It will also invite its friends for a cup whenever they have the time.",
+      "effect": "When this Pokémon comes out, it can spend a Will Point to heal up to 3 HP from a damaged Ally. Lethal Damage is not healed with this effect. Outside of battle it can remove the bitter taste from all healing Herbs."
+    },
+    "Huge Power": {
+      "lore": "The Pokémon has an unnatural strength that goes way beyond of what its physical appearance would suggest.",
+      "effect": "This Pokémon has a permanent increase in its Strength Attribute. Ranks Starter, Beginner, Standard and Advanced Increase Strength by 1. Rank Expert and higher Increase Strength by 2."
+    },
+    "Hunger Switch": {
+      "lore": "This Pokémon becomes really upset if it gets hungry; it will bite and act out unless you constantly give it snacks.",
+      "effect": "At the end of the Round, switch this Pokémon's Form, from \"Hangry\" Form to \"Full-Belly Form\" or vice versa. Outside of battle, the form changes depending on its hunger. This is a Unique Ability."
+    },
+    "Hustle": {
+      "lore": "The Pokémon will perform everything in a hurry; it keeps itself busy, but it can be kind of sloppy when it rushes something out.",
+      "effect": "This Pokémon gets an Extra Low Accuracy 1 and adds 2 Extra Dice to the Damage pool of all its Physical Moves."
+    },
+    "Hydration": {
+      "lore": "The body of the Pokémon absorbs water and uses its moisture to maintain a healthy state.",
+      "effect": "While Rain weather is active, this Pokémon will cure all Status Ailments and Conditions it is affected with at the end of the round."
+    },
+    "Hyper Cutter": {
+      "lore": "The claws of this Pokémon are very sharp. Their edge can't be dulled.",
+      "effect": "This Pokémon can't have its Strength Attribute reduced by Moves, Abilities, or Items. This Pokémon can still Reduce its own Strength Attribute."
+    },
+    "Ice Body": {
+      "lore": "The Pokémon's body is almost frozen, and can cool down enclosed areas in a few minutes. It feels most comfortable when temperatures are below zero.",
+      "effect": "If Hail/Snow Weather is active, you may restore 1HP to this Pokémon at the end of the Round. This Pokémon is immune to damage from Hail weather."
+    },
+    "Ice Face": {
+      "lore": "This Pokémon's face is covered by thick block of ice that serves as cover for its body. If it breaks it will need freezing temperatures to restore the ice block.",
+      "effect": "The Pokémon has 2 Extra HP when it is on \"Ice Face form\". If the Ice receives 2 damage, change the Pokémon's form to \"No-Ice Form\". To restore \"Ice Face Form\" the Pokémon must be out one whole Round while Hail/Snow weather is active. This is a Unique Ability."
+    },
+    "Ice Scales": {
+      "lore": "This Pokémon's body is covered by crystal scales made of ice. Always cold to the touch, it easily deflects most projectiles, energy and light on its surface.",
+      "effect": "Reduce by 2 the Damage dealt to this Pokémon by All Special Moves."
+    },
+    "Illuminate": {
+      "lore": "The Pokémon naturally produces a soft and warm light through its body. Other Pokémon approach to it curiously when they see this light.",
+      "effect": "Increases the chance of random, non-hostile, wild Pokémon encounters. If there were environmental challenges, or difficulty penalties due to reduced visibility, this Pokémon and its allies in range are immune to the effects."
+    },
+    "Illusion": {
+      "lore": "The Pokémon casts an illusion on itself to look like another creature it has seen. The illusion is indistinguishable from the real one.",
+      "effect": "When this Pokémon comes out, it will have the form of another Pokémon in the party; the illusion breaks if it receives damage. Outside of battle it may cast the illusion on itself at will. This is a Unique Ability."
+    },
+    "Immunity": {
+      "lore": "The Pokémon has a very strong immune system and will rarely get sick. It could even eat rotten food without getting sick.",
+      "effect": "This Pokémon does not receive damage from Poison and Badly Poisoned Status Ailments."
+    },
+    "Imposter": {
+      "lore": "This Pokémon can alter its own cell structure extremely fast to transform into a copy of another being.",
+      "effect": "As soon as it enters into battle, this Pokémon will be under the effects of the Move Transform."
+    },
+    "Infiltrator": {
+      "lore": "The Pokémon is very stealthy with its movements, it is naturally harder to detect and can easily sneak in heavily guarded places.",
+      "effect": "This Pokémon ignores all Shield Moves, Force Fields, Substitutes and Cover active on the foe's side of the field."
+    },
+    "Innards Out": {
+      "lore": "As it has no extremities, this Pokémon expels its own internal organs to use them as limbs or to defend itself from harm. Gross but effective.",
+      "effect": "If this Pokémon would faint due to damage from a Physical or Special Move, inflict damage on the attacker equal to the remaining HP the user had."
+    },
+    "Inner Focus": {
+      "lore": "The Pokémon is extremely serious and focused on everything it does. It remains calm and never backs down, even if it's getting severely injured.",
+      "effect": "This Pokémon does not Flinch. The Ability Intimidate does not have any effect against this Pokémon. Outside of battle this Pokémon is able to resist intimidation tactics, fear and stress better than others."
+    },
+    "Insomnia": {
+      "lore": "The Pokémon does not ever sleep; it will be awake no matter the hour. Maybe it doesn't need to or maybe it's just worried.",
+      "effect": "This Pokémon is immune to the Sleep Status. Moves or Items that self-inflict Sleep will fail."
+    },
+    "Intimidate": {
+      "lore": "This Pokémon has an overwhelming presence that inspires both fear and respect from others.",
+      "effect": "When this Pokémon comes into battle, Reduce by 1 the Strength of All foes in Range. This effect will last for as long as this Pokémon is out. Outside of battle, wild Pokémon will avoid the party if this Pokémon is out."
+    },
+    "Intrepid Sword": {
+      "lore": "This audacious Pokémon is fearless to any challenge; its strength increases through sheer will. Its presence can be very menacing.",
+      "effect": "Whenever this Pokémon enters battle, Increase its Strength by 2. Outside of battle, this Pokémon can cut through any surface. This is a Unique Ability."
+    },
+    "Iron Barbs": {
+      "lore": "This Pokémon is covered with sharp steel quills that hurt anyone who may touch them carelessly.",
+      "effect": "If this Pokémon is hit with a Non-Ranged Physical Move choose one: Deal 1 Neutral Damage against the attacker OR Roll 2 Dice of Neutral Damage against the attacker."
+    },
+    "Iron Fist": {
+      "lore": "The hands of this Pokémon are very strong and heavy; when curled into fists they can go through anything.",
+      "effect": "Add 1 Extra Die to the Damage Pool of all Fist Based Moves."
+    },
+    "Justified": {
+      "lore": "This Pokémon has an innate sense of justice; wrongdoings will make them really angry.",
+      "effect": "If a Dark-Type Move hits this Pokémon, Increase its Strength by 1. Up to 3 points can be increased this way. Outside of battle, suffering or witnessing injustices will also trigger this effect."
+    }
+  }
+}
