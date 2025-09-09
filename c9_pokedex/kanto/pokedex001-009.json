@@ -1,0 +1,233 @@
+{
+    "kanto_pokedex": [
+      {
+        "id": "001",
+        "name": "Bulbasaur",
+        "description": "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokémon.",
+        "types": ["Grass", "Poison"],
+        "suggested_rank": "Starter",
+        "attributes": {
+          "strength": {"value": 3, "limit": 6},
+          "dexterity": {"value": 3, "limit": 6},
+          "vitality": {"value": 3, "limit": 6},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 5, "hp": 8, "defense": 3, "special_defense": 4},
+        "abilities": ["Overgrow", "Chlorophyll (Hidden)"],
+        "skills": ["Sprouter"],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Growl", "Vine Whip", "Leech Seed"],
+          "rank_2_rookie": ["Poison Powder", "Sleep Powder", "Take Down"],
+          "rank_3_standard": ["Razor Leaf", "Sweet Scent", "Growth"],
+          "rank_4_advanced": ["Double-Edge", "Synthesis", "Solar Beam"]
+        },
+        "biology": {"egg_group": ["Monster", "Grass"], "diet": "Phototroph", "habitat": ["Forest", "Grassland"]},
+        "evolution": "Evolves into Ivysaur."
+      },
+      {
+        "id": "002",
+        "name": "Ivysaur",
+        "description": "There is a bud on this Pokémon's back. To support its weight, Ivysaur's legs and trunk grow thick and strong.",
+        "types": ["Grass", "Poison"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 4, "limit": 8},
+          "dexterity": {"value": 3, "limit": 6},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 5, "limit": 10},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 7, "hp": 11, "defense": 4, "special_defense": 5},
+        "abilities": ["Overgrow", "Chlorophyll (Hidden)"],
+        "skills": ["Sprouter"],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Growl", "Vine Whip", "Leech Seed"],
+          "rank_2_rookie": ["Poison Powder", "Sleep Powder", "Take Down", "Seed Bomb"],
+          "rank_3_standard": ["Razor Leaf", "Sweet Scent", "Growth", "Worry Seed"],
+          "rank_4_advanced": ["Double-Edge", "Synthesis", "Solar Beam"]
+        },
+        "biology": {"egg_group": ["Monster", "Grass"], "diet": "Phototroph", "habitat": ["Forest", "Grassland"]},
+        "evolution": "Evolves into Venusaur."
+      },
+      {
+        "id": "003",
+        "name": "Venusaur",
+        "description": "Its plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.",
+        "types": ["Grass", "Poison"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 5, "limit": 10},
+          "dexterity": {"value": 4, "limit": 8},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 6, "limit": 12},
+          "insight": {"value": 6, "limit": 12}
+        },
+        "derived_stats": {"base_hp": 9, "hp": 14, "defense": 5, "special_defense": 6},
+        "abilities": ["Overgrow", "Chlorophyll (Hidden)"],
+        "skills": ["Sprouter"],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Growl", "Vine Whip", "Leech Seed"],
+          "rank_2_rookie": ["Poison Powder", "Sleep Powder", "Take Down", "Seed Bomb"],
+          "rank_3_standard": ["Razor Leaf", "Sweet Scent", "Growth", "Petal Dance"],
+          "rank_4_advanced": ["Double-Edge", "Synthesis", "Solar Beam", "Petal Blizzard"],
+          "rank_5_expert": ["Frenzy Plant"]
+        },
+        "biology": {"egg_group": ["Monster", "Grass"], "diet": "Phototroph", "habitat": ["Forest", "Grassland"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "004",
+        "name": "Charmander",
+        "description": "The flame on its tail indicates Charmander's life force. If it is healthy, the flame burns brightly.",
+        "types": ["Fire"],
+        "suggested_rank": "Starter",
+        "attributes": {
+          "strength": {"value": 4, "limit": 7},
+          "dexterity": {"value": 4, "limit": 8},
+          "vitality": {"value": 3, "limit": 6},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 3, "limit": 6}
+        },
+        "derived_stats": {"base_hp": 4, "hp": 7, "defense": 3, "special_defense": 3},
+        "abilities": ["Blaze", "Solar Power (Hidden)"],
+        "skills": ["Firestarter", "Heater"],
+        "move_pool": {
+          "rank_1_starter": ["Scratch", "Growl", "Ember"],
+          "rank_2_rookie": ["Smokescreen", "Dragon Rage", "Fire Fang"],
+          "rank_3_standard": ["Slash", "Flamethrower", "Fire Spin"],
+          "rank_4_advanced": ["Inferno"]
+        },
+        "biology": {"egg_group": ["Monster", "Dragon"], "diet": "Carnivore", "habitat": ["Mountain"]},
+        "evolution": "Evolves into Charmeleon."
+      },
+      {
+        "id": "005",
+        "name": "Charmeleon",
+        "description": "In the rocky mountains where Charmeleon live, their fiery tails shine like stars.",
+        "types": ["Fire"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 4, "limit": 8},
+          "dexterity": {"value": 5, "limit": 10},
+          "vitality": {"value": 4, "limit": 7},
+          "special": {"value": 5, "limit": 10},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 6, "hp": 10, "defense": 4, "special_defense": 4},
+        "abilities": ["Blaze", "Solar Power (Hidden)"],
+        "skills": ["Firestarter", "Heater"],
+        "move_pool": {
+          "rank_1_starter": ["Scratch", "Growl", "Ember"],
+          "rank_2_rookie": ["Smokescreen", "Dragon Rage", "Fire Fang", "Flame Burst"],
+          "rank_3_standard": ["Slash", "Flamethrower", "Fire Spin"],
+          "rank_4_advanced": ["Inferno", "Flare Blitz"]
+        },
+        "biology": {"egg_group": ["Monster", "Dragon"], "diet": "Carnivore", "habitat": ["Mountain"]},
+        "evolution": "Evolves into Charizard."
+      },
+      {
+        "id": "006",
+        "name": "Charizard",
+        "description": "Its fiery breath is hot enough to melt boulders. It may cause forest fires by blowing flames.",
+        "types": ["Fire", "Flying"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 5, "limit": 10},
+          "dexterity": {"value": 6, "limit": 12},
+          "vitality": {"value": 5, "limit": 9},
+          "special": {"value": 7, "limit": 13},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 8, "hp": 13, "defense": 5, "special_defense": 5},
+        "abilities": ["Blaze", "Solar Power (Hidden)"],
+        "skills": ["Firestarter", "Heater", "Flight"],
+        "move_pool": {
+          "rank_1_starter": ["Scratch", "Growl", "Ember"],
+          "rank_2_rookie": ["Smokescreen", "Dragon Rage", "Fire Fang", "Flame Burst"],
+          "rank_3_standard": ["Slash", "Flamethrower", "Fire Spin", "Wing Attack"],
+          "rank_4_advanced": ["Inferno", "Flare Blitz", "Heat Wave"],
+          "rank_5_expert": ["Blast Burn"]
+        },
+        "biology": {"egg_group": ["Monster", "Dragon"], "diet": "Carnivore", "habitat": ["Mountain"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "007",
+        "name": "Squirtle",
+        "description": "It shelters itself in its shell, then strikes back with spouts of water at every opportunity.",
+        "types": ["Water"],
+        "suggested_rank": "Starter",
+        "attributes": {
+          "strength": {"value": 3, "limit": 6},
+          "dexterity": {"value": 3, "limit": 5},
+          "vitality": {"value": 3, "limit": 8},
+          "special": {"value": 3, "limit": 6},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 5, "hp": 8, "defense": 3, "special_defense": 4},
+        "abilities": ["Torrent", "Rain Dish (Hidden)"],
+        "skills": ["Fountain", "Swimmer"],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Tail Whip", "Water Gun", "Withdraw"],
+          "rank_2_rookie": ["Bubble", "Bite", "Rapid Spin"],
+          "rank_3_standard": ["Protect", "Water Pulse"],
+          "rank_4_advanced": ["Aqua Tail", "Skull Bash", "Hydro Pump"]
+        },
+        "biology": {"egg_group": ["Monster", "Water 1"], "diet": "Omnivore", "habitat": ["Freshwater"]},
+        "evolution": "Evolves into Wartortle."
+      },
+      {
+        "id": "008",
+        "name": "Wartortle",
+        "description": "It is a very popular pet because of its long life span. Its furry tail is a symbol of longevity.",
+        "types": ["Water"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 4, "limit": 8},
+          "dexterity": {"value": 4, "limit": 7},
+          "vitality": {"value": 4, "limit": 10},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 6, "hp": 10, "defense": 4, "special_defense": 5},
+        "abilities": ["Torrent", "Rain Dish (Hidden)"],
+        "skills": ["Fountain", "Swimmer"],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Tail Whip", "Water Gun", "Withdraw"],
+          "rank_2_rookie": ["Bubble", "Bite", "Rapid Spin", "Water Pulse"],
+          "rank_3_standard": ["Protect", "Aqua Tail", "Rain Dance"],
+          "rank_4_advanced": ["Skull Bash", "Hydro Pump"]
+        },
+        "biology": {"egg_group": ["Monster", "Water 1"], "diet": "Omnivore", "habitat": ["Freshwater", "Ocean"]},
+        "evolution": "Evolves into Blastoise."
+      },
+      {
+        "id": "009",
+        "name": "Blastoise",
+        "description": "The rocket cannons on its shell fire jets of water capable of punching through thick steel.",
+        "types": ["Water"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 5, "limit": 10},
+          "dexterity": {"value": 4, "limit": 8},
+          "vitality": {"value": 6, "limit": 12},
+          "special": {"value": 5, "limit": 10},
+          "insight": {"value": 7, "limit": 13}
+        },
+        "derived_stats": {"base_hp": 8, "hp": 14, "defense": 6, "special_defense": 7},
+        "abilities": ["Torrent", "Rain Dish (Hidden)"],
+        "skills": ["Fountain", "Swimmer"],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Tail Whip", "Water Gun", "Withdraw"],
+          "rank_2_rookie": ["Bubble", "Bite", "Rapid Spin", "Water Pulse"],
+          "rank_3_standard": ["Protect", "Aqua Tail", "Rain Dance", "Flash Cannon"],
+          "rank_4_advanced": ["Skull Bash", "Hydro Pump"],
+          "rank_5_expert": ["Hydro Cannon"]
+        },
+        "biology": {"egg_group": ["Monster", "Water 1"], "diet": "Omnivore", "habitat": ["Ocean", "Beach"]},
+        "evolution": "Final Stage."
+      }
+    ]
+  }
+}
