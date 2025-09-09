@@ -1,0 +1,50 @@
+{
+  "chapter_13_gamemaster_guide": {
+    "part_2": {
+      "section_5_creating_npcs_and_encounters": {
+        "title": "Creating NPCs & Encounters",
+        "creating_npcs": {
+          "title": "Creating NPCs",
+          "summary": "When creating Non-Player Characters (NPCs), you don't need to overthink it. Most won't need a full character sheet unless they are directly involved in combat. Instead, focus on the narrative.",
+          "narrative_questions": [
+            "How relevant is this NPC to the story?",
+            "Do they need a name?",
+            "Do they need a backstory?",
+            "Will they help the players or antagonize them?",
+            "Do they have Pokémon companions?"
+          ],
+          "mechanics_note": "For relevant NPCs, create them using the standard character creation rules. To create their Pokémon, simply find the Pokémon's Pokédex entry, assign a Rank, and add the appropriate points to their base stats."
+        },
+        "making_encounters": {
+          "title": "Making Encounters",
+          "summary": "To balance a combat encounter, consider the Rank of the foe compared to the Rank of the player's Pokémon, as well as any Type advantages or disadvantages.",
+          "balance_guide": {
+            "title": "Simplified Balance Guide",
+            "headers": ["Foe Receives Damage", "Lower Rank", "Same Rank", "One Rank Higher", "Two+ Ranks Higher"],
+            "rows": [
+              {"damage_type": "Extremely Effective", "difficulties": ["Effortless", "Too Easy", "Easy", "Normal"]},
+              {"damage_type": "Super Effective", "difficulties": ["Too Easy", "Easy", "Normal", "Challenging"]},
+              {"damage_type": "Neutral", "difficulties": ["Easy", "Normal", "Challenging", "Hard"]},
+              {"damage_type": "Not-Very Effective", "difficulties": ["Normal", "Challenging", "Hard", "Very Hard"]},
+              {"damage_type": "Barely Effective", "difficulties": ["Challenging", "Hard", "Very Hard", "Extreme"]},
+              {"damage_type": "Immune", "difficulties": ["Hard", "Very Hard", "Extreme", "Punishing"]}
+            ]
+          }
+        },
+        "horde_encounters": {
+          "title": "Horde Encounters",
+          "summary": "A Horde Encounter involves a battle with multiple opponents. To balance a horde, consider the number of participants on each side.",
+          "balance_by_number": [
+            {"scenario": "More Players than foes", "difficulty": "Easy", "reason": "Action economy favors the players."},
+            {"scenario": "Same number of players and foes", "difficulty": "Normal", "reason": "Action economy is similar on both sides."},
+            {"scenario": "More foes than players", "difficulty": "Hard", "reason": "Action economy favors the foes."}
+          ]
+        },
+        "random_encounters": {
+          "title": "Random Encounters",
+          "summary": "While the focus should be on the narrative, Random Encounters can be a useful tool. To create one, choose a habitat, create a list of Pokémon found there, and create an Event Table with simple plot hooks (e.g., 'A wild Pokémon wants to fight!', 'You find a Pokémon taking a nap.')."
+        }
+      }
+    }
+  }
+}
