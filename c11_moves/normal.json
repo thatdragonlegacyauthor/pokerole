@@ -1,0 +1,141 @@
+{
+  "chapter_11": {
+    "title": "The Movedex",
+    "type": "Normal",
+    "moves": [
+      {
+        "name": "Tackle",
+        "type": "Normal",
+        "accuracy": "Strength + Brawl",
+        "damage": "Strength + 2",
+        "effect": "A basic physical attack. No additional effects."
+      },
+      {
+        "name": "Scratch",
+        "type": "Normal",
+        "accuracy": "Strength + Brawl",
+        "damage": "Strength + 2",
+        "effect": "A basic physical attack. No additional effects."
+      },
+      {
+        "name": "Pound",
+        "type": "Normal",
+        "accuracy": "Strength + Brawl",
+        "damage": "Strength + 2",
+        "effect": "A basic physical attack. No additional effects."
+      },
+      {
+        "name": "Growl",
+        "type": "Normal",
+        "accuracy": "Special + Charm",
+        "damage": "None",
+        "effect": "Lowers the target's Strength by 1 for the rest of the scene. This effect can stack."
+      },
+      {
+        "name": "Leer",
+        "type": "Normal",
+        "accuracy": "Special + Intimidate",
+        "damage": "None",
+        "effect": "Lowers the target's Vitality by 1 for the rest of the scene. This effect can stack."
+      },
+      {
+        "name": "Tail Whip",
+        "type": "Normal",
+        "accuracy": "Special + Charm",
+        "damage": "None",
+        "effect": "Lowers the target's Vitality by 1 for the rest of the scene. This effect can stack."
+      },
+      {
+        "name": "Quick Attack",
+        "type": "Normal",
+        "accuracy": "Dexterity + Brawl",
+        "damage": "Strength + 2",
+        "effect": "This move has Priority. It is resolved before other moves in the same round, ignoring initiative order."
+      },
+      {
+        "name": "Swords Dance",
+        "type": "Normal",
+        "accuracy": "Automatic",
+        "damage": "None",
+        "effect": "The user raises its Strength by 2 for the rest of the scene. This move can only be used once per scene."
+      },
+      {
+        "name": "Hyper Beam",
+        "type": "Normal",
+        "accuracy": "Special + Channel",
+        "damage": "Special + 8",
+        "effect": "After using this move, the user cannot take any actions on their next turn as they must recharge."
+      },
+      {
+        "name": "Giga Impact",
+        "type": "Normal",
+        "accuracy": "Strength + Brawl",
+        "damage": "Strength + 8",
+        "effect": "After using this move, the user cannot take any actions on their next turn as they must recharge."
+      },
+      {
+        "name": "Body Slam",
+        "type": "Normal",
+        "accuracy": "Strength + Brawl",
+        "damage": "Strength + 5",
+        "effect": "On a successful hit, the user may roll 1d6. On a 5 or 6, the target is Paralyzed."
+      },
+      {
+        "name": "Protect",
+        "type": "Normal",
+        "accuracy": "Automatic",
+        "damage": "None",
+        "effect": "The user becomes immune to all damage and effects until the start of their next turn. If this move is used consecutively, it has a cumulative chance to fail (Storyteller's discretion)."
+      },
+      {
+        "name": "Slam",
+        "type": "Normal",
+        "accuracy": "Strength + Brawl",
+        "damage": "Strength + 4",
+        "effect": "No additional effects."
+      },
+      {
+        "name": "Double-Edge",
+        "type": "Normal",
+        "accuracy": "Strength + Brawl",
+        "damage": "Strength + 7",
+        "effect": "The user takes recoil damage equal to one-third of the damage it deals."
+      },
+      {
+        "name": "Hyper Voice",
+        "type": "Normal",
+        "accuracy": "Special + Perform",
+        "damage": "Special + 5",
+        "effect": "This move hits all adjacent opponents."
+      },
+      {
+        "name": "Facade",
+        "type": "Normal",
+        "accuracy": "Strength + Brawl",
+        "damage": "Strength + 4",
+        "effect": "If the user is Burned, Paralyzed, or Poisoned, this move's damage becomes Strength + 8."
+      },
+      {
+        "name": "Return",
+        "type": "Normal",
+        "accuracy": "Strength + Charm",
+        "damage": "Strength + User's Happiness/Loyalty",
+        "effect": "Damage is increased by the user's combined Happiness and Loyalty score."
+      },
+      {
+        "name": "Frustration",
+        "type": "Normal",
+        "accuracy": "Strength + Intimidate",
+        "damage": "Strength + (10 - User's Happiness/Loyalty)",
+        "effect": "Damage is increased by the inverse of the user's combined Happiness and Loyalty score."
+      },
+      {
+        "name": "Strength",
+        "type": "Normal",
+        "accuracy": "Strength + Brawl",
+        "damage": "Strength + 4",
+        "effect": "Out of combat, can be used to move heavy objects."
+      }
+    ]
+  }
+}
