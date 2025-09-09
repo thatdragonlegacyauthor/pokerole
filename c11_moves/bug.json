@@ -1,0 +1,21 @@
+{
+  "chapter_11": {
+    "title": "The Movedex",
+    "type": "Bug",
+    "moves": [
+      { "name": "Bug Bite", "type": "Bug", "accuracy": "Strength + Brawl", "damage": "Strength + 3", "effect": "If the target is holding a Berry, the user steals it and eats it." },
+      { "name": "Bug Buzz", "type": "Bug", "accuracy": "Special + Perform", "damage": "Special + 5", "effect": "On a successful hit, roll 1d6. On a 6, the target's Insight is lowered by 1." },
+      { "name": "X-Scissor", "type": "Bug", "accuracy": "Strength + Brawl", "damage": "Strength + 4", "effect": "No additional effects." },
+      { "name": "Megahorn", "type": "Bug", "accuracy": "Strength + Brawl", "damage": "Strength + 7", "effect": "This move has a high chance of missing." },
+      { "name": "Leech Life", "type": "Bug", "accuracy": "Strength + Brawl", "damage": "Strength + 4", "effect": "The user regains HP equal to half the damage dealt." },
+      { "name": "Quiver Dance", "type": "Bug", "accuracy": "Automatic", "damage": "None", "effect": "The user raises its Special, Insight, and Dexterity by 1 for the rest of the scene." },
+      { "name": "Sticky Web", "type": "Bug", "accuracy": "Automatic", "damage": "None", "effect": "Lays a hazard on the opponent's side of the field. Grounded Pokémon that switch in have their Dexterity lowered by 1." },
+      { "name": "U-turn", "type": "Bug", "accuracy": "Strength + Brawl", "damage": "Strength + 4", "effect": "After dealing damage, the user may immediately switch out with another Pokémon in the party." },
+      { "name": "First Impression", "type": "Bug", "accuracy": "Strength + Brawl", "damage": "Strength + 5", "effect": "This move has Priority, but it can only be used on the first turn the user is in battle." },
+      { "name": "Attack Order", "type": "Bug", "accuracy": "Strength + Brawl", "damage": "Strength + 5", "effect": "High critical hit ratio." },
+      { "name": "Defend Order", "type": "Bug", "accuracy": "Automatic", "damage": "None", "effect": "Raises the user's Vitality and Insight by 1." },
+      { "name": "Heal Order", "type": "Bug", "accuracy": "Automatic", "damage": "None", "effect": "The user recovers half of its maximum HP." },
+      { "name": "Twineedle", "type": "Bug", "accuracy": "Strength + Brawl", "damage": "Strength + 1 (per hit)", "effect": "Hits twice. On each hit, roll 1d6. On a 5 or 6, the target is Poisoned." }
+    ]
+  }
+}
