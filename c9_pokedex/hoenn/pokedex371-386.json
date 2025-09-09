@@ -1,0 +1,418 @@
+{
+  "pokedex": {
+    "hoenn_pokedex": [
+      {
+        "id": "371",
+        "name": "Bagon",
+        "description": "Its well-developed neck muscles and steel-hard head can smash any boulder to pieces.",
+        "types": ["Dragon"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 5, "limit": 9},
+          "dexterity": {"value": 3, "limit": 6},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 2, "limit": 5},
+          "insight": {"value": 2, "limit": 5}
+        },
+        "derived_stats": {"base_hp": 5, "hp": 9, "defense": 4, "special_defense": 2},
+        "abilities": ["Rock Head", "Sheer Force (Hidden)"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Rage", "Ember", "Leer", "Bite"],
+          "rank_2_rookie": ["Headbutt", "Focus Energy", "Crunch", "Dragon Breath"],
+          "rank_3_standard": ["Scary Face", "Zen Headbutt", "Dragon Claw"],
+          "rank_4_advanced": ["Double-Edge"]
+        },
+        "biology": {"egg_group": ["Dragon"], "diet": "Carnivore", "habitat": ["Mountain"]},
+        "evolution": "Evolves into Shelgon."
+      },
+      {
+        "id": "372",
+        "name": "Shelgon",
+        "description": "It is covered by a steel-hard shell. It is said that this Pokémon dreams of flying.",
+        "types": ["Dragon"],
+        "suggested_rank": "Standard",
+        "attributes": {
+          "strength": {"value": 6, "limit": 11},
+          "dexterity": {"value": 3, "limit": 6},
+          "vitality": {"value": 6, "limit": 12},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 3, "limit": 6}
+        },
+        "derived_stats": {"base_hp": 7, "hp": 13, "defense": 6, "special_defense": 3},
+        "abilities": ["Rock Head", "Overcoat (Hidden)"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Rage", "Ember", "Leer", "Bite"],
+          "rank_2_rookie": ["Headbutt", "Focus Energy", "Crunch", "Dragon Breath", "Protect"],
+          "rank_3_standard": ["Scary Face", "Zen Headbutt", "Dragon Claw"],
+          "rank_4_advanced": ["Double-Edge"]
+        },
+        "biology": {"egg_group": ["Dragon"], "diet": "Carnivore", "habitat": ["Cave"]},
+        "evolution": "Evolves into Salamence."
+      },
+      {
+        "id": "373",
+        "name": "Salamence",
+        "description": "It is a violent Pokémon that destroys everything in its path. It is said that this behavior is the result of a long-held dream of growing wings.",
+        "types": ["Dragon", "Flying"],
+        "suggested_rank": "Master",
+        "attributes": {
+          "strength": {"value": 8, "limit": 15},
+          "dexterity": {"value": 6, "limit": 12},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 7, "limit": 13},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 10, "hp": 15, "defense": 5, "special_defense": 5},
+        "abilities": ["Intimidate", "Moxie (Hidden)"],
+        "skills": ["Flight"],
+        "move_pool": {
+          "rank_1_starter": ["Rage", "Ember", "Leer", "Bite", "Fire Fang", "Thunder Fang"],
+          "rank_2_rookie": ["Headbutt", "Focus Energy", "Crunch", "Dragon Breath", "Protect"],
+          "rank_3_standard": ["Scary Face", "Zen Headbutt", "Dragon Claw", "Fly"],
+          "rank_4_advanced": ["Double-Edge", "Dragon Tail", "Dragon Dance"]
+        },
+        "biology": {"egg_group": ["Dragon"], "diet": "Carnivore", "habitat": ["Mountain"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "374",
+        "name": "Beldum",
+        "description": "It uses magnetic waves to see. It is a mystery as to why it is drawn to the craters of volcanoes.",
+        "types": ["Steel", "Psychic"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 4, "limit": 7},
+          "dexterity": {"value": 2, "limit": 5},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 2, "limit": 5},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 4, "hp": 8, "defense": 4, "special_defense": 4},
+        "abilities": ["Clear Body", "Light Metal (Hidden)"],
+        "skills": ["Hover"],
+        "move_pool": {
+          "rank_1_starter": ["Take Down"]
+        },
+        "biology": {"egg_group": ["Mineral"], "diet": "Ergovore", "habitat": ["Mountain"]},
+        "evolution": "Evolves into Metang."
+      },
+      {
+        "id": "375",
+        "name": "Metang",
+        "description": "It is formed by two Beldum that have fused together. Its steel body can withstand a collision with a jet plane.",
+        "types": ["Steel", "Psychic"],
+        "suggested_rank": "Standard",
+        "attributes": {
+          "strength": {"value": 5, "limit": 9},
+          "dexterity": {"value": 3, "limit": 6},
+          "vitality": {"value": 6, "limit": 12},
+          "special": {"value": 4, "limit": 7},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 7, "hp": 13, "defense": 6, "special_defense": 5},
+        "abilities": ["Clear Body", "Light Metal (Hidden)"],
+        "skills": ["Hover"],
+        "move_pool": {
+          "rank_1_starter": ["Take Down", "Confusion", "Metal Claw", "Magnet Rise"],
+          "rank_2_rookie": ["Pursuit", "Bullet Punch", "Miracle Eye", "Zen Headbutt"],
+          "rank_3_standard": ["Scary Face", "Psychic", "Iron Defense", "Agility"],
+          "rank_4_advanced": ["Meteor Mash", "Hammer Arm"]
+        },
+        "biology": {"egg_group": ["Mineral"], "diet": "Ergovore", "habitat": ["Mountain"]},
+        "evolution": "Evolves into Metagross."
+      },
+      {
+        "id": "376",
+        "name": "Metagross",
+        "description": "It has four brains that are linked by a complex neural network. It can perform calculations faster than a supercomputer.",
+        "types": ["Steel", "Psychic"],
+        "suggested_rank": "Master",
+        "attributes": {
+          "strength": {"value": 8, "limit": 15},
+          "dexterity": {"value": 4, "limit": 8},
+          "vitality": {"value": 8, "limit": 15},
+          "special": {"value": 6, "limit": 11},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 9, "hp": 17, "defense": 8, "special_defense": 5},
+        "abilities": ["Clear Body", "Light Metal (Hidden)"],
+        "skills": ["Hover"],
+        "move_pool": {
+          "rank_1_starter": ["Take Down", "Confusion", "Metal Claw", "Magnet Rise"],
+          "rank_2_rookie": ["Pursuit", "Bullet Punch", "Miracle Eye", "Zen Headbutt"],
+          "rank_3_standard": ["Scary Face", "Psychic", "Iron Defense", "Agility"],
+          "rank_4_advanced": ["Meteor Mash", "Hammer Arm", "Hyper Beam"]
+        },
+        "biology": {"egg_group": ["Mineral"], "diet": "Ergovore", "habitat": ["Mountain"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "377",
+        "name": "Regirock",
+        "description": "A Pokémon that is made entirely of rocks and boulders. If any part of its body is chipped off in battle, it restores itself with rocks that it finds.",
+        "types": ["Rock"],
+        "suggested_rank": "Master",
+        "attributes": {
+          "strength": {"value": 6, "limit": 12},
+          "dexterity": {"value": 3, "limit": 6},
+          "vitality": {"value": 11, "limit": 20},
+          "special": {"value": 3, "limit": 6},
+          "insight": {"value": 6, "limit": 12}
+        },
+        "derived_stats": {"base_hp": 9, "hp": 20, "defense": 11, "special_defense": 6},
+        "abilities": ["Clear Body", "Sturdy (Hidden)"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Explosion", "Stomp", "Rock Throw"],
+          "rank_2_rookie": ["Bulldoze", "Curse"],
+          "rank_3_standard": ["Ancient Power", "Iron Defense", "Charge Beam", "Lock-On"],
+          "rank_4_advanced": ["Zap Cannon", "Stone Edge", "Hammer Arm", "Superpower", "Hyper Beam"],
+          "rank_5_expert": ["Rock Wrecker"]
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Terravore", "habitat": ["Ruins"]},
+        "evolution": "Legendary."
+      },
+      {
+        "id": "378",
+        "name": "Regice",
+        "description": "Its body is made of ice from the ice age. It controls frigid air of -328 degrees Fahrenheit.",
+        "types": ["Ice"],
+        "suggested_rank": "Master",
+        "attributes": {
+          "strength": {"value": 3, "limit": 6},
+          "dexterity": {"value": 3, "limit": 6},
+          "vitality": {"value": 6, "limit": 12},
+          "special": {"value": 6, "limit": 12},
+          "insight": {"value": 11, "limit": 20}
+        },
+        "derived_stats": {"base_hp": 9, "hp": 15, "defense": 6, "special_defense": 11},
+        "abilities": ["Clear Body", "Ice Body (Hidden)"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Explosion", "Stomp", "Icy Wind"],
+          "rank_2_rookie": ["Bulldoze", "Curse"],
+          "rank_3_standard": ["Ancient Power", "Amnesia", "Charge Beam", "Lock-On"],
+          "rank_4_advanced": ["Zap Cannon", "Ice Beam", "Hammer Arm", "Superpower", "Hyper Beam"],
+          "rank_5_expert": ["Blizzard"]
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Nullivore", "habitat": ["Ruins"]},
+        "evolution": "Legendary."
+      },
+      {
+        "id": "379",
+        "name": "Registeel",
+        "description": "Its body is harder than any other kind of metal. It is a mystery as to what it eats.",
+        "types": ["Steel"],
+        "suggested_rank": "Master",
+        "attributes": {
+          "strength": {"value": 5, "limit": 9},
+          "dexterity": {"value": 3, "limit": 6},
+          "vitality": {"value": 8, "limit": 15},
+          "special": {"value": 5, "limit": 9},
+          "insight": {"value": 8, "limit": 15}
+        },
+        "derived_stats": {"base_hp": 9, "hp": 17, "defense": 8, "special_defense": 8},
+        "abilities": ["Clear Body", "Light Metal (Hidden)"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Explosion", "Stomp", "Metal Claw"],
+          "rank_2_rookie": ["Bulldoze", "Curse"],
+          "rank_3_standard": ["Ancient Power", "Amnesia", "Charge Beam", "Lock-On", "Iron Defense", "Flash Cannon"],
+          "rank_4_advanced": ["Zap Cannon", "Hammer Arm", "Superpower", "Hyper Beam", "Iron Head", "Heavy Slam"],
+          "rank_5_expert": ["Focus Blast"]
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Nullivore", "habitat": ["Ruins"]},
+        "evolution": "Legendary."
+      },
+      {
+        "id": "380",
+        "name": "Latias",
+        "description": "Its body is covered with a down that can refract light to make it invisible.",
+        "types": ["Dragon", "Psychic"],
+        "suggested_rank": "Champion",
+        "attributes": {
+          "strength": {"value": 5, "limit": 10},
+          "dexterity": {"value": 7, "limit": 13},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 7, "limit": 13},
+          "insight": {"value": 8, "limit": 15}
+        },
+        "derived_stats": {"base_hp": 9, "hp": 14, "defense": 5, "special_defense": 8},
+        "abilities": ["Levitate"],
+        "skills": ["Flight", "Invisibility"],
+        "move_pool": {
+          "rank_1_starter": ["Psyshock", "Dragon Breath", "Water Sport"],
+          "rank_2_rookie": ["Refresh", "Luster Purge", "Psywave", "Heal Pulse"],
+          "rank_3_standard": ["Dragon Dance", "Recover", "Psycho Shift", "Zen Headbutt"],
+          "rank_4_advanced": ["Guard Split", "Psychic", "Dragon Pulse", "Mist Ball"],
+          "rank_5_expert": ["Charm", "Wish", "Healing Wish"]
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Psiotroph", "habitat": ["Sky"]},
+        "evolution": "Legendary."
+      },
+      {
+        "id": "381",
+        "name": "Latios",
+        "description": "A highly intelligent Pokémon. It can fly faster than a jet plane by folding its wings.",
+        "types": ["Dragon", "Psychic"],
+        "suggested_rank": "Champion",
+        "attributes": {
+          "strength": {"value": 5, "limit": 10},
+          "dexterity": {"value": 7, "limit": 13},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 8, "limit": 15},
+          "insight": {"value": 7, "limit": 13}
+        },
+        "derived_stats": {"base_hp": 9, "hp": 14, "defense": 5, "special_defense": 7},
+        "abilities": ["Levitate"],
+        "skills": ["Flight"],
+        "move_pool": {
+          "rank_1_starter": ["Psyshock", "Dragon Breath", "Protect"],
+          "rank_2_rookie": ["Refresh", "Luster Purge", "Psywave", "Heal Pulse"],
+          "rank_3_standard": ["Dragon Dance", "Recover", "Psycho Shift", "Zen Headbutt"],
+          "rank_4_advanced": ["Power Split", "Psychic", "Dragon Pulse"],
+          "rank_5_expert": ["Telekinesis", "Memento"]
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Psiotroph", "habitat": ["Sky"]},
+        "evolution": "Legendary."
+      },
+      {
+        "id": "382",
+        "name": "Kyogre",
+        "description": "It is said to have widened the seas by causing downpours. It had been asleep in a marine trench.",
+        "types": ["Water"],
+        "suggested_rank": "Champion",
+        "attributes": {
+          "strength": {"value": 6, "limit": 12},
+          "dexterity": {"value": 5, "limit": 10},
+          "vitality": {"value": 8, "limit": 15},
+          "special": {"value": 9, "limit": 17},
+          "insight": {"value": 8, "limit": 15}
+        },
+        "derived_stats": {"base_hp": 11, "hp": 19, "defense": 8, "special_defense": 8},
+        "abilities": ["Drizzle"],
+        "skills": ["Swimmer"],
+        "move_pool": {
+          "rank_1_starter": ["Water Pulse", "Ancient Power", "Body Slam"],
+          "rank_2_rookie": ["Scary Face", "Aqua Tail"],
+          "rank_3_standard": ["Calm Mind", "Muddy Water", "Ice Beam"],
+          "rank_4_advanced": ["Sheer Cold", "Aqua Ring"],
+          "rank_5_expert": ["Origin Pulse", "Hydro Pump", "Double-Edge"],
+          "rank_6_ace": ["Water Spout"]
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Nullivore", "habitat": ["Ocean"]},
+        "evolution": "Legendary."
+      },
+      {
+        "id": "383",
+        "name": "Groudon",
+        "description": "A Pokémon that is said to have expanded the continents. It is a powerful foe of Kyogre.",
+        "types": ["Ground"],
+        "suggested_rank": "Champion",
+        "attributes": {
+          "strength": {"value": 9, "limit": 17},
+          "dexterity": {"value": 5, "limit": 10},
+          "vitality": {"value": 8, "limit": 15},
+          "special": {"value": 6, "limit": 12},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 11, "hp": 19, "defense": 8, "special_defense": 5},
+        "abilities": ["Drought"],
+        "skills": ["Burrow", "Firestarter"],
+        "move_pool": {
+          "rank_1_starter": ["Mud Shot", "Ancient Power", "Lava Plume"],
+          "rank_2_rookie": ["Scary Face", "Earth Power"],
+          "rank_3_standard": ["Bulk Up", "Earthquake", "Fire Blast"],
+          "rank_4_advanced": ["Fissure", "Rest"],
+          "rank_5_expert": ["Precipice Blades", "Hammer Arm", "Solar Beam"],
+          "rank_6_ace": ["Eruption"]
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Terravore", "habitat": ["Volcano"]},
+        "evolution": "Legendary."
+      },
+      {
+        "id": "384",
+        "name": "Rayquaza",
+        "description": "It has lived for hundreds of millions of years in the ozone layer. It is said that it would descend to the ground if Kyogre and Groudon were to fight.",
+        "types": ["Dragon", "Flying"],
+        "suggested_rank": "Champion",
+        "attributes": {
+          "strength": {"value": 9, "limit": 17},
+          "dexterity": {"value": 6, "limit": 11},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 9, "limit": 17},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 11, "hp": 16, "defense": 5, "special_defense": 5},
+        "abilities": ["Air Lock"],
+        "skills": ["Flight"],
+        "move_pool": {
+          "rank_1_starter": ["Twister", "Ancient Power", "Air Slash"],
+          "rank_2_rookie": ["Scary Face", "Crunch", "Dragon Dance"],
+          "rank_3_standard": ["Dragon Pulse", "Extreme Speed", "Hyper Voice"],
+          "rank_4_advanced": ["Rest", "Fly", "Hurricane"],
+          "rank_5_expert": ["Outrage", "Hyper Beam"],
+          "rank_6_ace": ["Dragon Ascent"]
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Nullivore", "habitat": ["Sky"]},
+        "evolution": "Legendary."
+      },
+      {
+        "id": "385",
+        "name": "Jirachi",
+        "description": "It is said to make any wish come true. It is awake for only seven days out of a thousand years.",
+        "types": ["Steel", "Psychic"],
+        "suggested_rank": "Champion",
+        "attributes": {
+          "strength": {"value": 6, "limit": 12},
+          "dexterity": {"value": 6, "limit": 12},
+          "vitality": {"value": 6, "limit": 12},
+          "special": {"value": 6, "limit": 12},
+          "insight": {"value": 6, "limit": 12}
+        },
+        "derived_stats": {"base_hp": 11, "hp": 17, "defense": 6, "special_defense": 6},
+        "abilities": ["Serene Grace"],
+        "skills": ["Flight"],
+        "move_pool": {
+          "rank_1_starter": ["Wish", "Confusion"],
+          "rank_2_rookie": ["Swift", "Helping Hand"],
+          "rank_3_standard": ["Psychic", "Refresh", "Rest"],
+          "rank_4_advanced": ["Zen Headbutt", "Double-Edge", "Gravity", "Meteor Mash"],
+          "rank_5_expert": ["Healing Wish", "Future Sight", "Cosmic Power"],
+          "rank_6_ace": ["Last Resort", "Doom Desire"]
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Nullivore", "habitat": ["Mountain"]},
+        "evolution": "Mythical."
+      },
+      {
+        "id": "386",
+        "name": "Deoxys",
+        "description": "An alien virus that fell to earth on a meteor underwent a DNA mutation to become this Pokémon.",
+        "types": ["Psychic"],
+        "suggested_rank": "Champion",
+        "attributes": {
+          "strength": {"value": 9, "limit": 17},
+          "dexterity": {"value": 9, "limit": 17},
+          "vitality": {"value": 3, "limit": 6},
+          "special": {"value": 9, "limit": 17},
+          "insight": {"value": 3, "limit": 6}
+        },
+        "derived_stats": {"base_hp": 6, "hp": 9, "defense": 3, "special_defense": 3},
+        "abilities": ["Pressure"],
+        "skills": ["Amorphous"],
+        "move_pool": {
+          "rank_1_starter": ["Leer", "Wrap", "Night Shade"],
+          "rank_2_rookie": ["Teleport", "Knock Off", "Pursuit"],
+          "rank_3_standard": ["Psychic", "Snatch", "Psycho Shift"],
+          "rank_4_advanced": ["Zen Headbutt", "Cosmic Power", "Recover"],
+          "rank_5_expert": ["Psycho Boost", "Hyper Beam"],
+          "rank_6_ace": ["Counter", "Mirror Coat", "Zap Cannon"]
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Nullivore", "habitat": ["Unknown"]},
+        "evolution": "Mythical. Can change Forme (Attack, Defense, Speed)."
+      }
+    ]
+  }
+}
