@@ -1,0 +1,26 @@
+{
+  "chapter_11": {
+    "title": "The Movedex",
+    "type": "Dragon",
+    "moves": [
+      { "name": "Breaking Swipe", "type": "Dragon", "accuracy": "Strength + Brawl", "damage": "Strength + 3", "effect": "Hits all adjacent opponents and lowers their Strength by 1 on a successful hit." },
+      { "name": "Clanging Scales", "type": "Dragon", "accuracy": "Special + Perform", "damage": "Special + 7", "effect": "Hits all adjacent opponents. After use, the user's Vitality is lowered by 1." },
+      { "name": "Core Enforcer", "type": "Dragon", "accuracy": "Special + Channel", "damage": "Special + 6", "effect": "If the target has already acted this turn, its Ability is suppressed." },
+      { "name": "Devastating Drake", "type": "Dragon", "accuracy": "Varies", "damage": "Varies", "effect": "Z-Move. Base power depends on the original move." },
+      { "name": "Dragon Breath", "type": "Dragon", "accuracy": "Special + Channel", "damage": "Special + 3", "effect": "On a successful hit, roll 1d6. On a 5 or 6, the target is Paralyzed." },
+      { "name": "Dragon Claw", "type": "Dragon", "accuracy": "Strength + Brawl", "damage": "Strength + 4", "effect": "No additional effects." },
+      { "name": "Dragon Dance", "type": "Dragon", "accuracy": "Automatic", "damage": "None", "effect": "The user raises its Strength and Dexterity by 1 for the rest of the scene." },
+      { "name": "Dragon Hammer", "type": "Dragon", "accuracy": "Strength + Brawl", "damage": "Strength + 5", "effect": "No additional effects." },
+      { "name": "Dragon Pulse", "type": "Dragon", "accuracy": "Special + Channel", "damage": "Special + 5", "effect": "No additional effects." },
+      { "name": "Dragon Rage", "type": "Dragon", "accuracy": "Special + Channel", "damage": "Fixed 40", "effect": "Always deals exactly 40 HP damage." },
+      { "name": "Dragon Rush", "type": "Dragon", "accuracy": "Strength + Brawl", "damage": "Strength + 6", "effect": "High chance to miss. On a successful hit, roll 1d6. On a 5 or 6, the target Flinches." },
+      { "name": "Dragon Tail", "type": "Dragon", "accuracy": "Strength + Brawl", "damage": "Strength + 3", "effect": "Forces the target to switch out with another Pokémon in their party. Has negative Priority." },
+      { "name": "Dual Chop", "type": "Dragon", "accuracy": "Strength + Brawl", "damage": "Strength + 2 (per hit)", "effect": "Hits twice." },
+      { "name": "Eternabeam", "type": "Dragon", "accuracy": "Special + Channel", "damage": "Special + 9", "effect": "The user cannot act on the next turn." },
+      { "name": "Outrage", "type": "Dragon", "accuracy": "Strength + Brawl", "damage": "Strength + 7", "effect": "The user attacks for 2-3 turns, then becomes Confused." },
+      { "name": "Roar of Time", "type": "Dragon", "accuracy": "Special + Channel", "damage": "Special + 8", "effect": "The user cannot act on the next turn." },
+      { "name": "Spacial Rend", "type": "Dragon", "accuracy": "Special + Channel", "damage": "Special + 6", "effect": "High critical hit ratio." },
+      { "name": "Twister", "type": "Dragon", "accuracy": "Special + Channel", "damage": "Special + 2", "effect": "Hits all adjacent opponents. On a hit, roll 1d6. On a 5 or 6, the target Flinches. Damage is doubled against targets using Fly or Bounce." }
+    ]
+  }
+}
