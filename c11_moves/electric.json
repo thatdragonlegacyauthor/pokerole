@@ -1,0 +1,35 @@
+{
+  "chapter_11": {
+    "title": "The Movedex",
+    "type": "Electric",
+    "moves": [
+      { "name": "Aura Wheel", "type": "Electric", "accuracy": "Strength + Brawl", "damage": "Strength + 6", "effect": "Raises the user's Dexterity by 1. The move's type is Electric if Morpeko is in Full Belly Mode, and Dark if in Hangry Mode." },
+      { "name": "Bolt Strike", "type": "Electric", "accuracy": "Strength + Brawl", "damage": "Strength + 7", "effect": "On a successful hit, roll 1d6. On a 5 or 6, the target is Paralyzed." },
+      { "name": "Charge", "type": "Electric", "accuracy": "Automatic", "damage": "None", "effect": "The user's next Electric-type move deals double damage. The user's Insight is raised by 1." },
+      { "name": "Charge Beam", "type": "Electric", "accuracy": "Special + Channel", "damage": "Special + 3", "effect": "On a successful hit, roll 1d6. On a 5 or 6, the user's Special is raised by 1." },
+      { "name": "Discharge", "type": "Electric", "accuracy": "Special + Channel", "damage": "Special + 4", "effect": "Hits all adjacent Pokémon. On a successful hit, roll 1d6. On a 5 or 6, the target is Paralyzed." },
+      { "name": "Eerie Impulse", "type": "Electric", "accuracy": "Special + Channel", "damage": "None", "effect": "Lowers the target's Special by 2." },
+      { "name": "Electric Terrain", "type": "Electric", "accuracy": "Automatic", "damage": "None", "effect": "Creates an Electric Terrain for 5 rounds. Pokémon on the ground cannot fall Asleep, and the power of Electric-type moves is boosted." },
+      { "name": "Electrify", "type": "Electric", "accuracy": "Special + Channel", "damage": "None", "effect": "The target's next move becomes Electric-type, regardless of its original type." },
+      { "name": "Electro Ball", "type": "Electric", "accuracy": "Special + Channel", "damage": "Special + Varies", "effect": "Damage increases the faster the user is than the target." },
+      { "name": "Electroweb", "type": "Electric", "accuracy": "Special + Channel", "damage": "Special + 3", "effect": "Lowers the Dexterity of all opponents hit by 1." },
+      { "name": "Ion Deluge", "type": "Electric", "accuracy": "Automatic", "damage": "None", "effect": "For the rest of the round, all Normal-type moves become Electric-type." },
+      { "name": "Magnet Rise", "type": "Electric", "accuracy": "Automatic", "damage": "None", "effect": "The user levitates for 5 rounds, becoming immune to Ground-type moves." },
+      { "name": "Nuzzle", "type": "Electric", "accuracy": "Strength + Charm", "damage": "Strength + 1", "effect": "The target is Paralyzed." },
+      { "name": "Parabolic Charge", "type": "Electric", "accuracy": "Special + Channel", "damage": "Special + 4", "effect": "The user regains HP equal to half the damage dealt to all targets." },
+      { "name": "Plasma Fists", "type": "Electric", "accuracy": "Strength + Brawl", "damage": "Strength + 6", "effect": "For the rest of the round, all Normal-type moves become Electric-type." },
+      { "name": "Shock Wave", "type": "Electric", "accuracy": "Automatic", "damage": "Special + 3", "effect": "This move cannot miss." },
+      { "name": "Spark", "type": "Electric", "accuracy": "Strength + Brawl", "damage": "Strength + 4", "effect": "On a successful hit, roll 1d6. On a 5 or 6, the target is Paralyzed." },
+      { "name": "Thunder", "type": "Electric", "accuracy": "Special + Channel", "damage": "Special + 7", "effect": "High chance to miss. On a hit, roll 1d6. On a 5 or 6, the target is Paralyzed. Cannot miss in Rain." },
+      { "name": "Thunder Cage", "type": "Electric", "accuracy": "Special + Channel", "damage": "Special + 4", "effect": "The target is trapped and takes damage for 1d4+1 rounds." },
+      { "name": "Thunder Fang", "type": "Electric", "accuracy": "Strength + Brawl", "damage": "Strength + 4", "effect": "On a hit, roll 1d6. On a 6, the target is Paralyzed or Flinches." },
+      { "name": "Thunder Punch", "type": "Electric", "accuracy": "Strength + Brawl", "damage": "Strength + 4", "effect": "On a successful hit, roll 1d6. On a 6, the target is Paralyzed." },
+      { "name": "Thunder Shock", "type": "Electric", "accuracy": "Special + Channel", "damage": "Special + 2", "effect": "On a successful hit, roll 1d6. On a 6, the target is Paralyzed." },
+      { "name": "Thunder Wave", "type": "Electric", "accuracy": "Special + Channel", "damage": "None", "effect": "The target is Paralyzed." },
+      { "name": "Thunderbolt", "type": "Electric", "accuracy": "Special + Channel", "damage": "Special + 5", "effect": "On a successful hit, roll 1d6. On a 6, the target is Paralyzed." },
+      { "name": "Volt Switch", "type": "Electric", "accuracy": "Special + Channel", "damage": "Special + 4", "effect": "After dealing damage, the user may immediately switch out with another Pokémon in the party." },
+      { "name": "Wild Charge", "type": "Electric", "accuracy": "Strength + Brawl", "damage": "Strength + 5", "effect": "The user takes recoil damage equal to one-quarter of the damage it deals." },
+      { "name": "Zap Cannon", "type": "Electric", "accuracy": "Special + Channel", "damage": "Special + 7", "effect": "Very high chance to miss. On a hit, the target is always Paralyzed." }
+    ]
+  }
+}
