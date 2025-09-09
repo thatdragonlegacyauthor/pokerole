@@ -1,1 +1,1127 @@
-
+{
+  "pokedex": {
+    "paldea_pokedex_part_3": [
+      {
+        "id": "982",
+        "name": "Dudunsparce",
+        "description": "It is a very rare Pokémon. It can have up to three segments in its body.",
+        "types": ["Normal"],
+        "suggested_rank": "Master",
+        "attributes": {
+          "strength": {"value": 6, "limit": 12},
+          "dexterity": {"value": 4, "limit": 7},
+          "vitality": {"value": 8, "limit": 15},
+          "special": {"value": 5, "limit": 10},
+          "insight": {"value": 4, "limit": 9}
+        },
+        "derived_stats": {"base_hp": 13, "hp": 21, "defense": 8, "special_defense": 4},
+        "abilities": ["Serene Grace", "Run Away", "Rattled (Hidden)"],
+        "skills": ["Burrow", "Hover"],
+        "move_pool": {
+          "rank_1_starter": ["Rage", "Defense Curl", "Rollout", "Glare"],
+          "rank_2_rookie": ["Spite", "Pursuit", "Screech", "Mud-Slap"],
+          "rank_3_standard": ["Yawn", "Ancient Power", "Take Down", "Drill Run", "Coil", "Dig"],
+          "rank_4_advanced": ["Glare", "Double-Edge", "Endeavor", "Air Slash", "Dragon Rush", "Flail", "Boomburst"],
+          "rank_5_expert": ["Hyper Drill"]
+        },
+        "biology": {"egg_group": ["Field"], "diet": "Omnivore", "habitat": ["Cave"]},
+        "evolution": "Final Stage. Can have a Two-Segment or Three-Segment Form."
+      },
+      {
+        "id": "983",
+        "name": "Kingambit",
+        "description": "Only a Bisharp that stands above all others in its vast army will evolve into a Kingambit.",
+        "types": ["Dark", "Steel"],
+        "suggested_rank": "Master",
+        "attributes": {
+          "strength": {"value": 8, "limit": 15},
+          "dexterity": {"value": 3, "limit": 6},
+          "vitality": {"value": 7, "limit": 14},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 11, "hp": 18, "defense": 7, "special_defense": 5},
+        "abilities": ["Supreme Overlord", "Defiant", "Pressure (Hidden)"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Scratch", "Leer", "Fury Cutter", "Torment", "Metal Burst"],
+          "rank_2_rookie": ["Feint Attack", "Scary Face", "Metal Claw", "Slash", "Kowtow Cleave"],
+          "rank_3_standard": ["Assurance", "Metal Sound", "Embargo", "Iron Defense", "Night Slash"],
+          "rank_4_advanced": ["Iron Head", "Swords Dance", "Guillotine"]
+        },
+        "biology": {"egg_group": ["Human-Like"], "diet": "Carnivore", "habitat": ["Forest", "Urban"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "984",
+        "name": "Great Tusk",
+        "description": "This Pokémon is said to be an ancient ancestor of Donphan. It is a very aggressive Pokémon.",
+        "types": ["Ground", "Fighting"],
+        "suggested_rank": "Master",
+        "attributes": {
+          "strength": {"value": 8, "limit": 15},
+          "dexterity": {"value": 5, "limit": 10},
+          "vitality": {"value": 8, "limit": 15},
+          "special": {"value": 4, "limit": 7},
+          "insight": {"value": 3, "limit": 6}
+        },
+        "derived_stats": {"base_hp": 12, "hp": 20, "defense": 8, "special_defense": 3},
+        "abilities": ["Protosynthesis"],
+        "skills": ["Burrow"],
+        "move_pool": {
+          "rank_1_starter": ["Horn Attack", "Defense Curl", "Rollout", "Sunny Day"],
+          "rank_2_rookie": ["Bulldoze", "Taunt", "Rapid Spin", "Brick Break"],
+          "rank_3_standard": ["Stomping Tantrum", "Knock Off", "Earthquake", "Giga Impact"],
+          "rank_4_advanced": ["Headlong Rush", "Megahorn", "Close Combat", "Head Smash"]
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Herbivore", "habitat": ["Desert"]},
+        "evolution": "Paradox Pokémon."
+      },
+      {
+        "id": "985",
+        "name": "Scream Tail",
+        "description": "It is said to be an ancient ancestor of Jigglypuff. It has a very aggressive nature.",
+        "types": ["Fairy", "Psychic"],
+        "suggested_rank": "Master",
+        "attributes": {
+          "strength": {"value": 4, "limit": 8},
+          "dexterity": {"value": 7, "limit": 13},
+          "vitality": {"value": 6, "limit": 11},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 8, "limit": 15}
+        },
+        "derived_stats": {"base_hp": 12, "hp": 18, "defense": 6, "special_defense": 8},
+        "abilities": ["Protosynthesis"],
+        "skills": ["Inflatable"],
+        "move_pool": {
+          "rank_1_starter": ["Pound", "Sing", "Disable", "Sunny Day"],
+          "rank_2_rookie": ["Astonish", "Howl", "Noble Roar", "Bite"],
+          "rank_3_standard": ["Body Slam", "Rest", "Play Rough", "Hyper Voice"],
+          "rank_4_advanced": ["Psychic Fangs", "Crunch", "Wish", "Perish Song", "Boomburst"]
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Omnivore", "habitat": ["Forest"]},
+        "evolution": "Paradox Pokémon."
+      },
+      {
+        "id": "986",
+        "name": "Brute Bonnet",
+        "description": "It is said to be an ancient ancestor of Amoonguss. It is a very aggressive Pokémon.",
+        "types": ["Grass", "Dark"],
+        "suggested_rank": "Master",
+        "attributes": {
+          "strength": {"value": 7, "limit": 14},
+          "dexterity": {"value": 4, "limit": 7},
+          "vitality": {"value": 6, "limit": 11},
+          "special": {"value": 5, "limit": 10},
+          "insight": {"value": 6, "limit": 11}
+        },
+        "derived_stats": {"base_hp": 12, "hp": 18, "defense": 6, "special_defense": 6},
+        "abilities": ["Protosynthesis"],
+        "skills": ["Sprouter"],
+        "move_pool": {
+          "rank_1_starter": ["Absorb", "Growth", "Astonish", "Sunny Day"],
+          "rank_2_rookie": ["Stun Spore", "Mega Drain", "Synthesis", "Clear Smog"],
+          "rank_3_standard": ["Payback", "Thrash", "Giga Drain", "Sucker Punch"],
+          "rank_4_advanced": ["Spore", "Ingrain", "Rage Powder", "Seed Bomb"]
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Saprophyte", "habitat": ["Cave"]},
+        "evolution": "Paradox Pokémon."
+      },
+      {
+        "id": "987",
+        "name": "Flutter Mane",
+        "description": "It is said to be an ancient ancestor of Misdreavus. It is a very aggressive Pokémon.",
+        "types": ["Ghost", "Fairy"],
+        "suggested_rank": "Master",
+        "attributes": {
+          "strength": {"value": 4, "limit": 7},
+          "dexterity": {"value": 8, "limit": 15},
+          "vitality": {"value": 4, "limit": 7},
+          "special": {"value": 8, "limit": 15},
+          "insight": {"value": 8, "limit": 15}
+        },
+        "derived_stats": {"base_hp": 6, "hp": 10, "defense": 4, "special_defense": 8},
+        "abilities": ["Protosynthesis"],
+        "skills": ["Hover"],
+        "move_pool": {
+          "rank_1_starter": ["Confuse Ray", "Spite", "Astonish", "Sunny Day"],
+          "rank_2_rookie": ["Psybeam", "Mean Look", "Memento", "Wish"],
+          "rank_3_standard": ["Shadow Ball", "Moonblast", "Mystical Fire", "Power Gem"],
+          "rank_4_advanced": ["Dazzling Gleam", "Phantom Force", "Pain Split", "Perish Song"]
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Psiotroph", "habitat": ["Cave"]},
+        "evolution": "Paradox Pokémon."
+      },
+      {
+        "id": "988",
+        "name": "Slither Wing",
+        "description": "It is said to be an ancient ancestor of Volcarona. It is a very aggressive Pokémon.",
+        "types": ["Bug", "Fighting"],
+        "suggested_rank": "Master",
+        "attributes": {
+          "strength": {"value": 8, "limit": 15},
+          "dexterity": {"value": 5, "limit": 10},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 5, "limit": 10},
+          "insight": {"value": 6, "limit": 12}
+        },
+        "derived_stats": {"base_hp": 9, "hp": 14, "defense": 5, "special_defense": 6},
+        "abilities": ["Protosynthesis"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Gust", "Ember", "Stun Spore", "Sunny Day"],
+          "rank_2_rookie": ["Flame Charge", "Stomp", "Low Sweep", "Morning Sun"],
+          "rank_3_standard": ["Leech Seed", "Bug Buzz", "Bulk Up", "Thrash"],
+          "rank_4_advanced": ["Lunge", "Superpower", "First Impression", "Whirlwind", "Heat Wave"]
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Terravore", "habitat": ["Desert"]},
+        "evolution": "Paradox Pokémon."
+      },
+      {
+        "id": "989",
+        "name": "Sandy Shocks",
+        "description": "It is said to be an ancient ancestor of Magneton. It is a very aggressive Pokémon.",
+        "types": ["Electric", "Ground"],
+        "suggested_rank": "Master",
+        "attributes": {
+          "strength": {"value": 5, "limit": 10},
+          "dexterity": {"value": 6, "limit": 12},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 7, "limit": 14},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 9, "hp": 14, "defense": 5, "special_defense": 4},
+        "abilities": ["Protosynthesis"],
+        "skills": ["Hover", "Zapper"],
+        "move_pool": {
+          "rank_1_starter": ["Thunder Shock", "Supersonic", "Thunder Wave", "Sunny Day"],
+          "rank_2_rookie": ["Spark", "Bulldoze", "Charge Beam", "Tri Attack"],
+          "rank_3_standard": ["Screech", "Heavy Slam", "Metal Sound", "Discharge"],
+          "rank_4_advanced": ["Earth Power", "Mirror Coat", "Gravity", "Zap Cannon"]
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Ergovore", "habitat": ["Desert"]},
+        "evolution": "Paradox Pokémon."
+      },
+      {
+        "id": "990",
+        "name": "Iron Treads",
+        "description": "It is said to be a future descendant of Donphan. It is a very aggressive Pokémon.",
+        "types": ["Ground", "Steel"],
+        "suggested_rank": "Master",
+        "attributes": {
+          "strength": {"value": 7, "limit": 13},
+          "dexterity": {"value": 6, "limit": 13},
+          "vitality": {"value": 7, "limit": 14},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 10, "hp": 17, "defense": 7, "special_defense": 4},
+        "abilities": ["Quark Drive"],
+        "skills": ["Burrow"],
+        "move_pool": {
+          "rank_1_starter": ["Horn Attack", "Defense Curl", "Rollout", "Electric Terrain"],
+          "rank_2_rookie": ["Bulldoze", "Rapid Spin", "Iron Head", "Stomping Tantrum"],
+          "rank_3_standard": ["Knock Off", "Earthquake", "Heavy Slam", "Wild Charge"],
+          "rank_4_advanced": ["Megahorn", "Giga Impact", "Steel Roller", "Stealth Rock"]
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Terravore", "habitat": ["Desert"]},
+        "evolution": "Paradox Pokémon."
+      },
+      {
+        "id": "991",
+        "name": "Iron Bundle",
+        "description": "It is said to be a future descendant of Delibird. It is a very aggressive Pokémon.",
+        "types": ["Ice", "Water"],
+        "suggested_rank": "Master",
+        "attributes": {
+          "strength": {"value": 5, "limit": 10},
+          "dexterity": {"value": 8, "limit": 15},
+          "vitality": {"value": 7, "limit": 13},
+          "special": {"value": 7, "limit": 14},
+          "insight": {"value": 4, "limitT": 8}
+        },
+        "derived_stats": {"base_hp": 6, "hp": 13, "defense": 7, "special_defense": 4},
+        "abilities": ["Quark Drive"],
+        "skills": ["Swimmer"],
+        "move_pool": {
+          "rank_1_starter": ["Present", "Powder Snow", "Electric Terrain"],
+          "rank_2_rookie": ["Whirlpool", "Take Down", "Drill Peck", "Icy Wind"],
+          "rank_3_standard": ["Freeze-Dry", "Flip Turn", "Ice Beam", "Agility"],
+          "rank_4_advanced": ["Snowscape", "Hydro Pump", "Aurora Veil", "Blizzard"]
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Omnivore", "habitat": ["Arctic"]},
+        "evolution": "Paradox Pokémon."
+      },
+      {
+        "id": "992",
+        "name": "Iron Hands",
+        "description": "It is said to be a future descendant of Hariyama. It is a very aggressive Pokémon.",
+        "types": ["Fighting", "Electric"],
+        "suggested_rank": "Master",
+        "attributes": {
+          "strength": {"value": 8, "limit": 16},
+          "dexterity": {"value": 3, "limit": 6},
+          "vitality": {"value": 6, "limit": 12},
+          "special": {"value": 3, "limit": 6},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 16, "hp": 22, "defense": 6, "special_defense": 4},
+        "abilities": ["Quark Drive"],
+        "skills": ["Strength", "Zapper"],
+        "move_pool": {
+          "rank_1_starter": ["Sand Attack", "Tackle", "Focus Energy", "Arm Thrust", "Electric Terrain"],
+          "rank_2_rookie": ["Thunder Punch", "Slam", "Force Palm", "Seismic Toss"],
+          "rank_3_standard": ["Charge", "Thunder Punch", "Close Combat", "Detect"],
+          "rank_4_advanced": ["Heavy Slam", "Belly Drum", "Wild Charge", "Focus Punch"]
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Ergovore", "habitat": ["Cave", "Mountain"]},
+        "evolution": "Paradox Pokémon."
+      },
+      {
+        "id": "993",
+        "name": "Iron Jugulis",
+        "description": "It is said to be a future descendant of Hydreigon. It is a very aggressive Pokémon.",
+        "types": ["Dark", "Flying"],
+        "suggested_rank": "Master",
+        "attributes": {
+          "strength": {"value": 5, "limit": 10},
+          "dexterity": {"value": 6, "limit": 13},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 7, "limit": 13},
+          "insight": {"value": 4, "limitT": 8}
+        },
+        "derived_stats": {"base_hp": 10, "hp": 15, "defense": 5, "special_defense": 4},
+        "abilities": ["Quark Drive"],
+        "skills": ["Flight"],
+        "move_pool": {
+          "rank_1_starter": ["Electric Terrain", "Work Up", "Focus Energy", "Tri Attack"],
+          "rank_2_rookie": ["Roar", "Assurance", "Dragon Breath", "Snarl"],
+          "rank_3_standard": ["Air Cutter", "Crunch", "Dragon Pulse", "Hyper Voice"],
+          "rank_4_advanced": ["Dark Pulse", "Outrage", "Hurricane", "Knock Off", "Tailwind"]
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Carnivore", "habitat": ["Cave"]},
+        "evolution": "Paradox Pokémon."
+      },
+      {
+        "id": "994",
+        "name": "Iron Moth",
+        "description": "It is said to be a future descendant of Volcarona. It is a very aggressive Pokémon.",
+        "types": ["Fire", "Poison"],
+        "suggested_rank": "Master",
+        "attributes": {
+          "strength": {"value": 4, "limit": 8},
+          "dexterity": {"value": 7, "limit": 13},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 8, "limit": 16},
+          "insight": {"value": 6, "limit": 12}
+        },
+        "derived_stats": {"base_hp": 9, "hp": 13, "defense": 4, "special_defense": 6},
+        "abilities": ["Quark Drive"],
+        "skills": ["Flight", "Firestarter"],
+        "move_pool": {
+          "rank_1_starter": ["Gust", "Whirlwind", "Ember", "Acid Spray", "Electric Terrain"],
+          "rank_2_rookie": ["Struggle Bug", "Fire Spin", "Take Down", "Screech"],
+          "rank_3_standard": ["Discharge", "Sludge Wave", "Fiery Dance", "Lunge"],
+          "rank_4_advanced": ["Heat Wave", "Bug Buzz", "Overheat", "Hurricane"]
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Terravore", "habitat": ["Forest"]},
+        "evolution": "Paradox Pokémon."
+      },
+      {
+        "id": "995",
+        "name": "Iron Thorns",
+        "description": "It is said to be a future descendant of Tyranitar. It is a very aggressive Pokémon.",
+        "types": ["Rock", "Electric"],
+        "suggested_rank": "Master",
+        "attributes": {
+          "strength": {"value": 8, "limit": 15},
+          "dexterity": {"value": 4, "limit": 8},
+          "vitality": {"value": 6, "limit": 12},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 11, "hp": 17, "defense": 6, "special_defense": 5},
+        "abilities": ["Quark Drive"],
+        "skills": ["Zapper"],
+        "move_pool": {
+          "rank_1_starter": ["Rock Throw", "Fire Fang", "Ice Fang", "Thunder Fang", "Electric Terrain"],
+          "rank_2_rookie": ["Screech", "Rock Tomb", "Bite", "Charge"],
+          "rank_3_standard": ["Rock Slide", "Sandstorm", "Wild Charge", "Pin Missile"],
+          "rank_4_advanced": ["Earthquake", "Stone Edge", "Stealth Rock", "Giga Impact"]
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Terravore", "habitat": ["Cave", "Mountain"]},
+        "evolution": "Paradox Pokémon."
+      },
+      {
+        "id": "996",
+        "name": "Frigibax",
+        "description": "It uses its dorsal fin to absorb heat, which it converts into ice energy.",
+        "types": ["Dragon", "Ice"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 4, "limit": 8},
+          "dexterity": {"value": 4, "limit": 7},
+          "vitality": {"value": 3, "limit": 6},
+          "special": {"value": 3, "limitT": 6},
+          "insight": {"value": 3, "limit": 6}
+        },
+        "derived_stats": {"base_hp": 7, "hp": 10, "defense": 3, "special_defense": 3},
+        "abilities": ["Thermal Exchange", "Ice Body (Hidden)"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Leer", "Dragon Tail", "Icy Wind"],
+          "rank_2_rookie": ["Dragon Breath", "Focus Energy", "Bite", "Ice Fang"],
+          "rank_3_standard": ["Dragon Claw", "Take Down", "Ice Beam", "Crunch"],
+          "rank_4_advanced": ["Icicle Crash"]
+        },
+        "biology": {"egg_group": ["Dragon", "Mineral"], "diet": "Omnivore", "habitat": ["Arctic", "Cave"]},
+        "evolution": "Evolves into Arctibax."
+      },
+      {
+        "id": "997",
+        "name": "Arctibax",
+        "description": "It is a very skilled hunter. It freezes its prey with its icy breath.",
+        "types": ["Dragon", "Ice"],
+        "suggested_rank": "Standard",
+        "attributes": {
+          "strength": {"value": 5, "limit": 10},
+          "dexterity": {"value": 4, "limit": 8},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 4, "limitT": 9},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 10, "hp": 15, "defense": 5, "special_defense": 4},
+        "abilities": ["Thermal Exchange", "Ice Body (Hidden)"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Leer", "Dragon Tail", "Icy Wind"],
+          "rank_2_rookie": ["Dragon Breath", "Focus Energy", "Bite", "Ice Fang"],
+          "rank_3_standard": ["Dragon Claw", "Take Down", "Ice Beam", "Crunch"],
+          "rank_4_advanced": ["Icicle Crash"]
+        },
+        "biology": {"egg_group": ["Dragon", "Mineral"], "diet": "Carnivore", "habitat": ["Arctic", "Cave"]},
+        "evolution": "Evolves into Baxcalibur."
+      },
+      {
+        "id": "998",
+        "name": "Baxcalibur",
+        "description": "It is a very powerful Pokémon. It can freeze anything with its icy breath.",
+        "types": ["Dragon", "Ice"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 8, "limit": 16},
+          "dexterity": {"value": 5, "limit": 10},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 4, "limit": 9},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 12, "hp": 17, "defense": 5, "special_defense": 5},
+        "abilities": ["Thermal Exchange", "Ice Body (Hidden)"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Leer", "Dragon Tail", "Icy Wind", "Breaking Swipe", "Glaive Rush"],
+          "rank_2_rookie": ["Dragon Breath", "Focus Energy", "Bite", "Ice Fang"],
+          "rank_3_standard": ["Dragon Claw", "Take Down", "Ice Beam", "Crunch"],
+          "rank_4_advanced": ["Icicle Crash", "Swords Dance", "Iron Head"]
+        },
+        "biology": {"egg_group": ["Dragon", "Mineral"], "diet": "Carnivore", "habitat": ["Arctic", "Cave"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "999",
+        "name": "Gimmighoul",
+        "description": "It is a Pokémon that is said to have been born from a cursed treasure chest. It can control people with its psychic powers.",
+        "types": ["Ghost"],
+        "suggested_rank": "Standard",
+        "attributes": {
+          "strength": {"value": 2, "limit": 5},
+          "dexterity": {"value": 1, "limit": 3},
+          "vitality": {"value": 4, "limitT": 8},
+          "special": {"value": 4, "limit": 9},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 5, "hp": 9, "defense": 4, "special_defense": 4},
+        "abilities": ["Rattled", "Good as Gold (Hidden)"],
+        "skills": ["Phasing"],
+        "move_pool": {
+          "rank_1_starter": ["Astonish", "Tackle"],
+          "rank_2_rookie": ["Night Shade", "Confuse Ray"],
+          "rank_3_standard": ["Take Down", "Shadow Ball", "Power Gem", "Recover"],
+          "rank_4_advanced": ["Destiny Bond", "Nasty Plot"]
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Nullivore", "habitat": ["Ruins", "Urban"]},
+        "evolution": "Evolves into Gholdengo with 999 Gimmighoul Coins."
+      },
+      {
+        "id": "1000",
+        "name": "Gholdengo",
+        "description": "It is a Pokémon that is made of 1,000 gold coins. It is a very powerful Pokémon.",
+        "types": ["Steel", "Ghost"],
+        "suggested_rank": "Master",
+        "attributes": {
+          "strength": {"value": 4, "limit": 8},
+          "dexterity": {"value": 5, "limit": 10},
+          "vitality": {"value": 6, "limit": 11},
+          "special": {"value": 8, "limit": 15},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 9, "hp": 15, "defense": 6, "special_defense": 5},
+        "abilities": ["Good as Gold"],
+        "skills": ["Phasing"],
+        "move_pool": {
+          "rank_1_starter": ["Astonish", "Tackle", "Night Shade"],
+          "rank_2_rookie": ["Confuse Ray", "Substitute"],
+          "rank_3_standard": ["Metal Sound", "Shadow Ball", "Recover", "Power Gem"],
+          "rank_4_advanced": ["Make It Rain", "Nasty Plot", "Memento", "Flash Cannon"],
+          "rank_5_expert": ["Thunderbolt"]
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Nullivore", "habitat": ["Ruins", "Urban"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "1001",
+        "name": "Wo-Chien",
+        "description": "It is said that this Pokémon was born from the hatred of a person who was punished for writing the king's evil deeds on wooden tablets.",
+        "types": ["Dark", "Grass"],
+        "suggested_rank": "Master",
+        "attributes": {
+          "strength": {"value": 5, "limit": 10},
+          "dexterity": {"value": 4, "limit": 8},
+          "vitality": {"value": 6, "limit": 12},
+          "special": {"value": 6, "limit": 11},
+          "insight": {"value": 8, "limit": 15}
+        },
+        "derived_stats": {"base_hp": 9, "hp": 15, "defense": 6, "special_defense": 8},
+        "abilities": ["Tablets of Ruin"],
+        "skills": ["Sprouter"],
+        "move_pool": {
+          "rank_1_starter": ["Absorb", "Spite", "Mean Look", "Tickle"],
+          "rank_2_rookie": ["Payback", "Poison Powder", "Stun Spore", "Mega Drain"],
+          "rank_3_standard": ["Leech Seed", "Growth", "Ingrain", "Dark Pulse"],
+          "rank_4_advanced": ["Giga Drain", "Ruination", "Foul Play", "Power Whip", "Grassy Terrain"],
+          "rank_5_expert": ["Knock Off", "Leaf Storm"]
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Psiotroph", "habitat": ["Ruins"]},
+        "evolution": "Legendary."
+      },
+      {
+        "id": "1002",
+        "name": "Chien-Pao",
+        "description": "It is said that this Pokémon was born from the hatred of those who were slain by the sword.",
+        "types": ["Dark", "Ice"],
+        "suggested_rank": "Master",
+        "attributes": {
+          "strength": {"value": 7, "limit": 14},
+          "dexterity": {"value": 8, "limit": 15},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 5, "limit": 10},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 9, "hp": 13, "defense": 4, "special_defense": 4},
+        "abilities": ["Sword of Ruin"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Spite", "Powder Snow", "Mean Look", "Icy Wind"],
+          "rank_2_rookie": ["Payback", "Mist", "Haze", "Ice Shard"],
+          "rank_3_standard": ["Swords Dance", "Snowscape", "Night Slash", "Dark Pulse"],
+          "rank_4_advanced": ["Icicle Crash", "Ruination", "Sucker Punch", "Sacred Sword"],
+          "rank_5_expert": ["Recover", "Throat Chop"]
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Psiotroph", "habitat": ["Ruins"]},
+        "evolution": "Legendary."
+      },
+      {
+        "id": "1003",
+        "name": "Ting-Lu",
+        "description": "It is said that this Pokémon was born from the fear of a person who was punished for pouring wine into a ritual vessel.",
+        "types": ["Dark", "Ground"],
+        "suggested_rank": "Master",
+        "attributes": {
+          "strength": {"value": 7, "limit": 13},
+          "dexterity": {"value": 3, "limit": 6},
+          "vitality": {"value": 7, "limit": 14},
+          "special": {"value": 4, "limitT": 7},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 16, "hp": 23, "defense": 7, "special_defense": 5},
+        "abilities": ["Vessel of Ruin"],
+        "skills": ["Burrow"],
+        "move_pool": {
+          "rank_1_starter": ["Spite", "Sand Tomb", "Mean Look", "Payback"],
+          "rank_2_rookie": ["Stomp", "Bulldoze", "Whirlwind", "Taunt"],
+          "rank_3_standard": ["Thrash", "Dark Pulse", "Stomping Tantrum", "Rock Slide"],
+          "rank_4_advanced": ["Ruination", "Sandstorm", "Fissure", "Throat Chop"],
+          "rank_5_expert": ["Rock Tomb", "Spikes"]
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Psiotroph", "habitat": ["Ruins"]},
+        "evolution": "Legendary."
+      },
+      {
+        "id": "1004",
+        "name": "Chi-Yu",
+        "description": "It is said that this Pokémon was born from the envy of those who desired the curved beads that adorned a king.",
+        "types": ["Dark", "Fire"],
+        "suggested_rank": "Master",
+        "attributes": {
+          "strength": {"value": 5, "limit": 10},
+          "dexterity": {"value": 6, "limit": 12},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 8, "limit": 15},
+          "insight": {"value": 7, "limit": 14}
+        },
+        "derived_stats": {"base_hp": 6, "hp": 10, "defense": 4, "special_defense": 7},
+        "abilities": ["Beads of Ruin"],
+        "skills": ["Hover", "Firestarter"],
+        "move_pool": {
+          "rank_1_starter": ["Ember", "Spite", "Mean Look", "Flame Wheel"],
+          "rank_2_rookie": ["Payback", "Will-O-Wisp", "Incinerate", "Confuse Ray"],
+          "rank_3_standard": ["Nasty Plot", "Dark Pulse", "Lava Plume", "Ruination"],
+          "rank_4_advanced": ["Bounce", "Swagger", "Inferno", "Memento"],
+          "rank_5_expert": ["Overheat", "Thrash"]
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Psiotroph", "habitat": ["Ruins"]},
+        "evolution": "Legendary."
+      },
+      {
+        "id": "1005",
+        "name": "Roaring Moon",
+        "description": "It is said to be an ancient ancestor of Salamence. It is a very aggressive Pokémon.",
+        "types": ["Dragon", "Dark"],
+        "suggested_rank": "Master",
+        "attributes": {
+          "strength": {"value": 8, "limit": 15},
+          "dexterity": {"value": 7, "limit": 13},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 4, "limit": 7},
+          "insight": {"value": 6, "limit": 12}
+        },
+        "derived_stats": {"base_hp": 11, "hp": 15, "defense": 4, "special_defense": 6},
+        "abilities": ["Protosynthesis"],
+        "skills": ["Flight"],
+        "move_pool": {
+          "rank_1_starter": ["Dragon Breath", "Leer", "Bite", "Focus Energy", "Sunny Day"],
+          "rank_2_rookie": ["Incinerate", "Headbutt", "Scary Face", "Dragon Claw"],
+          "rank_3_standard": ["Zen Headbutt", "Flamethrower", "Night Slash", "Dragon Dance"],
+          "rank_4_advanced": ["Dragon Rush", "Fly", "Throat Chop", "Rock Slide", "Double-Edge"]
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Carnivore", "habitat": ["Cave"]},
+        "evolution": "Paradox Pokémon."
+      },
+      {
+        "id": "1006",
+        "name": "Iron Valiant",
+        "description": "It is said to be a future descendant of Gardevoir and Gallade. It is a very aggressive Pokémon.",
+        "types": ["Fairy", "Fighting"],
+        "suggested_rank": "Master",
+        "attributes": {
+          "strength": {"value": 8, "limit": 15},
+          "dexterity": {"value": 7, "limit": 13},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 7, "limit": 14},
+          "insight": {"value": 4, "limitT": 8}
+        },
+        "derived_stats": {"base_hp": 8, "hp": 13, "defense": 5, "special_defense": 4},
+        "abilities": ["Quark Drive"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Disable", "Double Team", "Confusion", "Shadow Sneak", "Electric Terrain"],
+          "rank_2_rookie": ["Feint", "Hypnosis", "Draining Kiss", "Psybeam"],
+          "rank_3_standard": ["Swords Dance", "Moonblast", "Close Combat", "Leaf Blade"],
+          "rank_4_advanced": ["Spirit Break", "Destiny Bond", "Quick Guard", "Wide Guard", "Psycho Cut"]
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Omnivore", "habitat": ["Cave"]},
+        "evolution": "Paradox Pokémon."
+      },
+      {
+        "id": "1007",
+        "name": "Koraidon",
+        "description": "It is said to be an ancient ancestor of Cyclizar. It is a very aggressive Pokémon.",
+        "types": ["Fighting", "Dragon"],
+        "suggested_rank": "Champion",
+        "attributes": {
+          "strength": {"value": 8, "limit": 15},
+          "dexterity": {"value": 8, "limit": 15},
+          "vitality": {"value": 7, "limit": 13},
+          "special": {"value": 5, "limit": 10},
+          "insight": {"value": 6, "limit": 12}
+        },
+        "derived_stats": {"base_hp": 11, "hp": 18, "defense": 7, "special_defense": 6},
+        "abilities": ["Orichalcum Pulse"],
+        "skills": ["Swimmer", "Climber"],
+        "move_pool": {
+          "rank_1_starter": ["Sunny Day", "Breaking Swipe", "Rock Smash", "Ancient Power"],
+          "rank_2_rookie": ["Drain Punch", "Brick Break", "Agility", "Dragon Claw"],
+          "rank_3_standard": ["Flamethrower", "Collision Course", "Screech", "Counter", "Outrage"],
+          "rank_4_advanced": ["Close Combat", "Flare Blitz", "Giga Impact"],
+          "rank_5_expert": [],
+          "rank_6_ace": []
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Carnivore", "habitat": ["Ruins"]},
+        "evolution": "Legendary."
+      },
+      {
+        "id": "1008",
+        "name": "Miraidon",
+        "description": "It is said to be a future descendant of Cyclizar. It is a very aggressive Pokémon.",
+        "types": ["Electric", "Dragon"],
+        "suggested_rank": "Champion",
+        "attributes": {
+          "strength": {"value": 5, "limit": 10},
+          "dexterity": {"value": 8, "limit": 15},
+          "vitality": {"value": 6, "limit": 12},
+          "special": {"value": 8, "limit": 15},
+          "insight": {"value": 7, "limit": 13}
+        },
+        "derived_stats": {"base_hp": 11, "hp": 17, "defense": 6, "special_defense": 7},
+        "abilities": ["Hadron Engine"],
+        "skills": ["Flight", "Swimmer"],
+        "move_pool": {
+          "rank_1_starter": ["Electric Terrain", "Dragon Breath", "Shock Wave", "Charge"],
+          "rank_2_rookie": ["Parabolic Charge", "Discharge", "Agility", "Dragon Pulse"],
+          "rank_3_standard": ["Power Gem", "Electro Drift", "Metal Sound", "Mirror Coat"],
+          "rank_4_advanced": ["Outrage", "Thunder", "Overheat", "Hyper Beam"],
+          "rank_5_expert": [],
+          "rank_6_ace": []
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Ergovore", "habitat": ["Ruins"]},
+        "evolution": "Legendary."
+      },
+      {
+        "id": "1009",
+        "name": "Walking Wake",
+        "description": "It is said to be an ancient ancestor of Suicune. It is a very aggressive Pokémon.",
+        "types": ["Water", "Dragon"],
+        "suggested_rank": "Master",
+        "attributes": {
+          "strength": {"value": 5, "limit": 10},
+          "dexterity": {"value": 6, "limit": 13},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 7, "limit": 14},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 10, "hp": 15, "defense": 5, "special_defense": 5},
+        "abilities": ["Protosynthesis"],
+        "skills": ["Swimmer", "Skater"],
+        "move_pool": {
+          "rank_1_starter": ["Roar", "Twister", "Bite", "Aqua Jet", "Sunny Day"],
+          "rank_2_rookie": ["Water Pulse", "Noble Roar", "Dragon Breath", "Breaking Swipe"],
+          "rank_3_standard": ["Dragon Rush", "Hydro Steam", "Dragon Pulse", "Flamethrower"],
+          "rank_4_advanced": ["Hurricane", "Hydro Pump", "Outrage"],
+          "rank_5_expert": []
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Nullivore", "habitat": ["Ruins"]},
+        "evolution": "Paradox Pokémon."
+      },
+      {
+        "id": "1010",
+        "name": "Iron Leaves",
+        "description": "It is said to be a future descendant of Virizion. It is a very aggressive Pokémon.",
+        "types": ["Grass", "Psychic"],
+        "suggested_rank": "Master",
+        "attributes": {
+          "strength": {"value": 8, "limit": 15},
+          "dexterity": {"value": 6, "limit": 12},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 6, "limit": 13}
+        },
+        "derived_stats": {"base_hp": 10, "hp": 15, "defense": 5, "special_defense": 6},
+        "abilities": ["Quark Drive"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Leer", "Quick Attack", "Helping Hand", "Work Up", "Electric Terrain"],
+          "rank_2_rookie": ["Magical Leaf", "Retaliate", "Quick Guard", "Night Slash"],
+          "rank_3_standard": ["Swords Dance", "Sacred Sword", "Leaf Blade", "Psyblade"],
+          "rank_4_advanced": ["Close Combat", "Imprison", "Megahorn", "Ally Switch"],
+          "rank_5_expert": []
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Phototroph", "habitat": ["Ruins"]},
+        "evolution": "Paradox Pokémon."
+      },
+      {
+        "id": "1011",
+        "name": "Dipplin",
+        "description": "It is a Pokémon that looks like a candy apple. It is a very sweet and friendly Pokémon.",
+        "types": ["Grass", "Dragon"],
+        "suggested_rank": "Standard",
+        "attributes": {
+          "strength": {"value": 5, "limit": 10},
+          "dexterity": {"value": 3, "limit": 6},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 5, "limit": 10},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 9, "hp": 14, "defense": 5, "special_defense": 5},
+        "abilities": ["Supersweet Syrup", "Gluttony", "Sticky Hold (Hidden)"],
+        "skills": ["Sprouter"],
+        "move_pool": {
+          "rank_1_starter": ["Withdraw", "Sweet Scent", "Recycle", "Astonish"],
+          "rank_2_rookie": ["Dragon Tail", "Growth", "Dragon Breath", "Protect"],
+          "rank_3_standard": ["Bullet Seed", "Syrup Bomb", "Substitute", "Leech Seed"],
+          "rank_4_advanced": ["Recover", "Dragon Pulse", "Energy Ball"]
+        },
+        "biology": {"egg_group": ["Grass", "Dragon"], "diet": "Herbivore", "habitat": ["Forest"]},
+        "evolution": "Evolves into Hydrapple after learning Dragon Cheer."
+      },
+      {
+        "id": "1012",
+        "name": "Poltchageist",
+        "description": "It is a Pokémon that looks like a tea caddy. It is said to have been born from the regrets of a tea master.",
+        "types": ["Grass", "Ghost"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 3, "limit": 6},
+          "dexterity": {"value": 3, "limit": 6},
+          "vitality": {"value": 3, "limitT": 6},
+          "special": {"value": 4, "limit": 9},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 4, "hp": 7, "defense": 3, "special_defense": 4},
+        "abilities": ["Hospitality", "Heatproof (Hidden)"],
+        "skills": ["Phasing", "Sprouter"],
+        "move_pool": {
+          "rank_1_starter": ["Stun Spore", "Withdraw", "Astonish", "Aromatic Mist"],
+          "rank_2_rookie": ["Mega Drain", "Protect", "Sucker Punch", "Sweet Scent"],
+          "rank_3_standard": ["Giga Drain", "Nasty Plot", "Shadow Ball", "Memento"],
+          "rank_4_advanced": ["Shell Smash", "Foul Play", "Matcha Gotcha"]
+        },
+        "biology": {"egg_group": ["Mineral", "Amorphous"], "diet": "Psiotroph", "habitat": ["Urban", "Forest"]},
+        "evolution": "Evolves into Sinistcha with an Unremarkable Teacup or Masterpiece Teacup."
+      },
+      {
+        "id": "1013",
+        "name": "Sinistcha",
+        "description": "It is a Pokémon that looks like a tea bowl. It is said that it can absorb the life force of those who drink from it.",
+        "types": ["Grass", "Ghost"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 4, "limit": 8},
+          "dexterity": {"value": 4, "limit": 8},
+          "vitality": {"value": 6, "limit": 12},
+          "special": {"value": 7, "limit": 14},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 8, "hp": 14, "defense": 6, "special_defense": 5},
+        "abilities": ["Hospitality", "Heatproof (Hidden)"],
+        "skills": ["Phasing", "Sprouter"],
+        "move_pool": {
+          "rank_1_starter": ["Stun Spore", "Withdraw", "Astonish", "Aromatic Mist", "Matcha Gotcha"],
+          "rank_2_rookie": ["Mega Drain", "Protect", "Sucker Punch", "Sweet Scent"],
+          "rank_3_standard": ["Giga Drain", "Nasty Plot", "Shadow Ball", "Memento"],
+          "rank_4_advanced": ["Shell Smash", "Foul Play"]
+        },
+        "biology": {"egg_group": ["Mineral", "Amorphous"], "diet": "Psiotroph", "habitat": ["Urban", "Forest"]},
+        "evolution": "Final Stage. Has Counterfeit and Masterpiece Forms."
+      },
+      {
+        "id": "1014",
+        "name": "Okidogi",
+        "description": "It is a very loyal Pokémon. It is said that it will protect its Trainer with its life.",
+        "types": ["Poison", "Fighting"],
+        "suggested_rank": "Master",
+        "attributes": {
+          "strength": {"value": 7, "limit": 14},
+          "dexterity": {"value": 5, "limit": 10},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 9, "hp": 14, "defense": 5, "special_defense": 5},
+        "abilities": ["Toxic Chain", "Guard Dog (Hidden)"],
+        "skills": ["Strength"],
+        "move_pool": {
+          "rank_1_starter": ["Bite", "Low Kick", "Bulk Up", "Brutal Swing"],
+          "rank_2_rookie": ["Poison Fang", "Force Palm", "Counter", "Howl"],
+          "rank_3_standard": ["Poison Jab", "Crunch", "Superpower", "Giga Impact"],
+          "rank_4_advanced": ["Double-Edge", "Close Combat"],
+          "rank_5_expert": []
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Omnivore", "habitat": ["Mountain"]},
+        "evolution": "Legendary."
+      },
+      {
+        "id": "1015",
+        "name": "Munkidori",
+        "description": "It is a very intelligent Pokémon. It can use its psychic powers to control the minds of others.",
+        "types": ["Poison", "Psychic"],
+        "suggested_rank": "Master",
+        "attributes": {
+          "strength": {"value": 4, "limit": 8},
+          "dexterity": {"value": 6, "limit": 12},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 8, "limit": 15},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 9, "hp": 13, "defense": 4, "special_defense": 5},
+        "abilities": ["Toxic Chain", "Frisk (Hidden)"],
+        "skills": ["Telepath"],
+        "move_pool": {
+          "rank_1_starter": ["Confusion", "Fake Out", "Flatter", "Helping Hand"],
+          "rank_2_rookie": ["Psybeam", "Clear Smog", "Poison Gas", "Nasty Plot"],
+          "rank_3_standard": ["Toxic", "Psychic", "Sludge Wave", "Parting Shot"],
+          "rank_4_advanced": ["Future Sight", "Sludge Bomb"],
+          "rank_5_expert": []
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Psiotroph", "habitat": ["Forest"]},
+        "evolution": "Legendary."
+      },
+      {
+        "id": "1016",
+        "name": "Fezandipiti",
+        "description": "It is a very beautiful Pokémon. It can create a special pheromone that can make anyone fall in love with it.",
+        "types": ["Poison", "Fairy"],
+        "suggested_rank": "Master",
+        "attributes": {
+          "strength": {"value": 5, "limit": 10},
+          "dexterity": {"value": 6, "limit": 11},
+          "vitality": {"value": 3, "limit": 6},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 7, "limit": 14}
+        },
+        "derived_stats": {"base_hp": 9, "hp": 12, "defense": 3, "special_defense": 7},
+        "abilities": ["Toxic Chain", "Technician (Hidden)"],
+        "skills": ["Flight"],
+        "move_pool": {
+          "rank_1_starter": ["Double Kick", "Peck", "Poison Gas", "Disarming Voice"],
+          "rank_2_rookie": ["Quick Attack", "Attract", "Wing Attack", "Cross Poison"],
+          "rank_3_standard": ["Tail Slap", "Beat Up", "Flatter", "Swagger"],
+          "rank_4_advanced": ["Roost", "Moonblast", "U-turn", "Play Rough"],
+          "rank_5_expert": []
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Omnivore", "habitat": ["Forest"]},
+        "evolution": "Legendary."
+      },
+      {
+        "id": "1017",
+        "name": "Ogerpon",
+        "description": "It is a very friendly Pokémon. It is said that it can change its mask to change its type.",
+        "types": ["Grass"],
+        "suggested_rank": "Champion",
+        "attributes": {
+          "strength": {"value": 7, "limit": 14},
+          "dexterity": {"value": 6, "limit": 12},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 6, "limit": 11}
+        },
+        "derived_stats": {"base_hp": 9, "hp": 14, "defense": 5, "special_defense": 6},
+        "abilities": ["Defiant", "Embody Aspect (Hidden)"],
+        "skills": ["Sprouter"],
+        "move_pool": {
+          "rank_1_starter": ["Vine Whip", "Leech Seed", "Quick Attack", "Follow Me"],
+          "rank_2_rookie": ["Magical Leaf", "Focus Energy", "Slam", "Spiky Shield"],
+          "rank_3_standard": ["Horn Leech", "Synthesis", "Power Whip", "Superpower"],
+          "rank_4_advanced": ["Ivy Cudgel", "Wood Hammer", "Grassy Terrain"],
+          "rank_5_expert": [],
+          "rank_6_ace": []
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Herbivore", "habitat": ["Mountain"]},
+        "evolution": "Legendary. Can change Forme and Type by holding a different mask."
+      },
+      {
+        "id": "1018",
+        "name": "Archaludon",
+        "description": "It is a very powerful Pokémon. It can fire a powerful beam of energy from its mouth.",
+        "types": ["Steel", "Dragon"],
+        "suggested_rank": "Master",
+        "attributes": {
+          "strength": {"value": 6, "limit": 12},
+          "dexterity": {"value": 5, "limit": 10},
+          "vitality": {"value": 8, "limit": 15},
+          "special": {"value": 7, "limit": 14},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 10, "hp": 18, "defense": 8, "special_defense": 4},
+        "abilities": ["Stamina", "Sturdy", "Stalwart (Hidden)"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Leer", "Metal Claw", "Rock Smash", "Breaking Swipe"],
+          "rank_2_rookie": ["Hone Claws", "Metal Sound", "Dragon Tail", "Iron Defense"],
+          "rank_3_standard": ["Laser Focus", "Dragon Claw", "Flash Cannon", "Metal Burst"],
+          "rank_4_advanced": ["Hyper Beam", "Dragon Pulse", "Mirror Coat", "Steel Beam", "Electro Shot"]
+        },
+        "biology": {"egg_group": ["Mineral", "Dragon"], "diet": "Terravore", "habitat": ["Urban"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "1019",
+        "name": "Hydrapple",
+        "description": "It is a Pokémon that has seven heads. It is a very powerful Pokémon.",
+        "types": ["Grass", "Dragon"],
+        "suggested_rank": "Master",
+        "attributes": {
+          "strength": {"value": 5, "limit": 10},
+          "dexterity": {"value": 3, "limit": 6},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 7, "limit": 13},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 11, "hp": 16, "defense": 5, "special_defense": 5},
+        "abilities": ["Supersweet Syrup", "Regenerator", "Sticky Hold (Hidden)"],
+        "skills": ["Sprouter"],
+        "move_pool": {
+          "rank_1_starter": ["Withdraw", "Sweet Scent", "Recycle", "Astonish", "Yawn"],
+          "rank_2_rookie": ["Dragon Tail", "Growth", "Dragon Breath", "Protect"],
+          "rank_3_standard": ["Bullet Seed", "Syrup Bomb", "Substitute", "Leech Seed", "Fickle Beam"],
+          "rank_4_advanced": ["Recover", "Dragon Pulse", "Energy Ball", "Power Whip"]
+        },
+        "biology": {"egg_group": ["Grass", "Dragon"], "diet": "Herbivore", "habitat": ["Forest"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "1020",
+        "name": "Gouging Fire",
+        "description": "It is said to be an ancient ancestor of Entei. It is a very aggressive Pokémon.",
+        "types": ["Fire", "Dragon"],
+        "suggested_rank": "Master",
+        "attributes": {
+          "strength": {"value": 7, "limit": 13},
+          "dexterity": {"value": 5, "limit": 10},
+          "vitality": {"value": 7, "limit": 14},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 11, "hp": 18, "defense": 7, "special_defense": 5},
+        "abilities": ["Protosynthesis"],
+        "skills": ["Firestarter"],
+        "move_pool": {
+          "rank_1_starter": ["Stomp", "Leer", "Incinerate", "Sunny Day"],
+          "rank_2_rookie": ["Dragon Breath", "Fire Fang", "Howl", "Bite"],
+          "rank_3_standard": ["Dragon Claw", "Lava Plume", "Morning Sun", "Burning Bulwark"],
+          "rank_4_advanced": ["Fire Blast", "Dragon Rush", "Flare Blitz", "Outrage"]
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Terravore", "habitat": ["Volcano"]},
+        "evolution": "Paradox Pokémon."
+      },
+      {
+        "id": "1021",
+        "name": "Raging Bolt",
+        "description": "It is said to be an ancient ancestor of Raikou. It is a very aggressive Pokémon.",
+        "types": ["Electric", "Dragon"],
+        "suggested_rank": "Master",
+        "attributes": {
+          "strength": {"value": 4, "limit": 8},
+          "dexterity": {"value": 4, "limit": 9},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 8, "limit": 15},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 13, "hp": 17, "defense": 4, "special_defense": 4},
+        "abilities": ["Protosynthesis"],
+        "skills": ["Zapper"],
+        "move_pool": {
+          "rank_1_starter": ["Twister", "Stomp", "Charge", "Sunny Day"],
+          "rank_2_rookie": ["Shock Wave", "Dragon Breath", "Electric Terrain", "Discharge"],
+          "rank_3_standard": ["Dragon Tail", "Calm Mind", "Thunder", "Dragon Pulse"],
+          "rank_4_advanced": ["Zap Cannon", "Thrash", "Rising Voltage", "Thunderclap"]
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Ergovore", "habitat": ["Grassland"]},
+        "evolution": "Paradox Pokémon."
+      },
+      {
+        "id": "1022",
+        "name": "Iron Boulder",
+        "description": "It is said to be a future descendant of Terrakion. It is a very aggressive Pokémon.",
+        "types": ["Rock", "Psychic"],
+        "suggested_rank": "Master",
+        "attributes": {
+          "strength": {"value": 7, "limit": 14},
+          "dexterity": {"value": 7, "limit": 14},
+          "vitality": {"value": 6, "limit": 12},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 10, "hp": 16, "defense": 6, "special_defense": 5},
+        "abilities": ["Quark Drive"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Horn Attack", "Rock Throw", "Electric Terrain"],
+          "rank_2_rookie": ["Quick Attack", "Psycho Cut", "Slash", "Agility"],
+          "rank_3_standard": ["Stone Edge", "Zen Headbutt", "Swords Dance", "Megahorn"],
+          "rank_4_advanced": ["Close Combat", "Mighty Cleave", "Giga Impact"]
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Terravore", "habitat": ["Cave", "Mountain"]},
+        "evolution": "Paradox Pokémon."
+      },
+      {
+        "id": "1023",
+        "name": "Iron Crown",
+        "description": "It is said to be a future descendant of Cobalion. It is a very aggressive Pokémon.",
+        "types": ["Steel", "Psychic"],
+        "suggested_rank": "Master",
+        "attributes": {
+          "strength": {"value": 4, "limit": 8},
+          "dexterity": {"value": 6, "limit": 12},
+          "vitality": {"value": 6, "limit": 12},
+          "special": {"value": 7, "limit": 13},
+          "insight": {"value": 6, "limit": 12}
+        },
+        "derived_stats": {"base_hp": 10, "hp": 16, "defense": 6, "special_defense": 6},
+        "abilities": ["Quark Drive"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Leer", "Confusion", "Metal Claw", "Electric Terrain"],
+          "rank_2_rookie": ["Stored Power", "Psycho Cut", "Slash", "Night Slash"],
+          "rank_3_standard": ["Iron Defense", "Psyshock", "Sacred Sword", "Future Sight"],
+          "rank_4_advanced": ["Volt Switch", "Tachyon Cutter", "Iron Head", "Swords Dance"]
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Nullivore", "habitat": ["Cave", "Forest"]},
+        "evolution": "Paradox Pokémon."
+      },
+      {
+        "id": "1024",
+        "name": "Terapagos",
+        "description": "It is a Pokémon that is said to have created the world. It is a very powerful Pokémon.",
+        "types": ["Normal"],
+        "suggested_rank": "Champion",
+        "attributes": {
+          "strength": {"value": 4, "limit": 8},
+          "dexterity": {"value": 4, "limit": 8},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 10, "hp": 15, "defense": 5, "special_defense": 5},
+        "abilities": ["Tera Shift", "Tera Shell", "Teraform Zero"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Withdraw", "Tri Attack", "Rapid Spin", "Ancient Power"],
+          "rank_2_rookie": ["Body Slam", "Protect", "Earth Power", "Heavy Slam"],
+          "rank_3_standard": ["Tera Starstorm", "Double-Edge", "Rock Polish", "Gyro Ball"],
+          "rank_4_advanced": ["Iron Defense", "Mirror Coat", "Water Pulse", "Zen Headbutt", "Dazzling Gleam", "Flamethrower", "Ice Beam", "Thunderbolt"],
+          "rank_5_expert": [],
+          "rank_6_ace": []
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Nullivore", "habitat": ["Unknown"]},
+        "evolution": "Legendary. Can change to Terastal and Stellar Form."
+      },
+      {
+        "id": "1025",
+        "name": "Pecharunt",
+        "description": "It is a Pokémon that is said to have been born from a cursed peach. It can control people with its psychic powers.",
+        "types": ["Poison", "Ghost"],
+        "suggested_rank": "Champion",
+        "attributes": {
+          "strength": {"value": 5, "limit": 10},
+          "dexterity": {"value": 5, "limit": 10},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 5, "limit": 10},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 9, "hp": 14, "defense": 5, "special_defense": 5},
+        "abilities": ["Poison Puppeteer"],
+        "skills": ["Phasing"],
+        "move_pool": {
+          "rank_1_starter": ["Smog", "Astonish", "Withdraw", "Poison Gas"],
+          "rank_2_rookie": ["Memento", "Fake Out", "Scary Face", "Nasty Plot"],
+          "rank_3_standard": ["Shadow Ball", "Toxic", "Mean Look", "Parting Shot"],
+          "rank_4_advanced": ["Malignant Chain", "Destiny Bond", "Gunk Shot", "Recover"],
+          "rank_5_expert": [],
+          "rank_6_ace": []
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Psiotroph", "habitat": ["Ruins"]},
+        "evolution": "Mythical."
+      }
+    ]
+  }
+}
