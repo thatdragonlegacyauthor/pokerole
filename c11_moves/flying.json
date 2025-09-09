@@ -1,0 +1,30 @@
+{
+  "chapter_11": {
+    "title": "The Movedex",
+    "type": "Flying",
+    "moves": [
+      { "name": "Acrobatics", "type": "Flying", "accuracy": "Strength + Athletic", "damage": "Strength + 3", "effect": "If the user is not holding an item, this move's damage is doubled." },
+      { "name": "Aerial Ace", "type": "Flying", "accuracy": "Automatic", "damage": "Strength + 3", "effect": "This move cannot miss." },
+      { "name": "Air Cutter", "type": "Flying", "accuracy": "Special + Channel", "damage": "Special + 3", "effect": "High critical hit ratio. Hits all adjacent opponents." },
+      { "name": "Air Slash", "type": "Flying", "accuracy": "Special + Channel", "damage": "Special + 4", "effect": "On a successful hit, roll 1d6. On a 5 or 6, the target Flinches." },
+      { "name": "Bounce", "type": "Flying", "accuracy": "Strength + Athletic", "damage": "Strength + 5", "effect": "The user bounces high into the air for one turn, becoming untargetable. It attacks on the second turn. On a hit, roll 1d6. On a 5 or 6, the target is Paralyzed." },
+      { "name": "Brave Bird", "type": "Flying", "accuracy": "Strength + Brawl", "damage": "Strength + 7", "effect": "The user takes recoil damage equal to one-third of the damage it deals." },
+      { "name": "Defog", "type": "Flying", "accuracy": "Automatic", "damage": "None", "effect": "Lowers the target's Evasion by 1. Clears all hazards and screens from both sides of the field." },
+      { "name": "Drill Peck", "type": "Flying", "accuracy": "Strength + Brawl", "damage": "Strength + 4", "effect": "No additional effects." },
+      { "name": "Feather Dance", "type": "Flying", "accuracy": "Special + Perform", "damage": "None", "effect": "Lowers the target's Strength by 2." },
+      { "name": "Fly", "type": "Flying", "accuracy": "Strength + Athletic", "damage": "Strength + 5", "effect": "The user flies high into the air for one turn, becoming untargetable. It attacks on the second turn. Can be used to travel to previously visited locations." },
+      { "name": "Gust", "type": "Flying", "accuracy": "Special + Channel", "damage": "Special + 2", "effect": "Damage is doubled against targets using Fly or Bounce." },
+      { "name": "Hurricane", "type": "Flying", "accuracy": "Special + Channel", "damage": "Special + 7", "effect": "High chance to miss. Hits all adjacent opponents. On a hit, roll 1d6. On a 5 or 6, the target is Confused. Cannot miss in Rain." },
+      { "name": "Mirror Move", "type": "Flying", "accuracy": "Automatic", "damage": "Varies", "effect": "The user copies the last move used by the target and uses it as their own." },
+      { "name": "Peck", "type": "Flying", "accuracy": "Strength + Brawl", "damage": "Strength + 2", "effect": "No additional effects." },
+      { "name": "Pluck", "type": "Flying", "accuracy": "Strength + Brawl", "damage": "Strength + 3", "effect": "If the target is holding a Berry, the user steals it and eats it." },
+      { "name": "Razor Wind", "type": "Flying", "accuracy": "Special + Channel", "damage": "Special + 4", "effect": "Requires one turn to charge. High critical hit ratio." },
+      { "name": "Roost", "type": "Flying", "accuracy": "Automatic", "damage": "None", "effect": "The user recovers half of its maximum HP. For the rest of the round, the user loses its Flying type." },
+      { "name": "Sky Attack", "type": "Flying", "accuracy": "Strength + Athletic", "damage": "Strength + 8", "effect": "Requires one turn to charge. High critical hit ratio. On a hit, roll 1d6. On a 5 or 6, the target Flinches." },
+      { "name": "Sky Drop", "type": "Flying", "accuracy": "Strength + Athletic", "damage": "Strength + 3", "effect": "The user takes the target into the air for one turn, making both untargetable. It drops the target on the second turn." },
+      { "name": "Tailwind", "type": "Flying", "accuracy": "Automatic", "damage": "None", "effect": "For 4 rounds, the Dexterity of the user and its allies is doubled." },
+      { "name": "Twister", "type": "Flying", "accuracy": "Special + Channel", "damage": "Special + 2", "effect": "Hits all adjacent opponents. On a hit, roll 1d6. On a 5 or 6, the target Flinches. Damage is doubled against targets using Fly or Bounce." },
+      { "name": "Wing Attack", "type": "Flying", "accuracy": "Strength + Brawl", "damage": "Strength + 3", "effect": "No additional effects." }
+    ]
+  }
+}
