@@ -2,140 +2,15 @@
   "pokedex": {
     "kanto_pokedex": [
       {
-        "id": "106",
-        "name": "Hitmonlee",
-        "description": "Its legs can stretch and contract freely. Using this elasticity, it overwhelms foes with a dizzying flurry of kicks.",
-        "types": ["Fighting"],
-        "suggested_rank": "Advanced",
-        "attributes": {
-          "strength": {"value": 7, "limit": 14},
-          "dexterity": {"value": 5, "limit": 10},
-          "vitality": {"value": 3, "limit": 7},
-          "special": {"value": 2, "limit": 5},
-          "insight": {"value": 7, "limit": 13}
-        },
-        "derived_stats": {"base_hp": 5, "hp": 8, "defense": 3, "special_defense": 7},
-        "abilities": ["Limber", "Reckless", "Unburden (Hidden)"],
-        "skills": [],
-        "move_pool": {
-          "rank_1_starter": ["Double Kick", "Meditate", "Rolling Kick", "Jump Kick"],
-          "rank_2_rookie": ["Brick Break", "Focus Energy"],
-          "rank_3_standard": ["Feint", "High Jump Kick", "Mind Reader"],
-          "rank_4_advanced": ["Foresight", "Wide Guard", "Blaze Kick", "Mega Kick", "Close Combat"]
-        },
-        "biology": {"egg_group": ["Human-Like"], "diet": "Omnivore", "habitat": ["Urban"]},
-        "evolution": "Final Stage."
-      },
-      {
-        "id": "107",
-        "name": "Hitmonchan",
-        "description": "The arm-twisting punches it throws are fast enough to drill through concrete. It rests after three minutes of fighting.",
-        "types": ["Fighting"],
-        "suggested_rank": "Advanced",
-        "attributes": {
-          "strength": {"value": 6, "limit": 13},
-          "dexterity": {"value": 5, "limit": 9},
-          "vitality": {"value": 5, "limit": 10},
-          "special": {"value": 2, "limit": 5},
-          "insight": {"value": 7, "limit": 13}
-        },
-        "derived_stats": {"base_hp": 5, "hp": 10, "defense": 5, "special_defense": 7},
-        "abilities": ["Keen Eye", "Iron Fist", "Inner Focus (Hidden)"],
-        "skills": [],
-        "move_pool": {
-          "rank_1_starter": ["Comet Punch", "Agility", "Pursuit"],
-          "rank_2_rookie": ["Mach Punch", "Bullet Punch"],
-          "rank_3_standard": ["Feint", "Vacuum Wave", "Quick Guard"],
-          "rank_4_advanced": ["Fire Punch", "Ice Punch", "Thunder Punch", "Sky Uppercut", "Mega Punch", "Close Combat"]
-        },
-        "biology": {"egg_group": ["Human-Like"], "diet": "Omnivore", "habitat": ["Urban"]},
-        "evolution": "Final Stage."
-      },
-      {
-        "id": "108",
-        "name": "Lickitung",
-        "description": "Its tongue can be extended to twice its body length. It weakens prey by licking them all over.",
-        "types": ["Normal"],
-        "suggested_rank": "Advanced",
-        "attributes": {
-          "strength": {"value": 4, "limit": 7},
-          "dexterity": {"value": 2, "limit": 5},
-          "vitality": {"value": 5, "limit": 10},
-          "special": {"value": 4, "limit": 8},
-          "insight": {"value": 5, "limit": 9}
-        },
-        "derived_stats": {"base_hp": 10, "hp": 15, "defense": 5, "special_defense": 5},
-        "abilities": ["Own Tempo", "Oblivious", "Cloud Nine (Hidden)"],
-        "skills": [],
-        "move_pool": {
-          "rank_1_starter": ["Lick", "Supersonic", "Defense Curl"],
-          "rank_2_rookie": ["Knock Off", "Wrap", "Stomp"],
-          "rank_3_standard": ["Disable", "Slam", "Screech"],
-          "rank_4_advanced": ["Rollout", "Wring Out", "Power Whip", "Belly Drum"]
-        },
-        "biology": {"egg_group": ["Monster"], "diet": "Omnivore", "habitat": ["Grassland"]},
-        "evolution": "Evolves into Lickilicky when leveled up knowing Rollout."
-      },
-      {
-        "id": "109",
-        "name": "Koffing",
-        "description": "It floats in the air, thanks to the poisonous gases it stores in its body. It smells awful.",
-        "types": ["Poison"],
-        "suggested_rank": "Rookie",
-        "attributes": {
-          "strength": {"value": 4, "limit": 8},
-          "dexterity": {"value": 3, "limit": 5},
-          "vitality": {"value": 6, "limit": 11},
-          "special": {"value": 4, "limit": 8},
-          "insight": {"value": 3, "limit": 6}
-        },
-        "derived_stats": {"base_hp": 4, "hp": 10, "defense": 6, "special_defense": 3},
-        "abilities": ["Levitate", "Neutralizing Gas", "Stench (Hidden)"],
-        "skills": ["Hover"],
-        "move_pool": {
-          "rank_1_starter": ["Poison Gas", "Tackle", "Smog", "Smokescreen"],
-          "rank_2_rookie": ["Assurance", "Clear Smog", "Sludge"],
-          "rank_3_standard": ["Self-Destruct", "Haze", "Gyro Ball", "Sludge Bomb"],
-          "rank_4_advanced": ["Explosion", "Memento", "Belch", "Destiny Bond"]
-        },
-        "biology": {"egg_group": ["Amorphous"], "diet": "Pollutivore", "habitat": ["Urban"]},
-        "evolution": "Evolves into Weezing."
-      },
-      {
-        "id": "110",
-        "name": "Weezing",
-        "description": "It mixes gases between its two bodies. It is said that these Pokémon were first seen in a factory.",
-        "types": ["Poison"],
-        "suggested_rank": "Advanced",
-        "attributes": {
-          "strength": {"value": 5, "limit": 10},
-          "dexterity": {"value": 4, "limit": 8},
-          "vitality": {"value": 7, "limit": 14},
-          "special": {"value": 5, "limit": 10},
-          "insight": {"value": 4, "limit": 8}
-        },
-        "derived_stats": {"base_hp": 7, "hp": 14, "defense": 7, "special_defense": 4},
-        "abilities": ["Levitate", "Neutralizing Gas", "Stench (Hidden)"],
-        "skills": ["Hover"],
-        "move_pool": {
-          "rank_1_starter": ["Poison Gas", "Tackle", "Smog", "Smokescreen", "Double Hit"],
-          "rank_2_rookie": ["Assurance", "Clear Smog", "Sludge"],
-          "rank_3_standard": ["Self-Destruct", "Haze", "Gyro Ball", "Sludge Bomb"],
-          "rank_4_advanced": ["Explosion", "Memento", "Belch", "Destiny Bond"]
-        },
-        "biology": {"egg_group": ["Amorphous"], "diet": "Pollutivore", "habitat": ["Urban"]},
-        "evolution": "Final Stage."
-      },
-      {
-        "id": "111",
+        "id": "112",
         "name": "Rhyhorn",
-        "description": "Its massive bones are 1,000 times harder than human bones. It can easily knock a trailer flying.",
+        "description": "Its powerful tackles can destroy buildings. It is clumsy, however, and can't change course once it starts running.",
         "types": ["Rock", "Ground"],
         "suggested_rank": "Standard",
         "attributes": {
           "strength": {"value": 5, "limit": 10},
-          "dexterity": {"value": 2, "limit": 5},
-          "vitality": {"value": 6, "limit": 11},
+          "dexterity": {"value": 2, "limit": 4},
+          "vitality": {"value": 6, "limit": 12},
           "special": {"value": 2, "limit": 5},
           "insight": {"value": 2, "limit": 5}
         },
@@ -143,13 +18,991 @@
         "abilities": ["Lightning Rod", "Rock Head", "Reckless (Hidden)"],
         "skills": ["Burrow"],
         "move_pool": {
-          "rank_1_starter": ["Horn Attack", "Tail Whip", "Smack Down", "Bulldoze"],
-          "rank_2_rookie": ["Fury Attack", "Scary Face", "Stomp"],
+          "rank_1_starter": ["Horn Attack", "Tail Whip", "Sand Attack"],
+          "rank_2_rookie": ["Smack Down", "Bulldoze", "Chip Away"],
           "rank_3_standard": ["Rock Blast", "Drill Run", "Take Down"],
           "rank_4_advanced": ["Stone Edge", "Earthquake", "Megahorn", "Horn Drill"]
         },
-        "biology": {"egg_group": ["Monster", "Field"], "diet": "Terravore", "habitat": ["Mountain", "Cave"]},
+        "biology": {"egg_group": ["Monster", "Field"], "diet": "Terravore", "habitat": ["Mountain"]},
         "evolution": "Evolves into Rhydon."
+      },
+      {
+        "id": "113",
+        "name": "Chansey",
+        "description": "A kindhearted Pokémon that lays highly nutritious eggs and shares them with injured Pokémon or people.",
+        "types": ["Normal"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 1, "limit": 3},
+          "dexterity": {"value": 3, "limit": 6},
+          "vitality": {"value": 9, "limit": 18},
+          "special": {"value": 3, "limit": 5},
+          "insight": {"value": 6, "limit": 13}
+        },
+        "derived_stats": {"base_hp": 27, "hp": 36, "defense": 9, "special_defense": 6},
+        "abilities": ["Natural Cure", "Serene Grace", "Healer (Hidden)"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Pound", "Growl", "Tail Whip", "Refresh"],
+          "rank_2_rookie": ["Double Slap", "Soft-Boiled", "Minimize"],
+          "rank_3_standard": ["Take Down", "Sing", "Fling", "Heal Pulse"],
+          "rank_4_advanced": ["Egg Bomb", "Light Screen", "Healing Wish", "Double-Edge"]
+        },
+        "biology": {"egg_group": ["Fairy"], "diet": "Omnivore", "habitat": ["Grassland", "Urban"]},
+        "evolution": "Evolves into Blissey with high Happiness."
+      },
+      {
+        "id": "114",
+        "name": "Tangela",
+        "description": "Its body is covered by a tangle of blue vines that are like seaweed. The vines are ticklish.",
+        "types": ["Grass"],
+        "suggested_rank": "Standard",
+        "attributes": {
+          "strength": {"value": 4, "limit": 7},
+          "dexterity": {"value": 4, "limit": 8},
+          "vitality": {"value": 7, "limit": 13},
+          "special": {"value": 6, "limit": 12},
+          "insight": {"value": 3, "limit": 6}
+        },
+        "derived_stats": {"base_hp": 7, "hp": 14, "defense": 7, "special_defense": 3},
+        "abilities": ["Chlorophyll", "Leaf Guard", "Regenerator (Hidden)"],
+        "skills": ["Sprouter"],
+        "move_pool": {
+          "rank_1_starter": ["Ingrain", "Constrict", "Sleep Powder", "Absorb"],
+          "rank_2_rookie": ["Vine Whip", "Poison Powder", "Stun Spore"],
+          "rank_3_standard": ["Growth", "Mega Drain", "Knock Off", "Natural Gift"],
+          "rank_4_advanced": ["Slam", "Tickle", "Wring Out", "Giga Drain", "Power Whip"]
+        },
+        "biology": {"egg_group": ["Grass"], "diet": "Phototroph", "habitat": ["Jungle", "Forest"]},
+        "evolution": "Evolves into Tangrowth after learning Ancient Power."
+      },
+      {
+        "id": "115",
+        "name": "Kangaskhan",
+        "description": "It raises its offspring in its belly pouch. It lets the baby out to play only when it feels safe.",
+        "types": ["Normal"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 6, "limit": 11},
+          "dexterity": {"value": 5, "limit": 10},
+          "vitality": {"value": 6, "limit": 12},
+          "special": {"value": 3, "limit": 6},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 11, "hp": 17, "defense": 6, "special_defense": 5},
+        "abilities": ["Early Bird", "Scrappy", "Inner Focus (Hidden)"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Comet Punch", "Leer", "Fake Out"],
+          "rank_2_rookie": ["Tail Whip", "Bite", "Rage"],
+          "rank_3_standard": ["Mega Punch", "Chip Away", "Dizzy Punch", "Crunch"],
+          "rank_4_advanced": ["Endure", "Outrage", "Sucker Punch", "Reversal"]
+        },
+        "biology": {"egg_group": ["Monster"], "diet": "Omnivore", "habitat": ["Grassland"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "116",
+        "name": "Horsea",
+        "description": "If it senses danger, it will vigorously spray water or ink from its mouth.",
+        "types": ["Water"],
+        "suggested_rank": "Starter",
+        "attributes": {
+          "strength": {"value": 3, "limit": 6},
+          "dexterity": {"value": 4, "limit": 8},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 2, "limit": 4}
+        },
+        "derived_stats": {"base_hp": 3, "hp": 7, "defense": 4, "special_defense": 2},
+        "abilities": ["Swift Swim", "Sniper", "Damp (Hidden)"],
+        "skills": ["Swimmer"],
+        "move_pool": {
+          "rank_1_starter": ["Bubble", "Smokescreen", "Leer"],
+          "rank_2_rookie": ["Water Gun", "Twister", "Focus Energy"],
+          "rank_3_standard": ["Bubble Beam", "Agility", "Brine"],
+          "rank_4_advanced": ["Hydro Pump", "Dragon Dance", "Dragon Pulse"]
+        },
+        "biology": {"egg_group": ["Water 1", "Dragon"], "diet": "Carnivore", "habitat": ["Ocean"]},
+        "evolution": "Evolves into Seadra."
+      },
+      {
+        "id": "117",
+        "name": "Seadra",
+        "description": "Its body is covered with thorny spikes. Be careful with its fins, as they are tipped with poison.",
+        "types": ["Water"],
+        "suggested_rank": "Standard",
+        "attributes": {
+          "strength": {"value": 4, "limit": 8},
+          "dexterity": {"value": 5, "limit": 10},
+          "vitality": {"value": 6, "limit": 11},
+          "special": {"value": 6, "limit": 11},
+          "insight": {"value": 3, "limit": 6}
+        },
+        "derived_stats": {"base_hp": 6, "hp": 12, "defense": 6, "special_defense": 3},
+        "abilities": ["Poison Point", "Sniper", "Damp (Hidden)"],
+        "skills": ["Swimmer"],
+        "move_pool": {
+          "rank_1_starter": ["Bubble", "Smokescreen", "Leer"],
+          "rank_2_rookie": ["Water Gun", "Twister", "Focus Energy"],
+          "rank_3_standard": ["Bubble Beam", "Agility", "Brine"],
+          "rank_4_advanced": ["Hydro Pump", "Dragon Dance", "Dragon Pulse"]
+        },
+        "biology": {"egg_group": ["Water 1", "Dragon"], "diet": "Carnivore", "habitat": ["Ocean"]},
+        "evolution": "Evolves into Kingdra via trade while holding a Dragon Scale."
+      },
+      {
+        "id": "118",
+        "name": "Goldeen",
+        "description": "It is known as the 'Water Dancer' because of its elegant fins. It has a horn on its head for protection.",
+        "types": ["Water"],
+        "suggested_rank": "Starter",
+        "attributes": {
+          "strength": {"value": 4, "limit": 8},
+          "dexterity": {"value": 4, "limit": 8},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 3, "limit": 5},
+          "insight": {"value": 3, "limit": 6}
+        },
+        "derived_stats": {"base_hp": 5, "hp": 9, "defense": 4, "special_defense": 3},
+        "abilities": ["Swift Swim", "Water Veil", "Lightning Rod (Hidden)"],
+        "skills": ["Swimmer"],
+        "move_pool": {
+          "rank_1_starter": ["Peck", "Tail Whip", "Supersonic"],
+          "rank_2_rookie": ["Horn Attack", "Flail", "Water Pulse"],
+          "rank_3_standard": ["Aqua Ring", "Fury Attack", "Agility", "Waterfall"],
+          "rank_4_advanced": ["Horn Drill", "Soak", "Megahorn"]
+        },
+        "biology": {"egg_group": ["Water 2"], "diet": "Omnivore", "habitat": ["Freshwater"]},
+        "evolution": "Evolves into Seaking."
+      },
+      {
+        "id": "119",
+        "name": "Seaking",
+        "description": "In the autumn, they travel up rivers and leap waterfalls to big their nests in the riverbed.",
+        "types": ["Water"],
+        "suggested_rank": "Standard",
+        "attributes": {
+          "strength": {"value": 5, "limit": 11},
+          "dexterity": {"value": 4, "limit": 8},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 9, "hp": 13, "defense": 4, "special_defense": 5},
+        "abilities": ["Swift Swim", "Water Veil", "Lightning Rod (Hidden)"],
+        "skills": ["Swimmer"],
+        "move_pool": {
+          "rank_1_starter": ["Peck", "Tail Whip", "Supersonic"],
+          "rank_2_rookie": ["Horn Attack", "Flail", "Water Pulse"],
+          "rank_3_standard": ["Aqua Ring", "Fury Attack", "Agility", "Waterfall"],
+          "rank_4_advanced": ["Horn Drill", "Soak", "Megahorn"]
+        },
+        "biology": {"egg_group": ["Water 2"], "diet": "Omnivore", "habitat": ["Freshwater"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "120",
+        "name": "Staryu",
+        "description": "Even if its body is torn, it can regenerate as long as the glowing central core remains intact.",
+        "types": ["Water"],
+        "suggested_rank": "Standard",
+        "attributes": {
+          "strength": {"value": 3, "limit": 6},
+          "dexterity": {"value": 5, "limit": 10},
+          "vitality": {"value": 4, "limit": 7},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 4, "limit": 7}
+        },
+        "derived_stats": {"base_hp": 3, "hp": 7, "defense": 4, "special_defense": 4},
+        "abilities": ["Illuminate", "Natural Cure", "Analytic (Hidden)"],
+        "skills": ["Swimmer"],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Harden", "Water Gun"],
+          "rank_2_rookie": ["Rapid Spin", "Recover", "Camouflage", "Swift"],
+          "rank_3_standard": ["Bubble Beam", "Minimize", "Gyro Ball", "Light Screen"],
+          "rank_4_advanced": ["Power Gem", "Psychic", "Brine", "Reflect Type", "Hydro Pump"]
+        },
+        "biology": {"egg_group": ["Water 3"], "diet": "Nullivore", "habitat": ["Ocean", "Beach"]},
+        "evolution": "Evolves into Starmie with a Water Stone."
+      },
+      {
+        "id": "121",
+        "name": "Starmie",
+        "description": "The center of its body glows with the seven colors of the rainbow. Some people value the core as a gem.",
+        "types": ["Water", "Psychic"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 5, "limit": 9},
+          "dexterity": {"value": 7, "limit": 13},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 6, "limit": 12},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 7, "hp": 12, "defense": 5, "special_defense": 5},
+        "abilities": ["Illuminate", "Natural Cure", "Analytic (Hidden)"],
+        "skills": ["Swimmer"],
+        "move_pool": {
+          "rank_1_starter": ["Water Gun", "Rapid Spin", "Recover", "Swift", "Confuse Ray"],
+          "rank_2_rookie": ["Bubble Beam"],
+          "rank_3_standard": ["Light Screen", "Psychic"],
+          "rank_4_advanced": ["Hydro Pump"]
+        },
+        "biology": {"egg_group": ["Water 3"], "diet": "Nullivore", "habitat": ["Ocean"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "122",
+        "name": "Mr. Mime",
+        "description": "It is a pantomime expert that can create invisible walls and objects with gestures.",
+        "types": ["Psychic", "Fairy"],
+        "suggested_rank": "Standard",
+        "attributes": {
+          "strength": {"value": 3, "limit": 6},
+          "dexterity": {"value": 5, "limit": 10},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 6, "limit": 12},
+          "insight": {"value": 7, "limit": 14}
+        },
+        "derived_stats": {"base_hp": 4, "hp": 8, "defense": 4, "special_defense": 7},
+        "abilities": ["Soundproof", "Filter", "Technician (Hidden)"],
+        "skills": ["Telekinetic"],
+        "move_pool": {
+          "rank_1_starter": ["Pound", "Copycat", "Guard Swap", "Power Swap"],
+          "rank_2_rookie": ["Confusion", "Role Play", "Protect", "Recycle"],
+          "rank_3_standard": ["Psybeam", "Substitute", "Light Screen", "Reflect", "Safeguard"],
+          "rank_4_advanced": ["Sucker Punch", "Dazzling Gleam", "Psychic", "Trick", "Baton Pass"]
+        },
+        "biology": {"egg_group": ["Human-Like"], "diet": "Omnivore", "habitat": ["Urban"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "123",
+        "name": "Scyther",
+        "description": "It is blindingly fast. It slashes its prey with its two sharp scythes.",
+        "types": ["Bug", "Flying"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 7, "limit": 13},
+          "dexterity": {"value": 6, "limit": 13},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 4, "limit": 7},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 8, "hp": 13, "defense": 5, "special_defense": 5},
+        "abilities": ["Swarm", "Technician", "Steadfast (Hidden)"],
+        "skills": ["Flight"],
+        "move_pool": {
+          "rank_1_starter": ["Quick Attack", "Leer", "Focus Energy"],
+          "rank_2_rookie": ["Pursuit", "False Swipe", "Agility"],
+          "rank_3_standard": ["Wing Attack", "Fury Cutter", "Slash", "Razor Wind"],
+          "rank_4_advanced": ["Double Team", "X-Scissor", "Night Slash", "Double Hit", "Air Slash", "Swords Dance", "Feint"]
+        },
+        "biology": {"egg_group": ["Bug"], "diet": "Carnivore", "habitat": ["Grassland"]},
+        "evolution": "Evolves into Scizor via trade while holding a Metal Coat or into Kleavor with a Black Augurite."
+      },
+      {
+        "id": "124",
+        "name": "Jynx",
+        "description": "It speaks a language similar to that of humans. However, it is impossible to tell what it is trying to say.",
+        "types": ["Ice", "Psychic"],
+        "suggested_rank": "Standard",
+        "attributes": {
+          "strength": {"value": 3, "limit": 6},
+          "dexterity": {"value": 6, "limit": 11},
+          "vitality": {"value": 2, "limit": 5},
+          "special": {"value": 7, "limit": 13},
+          "insight": {"value": 6, "limit": 11}
+        },
+        "derived_stats": {"base_hp": 7, "hp": 9, "defense": 2, "special_defense": 6},
+        "abilities": ["Oblivious", "Forewarn", "Dry Skin (Hidden)"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Pound", "Lick", "Lovely Kiss", "Powder Snow"],
+          "rank_2_rookie": ["Double Slap", "Ice Punch", "Heart Stamp"],
+          "rank_3_standard": ["Mean Look", "Fake Tears", "Wake-Up Slap", "Avalanche"],
+          "rank_4_advanced": ["Body Slam", "Wring Out", "Perish Song", "Blizzard"]
+        },
+        "biology": {"egg_group": ["Human-Like"], "diet": "Omnivore", "habitat": ["Arctic"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "125",
+        "name": "Electabuzz",
+        "description": "It loves to feed on electricity. It occasionally appears around large power plants and so on.",
+        "types": ["Electric"],
+        "suggested_rank": "Standard",
+        "attributes": {
+          "strength": {"value": 5, "limit": 10},
+          "dexterity": {"value": 6, "limit": 13},
+          "vitality": {"value": 4, "limit": 7},
+          "special": {"value": 6, "limit": 11},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 7, "hp": 11, "defense": 4, "special_defense": 5},
+        "abilities": ["Static", "Vital Spirit (Hidden)"],
+        "skills": ["Zapper"],
+        "move_pool": {
+          "rank_1_starter": ["Quick Attack", "Leer", "Thunder Shock"],
+          "rank_2_rookie": ["Low Kick", "Swift", "Shock Wave"],
+          "rank_3_standard": ["Light Screen", "Thunder Punch", "Discharge", "Screech"],
+          "rank_4_advanced": ["Thunderbolt", "Thunder"]
+        },
+        "biology": {"egg_group": ["Human-Like"], "diet": "Ergovore", "habitat": ["Grassland"]},
+        "evolution": "Evolves into Electivire via trade while holding an Electirizer."
+      },
+      {
+        "id": "126",
+        "name": "Magmar",
+        "description": "It dislikes cold places, so it blows scorching flames to make the environment suitable for itself.",
+        "types": ["Fire"],
+        "suggested_rank": "Standard",
+        "attributes": {
+          "strength": {"value": 6, "limit": 11},
+          "dexterity": {"value": 5, "limit": 11},
+          "vitality": {"value": 4, "limit": 7},
+          "special": {"value": 6, "limit": 12},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 7, "hp": 11, "defense": 4, "special_defense": 5},
+        "abilities": ["Flame Body", "Vital Spirit (Hidden)"],
+        "skills": ["Firestarter"],
+        "move_pool": {
+          "rank_1_starter": ["Smog", "Leer", "Ember"],
+          "rank_2_rookie": ["Smokescreen", "Feint Attack", "Fire Spin", "Clear Smog"],
+          "rank_3_standard": ["Flame Burst", "Confuse Ray", "Fire Punch", "Lava Plume"],
+          "rank_4_advanced": ["Sunny Day", "Flamethrower", "Fire Blast"]
+        },
+        "biology": {"egg_group": ["Human-Like"], "diet": "Terravore", "habitat": ["Volcano"]},
+        "evolution": "Evolves into Magmortar via trade while holding a Magmarizer."
+      },
+      {
+        "id": "127",
+        "name": "Pinsir",
+        "description": "It grips prey with its pincers until the prey is torn in half. What it can't tear, it tosses far.",
+        "types": ["Bug"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 8, "limit": 14},
+          "dexterity": {"value": 5, "limit": 10},
+          "vitality": {"value": 6, "limit": 12},
+          "special": {"value": 4, "limit": 7},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 7, "hp": 13, "defense": 6, "special_defense": 4},
+        "abilities": ["Hyper Cutter", "Mold Breaker", "Moxie (Hidden)"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Vice Grip", "Focus Energy"],
+          "rank_2_rookie": ["Bind", "Seismic Toss", "Harden"],
+          "rank_3_standard": ["Revenge", "Brick Break", "Vital Throw", "X-Scissor", "Thrash"],
+          "rank_4_advanced": ["Swords Dance", "Submission", "Guillotine", "Superpower"]
+        },
+        "biology": {"egg_group": ["Bug"], "diet": "Carnivore", "habitat": ["Jungle", "Forest"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "128",
+        "name": "Tauros",
+        "description": "Once it takes aim at its foe, it makes a headlong charge. It is famous for its violent nature.",
+        "types": ["Normal"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 6, "limit": 12},
+          "dexterity": {"value": 7, "limit": 13},
+          "vitality": {"value": 6, "limit": 11},
+          "special": {"value": 3, "limit": 6},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 8, "hp": 14, "defense": 6, "special_defense": 4},
+        "abilities": ["Intimidate", "Anger Point", "Sheer Force (Hidden)"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Tail Whip", "Rage", "Horn Attack"],
+          "rank_2_rookie": ["Scary Face", "Pursuit"],
+          "rank_3_standard": ["Rest", "Payback", "Work Up", "Zen Headbutt"],
+          "rank_4_advanced": ["Take Down", "Swagger", "Thrash", "Giga Impact"]
+        },
+        "biology": {"egg_group": ["Field"], "diet": "Herbivore", "habitat": ["Grassland"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "129",
+        "name": "Magikarp",
+        "description": "A Magikarp living for many years can leap a mountain using Splash. The move remains useless, though.",
+        "types": ["Water"],
+        "suggested_rank": "Starter",
+        "attributes": {
+          "strength": {"value": 1, "limit": 4},
+          "dexterity": {"value": 5, "limit": 10},
+          "vitality": {"value": 4, "limit": 7},
+          "special": {"value": 1, "limit": 4},
+          "insight": {"value": 2, "limit": 4}
+        },
+        "derived_stats": {"base_hp": 2, "hp": 6, "defense": 4, "special_defense": 2},
+        "abilities": ["Swift Swim", "Rattled (Hidden)"],
+        "skills": ["Swimmer"],
+        "move_pool": {
+          "rank_1_starter": ["Splash"],
+          "rank_2_rookie": ["Tackle"],
+          "rank_3_standard": ["Flail"]
+        },
+        "biology": {"egg_group": ["Water 2", "Dragon"], "diet": "Omnivore", "habitat": ["Any"]},
+        "evolution": "Evolves into Gyarados."
+      },
+      {
+        "id": "130",
+        "name": "Gyarados",
+        "description": "It is an extremely vicious and violent Pokémon. When it appears, it goes on a rampage and destroys everything.",
+        "types": ["Water", "Flying"],
+        "suggested_rank": "Master",
+        "attributes": {
+          "strength": {"value": 8, "limit": 14},
+          "dexterity": {"value": 5, "limit": 10},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 6, "limit": 12}
+        },
+        "derived_stats": {"base_hp": 10, "hp": 15, "defense": 5, "special_defense": 6},
+        "abilities": ["Intimidate", "Moxie (Hidden)"],
+        "skills": ["Swimmer", "Flight"],
+        "move_pool": {
+          "rank_1_starter": ["Bite", "Leer", "Twister", "Ice Fang"],
+          "rank_2_rookie": ["Aqua Tail", "Scary Face"],
+          "rank_3_standard": ["Dragon Rage", "Crunch", "Hydro Pump", "Dragon Dance"],
+          "rank_4_advanced": ["Hurricane", "Thrash", "Hyper Beam"]
+        },
+        "biology": {"egg_group": ["Water 2", "Dragon"], "diet": "Carnivore", "habitat": ["Any"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "131",
+        "name": "Lapras",
+        "description": "A gentle soul that can read the minds of people. It can ferry people across the sea on its back.",
+        "types": ["Water", "Ice"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 5, "limit": 10},
+          "dexterity": {"value": 4, "limit": 8},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 5, "limit": 10},
+          "insight": {"value": 6, "limit": 11}
+        },
+        "derived_stats": {"base_hp": 14, "hp": 19, "defense": 5, "special_defense": 6},
+        "abilities": ["Water Absorb", "Shell Armor", "Hydration (Hidden)"],
+        "skills": ["Swimmer"],
+        "move_pool": {
+          "rank_1_starter": ["Sing", "Growl", "Water Gun"],
+          "rank_2_rookie": ["Mist", "Confuse Ray", "Ice Shard", "Water Pulse"],
+          "rank_3_standard": ["Body Slam", "Rain Dance", "Perish Song", "Ice Beam"],
+          "rank_4_advanced": ["Brine", "Safeguard", "Hydro Pump", "Sheer Cold"]
+        },
+        "biology": {"egg_group": ["Monster", "Water 1"], "diet": "Omnivore", "habitat": ["Ocean"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "132",
+        "name": "Ditto",
+        "description": "It can reconstitute its entire cellular structure to change into what it sees, but it returns to normal when it relaxes.",
+        "types": ["Normal"],
+        "suggested_rank": "Standard",
+        "attributes": {
+          "strength": {"value": 3, "limit": 6},
+          "dexterity": {"value": 3, "limit": 6},
+          "vitality": {"value": 3, "limit": 6},
+          "special": {"value": 3, "limit": 6},
+          "insight": {"value": 3, "limit": 6}
+        },
+        "derived_stats": {"base_hp": 5, "hp": 8, "defense": 3, "special_defense": 3},
+        "abilities": ["Limber", "Imposter (Hidden)"],
+        "skills": ["Amorphous"],
+        "move_pool": {
+          "rank_1_starter": ["Transform"]
+        },
+        "biology": {"egg_group": ["Ditto"], "diet": "Nullivore", "habitat": ["Any"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "133",
+        "name": "Eevee",
+        "description": "Its genetic code is irregular. It may mutate if it is exposed to radiation from element Stones.",
+        "types": ["Normal"],
+        "suggested_rank": "Rookie",
+        "attributes": {
+          "strength": {"value": 4, "limit": 7},
+          "dexterity": {"value": 4, "limit": 7},
+          "vitality": {"value": 3, "limit": 6},
+          "special": {"value": 3, "limit": 6},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 6, "hp": 9, "defense": 3, "special_defense": 4},
+        "abilities": ["Run Away", "Adaptability", "Anticipation (Hidden)"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Tail Whip", "Sand Attack", "Growl"],
+          "rank_2_rookie": ["Quick Attack", "Bite", "Baby-Doll Eyes"],
+          "rank_3_standard": ["Swift", "Covet", "Take Down", "Charm"],
+          "rank_4_advanced": ["Baton Pass", "Double-Edge", "Last Resort"]
+        },
+        "biology": {"egg_group": ["Field"], "diet": "Omnivore", "habitat": ["Urban", "Grassland"]},
+        "evolution": "Evolves into Vaporeon (Water Stone), Jolteon (Thunder Stone), Flareon (Fire Stone), Espeon (High Happiness, Day), Umbreon (High Happiness, Night), Leafeon (near a Moss Rock), Glaceon (near an Ice Rock), or Sylveon (High Happiness with a Fairy-type move)."
+      },
+      {
+        "id": "134",
+        "name": "Vaporeon",
+        "description": "Its cell composition is similar to water molecules. As a result, it can melt away into water.",
+        "types": ["Water"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 4, "limit": 8},
+          "dexterity": {"value": 4, "limit": 8},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 7, "limit": 13},
+          "insight": {"value": 6, "limit": 11}
+        },
+        "derived_stats": {"base_hp": 14, "hp": 18, "defense": 4, "special_defense": 6},
+        "abilities": ["Water Absorb", "Hydration (Hidden)"],
+        "skills": ["Swimmer"],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Tail Whip", "Water Gun"],
+          "rank_2_rookie": ["Sand Attack", "Quick Attack", "Water Pulse"],
+          "rank_3_standard": ["Aurora Beam", "Aqua Ring", "Acid Armor"],
+          "rank_4_advanced": ["Haze", "Muddy Water", "Last Resort", "Hydro Pump"]
+        },
+        "biology": {"egg_group": ["Field"], "diet": "Omnivore", "habitat": ["Freshwater"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "135",
+        "name": "Jolteon",
+        "description": "It accumulates negative ions in the atmosphere to blast out 10,000-volt lightning bolts.",
+        "types": ["Electric"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 4, "limit": 8},
+          "dexterity": {"value": 8, "limit": 15},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 7, "limit": 13},
+          "insight": {"value": 6, "limit": 11}
+        },
+        "derived_stats": {"base_hp": 7, "hp": 11, "defense": 4, "special_defense": 6},
+        "abilities": ["Volt Absorb", "Quick Feet (Hidden)"],
+        "skills": ["Zapper"],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Tail Whip", "Thunder Shock"],
+          "rank_2_rookie": ["Sand Attack", "Quick Attack", "Double Kick", "Thunder Fang"],
+          "rank_3_standard": ["Pin Missile", "Agility", "Thunder Wave"],
+          "rank_4_advanced": ["Discharge", "Last Resort", "Thunder"]
+        },
+        "biology": {"egg_group": ["Field"], "diet": "Omnivore", "habitat": ["Grassland"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "136",
+        "name": "Flareon",
+        "description": "It has a flame sac in its body. Its body temperature can reach up to 1,650 degrees Fahrenheit.",
+        "types": ["Fire"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 8, "limit": 15},
+          "dexterity": {"value": 4, "limit": 8},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 6, "limit": 11},
+          "insight": {"value": 7, "limit": 13}
+        },
+        "derived_stats": {"base_hp": 7, "hp": 11, "defense": 4, "special_defense": 7},
+        "abilities": ["Flash Fire", "Guts (Hidden)"],
+        "skills": ["Firestarter"],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Tail Whip", "Ember"],
+          "rank_2_rookie": ["Sand Attack", "Quick Attack", "Bite", "Fire Fang"],
+          "rank_3_standard": ["Fire Spin", "Smog", "Leer", "Flare Blitz"],
+          "rank_4_advanced": ["Scary Face", "Last Resort", "Lava Plume"]
+        },
+        "biology": {"egg_group": ["Field"], "diet": "Omnivore", "habitat": ["Urban"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "137",
+        "name": "Porygon",
+        "description": "A man-made Pokémon that consists entirely of programming code. It is protected by a copy-protection system.",
+        "types": ["Normal"],
+        "suggested_rank": "Standard",
+        "attributes": {
+          "strength": {"value": 4, "limit": 8},
+          "dexterity": {"value": 3, "limit": 6},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 5, "limit": 10},
+          "insight": {"value": 4, "limit": 9}
+        },
+        "derived_stats": {"base_hp": 7, "hp": 11, "defense": 4, "special_defense": 4},
+        "abilities": ["Trace", "Download", "Analytic (Hidden)"],
+        "skills": ["Wired"],
+        "move_pool": {
+          "rank_1_starter": ["Tackle", "Conversion", "Sharpen"],
+          "rank_2_rookie": ["Psybeam", "Agility", "Recover"],
+          "rank_3_standard": ["Magnet Rise", "Signal Beam", "Recycle", "Discharge"],
+          "rank_4_advanced": ["Lock-On", "Tri Attack", "Magic Coat", "Zap Cannon"]
+        },
+        "biology": {"egg_group": ["Mineral"], "diet": "Ergovore", "habitat": ["Urban"]},
+        "evolution": "Evolves into Porygon2 via trade while holding an Up-Grade."
+      },
+      {
+        "id": "138",
+        "name": "Omanyte",
+        "description": "A Pokémon that was resurrected from a fossil using modern science. It swam in ancient seas.",
+        "types": ["Rock", "Water"],
+        "suggested_rank": "Standard",
+        "attributes": {
+          "strength": {"value": 3, "limit": 6},
+          "dexterity": {"value": 3, "limit": 5},
+          "vitality": {"value": 6, "limit": 12},
+          "special": {"value": 5, "limit": 10},
+          "insight": {"value": 4, "limit": 7}
+        },
+        "derived_stats": {"base_hp": 4, "hp": 10, "defense": 6, "special_defense": 4},
+        "abilities": ["Swift Swim", "Shell Armor", "Weak Armor (Hidden)"],
+        "skills": ["Swimmer"],
+        "move_pool": {
+          "rank_1_starter": ["Constrict", "Withdraw", "Bite"],
+          "rank_2_rookie": ["Water Gun", "Rollout", "Leer"],
+          "rank_3_standard": ["Mud Shot", "Brine", "Protect", "Ancient Power"],
+          "rank_4_advanced": ["Tickle", "Rock Blast", "Shell Smash", "Hydro Pump"]
+        },
+        "biology": {"egg_group": ["Water 1", "Water 3"], "diet": "Carnivore", "habitat": ["Ocean"]},
+        "evolution": "Evolves into Omastar."
+      },
+      {
+        "id": "139",
+        "name": "Omastar",
+        "description": "Its tentacles are highly developed as if they are hands and feet. As soon as it ensnares prey, it bites.",
+        "types": ["Rock", "Water"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 4, "limit": 8},
+          "dexterity": {"value": 4, "limit": 7},
+          "vitality": {"value": 8, "limit": 14},
+          "special": {"value": 7, "limit": 13},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 8, "hp": 16, "defense": 8, "special_defense": 4},
+        "abilities": ["Swift Swim", "Shell Armor", "Weak Armor (Hidden)"],
+        "skills": ["Swimmer"],
+        "move_pool": {
+          "rank_1_starter": ["Constrict", "Withdraw", "Bite"],
+          "rank_2_rookie": ["Water Gun", "Rollout", "Leer"],
+          "rank_3_standard": ["Mud Shot", "Brine", "Protect", "Ancient Power", "Spike Cannon"],
+          "rank_4_advanced": ["Tickle", "Rock Blast", "Shell Smash", "Hydro Pump"]
+        },
+        "biology": {"egg_group": ["Water 1", "Water 3"], "diet": "Carnivore", "habitat": ["Ocean"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "140",
+        "name": "Kabuto",
+        "description": "This Pokémon was regenerated from a fossil. It has not changed at all for 300 million years.",
+        "types": ["Rock", "Water"],
+        "suggested_rank": "Standard",
+        "attributes": {
+          "strength": {"value": 5, "limit": 10},
+          "dexterity": {"value": 4, "limit": 7},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 4, "limit": 7},
+          "insight": {"value": 3, "limit": 6}
+        },
+        "derived_stats": {"base_hp": 3, "hp": 8, "defense": 5, "special_defense": 3},
+        "abilities": ["Swift Swim", "Battle Armor", "Weak Armor (Hidden)"],
+        "skills": ["Swimmer"],
+        "move_pool": {
+          "rank_1_starter": ["Scratch", "Harden", "Absorb"],
+          "rank_2_rookie": ["Leer", "Mud Shot", "Sand Attack"],
+          "rank_3_standard": ["Endure", "Aqua Jet", "Mega Drain", "Metal Sound"],
+          "rank_4_advanced": ["Ancient Power", "Wring Out"]
+        },
+        "biology": {"egg_group": ["Water 1", "Water 3"], "diet": "Carnivore", "habitat": ["Beach", "Ocean"]},
+        "evolution": "Evolves into Kabutops."
+      },
+      {
+        "id": "141",
+        "name": "Kabutops",
+        "description": "It is thought to have inhabited beaches in ancient times. It is a smart swimmer that tucks in its limbs to swim faster.",
+        "types": ["Rock", "Water"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 7, "limit": 13},
+          "dexterity": {"value": 5, "limit": 10},
+          "vitality": {"value": 6, "limit": 12},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 7, "hp": 13, "defense": 6, "special_defense": 4},
+        "abilities": ["Swift Swim", "Battle Armor", "Weak Armor (Hidden)"],
+        "skills": ["Swimmer"],
+        "move_pool": {
+          "rank_1_starter": ["Scratch", "Harden", "Absorb", "Feint", "Leer"],
+          "rank_2_rookie": ["Mud Shot", "Sand Attack", "Slash"],
+          "rank_3_standard": ["Endure", "Aqua Jet", "Mega Drain", "Metal Sound"],
+          "rank_4_advanced": ["Ancient Power", "Wring Out", "Night Slash", "Swords Dance"]
+        },
+        "biology": {"egg_group": ["Water 1", "Water 3"], "diet": "Carnivore", "habitat": ["Beach", "Ocean"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "142",
+        "name": "Aerodactyl",
+        "description": "A Pokémon that roamed the skies in the dinosaur age. Its teeth are like saw blades.",
+        "types": ["Rock", "Flying"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 6, "limit": 13},
+          "dexterity": {"value": 8, "limit": 15},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 4, "limit": 9}
+        },
+        "derived_stats": {"base_hp": 9, "hp": 13, "defense": 4, "special_defense": 4},
+        "abilities": ["Rock Head", "Pressure", "Unnerve (Hidden)"],
+        "skills": ["Flight"],
+        "move_pool": {
+          "rank_1_starter": ["Bite", "Supersonic", "Wing Attack"],
+          "rank_2_rookie": ["Roar", "Agility", "Ancient Power", "Scary Face"],
+          "rank_3_standard": ["Crunch", "Take Down", "Sky Drop", "Rock Slide"],
+          "rank_4_advanced": ["Iron Head", "Hyper Beam", "Giga Impact"]
+        },
+        "biology": {"egg_group": ["Flying"], "diet": "Carnivore", "habitat": ["Mountain"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "143",
+        "name": "Snorlax",
+        "description": "It is not satisfied unless it eats over 880 pounds of food every day. When it is done eating, it goes promptly to sleep.",
+        "types": ["Normal"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 7, "limit": 13},
+          "dexterity": {"value": 2, "limit": 5},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 7, "limit": 13}
+        },
+        "derived_stats": {"base_hp": 17, "hp": 21, "defense": 4, "special_defense": 7},
+        "abilities": ["Immunity", "Thick Fat", "Gluttony (Hidden)"],
+        "skills": [],
+        "move_pool": {
+          "rank_1_starter": ["Tackle"],
+          "rank_2_rookie": ["Amnesia", "Lick", "Defense Curl"],
+          "rank_3_standard": ["Chip Away", "Body Slam", "Rest", "Snore", "Sleep Talk"],
+          "rank_4_advanced": ["Rollout", "Block", "Belly Drum", "Crunch", "Heavy Slam", "Giga Impact"]
+        },
+        "biology": {"egg_group": ["Monster"], "diet": "Omnivore", "habitat": ["Mountain", "Forest"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "144",
+        "name": "Articuno",
+        "description": "A legendary bird Pokémon that is said to appear to doomed people who are lost in icy mountains.",
+        "types": ["Ice", "Flying"],
+        "suggested_rank": "Master",
+        "attributes": {
+          "strength": {"value": 5, "limit": 10},
+          "dexterity": {"value": 5, "limit": 10},
+          "vitality": {"value": 6, "limit": 12},
+          "special": {"value": 6, "limit": 11},
+          "insight": {"value": 7, "limit": 14}
+        },
+        "derived_stats": {"base_hp": 10, "hp": 16, "defense": 6, "special_defense": 7},
+        "abilities": ["Pressure", "Snow Cloak (Hidden)"],
+        "skills": ["Flight"],
+        "move_pool": {
+          "rank_1_starter": ["Gust", "Powder Snow"],
+          "rank_2_rookie": ["Mist", "Ice Shard"],
+          "rank_3_standard": ["Mind Reader", "Ancient Power", "Agility"],
+          "rank_4_advanced": ["Reflect", "Ice Beam"],
+          "rank_5_expert": ["Tailwind", "Blizzard", "Roost", "Hail", "Hurricane", "Sheer Cold"]
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Nullivore", "habitat": ["Arctic"]},
+        "evolution": "Legendary."
+      },
+      {
+        "id": "145",
+        "name": "Zapdos",
+        "description": "A legendary bird Pokémon that is said to appear from clouds while dropping enormous lightning bolts.",
+        "types": ["Electric", "Flying"],
+        "suggested_rank": "Master",
+        "attributes": {
+          "strength": {"value": 5, "limit": 10},
+          "dexterity": {"value": 6, "limit": 12},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 7, "limit": 14},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 10, "hp": 15, "defense": 5, "special_defense": 5},
+        "abilities": ["Pressure", "Static (Hidden)"],
+        "skills": ["Flight"],
+        "move_pool": {
+          "rank_1_starter": ["Peck", "Thunder Shock"],
+          "rank_2_rookie": ["Thunder Wave", "Detect"],
+          "rank_3_standard": ["Pluck", "Ancient Power", "Charge"],
+          "rank_4_advanced": ["Agility", "Discharge", "Rain Dance"],
+          "rank_5_expert": ["Light Screen", "Drill Peck", "Thunder", "Roost", "Zap Cannon"]
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Nullivore", "habitat": ["Mountain"]},
+        "evolution": "Legendary."
+      },
+      {
+        "id": "146",
+        "name": "Moltres",
+        "description": "A legendary bird Pokémon. It is said that its appearance indicates the coming of spring.",
+        "types": ["Fire", "Flying"],
+        "suggested_rank": "Master",
+        "attributes": {
+          "strength": {"value": 6, "limit": 12},
+          "dexterity": {"value": 5, "limit": 10},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 7, "limit": 14},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 10, "hp": 15, "defense": 5, "special_defense": 5},
+        "abilities": ["Pressure", "Flame Body (Hidden)"],
+        "skills": ["Flight"],
+        "move_pool": {
+          "rank_1_starter": ["Wing Attack", "Ember"],
+          "rank_2_rookie": ["Fire Spin", "Agility"],
+          "rank_3_standard": ["Endure", "Ancient Power", "Flamethrower"],
+          "rank_4_advanced": ["Safeguard", "Air Slash", "Sunny Day"],
+          "rank_5_expert": ["Roost", "Heat Wave", "Solar Beam", "Sky Attack", "Burn Up"]
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Nullivore", "habitat": ["Volcano"]},
+        "evolution": "Legendary."
+      },
+      {
+        "id": "147",
+        "name": "Dratini",
+        "description": "It is called the 'Mirage' Pokémon because so few have seen it. Its shed skin has been found.",
+        "types": ["Dragon"],
+        "suggested_rank": "Standard",
+        "attributes": {
+          "strength": {"value": 4, "limit": 8},
+          "dexterity": {"value": 3, "limit": 6},
+          "vitality": {"value": 3, "limit": 6},
+          "special": {"value": 3, "limit": 6},
+          "insight": {"value": 3, "limit": 6}
+        },
+        "derived_stats": {"base_hp": 4, "hp": 7, "defense": 3, "special_defense": 3},
+        "abilities": ["Shed Skin", "Marvel Scale (Hidden)"],
+        "skills": ["Swimmer"],
+        "move_pool": {
+          "rank_1_starter": ["Wrap", "Leer", "Thunder Wave", "Twister"],
+          "rank_2_rookie": ["Dragon Rage", "Slam", "Agility"],
+          "rank_3_standard": ["Dragon Tail", "Aqua Tail", "Dragon Rush", "Safeguard"],
+          "rank_4_advanced": ["Rain Dance", "Dragon Dance", "Outrage", "Hyper Beam"]
+        },
+        "biology": {"egg_group": ["Water 1", "Dragon"], "diet": "Carnivore", "habitat": ["Freshwater"]},
+        "evolution": "Evolves into Dragonair."
+      },
+      {
+        "id": "148",
+        "name": "Dragonair",
+        "description": "It is said to live in seas and lakes. It can give off a gentle aura that can change the weather.",
+        "types": ["Dragon"],
+        "suggested_rank": "Advanced",
+        "attributes": {
+          "strength": {"value": 5, "limit": 10},
+          "dexterity": {"value": 4, "limit": 8},
+          "vitality": {"value": 4, "limit": 8},
+          "special": {"value": 4, "limit": 8},
+          "insight": {"value": 4, "limit": 8}
+        },
+        "derived_stats": {"base_hp": 7, "hp": 11, "defense": 4, "special_defense": 4},
+        "abilities": ["Shed Skin", "Marvel Scale (Hidden)"],
+        "skills": ["Swimmer"],
+        "move_pool": {
+          "rank_1_starter": ["Wrap", "Leer", "Thunder Wave", "Twister"],
+          "rank_2_rookie": ["Dragon Rage", "Slam", "Agility"],
+          "rank_3_standard": ["Dragon Tail", "Aqua Tail", "Dragon Rush", "Safeguard"],
+          "rank_4_advanced": ["Rain Dance", "Dragon Dance", "Outrage", "Hyper Beam"]
+        },
+        "biology": {"egg_group": ["Water 1", "Dragon"], "diet": "Carnivore", "habitat": ["Freshwater"]},
+        "evolution": "Evolves into Dragonite."
+      },
+      {
+        "id": "149",
+        "name": "Dragonite",
+        "description": "It is said to make its home somewhere in the sea. It guides crews of shipwrecks to shore.",
+        "types": ["Dragon", "Flying"],
+        "suggested_rank": "Master",
+        "attributes": {
+          "strength": {"value": 8, "limit": 15},
+          "dexterity": {"value": 5, "limit": 10},
+          "vitality": {"value": 6, "limit": 11},
+          "special": {"value": 6, "limit": 12},
+          "insight": {"value": 6, "limit": 12}
+        },
+        "derived_stats": {"base_hp": 10, "hp": 16, "defense": 6, "special_defense": 6},
+        "abilities": ["Inner Focus", "Multiscale (Hidden)"],
+        "skills": ["Swimmer", "Flight"],
+        "move_pool": {
+          "rank_1_starter": ["Wrap", "Leer", "Thunder Wave", "Twister", "Fire Punch", "Thunder Punch"],
+          "rank_2_rookie": ["Dragon Rage", "Slam", "Agility"],
+          "rank_3_standard": ["Dragon Tail", "Aqua Tail", "Dragon Rush", "Safeguard", "Wing Attack"],
+          "rank_4_advanced": ["Rain Dance", "Dragon Dance", "Outrage", "Hyper Beam", "Hurricane", "Roost"]
+        },
+        "biology": {"egg_group": ["Water 1", "Dragon"], "diet": "Carnivore", "habitat": ["Ocean"]},
+        "evolution": "Final Stage."
+      },
+      {
+        "id": "150",
+        "name": "Mewtwo",
+        "description": "A Pokémon created by recombining the genes of Mew. It is said to have the most savage heart among all Pokémon.",
+        "types": ["Psychic"],
+        "suggested_rank": "Champion",
+        "attributes": {
+          "strength": {"value": 7, "limit": 13},
+          "dexterity": {"value": 8, "limit": 15},
+          "vitality": {"value": 5, "limit": 10},
+          "special": {"value": 9, "limit": 17},
+          "insight": {"value": 5, "limit": 10}
+        },
+        "derived_stats": {"base_hp": 11, "hp": 16, "defense": 5, "special_defense": 5},
+        "abilities": ["Pressure", "Unnerve (Hidden)"],
+        "skills": ["Telekinetic", "Telepath"],
+        "move_pool": {
+          "rank_1_starter": ["Confusion", "Disable", "Safeguard", "Swift"],
+          "rank_2_rookie": ["Ancient Power", "Psycho Cut"],
+          "rank_3_standard": ["Amnesia", "Aura Sphere", "Psychic"],
+          "rank_4_advanced": ["Power Swap", "Guard Swap", "Recover", "Mist"],
+          "rank_5_expert": ["Psystrike"],
+          "rank_6_ace": ["Future Sight"]
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Nullivore", "habitat": ["Unknown"]},
+        "evolution": "Legendary."
+      },
+      {
+        "id": "151",
+        "name": "Mew",
+        "description": "Its DNA is said to contain the genetic codes of all Pokémon, so it can use all kinds of techniques.",
+        "types": ["Psychic"],
+        "suggested_rank": "Champion",
+        "attributes": {
+          "strength": {"value": 6, "limit": 12},
+          "dexterity": {"value": 6, "limit": 12},
+          "vitality": {"value": 6, "limit": 12},
+          "special": {"value": 6, "limit": 12},
+          "insight": {"value": 6, "limit": 12}
+        },
+        "derived_stats": {"base_hp": 11, "hp": 17, "defense": 6, "special_defense": 6},
+        "abilities": ["Synchronize"],
+        "skills": ["Telekinetic", "Telepath", "Phasing", "Flight"],
+        "move_pool": {
+          "rank_1_starter": ["Pound", "Reflect Type", "Transform"],
+          "rank_2_rookie": ["Amnesia", "Baton Pass"],
+          "rank_3_standard": ["Ancient Power", "Aura Sphere"],
+          "rank_4_advanced": ["Nasty Plot", "Mega Punch"],
+          "rank_5_expert": ["Metronome", "Psychic"],
+          "rank_6_ace": ["Barrier"]
+        },
+        "biology": {"egg_group": ["Undiscovered"], "diet": "Nullivore", "habitat": ["Unknown"]},
+        "evolution": "Mythical."
       }
     ]
   }
