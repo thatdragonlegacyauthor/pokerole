@@ -1,0 +1,287 @@
+{
+  "chapter_10": {
+    "regional_variants": {
+      "hisui": [
+        {
+          "id": "058-H",
+          "name": "Hisuian Growlithe",
+          "types": ["Fire", "Rock"],
+          "suggested_rank": "Rookie",
+          "attributes": { "strength": {"value": 4, "limit": 8}, "dexterity": {"value": 4, "limit": 8}, "vitality": {"value": 4, "limit": 8}, "special": {"value": 4, "limit": 8}, "insight": {"value": 3, "limit": 6} },
+          "derived_stats": {"base_hp": 7, "hp": 11, "defense": 4, "special_defense": 3},
+          "abilities": ["Intimidate", "Flash Fire", "Justified (Hidden)"],
+          "skills": ["Firestarter"],
+          "move_pool": {
+            "rank_1_starter": ["Bite", "Roar", "Ember", "Leer"],
+            "rank_2_rookie": ["Rock Throw", "Odor Sleuth", "Helping Hand", "Flame Wheel"],
+            "rank_3_standard": ["Reversal", "Fire Fang", "Take Down", "Rock Slide"],
+            "rank_4_advanced": ["Agility", "Retaliate", "Flamethrower", "Crunch", "Outrage", "Flare Blitz"]
+          },
+          "evolution": "Evolves into Hisuian Arcanine with a Fire Stone."
+        },
+        {
+          "id": "059-H",
+          "name": "Hisuian Arcanine",
+          "types": ["Fire", "Rock"],
+          "suggested_rank": "Advanced",
+          "attributes": { "strength": {"value": 7, "limit": 13}, "dexterity": {"value": 6, "limit": 11}, "vitality": {"value": 5, "limit": 10}, "special": {"value": 6, "limit": 11}, "insight": {"value": 5, "limit": 10} },
+          "derived_stats": {"base_hp": 10, "hp": 15, "defense": 5, "special_defense": 5},
+          "abilities": ["Intimidate", "Flash Fire", "Justified (Hidden)"],
+          "skills": ["Firestarter"],
+          "move_pool": {
+            "rank_1_starter": ["Bite", "Roar", "Odor Sleuth", "Fire Fang", "Extreme Speed", "Rock Throw"],
+            "rank_2_rookie": ["Crunch", "Flamethrower"],
+            "rank_3_standard": ["Rock Slide", "Raging Fury"],
+            "rank_4_advanced": ["Flare Blitz", "Close Combat", "Stone Edge"]
+          },
+          "evolution": "Final Stage."
+        },
+        {
+          "id": "100-H",
+          "name": "Hisuian Voltorb",
+          "types": ["Electric", "Grass"],
+          "suggested_rank": "Rookie",
+          "attributes": { "strength": {"value": 2, "limit": 5}, "dexterity": {"value": 6, "limit": 12}, "vitality": {"value": 3, "limit": 6}, "special": {"value": 4, "limit": 7}, "insight": {"value": 4, "limit": 7} },
+          "derived_stats": {"base_hp": 4, "hp": 7, "defense": 3, "special_defense": 4},
+          "abilities": ["Soundproof", "Static", "Aftermath (Hidden)"],
+          "move_pool": {
+            "rank_1_starter": ["Charge", "Tackle", "Thunder Shock"],
+            "rank_2_rookie": ["Stun Spore", "Bullet Seed", "Rollout", "Screech"],
+            "rank_3_standard": ["Charge Beam", "Self-Destruct", "Energy Ball", "Swift"],
+            "rank_4_advanced": ["Thunderbolt", "Light Screen", "Explosion", "Chloroblast"]
+          },
+          "evolution": "Evolves into Hisuian Electrode with a Leaf Stone."
+        },
+        {
+          "id": "101-H",
+          "name": "Hisuian Electrode",
+          "types": ["Electric", "Grass"],
+          "suggested_rank": "Standard",
+          "attributes": { "strength": {"value": 3, "limit": 6}, "dexterity": {"value": 9, "limit": 16}, "vitality": {"value": 4, "limit": 8}, "special": {"value": 5, "limit": 10}, "insight": {"value": 4, "limit": 8} },
+          "derived_stats": {"base_hp": 7, "hp": 11, "defense": 4, "special_defense": 4},
+          "abilities": ["Soundproof", "Static", "Aftermath (Hidden)"],
+          "move_pool": {
+            "rank_1_starter": ["Charge", "Tackle", "Thunder Shock", "Chloroblast"],
+            "rank_2_rookie": ["Stun Spore", "Bullet Seed", "Rollout", "Screech"],
+            "rank_3_standard": ["Charge Beam", "Self-Destruct", "Energy Ball", "Swift"],
+            "rank_4_advanced": ["Thunderbolt", "Light Screen", "Explosion"]
+          },
+          "evolution": "Final Stage."
+        },
+        {
+          "id": "157-H",
+          "name": "Hisuian Typhlosion",
+          "types": ["Fire", "Ghost"],
+          "suggested_rank": "Advanced",
+          "attributes": { "strength": {"value": 5, "limit": 10}, "dexterity": {"value": 6, "limit": 11}, "vitality": {"value": 5, "limit": 9}, "special": {"value": 7, "limit": 13}, "insight": {"value": 5, "limit": 10} },
+          "derived_stats": {"base_hp": 8, "hp": 13, "defense": 5, "special_defense": 5},
+          "abilities": ["Blaze", "Frisk (Hidden)"],
+          "move_pool": {
+            "rank_1_starter": ["Ember", "Leer", "Smokescreen", "Quick Attack", "Hex"],
+            "rank_2_rookie": ["Flame Wheel", "Rollout", "Swift", "Flame Charge"],
+            "rank_3_standard": ["Infernal Parade", "Shadow Ball", "Lava Plume", "Flamethrower"],
+            "rank_4_advanced": ["Double-Edge", "Burn Up", "Overheat"],
+            "rank_5_expert": ["Blast Burn"]
+          },
+          "evolution": "Final Stage."
+        },
+        {
+          "id": "503-H",
+          "name": "Hisuian Samurott",
+          "types": ["Water", "Dark"],
+          "suggested_rank": "Advanced",
+          "attributes": { "strength": {"value": 6, "limit": 12}, "dexterity": {"value": 5, "limit": 10}, "vitality": {"value": 5, "limit": 10}, "special": {"value": 6, "limit": 12}, "insight": {"value": 4, "limit": 8} },
+          "derived_stats": {"base_hp": 10, "hp": 15, "defense": 5, "special_defense": 4},
+          "abilities": ["Torrent", "Sharpness (Hidden)"],
+          "move_pool": {
+            "rank_1_starter": ["Tackle", "Tail Whip", "Water Gun", "Focus Energy"],
+            "rank_2_rookie": ["Razor Shell", "Fury Cutter", "Water Pulse", "Aerial Ace"],
+            "rank_3_standard": ["Aqua Jet", "Encore", "Aqua Tail", "Retaliate", "Swords Dance"],
+            "rank_4_advanced": ["Hydro Pump", "Ceaseless Edge", "Night Slash", "Dark Pulse"],
+            "rank_5_expert": ["Hydro Cannon"]
+          },
+          "evolution": "Final Stage."
+        },
+        {
+          "id": "549-H",
+          "name": "Hisuian Lilligant",
+          "types": ["Grass", "Fighting"],
+          "suggested_rank": "Advanced",
+          "attributes": { "strength": {"value": 6, "limit": 12}, "dexterity": {"value": 6, "limit": 12}, "vitality": {"value": 4, "limit": 9}, "special": {"value": 3, "limit": 6}, "insight": {"value": 4, "limit": 9} },
+          "derived_stats": {"base_hp": 8, "hp": 12, "defense": 4, "special_defense": 4},
+          "abilities": ["Chlorophyll", "Hustle", "Leaf Guard (Hidden)"],
+          "move_pool": {
+            "rank_1_starter": ["Mega Drain", "Aromatherapy", "Stun Spore", "Poison Powder", "Axe Kick"],
+            "rank_2_rookie": ["Teeter Dance", "Giga Drain", "Leech Seed", "Helping Hand"],
+            "rank_3_standard": ["Energy Ball", "Sunny Day", "Leaf Blade", "Victory Dance"],
+            "rank_4_advanced": ["Petal Dance", "Close Combat", "Leaf Storm"]
+          },
+          "evolution": "Final Stage."
+        },
+        {
+          "id": "570-H",
+          "name": "Hisuian Zorua",
+          "types": ["Normal", "Ghost"],
+          "suggested_rank": "Rookie",
+          "attributes": { "strength": {"value": 4, "limit": 8}, "dexterity": {"value": 4, "limit": 8}, "vitality": {"value": 3, "limit": 6}, "special": {"value": 5, "limit": 10}, "insight": {"value": 3, "limit": 6} },
+          "derived_stats": {"base_hp": 4, "hp": 7, "defense": 3, "special_defense": 3},
+          "abilities": ["Illusion"],
+          "move_pool": {
+            "rank_1_starter": ["Scratch", "Leer", "Torment", "Hone Claws"],
+            "rank_2_rookie": ["Shadow Sneak", "Curse", "Taunt", "Knock Off"],
+            "rank_3_standard": ["Spite", "Agility", "Shadow Ball", "Bitter Malice"],
+            "rank_4_advanced": ["Nasty Plot", "Foul Play", "Comeuppance"]
+          },
+          "evolution": "Evolves into Hisuian Zoroark."
+        },
+        {
+          "id": "571-H",
+          "name": "Hisuian Zoroark",
+          "types": ["Normal", "Ghost"],
+          "suggested_rank": "Advanced",
+          "attributes": { "strength": {"value": 4, "limit": 8}, "dexterity": {"value": 6, "limit": 12}, "vitality": {"value": 4, "limit": 8}, "special": {"value": 7, "limit": 14}, "insight": {"value": 4, "limit": 8} },
+          "derived_stats": {"base_hp": 7, "hp": 11, "defense": 4, "special_defense": 4},
+          "abilities": ["Illusion"],
+          "move_pool": {
+            "rank_1_starter": ["Scratch", "Leer", "Torment", "Hone Claws", "U-turn", "Shadow Claw"],
+            "rank_2_rookie": ["Shadow Sneak", "Curse", "Taunt", "Knock Off"],
+            "rank_3_standard": ["Spite", "Agility", "Shadow Ball", "Bitter Malice"],
+            "rank_4_advanced": ["Nasty Plot", "Foul Play", "Comeuppance"]
+          },
+          "evolution": "Final Stage."
+        },
+        {
+          "id": "628-H",
+          "name": "Hisuian Braviary",
+          "types": ["Psychic", "Flying"],
+          "suggested_rank": "Advanced",
+          "attributes": { "strength": {"value": 5, "limit": 10}, "dexterity": {"value": 4, "limit": 8}, "vitality": {"value": 4, "limit": 8}, "special": {"value": 7, "limit": 13}, "insight": {"value": 4, "limit": 8} },
+          "derived_stats": {"base_hp": 11, "hp": 15, "defense": 4, "special_defense": 4},
+          "abilities": ["Keen Eye", "Sheer Force", "Defiant (Hidden)"],
+          "move_pool": {
+            "rank_1_starter": ["Peck", "Leer", "Hone Claws", "Wing Attack", "Quick Attack"],
+            "rank_2_rookie": ["Aerial Ace", "Scary Face", "Slash", "Roost"],
+            "rank_3_standard": ["Air Slash", "Crush Claw", "Whirlwind", "Brave Bird"],
+            "rank_4_advanced": ["Thrash", "Double-Edge", "Esper Wing", "Hurricane"]
+          },
+          "evolution": "Final Stage."
+        },
+        {
+          "id": "705-H",
+          "name": "Hisuian Sliggoo",
+          "types": ["Steel", "Dragon"],
+          "suggested_rank": "Standard",
+          "attributes": { "strength": {"value": 5, "limit": 9}, "dexterity": {"value": 3, "limit": 6}, "vitality": {"value": 5, "limit": 10}, "special": {"value": 5, "limit": 10}, "insight": {"value": 7, "limit": 13} },
+          "derived_stats": {"base_hp": 7, "hp": 12, "defense": 5, "special_defense": 7},
+          "abilities": ["Sap Sipper", "Shell Armor", "Gooey (Hidden)"],
+          "move_pool": {
+            "rank_1_starter": ["Tackle", "Bubble", "Absorb", "Dragon Breath"],
+            "rank_2_rookie": ["Protect", "Flail", "Water Pulse", "Rain Dance"],
+            "rank_3_standard": ["Dragon Pulse", "Curse", "Iron Head", "Muddy Water"],
+            "rank_4_advanced": ["Shelter"]
+          },
+          "evolution": "Evolves into Hisuian Goodra in the rain."
+        },
+        {
+          "id": "706-H",
+          "name": "Hisuian Goodra",
+          "types": ["Steel", "Dragon"],
+          "suggested_rank": "Advanced",
+          "attributes": { "strength": {"value": 6, "limit": 12}, "dexterity": {"value": 4, "limit": 8}, "vitality": {"value": 8, "limit": 15}, "special": {"value": 7, "limit": 13}, "insight": {"value": 9, "limit": 17} },
+          "derived_stats": {"base_hp": 9, "hp": 17, "defense": 8, "special_defense": 9},
+          "abilities": ["Sap Sipper", "Shell Armor", "Gooey (Hidden)"],
+          "move_pool": {
+            "rank_1_starter": ["Tackle", "Bubble", "Absorb", "Dragon Breath", "Feint", "Iron Head"],
+            "rank_2_rookie": ["Protect", "Flail", "Water Pulse", "Rain Dance"],
+            "rank_3_standard": ["Dragon Pulse", "Curse", "Muddy Water", "Shelter"],
+            "rank_4_advanced": ["Hydro Pump", "Outrage", "Heavy Slam"]
+          },
+          "evolution": "Final Stage."
+        },
+        {
+          "id": "713-H",
+          "name": "Hisuian Avalugg",
+          "types": ["Ice", "Rock"],
+          "suggested_rank": "Advanced",
+          "attributes": { "strength": {"value": 7, "limit": 14}, "dexterity": {"value": 3, "limit": 5}, "vitality": {"value": 10, "limit": 18}, "special": {"value": 2, "limit": 5}, "insight": {"value": 2, "limit": 5} },
+          "derived_stats": {"base_hp": 10, "hp": 20, "defense": 10, "special_defense": 2},
+          "abilities": ["Strong Jaw", "Ice Body", "Sturdy (Hidden)"],
+          "move_pool": {
+            "rank_1_starter": ["Tackle", "Powder Snow", "Harden", "Rock Smash"],
+            "rank_2_rookie": ["Icy Wind", "Wide Guard", "Curse", "Ice Fang"],
+            "rank_3_standard": ["Iron Defense", "Rock Slide", "Blizzard", "Double-Edge"],
+            "rank_4_advanced": ["Stone Edge", "Mountain Gale", "Crunch"]
+          },
+          "evolution": "Final Stage."
+        },
+        {
+          "id": "724-H",
+          "name": "Hisuian Decidueye",
+          "types": ["Grass", "Fighting"],
+          "suggested_rank": "Advanced",
+          "attributes": { "strength": {"value": 7, "limit": 13}, "dexterity": {"value": 4, "limit": 8}, "vitality": {"value": 5, "limit": 10}, "special": {"value": 6, "limit": 12}, "insight": {"value": 6, "limit": 12} },
+          "derived_stats": {"base_hp": 8, "hp": 13, "defense": 5, "special_defense": 6},
+          "abilities": ["Overgrow", "Scrappy (Hidden)"],
+          "move_pool": {
+            "rank_1_starter": ["Tackle", "Leafage", "Growl", "Peck", "Shadow Claw"],
+            "rank_2_rookie": ["Razor Leaf", "Synthesis", "Pluck", "Bulk Up"],
+            "rank_3_standard": ["Sucker Punch", "Leaf Blade", "Feather Dance", "Brave Bird"],
+            "rank_4_advanced": ["Aura Sphere", "Leaf Storm", "Triple Arrows"],
+            "rank_5_expert": ["Frenzy Plant"]
+          },
+          "evolution": "Final Stage."
+        }
+      ],
+      "paldea": [
+        {
+          "id": "128-P",
+          "name": "Paldean Tauros",
+          "types": ["Fighting"],
+          "suggested_rank": "Advanced",
+          "attributes": { "strength": {"value": 7, "limit": 13}, "dexterity": {"value": 6, "limit": 12}, "vitality": {"value": 6, "limit": 11}, "special": {"value": 2, "limit": 5}, "insight": {"value": 4, "limit": 8} },
+          "derived_stats": {"base_hp": 8, "hp": 14, "defense": 6, "special_defense": 4},
+          "abilities": ["Intimidate", "Anger Point", "Cud Chew (Hidden)"],
+          "move_pool": {
+            "rank_1_starter": ["Tackle", "Tail Whip", "Work Up", "Double Kick"],
+            "rank_2_rookie": ["Assurance", "Headbutt", "Scary Face", "Zen Headbutt"],
+            "rank_3_standard": ["Raging Bull", "Rest", "Swagger", "Thrash"],
+            "rank_4_advanced": ["Double-Edge", "Close Combat", "Wave Crash (Aqua)", "Flare Blitz (Blaze)"]
+          },
+          "evolution": "Final Stage. Combat Breed is pure Fighting. Blaze Breed is Fighting/Fire. Aqua Breed is Fighting/Water."
+        },
+        {
+          "id": "194-P",
+          "name": "Paldean Wooper",
+          "types": ["Poison", "Ground"],
+          "suggested_rank": "Starter",
+          "attributes": { "strength": {"value": 3, "limit": 6}, "dexterity": {"value": 1, "limit": 4}, "vitality": {"value": 3, "limit": 6}, "special": {"value": 2, "limit": 5}, "insight": {"value": 2, "limit": 5} },
+          "derived_stats": {"base_hp": 6, "hp": 9, "defense": 3, "special_defense": 2},
+          "abilities": ["Poison Point", "Water Absorb", "Unaware (Hidden)"],
+          "move_pool": {
+            "rank_1_starter": ["Tail Whip", "Poison Sting", "Mud Shot", "Poison Tail"],
+            "rank_2_rookie": ["Slam", "Yawn", "Toxic Spikes", "Sludge Wave"],
+            "rank_3_standard": ["Amnesia", "Toxic", "Earthquake"],
+            "rank_4_advanced": ["Recover"]
+          },
+          "evolution": "Evolves into Clodsire."
+        },
+        {
+          "id": "980",
+          "name": "Clodsire",
+          "types": ["Poison", "Ground"],
+          "suggested_rank": "Advanced",
+          "attributes": { "strength": {"value": 4, "limit": 9}, "dexterity": {"value": 2, "limit": 4}, "vitality": {"value": 6, "limit": 12}, "special": {"value": 3, "limit": 6}, "insight": {"value": 6, "limit": 12} },
+          "derived_stats": {"base_hp": 14, "hp": 20, "defense": 6, "special_defense": 6},
+          "abilities": ["Poison Point", "Water Absorb", "Unaware (Hidden)"],
+          "move_pool": {
+            "rank_1_starter": ["Tail Whip", "Poison Sting", "Amnesia"],
+            "rank_2_rookie": ["Slam", "Yawn", "Poison Tail", "Toxic Spikes"],
+            "rank_3_standard": ["Sludge Wave", "Megahorn", "Toxic", "Earthquake"],
+            "rank_4_advanced": ["Recover"]
+          },
+          "evolution": "Final Stage."
+        }
+      ]
+    }
+  }
+}
