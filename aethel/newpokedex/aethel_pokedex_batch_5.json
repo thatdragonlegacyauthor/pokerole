@@ -1,0 +1,279 @@
+{
+  "aethel_pokedex_batch_5": [
+    {
+      "name": "Harefrost",
+      "id": "A034",
+      "typing": ["Normal", "Ice"],
+      "concept": "The Snowshoe Pokémon. A small, timid, rabbit-like Pokémon that can move at incredible speeds across the snow.",
+      "suggested_rank": "Starter",
+      "attributes": {
+        "strength": {"value": 3, "limit": 6},
+        "dexterity": {"value": 7, "limit": 12},
+        "vitality": {"value": 4, "limit": 8},
+        "special": {"value": 3, "limit": 6},
+        "insight": {"value": 5, "limit": 9}
+      },
+      "derived_stats": {"base_hp": 4, "hp": 8, "defense": 4, "special_defense": 4},
+      "abilities": ["Snow Cloak", "Run Away"],
+      "skills": ["Acrobat", "Stealth", "Endurance"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Growl", "Powder Snow", "Quick Attack"],
+        "rank_2_rookie": ["Ice Shard", "Bite", "Double Kick", "Agility"],
+        "rank_3_standard": ["Avalanche", "Blizzard", "Double Edge"],
+        "rank_4_advanced": ["Ice Beam", "Extreme Speed"],
+        "rank_5_expert": ["Sheer Cold"]
+      },
+      "evolution": "Evolves into Snovault."
+    },
+    {
+      "name": "Snovault",
+      "id": "A035",
+      "typing": ["Normal", "Ice"],
+      "concept": "The Snowshoe Rabbit Pokémon. A larger, more powerful version of Harefrost known for its ability to leap over large obstacles with incredible agility.",
+      "suggested_rank": "Rookie",
+      "attributes": {
+        "strength": {"value": 5, "limit": 9},
+        "dexterity": {"value": 9, "limit": 15},
+        "vitality": {"value": 6, "limit": 10},
+        "special": {"value": 4, "limit": 8},
+        "insight": {"value": 6, "limit": 10}
+      },
+      "derived_stats": {"base_hp": 6, "hp": 12, "defense": 6, "special_defense": 6},
+      "abilities": ["Snow Cloak", "Run Away"],
+      "skills": ["Acrobat", "Stealth", "Endurance"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Growl", "Powder Snow", "Quick Attack"],
+        "rank_2_rookie": ["Ice Shard", "Bite", "Double Kick", "Agility"],
+        "rank_3_standard": ["Avalanche", "Blizzard", "Double Edge", "Ice Beam"],
+        "rank_4_advanced": ["Extreme Speed", "Jump Kick"],
+        "rank_5_expert": ["Sheer Cold"]
+      },
+      "evolution": "Evolves into Lyntic."
+    },
+    {
+      "name": "Lyntic",
+      "id": "A036",
+      "typing": ["Fighting", "Ice"],
+      "concept": "The Tundra Predator Pokémon. A powerful, lynx-like Pokémon that is a master of stealth and hunting in the snow without making a sound.",
+      "suggested_rank": "Standard",
+      "attributes": {
+        "strength": {"value": 9, "limit": 15},
+        "dexterity": {"value": 10, "limit": 15},
+        "vitality": {"value": 8, "limit": 13},
+        "special": {"value": 6, "limit": 10},
+        "insight": {"value": 8, "limit": 13}
+      },
+      "derived_stats": {"base_hp": 8, "hp": 16, "defense": 8, "special_defense": 8},
+      "abilities": ["Snow Cloak", "Stealthy"],
+      "skills": ["Acrobat", "Stealth", "Endurance"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Growl", "Powder Snow", "Quick Attack", "Ice Shard"],
+        "rank_2_rookie": ["Bite", "Double Kick", "Agility", "Avalanche", "Blizzard"],
+        "rank_3_standard": ["Double Edge", "Ice Beam", "Extreme Speed", "Jump Kick"],
+        "rank_4_advanced": ["Close Combat", "Brave Bird", "Ice Punch"],
+        "rank_5_expert": ["Sheer Cold", "High Jump Kick"]
+      },
+      "evolution": "Final Stage."
+    },
+    {
+      "name": "Rockax",
+      "id": "A037",
+      "typing": ["Rock", "Ground"],
+      "concept": "The Pickaxe Pokémon. A small, rock-like creature with a head shaped like a pickaxe, known for its ability to dig through hard rock to find minerals.",
+      "suggested_rank": "Starter",
+      "attributes": {
+        "strength": {"value": 5, "limit": 9},
+        "dexterity": {"value": 3, "limit": 6},
+        "vitality": {"value": 6, "limit": 10},
+        "special": {"value": 3, "limit": 6},
+        "insight": {"value": 4, "limit": 8}
+      },
+      "derived_stats": {"base_hp": 6, "hp": 12, "defense": 6, "special_defense": 4},
+      "abilities": ["Sturdy", "Rock Head", "Sand Force (Hidden)"],
+      "skills": ["Climber", "Endurance"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Rock Throw", "Sand Attack"],
+        "rank_2_rookie": ["Rock Slide", "Bulldoze", "Harden", "Smack Down"],
+        "rank_3_standard": ["Rock Tomb", "Dig", "Stone Edge"],
+        "rank_4_advanced": ["Earthquake", "Stone Edge", "Heavy Slam"],
+        "rank_5_expert": ["Head Smash", "Rock Wrecker"]
+      },
+      "evolution": "Evolves into Prospectorox."
+    },
+    {
+      "name": "Prospectorox",
+      "id": "A038",
+      "typing": ["Rock", "Ground"],
+      "concept": "The Prospector Pokémon. Its head is a solid rock, and its arms are sharp, pickaxe-like claws. It is known for its ability to find rare minerals and resources.",
+      "suggested_rank": "Rookie",
+      "attributes": {
+        "strength": {"value": 7, "limit": 12},
+        "dexterity": {"value": 5, "limit": 9},
+        "vitality": {"value": 8, "limit": 13},
+        "special": {"value": 4, "limit": 8},
+        "insight": {"value": 6, "limit": 10}
+      },
+      "derived_stats": {"base_hp": 8, "hp": 16, "defense": 8, "special_defense": 6},
+      "abilities": ["Sturdy", "Rock Head", "Sand Force (Hidden)"],
+      "skills": ["Climber", "Endurance"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Rock Throw", "Sand Attack"],
+        "rank_2_rookie": ["Rock Slide", "Bulldoze", "Harden", "Smack Down"],
+        "rank_3_standard": ["Rock Tomb", "Dig", "Stone Edge", "Earthquake"],
+        "rank_4_advanced": ["Heavy Slam", "Rock Wrecker"],
+        "rank_5_expert": ["Head Smash", "Drill Run"]
+      },
+      "evolution": "Final Stage."
+    },
+    {
+      "name": "Primoderm",
+      "id": "A039",
+      "typing": ["Ice", "Rock"],
+      "concept": "The Tusk Fossil Pokémon. This Pokémon is resurrected from the Tusk Fossil. It is a woolly mammoth-like creature with long, curved tusks of solid ice.",
+      "suggested_rank": "Rookie",
+      "attributes": {
+        "strength": {"value": 6, "limit": 10},
+        "dexterity": {"value": 4, "limit": 8},
+        "vitality": {"value": 8, "limit": 13},
+        "special": {"value": 5, "limit": 9},
+        "insight": {"value": 6, "limit": 10}
+      },
+      "derived_stats": {"base_hp": 8, "hp": 16, "defense": 8, "special_defense": 6},
+      "abilities": ["Thick Fat", "Solid Rock"],
+      "skills": ["Endurance", "Climber"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Powder Snow", "Ancient Power", "Growl"],
+        "rank_2_rookie": ["Ice Shard", "Bulldoze", "Rock Slide", "Ice Fang"],
+        "rank_3_standard": ["Avalanche", "Blizzard", "Body Slam"],
+        "rank_4_advanced": ["Icicle Crash", "Stone Edge", "Head Smash"],
+        "rank_5_expert": ["Sheer Cold", "Rock Wrecker"]
+      },
+      "evolution": "Evolves into Glaicermoth."
+    },
+    {
+      "name": "Glaicermoth",
+      "id": "A040",
+      "typing": ["Ice", "Rock"],
+      "concept": "The Glacial Mammoth Pokémon. A massive, powerful mammoth that is a force of nature. Its tusks are made of an unbreakable ice.",
+      "suggested_rank": "Standard",
+      "attributes": {
+        "strength": {"value": 10, "limit": 15},
+        "dexterity": {"value": 6, "limit": 10},
+        "vitality": {"value": 10, "limit": 15},
+        "special": {"value": 7, "limit": 12},
+        "insight": {"value": 8, "limit": 13}
+      },
+      "derived_stats": {"base_hp": 10, "hp": 20, "defense": 10, "special_defense": 8},
+      "abilities": ["Thick Fat", "Solid Rock", "Snow Warning (Hidden)"],
+      "skills": ["Endurance", "Climber"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Powder Snow", "Ancient Power", "Growl", "Ice Shard"],
+        "rank_2_rookie": ["Bulldoze", "Rock Slide", "Ice Fang", "Avalanche", "Blizzard"],
+        "rank_3_standard": ["Body Slam", "Icicle Crash", "Stone Edge", "Head Smash", "Rock Wrecker"],
+        "rank_4_advanced": ["Sheer Cold", "Blizzard", "Ice Beam"],
+        "rank_5_expert": ["Stone Edge", "Fissure"]
+      },
+      "evolution": "Final Stage."
+    },
+    {
+      "name": "Pliovore",
+      "id": "A041",
+      "typing": ["Water", "Steel"],
+      "concept": "The Long-Neck Pokémon. This marine reptile is resurrected from the Spine Fossil. Its long neck is supported by steel plates, and it hunts with a swift, snapping motion.",
+      "suggested_rank": "Rookie",
+      "attributes": {
+        "strength": {"value": 6, "limit": 10},
+        "dexterity": {"value": 7, "limit": 12},
+        "vitality": {"value": 5, "limit": 9},
+        "special": {"value": 5, "limit": 9},
+        "insight": {"value": 6, "limit": 10}
+      },
+      "derived_stats": {"base_hp": 6, "hp": 11, "defense": 5, "special_defense": 5},
+      "abilities": ["Swift Swim", "Strong Jaw", "Clear Body (Hidden)"],
+      "skills": ["Swimmer", "Hunter", "Stealth"],
+      "move_pool": {
+        "rank_1_starter": ["Bite", "Tackle", "Water Gun"],
+        "rank_2_rookie": ["Aqua Jet", "Metal Claw", "Iron Head", "Water Pulse"],
+        "rank_3_standard": ["Aqua Tail", "Crunch", "Smart Strike", "Ice Fang"],
+        "rank_4_advanced": ["Hydro Pump", "Flash Cannon", "Jaw Lock"],
+        "rank_5_expert": ["Steel Beam", "Origin Pulse"]
+      },
+      "evolution": "Evolves into Plesiosword."
+    },
+    {
+      "name": "Plesiosword",
+      "id": "A042",
+      "typing": ["Water", "Steel"],
+      "concept": "The Leviathan Pokémon. A massive, powerful creature with a heavily armored body and an incredibly long neck. It is a feared predator of the cold waters.",
+      "suggested_rank": "Advanced",
+      "attributes": {
+        "strength": {"value": 9, "limit": 15},
+        "dexterity": {"value": 8, "limit": 13},
+        "vitality": {"value": 7, "limit": 12},
+        "special": {"value": 6, "limit": 10},
+        "insight": {"value": 7, "limit": 12}
+      },
+      "derived_stats": {"base_hp": 8, "hp": 15, "defense": 7, "special_defense": 6},
+      "abilities": ["Swift Swim", "Strong Jaw", "Clear Body (Hidden)"],
+      "skills": ["Swimmer", "Hunter", "Stealth"],
+      "move_pool": {
+        "rank_1_starter": ["Bite", "Tackle", "Water Gun", "Aqua Jet"],
+        "rank_2_rookie": ["Metal Claw", "Iron Head", "Water Pulse", "Aqua Tail", "Crunch"],
+        "rank_3_standard": ["Smart Strike", "Ice Fang", "Hydro Pump", "Flash Cannon"],
+        "rank_4_advanced": ["Jaw Lock", "Steel Beam", "Origin Pulse"],
+        "rank_5_expert": ["Iron Tail", "Hyper Beam"]
+      },
+      "evolution": "Final Stage."
+    },
+    {
+      "name": "Crystle",
+      "id": "A043",
+      "typing": ["Rock", "Fairy"],
+      "concept": "The Crystal Pokémon. A small, crystal-like Pokémon found in the deepest mines, a symbol of the beauty and purity of the land.",
+      "suggested_rank": "Starter",
+      "attributes": {
+        "strength": {"value": 3, "limit": 6},
+        "dexterity": {"value": 3, "limit": 6},
+        "vitality": {"value": 5, "limit": 9},
+        "special": {"value": 5, "limit": 9},
+        "insight": {"value": 4, "limit": 8}
+      },
+      "derived_stats": {"base_hp": 5, "hp": 10, "defense": 5, "special_defense": 5},
+      "abilities": ["Clear Body", "Magic Guard", "Light Metal (Hidden)"],
+      "skills": ["Climber", "Stealth"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Fairy Wind", "Rock Throw"],
+        "rank_2_rookie": ["Dazzling Gleam", "Rock Slide", "Reflect", "Light Screen"],
+        "rank_3_standard": ["Power Gem", "Stone Edge", "Ancient Power"],
+        "rank_4_advanced": ["Moonblast", "Stealth Rock"],
+        "rank_5_expert": ["Dazzling Gleam", "Meteor Beam"]
+      },
+      "evolution": "Evolves into Geomancer."
+    },
+    {
+      "name": "Geomancer",
+      "id": "A044",
+      "typing": ["Rock", "Fairy"],
+      "concept": "The Gemstone Golem Pokémon. A massive, powerful creature made of a variety of precious gems and crystals. It is highly sought after by the Prospector's Union.",
+      "suggested_rank": "Standard",
+      "attributes": {
+        "strength": {"value": 7, "limit": 12},
+        "dexterity": {"value": 5, "limit": 9},
+        "vitality": {"value": 9, "limit": 15},
+        "special": {"value": 8, "limit": 13},
+        "insight": {"value": 7, "limit": 12}
+      },
+      "derived_stats": {"base_hp": 8, "hp": 17, "defense": 9, "special_defense": 8},
+      "abilities": ["Clear Body", "Magic Guard", "Light Metal (Hidden)"],
+      "skills": ["Climber", "Stealth"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Fairy Wind", "Rock Throw", "Dazzling Gleam"],
+        "rank_2_rookie": ["Rock Slide", "Reflect", "Light Screen", "Power Gem"],
+        "rank_3_standard": ["Stone Edge", "Ancient Power", "Moonblast", "Stealth Rock"],
+        "rank_4_advanced": ["Dazzling Gleam", "Meteor Beam", "Rock Wrecker"],
+        "rank_5_expert": ["Hyper Beam", "Meteor Beam"]
+      },
+      "evolution": "Final Stage."
+    }
+  ]
+}
