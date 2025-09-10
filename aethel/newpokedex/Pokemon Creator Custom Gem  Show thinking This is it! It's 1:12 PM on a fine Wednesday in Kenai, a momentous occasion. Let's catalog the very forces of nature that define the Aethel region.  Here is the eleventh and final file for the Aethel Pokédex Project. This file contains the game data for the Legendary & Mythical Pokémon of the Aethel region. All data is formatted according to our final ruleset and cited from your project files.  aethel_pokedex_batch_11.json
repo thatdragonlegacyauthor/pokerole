@@ -1,0 +1,174 @@
+{
+  "aethel_pokedex_batch_11": [
+    {
+      "name": "Aquilon",
+      "id": "A096",
+      "typing": ["Water", "Steel"],
+      "concept": "A massive, armored creature that protects the seas, inspired by the Glacier Forge myth of the Tlingit.",
+      "suggested_rank": "Legendary",
+      "attributes": {
+        "strength": {"value": 9, "limit": 15},
+        "dexterity": {"value": 7, "limit": 12},
+        "vitality": {"value": 10, "limit": 15},
+        "special": {"value": 8, "limit": 13},
+        "insight": {"value": 8, "limit": 13}
+      },
+      "derived_stats": {"base_hp": 10, "hp": 20, "defense": 10, "special_defense": 8},
+      "abilities": ["Filter", "System Shock (Hidden)"],
+      "skills": ["Swimmer", "Endurance"],
+      "signature_moves": [
+        {
+          "name": "Glacier Forge",
+          "type": "Steel",
+          "description": "Aquilon uses its body to create a powerful gust of wind and ice shards that deals massive damage to all opponents. This move has a high chance of causing a freeze."
+        },
+        {
+          "name": "Stone Torrent",
+          "type": "Water",
+          "description": "Aquilon summons a massive wave of water and jagged rocks that crashes down on the opponent. It has a high chance of causing the opponent to flinch and can cause a sandstorm."
+        }
+      ],
+      "evolution": "Legendary."
+    },
+    {
+      "name": "Terrin",
+      "id": "A097",
+      "typing": ["Ground", "Fighting"],
+      "concept": "A massive, ancient creature that protects the earth, inspired by the 'Shifting Earth' myth of the Athabaskan.",
+      "suggested_rank": "Legendary",
+      "attributes": {
+        "strength": {"value": 10, "limit": 15},
+        "dexterity": {"value": 5, "limit": 10},
+        "vitality": {"value": 10, "limit": 15},
+        "special": {"value": 7, "limit": 12},
+        "insight": {"value": 8, "limit": 13}
+      },
+      "derived_stats": {"base_hp": 10, "hp": 20, "defense": 10, "special_defense": 8},
+      "abilities": ["Solid Rock", "Geothermal Core (Hidden)"],
+      "skills": ["Climber", "Endurance"],
+      "signature_moves": [
+        {
+          "name": "Earthen Stomp",
+          "type": "Ground",
+          "description": "Terrin stomps its feet, causing a powerful earthquake that deals massive damage to all opponents and has a high chance of causing them to flinch."
+        },
+        {
+          "name": "Mountain's Call",
+          "type": "Fighting",
+          "description": "Terrin roars, raising its Attack and Defense stats and granting a large stat boost to all allied Pokémon on the field."
+        }
+      ],
+      "evolution": "Legendary."
+    },
+    {
+      "name": "Aurabeast",
+      "id": "A098",
+      "typing": ["Psychic", "Electric"],
+      "concept": "A massive, spiritual bear that can control the weather and is connected to the aurora borealis, inspired by the 'Star-Born Bear' myth of the Yup'ik.",
+      "suggested_rank": "Legendary",
+      "attributes": {
+        "strength": {"value": 7, "limit": 12},
+        "dexterity": {"value": 8, "limit": 13},
+        "vitality": {"value": 8, "limit": 13},
+        "special": {"value": 10, "limit": 15},
+        "insight": {"value": 10, "limit": 15}
+      },
+      "derived_stats": {"base_hp": 10, "hp": 18, "defense": 8, "special_defense": 10},
+      "abilities": ["Electric Surge", "Aurora Veil"],
+      "skills": ["Telepath", "Endurance"],
+      "signature_moves": [
+        {
+          "name": "Aurora Borealis",
+          "type": "Psychic",
+          "description": "Aurabeast summons a massive aurora that deals massive damage to all opponents, with a high chance of causing a burn or a flinch."
+        },
+        {
+          "name": "Spiritual Shard",
+          "type": "Electric",
+          "description": "Aurabeast hurls a bolt of spiritual energy that deals massive damage to a single opponent with a high chance of a critical hit and causing paralysis."
+        }
+      ],
+      "evolution": "Legendary."
+    },
+    {
+      "name": "Mischievian",
+      "id": "A099",
+      "typing": ["Dark", "Psychic"],
+      "concept": "The trickster god of the Aethel region.",
+      "suggested_rank": "Mythical",
+      "attributes": {
+        "strength": {"value": 5, "limit": 10},
+        "dexterity": {"value": 10, "limit": 15},
+        "vitality": {"value": 6, "limit": 10},
+        "special": {"value": 9, "limit": 14},
+        "insight": {"value": 12, "limit": 15}
+      },
+      "derived_stats": {"base_hp": 6, "hp": 12, "defense": 6, "special_defense": 12},
+      "abilities": ["Illusionary Form", "Mind Games"],
+      "skills": ["Acrobat", "Stealth", "Telepath"],
+      "signature_moves": [
+        {
+          "name": "Psychic Gambit",
+          "type": "Psychic",
+          "description": "Mischievian creates a psychic vortex that swaps all of its status conditions with its opponent."
+        },
+        {
+          "name": "Trickster's Blade",
+          "type": "Dark",
+          "description": "Mischievian creates a blade of pure darkness that deals damage and has a high chance to steal the opponent's signature move."
+        }
+      ],
+      "evolution": "Mythical."
+    },
+    {
+      "name": "Fimbulstorm",
+      "id": "A100",
+      "typing": ["N/A"],
+      "concept": "The great ice that covered the earth, a primordial force of stasis and cold.",
+      "suggested_rank": "Primordial",
+      "attributes": {
+        "strength": {"value": 15, "limit": "N/A"},
+        "dexterity": {"value": 15, "limit": "N/A"},
+        "vitality": {"value": 20, "limit": "N/A"},
+        "special": {"value": 20, "limit": "N/A"},
+        "insight": {"value": 15, "limit": "N/A"}
+      },
+      "derived_stats": {"base_hp": 20, "hp": 40, "defense": 20, "special_defense": 15},
+      "abilities": ["Glacial Stillness"],
+      "skills": [],
+      "signature_moves": [
+        {
+          "name": "Permafrost Prison",
+          "type": "Ice",
+          "description": "Fimbulstorm generates a sphere of pure cold that encases all Pokémon on the battlefield, dealing damage and freezing them permanently."
+        }
+      ],
+      "evolution": "Primordial Legendary."
+    },
+    {
+      "name": "Yggdrys",
+      "id": "A101",
+      "typing": ["N/A"],
+      "concept": "The great tree that held the heavens, a primordial force of nature and growth.",
+      "suggested_rank": "Primordial",
+      "attributes": {
+        "strength": {"value": 15, "limit": "N/A"},
+        "dexterity": {"value": 15, "limit": "N/A"},
+        "vitality": {"value": 20, "limit": "N/A"},
+        "special": {"value": 20, "limit": "N/A"},
+        "insight": {"value": 15, "limit": "N/A"}
+      },
+      "derived_stats": {"base_hp": 20, "hp": 40, "defense": 20, "special_defense": 15},
+      "abilities": ["Arboreal Genesis"],
+      "skills": [],
+      "signature_moves": [
+        {
+          "name": "World-Root Anchor",
+          "type": "Grass",
+          "description": "Yggdrys slams its roots into the earth, causing an earthquake that uproots all non-Grass type Pokémon, rendering them immobile."
+        }
+      ],
+      "evolution": "Primordial Legendary."
+    }
+  ]
+}
