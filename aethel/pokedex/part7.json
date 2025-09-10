@@ -1,0 +1,303 @@
+{
+  "aethel_pokedex_part_7": [
+    {
+      "name": "Drakrakle",
+      "id": "A093",
+      "typing": ["Poison", "Dragon"],
+      "concept": "The Ink Squirter Pokémon. A small, octopus-like creature with a tough, leathery skin and a single, coiled tentacle that can shoot a toxic ink. It is a very timid Pokémon that is often found hiding in the murky waters of the coast.",
+      "suggested_rank": "Starter",
+      "attributes": {
+        "strength": {"value": 5, "limit": 9},
+        "dexterity": {"value": 6, "limit": 10},
+        "vitality": {"value": 5, "limit": 9},
+        "special": {"value": 6, "limit": 10},
+        "insight": {"value": 4, "limit": 8}
+      },
+      "derived_stats": {"base_hp": 5, "hp": 10, "defense": 5, "special_defense": 6},
+      "abilities": ["Poison Point", "Swift Swim", "Intimidate (Hidden)"],
+      "skills": ["Swimmer", "Stealth"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Water Gun", "Poison Sting", "Wrap"],
+        "rank_2_rookie": ["Bite", "Dragon Breath", "Toxic", "Sludge"],
+        "rank_3_standard": ["Aqua Jet", "Dragon Tail", "Dragon Rage"],
+        "rank_4_advanced": ["Dragon Pulse", "Venom Drench"],
+        "rank_5_expert": ["Sludge Bomb", "Toxic Spikes"]
+      },
+      "evolution": "Evolves into Toxidon."
+    },
+    {
+      "name": "Toxidon",
+      "id": "A094",
+      "typing": ["Poison", "Dragon"],
+      "concept": "The Coil Pokémon. A larger, more formidable version of Drakrakle. It has two large, coiled tentacles that can constrict its prey with incredible force. Its skin is a slick, toxic slime.",
+      "suggested_rank": "Rookie",
+      "attributes": {
+        "strength": {"value": 7, "limit": 12},
+        "dexterity": {"value": 8, "limit": 13},
+        "vitality": {"value": 7, "limit": 12},
+        "special": {"value": 8, "limit": 13},
+        "insight": {"value": 6, "limit": 10}
+      },
+      "derived_stats": {"base_hp": 7, "hp": 14, "defense": 7, "special_defense": 8},
+      "abilities": ["Poison Point", "Swift Swim", "Intimidate (Hidden)"],
+      "skills": ["Swimmer", "Stealth"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Water Gun", "Poison Sting", "Wrap"],
+        "rank_2_rookie": ["Bite", "Dragon Breath", "Toxic", "Sludge", "Aqua Jet"],
+        "rank_3_standard": ["Dragon Tail", "Dragon Rage", "Dragon Pulse"],
+        "rank_4_advanced": ["Venom Drench", "Sludge Bomb", "Toxic Spikes"],
+        "rank_5_expert": ["Dragon Rush", "Poison Jab"]
+      },
+      "evolution": "Evolves into Krakenos."
+    },
+    {
+      "name": "Krakenos",
+      "id": "A095",
+      "typing": ["Poison", "Dragon"],
+      "concept": "The Kraken Pokémon. A massive, terrifying creature with a powerful body and eight large tentacles. It is a feared predator of the cold waters and is said to be the guardian of the Grand Glacier. It can use its tentacles to crush ships and can unleash a powerful toxic cloud that can poison the entire ocean.",
+      "suggested_rank": "Advanced",
+      "attributes": {
+        "strength": {"value": 12, "limit": 17},
+        "dexterity": {"value": 9, "limit": 15},
+        "vitality": {"value": 11, "limit": 16},
+        "special": {"value": 10, "limit": 15},
+        "insight": {"value": 9, "limit": 15}
+      },
+      "derived_stats": {"base_hp": 10, "hp": 21, "defense": 11, "special_defense": 10},
+      "abilities": ["Poison Point", "Swift Swim", "Intimidate (Hidden)"],
+      "skills": ["Swimmer", "Stealth"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Water Gun", "Poison Sting", "Wrap", "Bite", "Dragon Breath"],
+        "rank_2_rookie": ["Toxic", "Sludge", "Aqua Jet", "Dragon Tail", "Dragon Rage"],
+        "rank_3_standard": ["Dragon Pulse", "Venom Drench", "Sludge Bomb", "Toxic Spikes"],
+        "rank_4_advanced": ["Dragon Rush", "Poison Jab", "Outrage", "Giga Impact"],
+        "rank_5_expert": ["Hydro Pump", "Sludge Wave"]
+      },
+      "evolution": "Final Stage."
+    },
+    {
+      "name": "Narwhisp",
+      "id": "A096",
+      "typing": ["Ice", "Psychic"],
+      "concept": "The Psychic Narwhal Pokémon. Its horn is made of pure psychic energy and can be used to communicate with other Pokémon over long distances. It is a very reclusive Pokémon that is rarely seen.",
+      "suggested_rank": "Standard",
+      "attributes": {
+        "strength": {"value": 5, "limit": 9},
+        "dexterity": {"value": 6, "limit": 10},
+        "vitality": {"value": 7, "limit": 12},
+        "special": {"value": 9, "limit": 15},
+        "insight": {"value": 8, "limit": 13}
+      },
+      "derived_stats": {"base_hp": 8, "hp": 15, "defense": 7, "special_defense": 9},
+      "abilities": ["Telepathy", "Ice Body", "Psychic Surge (Hidden)"],
+      "skills": ["Swimmer", "Telepath"],
+      "move_pool": {
+        "rank_1_starter": ["Psybeam", "Powder Snow", "Water Gun"],
+        "rank_2_rookie": ["Ice Shard", "Psycho Cut", "Avalanche"],
+        "rank_3_standard": ["Psychic", "Ice Beam", "Blizzard", "Calm Mind"],
+        "rank_4_advanced": ["Future Sight", "Aurora Veil", "Sheer Cold"],
+        "rank_5_expert": ["Psychic Horn (New)"]
+      },
+      "evolution": "Final Stage."
+    },
+    {
+      "name": "Glacisquid",
+      "id": "A097",
+      "typing": ["Ice", "Water"],
+      "concept": "The Deep Sea Squid Pokémon. A large, deep-sea squid that uses its tentacles to grab its prey and drag it into the icy depths. It can also create powerful ice storms to disorient its enemies.",
+      "suggested_rank": "Standard",
+      "attributes": {
+        "strength": {"value": 9, "limit": 15},
+        "dexterity": {"value": 7, "limit": 12},
+        "vitality": {"value": 8, "limit": 13},
+        "special": {"value": 8, "limit": 13},
+        "insight": {"value": 7, "limit": 12}
+      },
+      "derived_stats": {"base_hp": 9, "hp": 17, "defense": 8, "special_defense": 8},
+      "abilities": ["Suction Cups", "Ice Body"],
+      "skills": ["Swimmer", "Climber"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Water Gun", "Powder Snow"],
+        "rank_2_rookie": ["Ice Shard", "Feint Attack", "Ice Ball", "Blizzard"],
+        "rank_3_standard": ["Avalanche", "Dive", "Icicle Crash", "Lash Out"],
+        "rank_4_advanced": ["Ice Beam", "Octazooka", "Blizzard"],
+        "rank_5_expert": ["Sheer Cold", "Hydro Cannon"]
+      },
+      "evolution": "Final Stage."
+    },
+    {
+      "name": "Aquilon",
+      "id": "A098",
+      "typing": ["Water", "Steel"],
+      "concept": "A massive, armored creature that protects the seas, inspired by the Glacier Forge myth of the Tlingit.",
+      "stats": {
+        "strength": {"value": 9, "limit": 15},
+        "dexterity": {"value": 7, "limit": 12},
+        "vitality": {"value": 10, "limit": 15},
+        "special": {"value": 8, "limit": 13},
+        "insight": {"value": 8, "limit": 13}
+      },
+      "abilities": [
+        {"name": "Filter"},
+        {"name": "System Shock (Hidden)"}
+      ],
+      "signature_moves": [
+        {
+          "name": "Glacier Forge",
+          "type": "Steel",
+          "description": "Aquilon uses its body to create a powerful gust of wind and ice shards that deals massive damage to all opponents. This move has a high chance of causing a freeze."
+        },
+        {
+          "name": "Stone Torrent",
+          "type": "Water",
+          "description": "Aquilon summons a massive wave of water and jagged rocks that crashes down on the opponent. It is a powerful physical attack that deals massive damage and has a high chance of causing the opponent to flinch. It can also cause a sandstorm on the battlefield, which can be used to damage all opponents."
+        }
+      ]
+    },
+    {
+      "name": "Terrin",
+      "id": "A099",
+      "typing": ["Ground", "Fighting"],
+      "concept": "A massive, ancient creature that protects the earth, inspired by the 'Shifting Earth' myth of the Athabaskan.",
+      "stats": {
+        "strength": {"value": 10, "limit": 15},
+        "dexterity": {"value": 5, "limit": 10},
+        "vitality": {"value": 10, "limit": 15},
+        "special": {"value": 7, "limit": 12},
+        "insight": {"value": 8, "limit": 13}
+      },
+      "abilities": [
+        {"name": "Solid Rock"},
+        {"name": "Geothermal Core (Hidden)"}
+      ],
+      "signature_moves": [
+        {
+          "name": "Earthen Stomp",
+          "type": "Ground",
+          "description": "Terrin stomps its feet, causing a powerful earthquake that deals massive damage to all opponents. The move has a high chance of causing the opponents to flinch. It can also cause a landslide, which can be used to damage all opponents."
+        },
+        {
+          "name": "Mountain's Call",
+          "type": "Fighting",
+          "description": "Terrin roars, raising its Attack and Defense stats and granting a large stat boost to all allied Pokémon on the field. The move also makes all Pokémon immune to stat changes for the next two turns."
+        }
+      ]
+    },
+    {
+      "name": "Aurabeast",
+      "id": "A100",
+      "typing": ["Psychic", "Electric"],
+      "concept": "A massive, spiritual bear that can control the weather and is connected to the aurora borealis, inspired by the 'Star-Born Bear' myth of the Yup'ik.",
+      "stats": {
+        "strength": {"value": 7, "limit": 12},
+        "dexterity": {"value": 8, "limit": 13},
+        "vitality": {"value": 8, "limit": 13},
+        "special": {"value": 10, "limit": 15},
+        "insight": {"value": 10, "limit": 15}
+      },
+      "abilities": [
+        {"name": "Electric Surge"},
+        {"name": "Aurora Veil"}
+      ],
+      "signature_moves": [
+        {
+          "name": "Aurora Borealis",
+          "type": "Psychic",
+          "description": "Aurabeast summons a massive aurora that deals massive damage to all opponents. It has a high chance of causing a burn or a flinch. It can also cause a storm, which can be used to damage all opponents."
+        },
+        {
+          "name": "Spiritual Shard",
+          "type": "Electric",
+          "description": "Aurabeast hurls a bolt of spiritual energy that deals massive damage to a single opponent. This move has a high chance of causing a critical hit, and it can also cause a paralysis."
+        }
+      ]
+    },
+    {
+      "name": "Mischievian",
+      "id": "A101",
+      "typing": ["Dark", "Psychic"],
+      "concept": "The trickster god of the Aethel region.",
+      "stats": {
+        "strength": {"value": 5, "limit": 10},
+        "dexterity": {"value": 10, "limit": 15},
+        "vitality": {"value": 6, "limit": 10},
+        "special": {"value": 9, "limit": 14},
+        "insight": {"value": 12, "limit": 15}
+      },
+      "abilities": [
+        {
+          "name": "Illusionary Form",
+          "description": "When Mischievian enters the battlefield, it takes on the appearance of the Pokémon it last defeated. This ability can only be used once per battle."
+        },
+        {
+          "name": "Mind Games",
+          "description": "When Mischievian is hit with a move, it has a chance to confuse the opponent. The opponent's confusion will not be removed until Mischievian is defeated."
+        }
+      ],
+      "signature_moves": [
+        {
+          "name": "Psychic Gambit",
+          "type": "Psychic",
+          "description": "Mischievian creates a psychic vortex that traps the opponent's mind. It swaps all of its status conditions with its opponent."
+        },
+        {
+          "name": "Trickster's Blade",
+          "type": "Dark",
+          "description": "Mischievian creates a blade of pure darkness that deals damage and has a high chance to steal the opponent's signature move. This move can only be used once per battle."
+        }
+      ]
+    },
+    {
+      "name": "Fimbulstorm",
+      "id": "A102",
+      "typing": "N/A",
+      "concept": "The great ice that covered the earth, a primordial force of stasis and cold.",
+      "stats": {
+        "strength": {"value": 15, "limit": "N/A"},
+        "dexterity": {"value": 15, "limit": "N/A"},
+        "vitality": {"value": 20, "limit": "N/A"},
+        "special": {"value": 20, "limit": "N/A"},
+        "insight": {"value": 15, "limit": "N/A"}
+      },
+      "abilities": [
+        {
+          "name": "Glacial Stillness",
+          "description": "When Fimbulstorm enters the battlefield, a permanent blizzard begins. While active, all Pokémon except Ice-types are slowed, and their Speed is halved. Electric-type moves deal half damage."
+        }
+      ],
+      "signature_moves": [
+        {
+          "name": "Permafrost Prison",
+          "type": "Ice",
+          "description": "Fimbulstorm generates a sphere of pure cold that encases all Pokémon on the battlefield. This move deals damage and freezes all opponents. The freeze effect is permanent and cannot be removed by any means."
+        }
+      ]
+    },
+    {
+      "name": "Yggdrys",
+      "id": "A103",
+      "typing": "N/A",
+      "concept": "The great tree that held the heavens, a primordial force of nature and growth.",
+      "stats": {
+        "strength": {"value": 15, "limit": "N/A"},
+        "dexterity": {"value": 15, "limit": "N/A"},
+        "vitality": {"value": 20, "limit": "N/A"},
+        "special": {"value": 20, "limit": "N/A"},
+        "insight": {"value": 15, "limit": "N/A"}
+      },
+      "abilities": [
+        {
+          "name": "Arboreal Genesis",
+          "description": "When Yggdrys enters the battlefield, a massive tree sprouts, creating a forest terrain. This terrain boosts Grass-type moves and hinders Fire-type moves."
+        }
+      ],
+      "signature_moves": [
+        {
+          "name": "World-Root Anchor",
+          "type": "Grass",
+          "description": "Yggdrys slams its roots into the earth, causing an earthquake that uproots all non-Grass type Pokémon, rendering them immobile for two turns. This move ignores all defenses."
+        }
+      ]
+    }
+  ]
+}
