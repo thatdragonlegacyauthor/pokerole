@@ -1,0 +1,204 @@
+{
+  "aethel_pokedex_batch_4": [
+    {
+      "name": "Kelptrap",
+      "id": "A026",
+      "typing": ["Water", "Grass"],
+      "concept": "The Kelp Pokémon. A Pokémon that resembles a clump of kelp. It is a master of ambush, using its long, leafy appendages to entangle its prey.",
+      "suggested_rank": "Starter",
+      "attributes": {
+        "strength": {"value": 4, "limit": 8},
+        "dexterity": {"value": 4, "limit": 8},
+        "vitality": {"value": 6, "limit": 10},
+        "special": {"value": 5, "limit": 9},
+        "insight": {"value": 4, "limit": 8}
+      },
+      "derived_stats": {"base_hp": 6, "hp": 12, "defense": 6, "special_defense": 5},
+      "abilities": ["Water Absorb", "Storm Drain", "Regenerator (Hidden)"],
+      "skills": ["Swimmer", "Climber"],
+      "move_pool": {
+        "rank_1_starter": ["Wrap", "Absorb", "Bind", "Water Gun"],
+        "rank_2_rookie": ["Aqua Jet", "Giga Drain", "Leaf Blade"],
+        "rank_3_standard": ["Power Whip", "Waterfall", "Hydro Pump", "Ingrain"],
+        "rank_4_advanced": ["Grassy Glide", "Wood Hammer", "Liquidation"],
+        "rank_5_expert": ["Frenzy Plant", "Hydro Cannon"]
+      },
+      "evolution": "Evolves into Kelptain."
+    },
+    {
+      "name": "Kelptain",
+      "id": "A027",
+      "typing": ["Water", "Grass"],
+      "concept": "The Kelp Captain Pokémon. A formidable creature that can grow its kelp appendages into a thick armor. It is highly protective of its territory and can command other water Pokémon.",
+      "suggested_rank": "Rookie",
+      "attributes": {
+        "strength": {"value": 6, "limit": 10},
+        "dexterity": {"value": 5, "limit": 9},
+        "vitality": {"value": 8, "limit": 13},
+        "special": {"value": 7, "limit": 12},
+        "insight": {"value": 6, "limit": 10}
+      },
+      "derived_stats": {"base_hp": 8, "hp": 16, "defense": 8, "special_defense": 7},
+      "abilities": ["Water Absorb", "Storm Drain", "Regenerator (Hidden)"],
+      "skills": ["Swimmer", "Climber"],
+      "move_pool": {
+        "rank_1_starter": ["Wrap", "Absorb", "Bind", "Water Gun"],
+        "rank_2_rookie": ["Aqua Jet", "Giga Drain", "Leaf Blade", "Power Whip"],
+        "rank_3_standard": ["Waterfall", "Hydro Pump", "Ingrain", "Grassy Glide"],
+        "rank_4_advanced": ["Wood Hammer", "Liquidation", "Frenzy Plant"],
+        "rank_5_expert": ["Hydro Cannon"]
+      },
+      "evolution": "Final Stage."
+    },
+    {
+      "name": "Wolverigid",
+      "id": "A028",
+      "typing": ["Ice", "Dark"],
+      "concept": "The Frosty Wolverine Pokémon. It's a small, stocky, wolverine-like creature with a thick, insulated coat of fur and sharp, icy claws.",
+      "suggested_rank": "Starter",
+      "attributes": {
+        "strength": {"value": 5, "limit": 9},
+        "dexterity": {"value": 4, "limit": 8},
+        "vitality": {"value": 6, "limit": 10},
+        "special": {"value": 3, "limit": 6},
+        "insight": {"value": 4, "limit": 8}
+      },
+      "derived_stats": {"base_hp": 6, "hp": 12, "defense": 6, "special_defense": 4},
+      "abilities": ["Tough Claws", "Intimidate", "Permafrost (Hidden)"],
+      "skills": ["Climber", "Stealth", "Endurance"],
+      "move_pool": {
+        "rank_1_starter": ["Scratch", "Leer", "Ice Shard", "Snarl"],
+        "rank_2_rookie": ["Ice Fang", "Foul Play", "Bite", "Tackle"],
+        "rank_3_standard": ["Avalanche", "Sucker Punch", "Crunch"],
+        "rank_4_advanced": ["Blizzard", "Ice Punch", "Dark Pulse"],
+        "rank_5_expert": ["Icicle Crash", "Lash Out"]
+      },
+      "evolution": "Evolves into Wolverice."
+    },
+    {
+      "name": "Wolverice",
+      "id": "A029",
+      "typing": ["Ice", "Dark"],
+      "concept": "The Glacial Wolverine Pokémon. A larger, more formidable version of Wolverigid, with a coat of ice that serves as armor. It is a solitary hunter.",
+      "suggested_rank": "Rookie",
+      "attributes": {
+        "strength": {"value": 7, "limit": 12},
+        "dexterity": {"value": 6, "limit": 10},
+        "vitality": {"value": 8, "limit": 13},
+        "special": {"value": 5, "limit": 9},
+        "insight": {"value": 6, "limit": 10}
+      },
+      "derived_stats": {"base_hp": 8, "hp": 16, "defense": 8, "special_defense": 6},
+      "abilities": ["Tough Claws", "Intimidate", "Permafrost (Hidden)"],
+      "skills": ["Climber", "Stealth", "Endurance"],
+      "move_pool": {
+        "rank_1_starter": ["Scratch", "Leer", "Ice Shard", "Snarl"],
+        "rank_2_rookie": ["Ice Fang", "Foul Play", "Bite", "Tackle"],
+        "rank_3_standard": ["Avalanche", "Sucker Punch", "Crunch", "Ice Punch"],
+        "rank_4_advanced": ["Blizzard", "Dark Pulse", "Lash Out"],
+        "rank_5_expert": ["Icicle Crash", "Night Slash"]
+      },
+      "evolution": "Evolves into Wolferocity."
+    },
+    {
+      "name": "Wolferocity",
+      "id": "A030",
+      "typing": ["Ice", "Dark"],
+      "concept": "The Tundra Hunter Pokémon. A powerful creature with claws and fangs made of pure, unbreakable ice. It is revered by the Tundra Collective.",
+      "suggested_rank": "Standard",
+      "attributes": {
+        "strength": {"value": 9, "limit": 15},
+        "dexterity": {"value": 8, "limit": 13},
+        "vitality": {"value": 10, "limit": 15},
+        "special": {"value": 7, "limit": 12},
+        "insight": {"value": 8, "limit": 13}
+      },
+      "derived_stats": {"base_hp": 10, "hp": 20, "defense": 10, "special_defense": 8},
+      "abilities": ["Tough Claws", "Intimidate", "Permafrost (Hidden)"],
+      "skills": ["Climber", "Stealth", "Endurance"],
+      "move_pool": {
+        "rank_1_starter": ["Scratch", "Leer", "Ice Shard", "Snarl"],
+        "rank_2_rookie": ["Ice Fang", "Foul Play", "Bite", "Tackle", "Avalanche", "Sucker Punch"],
+        "rank_3_standard": ["Crunch", "Ice Punch", "Dark Pulse", "Lash Out", "Icicle Crash"],
+        "rank_4_advanced": ["Night Slash", "Blizzard", "Outrage"],
+        "rank_5_expert": ["Ice Beam", "Hydro Pump"]
+      },
+      "evolution": "Final Stage."
+    },
+    {
+      "name": "Musky",
+      "id": "A031",
+      "typing": ["Normal", "Ice"],
+      "concept": "The Herd Pokémon. A small, sturdy, musk ox-like Pokémon that travels in large herds and can withstand extreme cold.",
+      "suggested_rank": "Starter",
+      "attributes": {
+        "strength": {"value": 4, "limit": 8},
+        "dexterity": {"value": 3, "limit": 6},
+        "vitality": {"value": 6, "limit": 10},
+        "special": {"value": 3, "limit": 6},
+        "insight": {"value": 4, "limit": 8}
+      },
+      "derived_stats": {"base_hp": 6, "hp": 12, "defense": 6, "special_defense": 4},
+      "abilities": ["Thick Fat", "Sap Sipper"],
+      "skills": ["Endurance", "Climber"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Powder Snow", "Growl", "Defense Curl"],
+        "rank_2_rookie": ["Ice Shard", "Headbutt", "Bulldoze", "Harden"],
+        "rank_3_standard": ["Ice Fang", "Take Down", "Amnesia", "Body Slam"],
+        "rank_4_advanced": ["Icicle Crash", "Blizzard", "Endeavor"],
+        "rank_5_expert": ["Sheer Cold"]
+      },
+      "evolution": "Evolves into Muskoxter."
+    },
+    {
+      "name": "Muskoxter",
+      "id": "A032",
+      "typing": ["Normal", "Ice"],
+      "concept": "The Herd Leader Pokémon. A larger, more powerful version of Musky that protects its herd and will stand its ground against any threat.",
+      "suggested_rank": "Rookie",
+      "attributes": {
+        "strength": {"value": 6, "limit": 10},
+        "dexterity": {"value": 4, "limit": 8},
+        "vitality": {"value": 8, "limit": 13},
+        "special": {"value": 4, "limit": 8},
+        "insight": {"value": 5, "limit": 9}
+      },
+      "derived_stats": {"base_hp": 8, "hp": 16, "defense": 8, "special_defense": 5},
+      "abilities": ["Thick Fat", "Sap Sipper"],
+      "skills": ["Endurance", "Climber"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Powder Snow", "Growl", "Defense Curl"],
+        "rank_2_rookie": ["Ice Shard", "Headbutt", "Bulldoze", "Harden"],
+        "rank_3_standard": ["Ice Fang", "Take Down", "Amnesia", "Body Slam", "Icicle Crash"],
+        "rank_4_advanced": ["Blizzard", "Endeavor", "Iron Head"],
+        "rank_5_expert": ["Sheer Cold"]
+      },
+      "evolution": "Evolves into Muskoxen."
+    },
+    {
+      "name": "Muskoxen",
+      "id": "A033",
+      "typing": ["Normal", "Ice"],
+      "concept": "The Herd Leader Pokémon. A larger, more powerful version of Muskoxter. It is the protector of its herd and will stand its ground against any threat.",
+      "suggested_rank": "Standard",
+      "attributes": {
+        "strength": {"value": 8, "limit": 13},
+        "dexterity": {"value": 5, "limit": 9},
+        "vitality": {"value": 10, "limit": 15},
+        "special": {"value": 5, "limit": 9},
+        "insight": {"value": 6, "limit": 10}
+      },
+      "derived_stats": {"base_hp": 10, "hp": 20, "defense": 10, "special_defense": 6},
+      "abilities": ["Thick Fat", "Sap Sipper"],
+      "skills": ["Endurance", "Climber"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Powder Snow", "Growl", "Defense Curl"],
+        "rank_2_rookie": ["Ice Shard", "Headbutt", "Bulldoze", "Harden"],
+        "rank_3_standard": ["Ice Fang", "Take Down", "Amnesia", "Body Slam", "Icicle Crash"],
+        "rank_4_advanced": ["Blizzard", "Endeavor", "Iron Head"],
+        "rank_5_expert": ["Sheer Cold", "Mega Punch"]
+      },
+      "evolution": "Final Stage."
+    }
+  ]
+}
