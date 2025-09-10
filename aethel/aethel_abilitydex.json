@@ -1,0 +1,89 @@
+{
+  "aethel_abilitydex": [
+    {
+      "name": "Glacial Sprout",
+      "lore": "The Pokémon's body is a nexus of alpine life, causing the very air around it to frost over and nourish frigid flora.",
+      "effect": "When this Pokémon enters the battlefield, it starts the effects of Hail/Snow Weather for 5 rounds. While Hail/Snow is active, this Pokémon's Grass-Type moves get 1 Extra die to their Damage Pool."
+    },
+    {
+      "name": "Thermal Overload",
+      "lore": "This Pokémon's metallic body struggles to contain its own internal furnace. When struck, its systems can overload, venting immense energy in a desperate surge of power.",
+      "effect": "After this Pokémon uses a Fire-Type move, its next Electric-Type move deals +2 damage. After it uses an Electric-Type move, its next Fire-Type move deals +2 damage."
+    },
+    {
+      "name": "System Shock",
+      "lore": "This Pokémon's rocky, water-filled core can unleash a powerful bio-electric pulse when it enters the fray, stunning nearby creatures.",
+      "effect": "When this Pokémon enters the battle, it may spend 1 Will Point to force all adjacent foes to make an Insight roll with a difficulty of 2. On a failure, they are Paralyzed."
+    },
+    {
+      "name": "Rock Armor",
+      "lore": "The Pokémon's hide is as hard as granite, capable of shrugging off blows that would shatter lesser creatures.",
+      "effect": "This Pokémon gets +1 to its Defense Attribute."
+    },
+    {
+      "name": "Stealthy",
+      "lore": "A master of silent movement and natural camouflage, this Pokémon is adept at disappearing into the background.",
+      "effect": "This Pokémon gains +2 dice on all `Dexterity + Stealth` rolls to hide or move silently. In battle, foes cannot have their Accuracy increased by moves or abilities when targeting this Pokémon."
+    },
+    {
+      "name": "Glacial Armor",
+      "lore": "The Pokémon's feathers or body are coated in a layer of supercooled ice, hard as steel, that can deflect incoming attacks.",
+      "effect": "This Pokémon reduces all damage taken from \"Not Very Effective\" moves by 2."
+    },
+    {
+      "name": "Permafrost",
+      "lore": "This Pokémon's body is infused with the unrelenting cold of the deep tundra, making its icy attacks exceptionally chilling.",
+      "effect": "Add 1 Extra die to the Damage Pool of all Ice-Type moves this Pokémon uses."
+    },
+    {
+      "name": "Geothermal Core",
+      "lore": "Deep within this Pokémon lies a core that burns like the planet's heart, drawing power from the earth itself.",
+      "effect": "This Pokémon is immune to the Frozen status. If hit by an Ice-type move, its Strength and Special are raised by 1."
+    },
+    {
+      "name": "Cunning",
+      "lore": "This Pokémon is a master of trickery and misdirection, using its wits to outsmart and undermine its opponents.",
+      "effect": "Once per scene, when a foe targets this Pokémon with a Support Move, the user can force the foe to re-roll its accuracy check and take the lower result."
+    },
+    {
+      "name": "Illusionary Form",
+      "lore": "The Pokémon is a master of deception, able to weave convincing illusions that can fool even the most perceptive foes.",
+      "effect": "As a free action, this Pokémon can create a perfect illusion of itself within 5 meters. It can perceive its surroundings through the illusion's senses (sight, hearing, etc.). The illusion mimics the Pokémon's actions, cannot deal damage, and disappears after being hit by one attack."
+    },
+    {
+      "name": "Mind Games",
+      "lore": "The Pokémon excels at psychological warfare, turning an opponent's strengths against them.",
+      "effect": "Once per battle, when a foe uses a move that raises its own stats (like Swords Dance or Calm Mind), this Pokémon can use its reaction to copy those same stat boosts onto itself."
+    },
+    {
+      "name": "Glacial Stillness",
+      "lore": "The very presence of this primordial being leeches heat from reality, bringing all motion to a frozen halt.",
+      "effect": "(Primordial Unique) All non-Ice type Pokémon on the field cannot use Evasion or Reaction moves. At the end of each round, all non-Ice type Pokémon have their Dexterity lowered by 1."
+    },
+    {
+      "name": "Arboreal Genesis",
+      "lore": "The life force of this primordial being radiates outward, causing explosive, uncontrollable growth in all nearby flora.",
+      "effect": "(Primordial Unique) While this Pokémon is on the field, its Arboreal Genesis is active. This ability can be deactivated and reactivated by its moves."
+    },
+    {
+      "name": "Tidal Shell",
+      "lore": "This Pokémon's shell hardens and softens with the ebb and flow of battle, like the tide itself.",
+      "effect": "On odd-numbered rounds of combat, this Pokémon's Defense is increased by 1. On even-numbered rounds, its Special Defense is increased by 1."
+    },
+    {
+      "name": "Terraform",
+      "lore": "As a primordial shaper of the land, this Pokémon's mere presence makes the ground itself an obstacle for its foes.",
+      "effect": "(Legendary Unique) When Terrin enters the battle, the battlefield becomes Difficult Terrain for all non-Ground type Pokémon. This increases the action difficulty of all moves used by non-Ground types on the field by 1."
+    },
+    {
+      "name": "Rimeforged Armor",
+      "lore": "This Pokémon is encased in ancient, unbreakable ice forged in the primordial sea. It is a living glacier that absorbs the power of the tides.",
+      "effect": "(Legendary Unique) This Pokémon is immune to critical hits. Additionally, whenever it is hit by a Water-type move, it restores 1 HP instead of taking damage, and its Defense is raised by 1."
+    },
+    {
+      "name": "Cosmic Surge",
+      "lore": "The Pokémon's body channels the unpredictable, surging power of the aurora borealis, causing its own energy to fluctuate wildly.",
+      "effect": "(Legendary Unique) At the end of each round, one of this Pokémon's stats (Strength, Dexterity, Vitality, Special, or Insight), chosen at random, is raised by 1. This effect can stack up to 3 times per stat."
+    }
+  ]
+}
