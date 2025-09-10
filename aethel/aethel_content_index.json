@@ -1,0 +1,49 @@
+{
+  "aethel_content_index": {
+    "title": "Aethel Region - Custom Content Index (Granular)",
+    "description": "An index of all custom, region-specific content for the Aethel campaign.",
+    "world_data": [
+      {
+        "file": "aethel_region.json",
+        "description": "The master lore file for the region.",
+        "contents": ["region_info", "factions", "indigenous_cultures", "key_npcs", "locations_and_plot", "routes", "mini_biomes"]
+      }
+    ],
+    "narrative_data": [
+      {
+        "file": "aethel_narrative_arcs.json",
+        "description": "Contains the detailed, branching-path 'Mini-Arcs' for faction-specific adventures.",
+        "contents": ["The Apex Protocol", "The Slumbering Leviathan", "The Heart of the Geyser Fields"]
+      },
+      {
+        "file": "aethel_faction_reputation.json",
+        "description": "The rules and tracker for the Faction Reputation system.",
+        "contents": ["mechanic", "reputation_tiers", "faction_tracker_shell"]
+      }
+    ],
+    "aethel_pokedex": {
+      "directory": "aethel/newpokedex/",
+      "batches": [
+        {"file": "aethel_pokedex_batch_1.json", "contents": ["Fawnora", "Echocalf", "Corvaural", "Emberling", "Igniraptor", "Voltora", "Kragshell", "Kraglord", "Hydrolith"]},
+        {"file": "aethel_pokedex_batch_2.json", "contents": ["Froslet", "Sleetusk", "Glacivole", "Ptarmi", "Snovault", "Borealisage", "Nymphi", "Cocoonium", "Auroramoth"]},
+        {"file": "aethel_pokedex_batch_3.json", "contents": ["Lycosibae", "Lycosacrawl", "Sanguito", "Salminy", "Solmancer", "Puffreeze", "Puffrost"]},
+        {"file": "aethel_pokedex_batch_4.json", "contents": ["Kelptrap", "Kelptain", "Wolverigid", "Wolverice", "Wolferocity", "Musky", "Muskoxter", "Muskoxen"]},
+        {"file": "aethel_pokedex_batch_5.json", "contents": ["Harefrost", "Snovault", "Lyntic", "Rockax", "Prospectorox", "Primoderm", "Glaicermoth", "Pliovore", "Plesiosword", "Crystle", "Geomancer"]},
+        {"file": "aethel_pokedex_batch_6.json", "contents": ["Cavenyct", "Speleonyx", "Volcanid", "Eruptox", "Cawper", "Noctcrow", "Umbralore", "Porpaise", "Cetastream"]},
+        {"file": "aethel_pokedex_batch_7.json", "contents": ["Terraground", "Terrasquall", "Voltingo", "Glacialink", "Sledpup", "Sledrus", "Siberus", "Snixen", "Psixen"]},
+        {"file": "aethel_pokedex_batch_8.json", "contents": ["Halibutt", "Ermineer", "Faelix", "Squiggly", "Burrowlusk", "Lemmin", "Stellas", "Sealord", "Majestrias"]},
+        {"file": "aethel_pokedex_batch_9.json", "contents": ["Dallamb", "Ramhead", "Bellwether", "Sneklace", "Constrictorn", "Drakrakle", "Toxidon", "Krakenos"]},
+        {"file": "aethel_pokedex_batch_10.json", "contents": ["Pikaneer", "Sneasby", "Aethelian Sneasel", "Aethelian Weavile", "Psybergeist", "Spectracon", "Technomancy", "Ferrocoil", "Draconcoil", "Titanomagnus", "Tuskid", "Mammosoul"]},
+        {"file": "aethel_pokedex_batch_11.json", "contents": ["Aquilon", "Terrin", "Aurabeast", "Mischievian", "Fimbulstorm", "Yggdrys"]}
+      ]
+    },
+    "aethel_variants_project": {
+      "file": "aethel/newpokedex/aethelian_variants_project.json",
+      "description": "A project file/to-do list for creating the full game data for Aethelian regional variants."
+    },
+    "aethel_custom_assets": {
+      "file": "aethel_moves_abilities.json",
+      "description": "A list of concepts for new moves and abilities unique to the Aethel region."
+    }
+  }
+}
