@@ -1,0 +1,204 @@
+{
+  "aethel_pokedex_batch_9": [
+    {
+      "name": "Dallamb",
+      "id": "A075",
+      "typing": ["Fighting"],
+      "concept": "The Lamb Pokémon. A small, timid, sheep-like Pokémon known for its ability to leap incredible distances and its surprisingly strong headbutt.",
+      "suggested_rank": "Starter",
+      "attributes": {
+        "strength": {"value": 5, "limit": 9},
+        "dexterity": {"value": 4, "limit": 8},
+        "vitality": {"value": 5, "limit": 9},
+        "special": {"value": 3, "limit": 6},
+        "insight": {"value": 4, "limit": 8}
+      },
+      "derived_stats": {"base_hp": 5, "hp": 10, "defense": 5, "special_defense": 4},
+      "abilities": ["Inner Focus", "Anger Point", "Rock Head (Hidden)"],
+      "skills": ["Acrobat", "Climber"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Growl", "Headbutt", "Leer"],
+        "rank_2_rookie": ["Double Kick", "Focus Energy", "Bide"],
+        "rank_3_standard": ["Take Down", "Jump Kick", "Rock Throw"],
+        "rank_4_advanced": ["Close Combat", "Head Smash"],
+        "rank_5_expert": ["Final Gambit"]
+      },
+      "evolution": "Evolves into Ramhead."
+    },
+    {
+      "name": "Ramhead",
+      "id": "A076",
+      "typing": ["Fighting"],
+      "concept": "The Ram Pokémon. A larger, more powerful version of Dallamb with a small set of horns. Its headbutt is incredibly powerful, and it is known to be able to shatter rocks.",
+      "suggested_rank": "Rookie",
+      "attributes": {
+        "strength": {"value": 8, "limit": 13},
+        "dexterity": {"value": 6, "limit": 10},
+        "vitality": {"value": 7, "limit": 12},
+        "special": {"value": 4, "limit": 8},
+        "insight": {"value": 6, "limit": 10}
+      },
+      "derived_stats": {"base_hp": 7, "hp": 14, "defense": 7, "special_defense": 6},
+      "abilities": ["Inner Focus", "Anger Point", "Rock Head (Hidden)"],
+      "skills": ["Acrobat", "Climber"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Growl", "Headbutt", "Leer"],
+        "rank_2_rookie": ["Double Kick", "Focus Energy", "Bide", "Take Down"],
+        "rank_3_standard": ["Jump Kick", "Rock Throw", "Close Combat", "Head Smash"],
+        "rank_4_advanced": ["Final Gambit", "Rock Slide"],
+        "rank_5_expert": ["Head Smash", "Rock Wrecker"]
+      },
+      "evolution": "Evolves into Bellwether."
+    },
+    {
+      "name": "Bellwether",
+      "id": "A077",
+      "typing": ["Fighting", "Rock"],
+      "concept": "The Alpha Pokémon. A majestic, powerful ram with a massive set of horns. It is the leader of its herd and is a master of the mountainous terrain.",
+      "suggested_rank": "Standard",
+      "attributes": {
+        "strength": {"value": 11, "limit": 16},
+        "dexterity": {"value": 8, "limit": 13},
+        "vitality": {"value": 9, "limit": 15},
+        "special": {"value": 6, "limit": 10},
+        "insight": {"value": 8, "limit": 13}
+      },
+      "derived_stats": {"base_hp": 9, "hp": 18, "defense": 9, "special_defense": 8},
+      "abilities": ["Inner Focus", "Anger Point", "Rock Head (Hidden)"],
+      "skills": ["Acrobat", "Climber"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Growl", "Headbutt", "Leer"],
+        "rank_2_rookie": ["Double Kick", "Focus Energy", "Bide", "Take Down"],
+        "rank_3_standard": ["Jump Kick", "Rock Throw", "Close Combat", "Head Smash", "Final Gambit"],
+        "rank_4_advanced": ["Rock Slide", "Head Smash", "Rock Wrecker"],
+        "rank_5_expert": ["Head Smash", "Rock Wrecker"]
+      },
+      "evolution": "Final Stage."
+    },
+    {
+      "name": "Sneklace",
+      "id": "A078",
+      "typing": ["Normal", "Poison"],
+      "concept": "The House Snake Pokémon. A small, docile snake that is a popular pet. It loves to coil around a person's neck, giving it its name.",
+      "suggested_rank": "Starter",
+      "attributes": {
+        "strength": {"value": 4, "limit": 8},
+        "dexterity": {"value": 6, "limit": 10},
+        "vitality": {"value": 4, "limit": 8},
+        "special": {"value": 5, "limit": 9},
+        "insight": {"value": 5, "limit": 9}
+      },
+      "derived_stats": {"base_hp": 4, "hp": 8, "defense": 4, "special_defense": 5},
+      "abilities": ["Shed Skin", "Run Away", "Intimidate (Hidden)"],
+      "skills": ["Acrobat", "Stealth"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Wrap", "Poison Sting", "Leer"],
+        "rank_2_rookie": ["Coil", "Bite", "Glare", "Acid"],
+        "rank_3_standard": ["Sludge", "Acid Spray", "Slam"],
+        "rank_4_advanced": ["Body Slam", "Poison Fang"],
+        "rank_5_expert": ["Gunk Shot"]
+      },
+      "evolution": "Evolves into Constrictorn."
+    },
+    {
+      "name": "Constrictorn",
+      "id": "A079",
+      "typing": ["Normal", "Poison"],
+      "concept": "The Constrictor Pokémon. A larger, more powerful version of Sneklace. It is a very loyal Pokémon that will fiercely defend its trainer from any threat.",
+      "suggested_rank": "Rookie",
+      "attributes": {
+        "strength": {"value": 8, "limit": 13},
+        "dexterity": {"value": 8, "limit": 13},
+        "vitality": {"value": 6, "limit": 10},
+        "special": {"value": 7, "limit": 12},
+        "insight": {"value": 7, "limit": 12}
+      },
+      "derived_stats": {"base_hp": 6, "hp": 12, "defense": 6, "special_defense": 7},
+      "abilities": ["Shed Skin", "Run Away", "Intimidate (Hidden)"],
+      "skills": ["Acrobat", "Stealth"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Wrap", "Poison Sting", "Leer"],
+        "rank_2_rookie": ["Coil", "Bite", "Glare", "Acid", "Sludge"],
+        "rank_3_standard": ["Acid Spray", "Slam", "Body Slam", "Poison Fang"],
+        "rank_4_advanced": ["Gunk Shot", "Crunch", "Dragon Tail"],
+        "rank_5_expert": ["Outrage", "Giga Impact"]
+      },
+      "evolution": "Final Stage."
+    },
+    {
+      "name": "Drakrakle",
+      "id": "A093",
+      "typing": ["Poison", "Dragon"],
+      "concept": "The Ink Squirter Pokémon. A small, octopus-like creature with a single, coiled tentacle that can shoot a toxic ink.",
+      "suggested_rank": "Starter",
+      "attributes": {
+        "strength": {"value": 5, "limit": 9},
+        "dexterity": {"value": 6, "limit": 10},
+        "vitality": {"value": 5, "limit": 9},
+        "special": {"value": 6, "limit": 10},
+        "insight": {"value": 4, "limit": 8}
+      },
+      "derived_stats": {"base_hp": 5, "hp": 10, "defense": 5, "special_defense": 6},
+      "abilities": ["Poison Point", "Swift Swim", "Intimidate (Hidden)"],
+      "skills": ["Swimmer", "Stealth"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Water Gun", "Poison Sting", "Wrap"],
+        "rank_2_rookie": ["Bite", "Dragon Breath", "Toxic", "Sludge"],
+        "rank_3_standard": ["Aqua Jet", "Dragon Tail", "Dragon Rage"],
+        "rank_4_advanced": ["Dragon Pulse", "Venom Drench"],
+        "rank_5_expert": ["Sludge Bomb", "Toxic Spikes"]
+      },
+      "evolution": "Evolves into Toxidon."
+    },
+    {
+      "name": "Toxidon",
+      "id": "A094",
+      "typing": ["Poison", "Dragon"],
+      "concept": "The Coil Pokémon. A larger, more formidable version of Drakrakle. It has two large, coiled tentacles that can constrict its prey with incredible force.",
+      "suggested_rank": "Rookie",
+      "attributes": {
+        "strength": {"value": 7, "limit": 12},
+        "dexterity": {"value": 8, "limit": 13},
+        "vitality": {"value": 7, "limit": 12},
+        "special": {"value": 8, "limit": 13},
+        "insight": {"value": 6, "limit": 10}
+      },
+      "derived_stats": {"base_hp": 7, "hp": 14, "defense": 7, "special_defense": 8},
+      "abilities": ["Poison Point", "Swift Swim", "Intimidate (Hidden)"],
+      "skills": ["Swimmer", "Stealth"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Water Gun", "Poison Sting", "Wrap"],
+        "rank_2_rookie": ["Bite", "Dragon Breath", "Toxic", "Sludge", "Aqua Jet"],
+        "rank_3_standard": ["Dragon Tail", "Dragon Rage", "Dragon Pulse"],
+        "rank_4_advanced": ["Venom Drench", "Sludge Bomb", "Toxic Spikes"],
+        "rank_5_expert": ["Dragon Rush", "Poison Jab"]
+      },
+      "evolution": "Evolves into Krakenos."
+    },
+    {
+      "name": "Krakenos",
+      "id": "A095",
+      "typing": ["Poison", "Dragon"],
+      "concept": "The Kraken Pokémon. A massive, terrifying creature with a powerful body and eight large tentacles. It is a feared predator of the cold waters.",
+      "suggested_rank": "Advanced",
+      "attributes": {
+        "strength": {"value": 12, "limit": 17},
+        "dexterity": {"value": 9, "limit": 15},
+        "vitality": {"value": 11, "limit": 16},
+        "special": {"value": 10, "limit": 15},
+        "insight": {"value": 9, "limit": 15}
+      },
+      "derived_stats": {"base_hp": 10, "hp": 21, "defense": 11, "special_defense": 10},
+      "abilities": ["Poison Point", "Swift Swim", "Intimidate (Hidden)"],
+      "skills": ["Swimmer", "Stealth"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Water Gun", "Poison Sting", "Wrap", "Bite", "Dragon Breath"],
+        "rank_2_rookie": ["Toxic", "Sludge", "Aqua Jet", "Dragon Tail", "Dragon Rage"],
+        "rank_3_standard": ["Dragon Pulse", "Venom Drench", "Sludge Bomb", "Toxic Spikes"],
+        "rank_4_advanced": ["Dragon Rush", "Poison Jab", "Outrage", "Giga Impact"],
+        "rank_5_expert": ["Hydro Pump", "Sludge Wave"]
+      },
+      "evolution": "Final Stage."
+    }
+  ]
+}
