@@ -1,0 +1,100 @@
+{
+  "chapter_1": {
+    "title": "The Core System",
+    "description": "This chapter details the fundamental concepts and mechanics that govern the Pokemon Legacy TTRPG. Understanding these rules is essential for both players and the Storyteller.",
+    "source": "POKEROLE COREBOOK 3.0-001.pdf",
+    "attributes": {
+      "description": "Attributes represent a character's innate physical, mental, and social capabilities. Each point represents one die to add to a dice pool. Humans start with 1 point in each and have a limit of 5.",
+      "source": "POKEROLE COREBOOK 3.0-001.pdf",
+      "physical_mental": [
+        "Strength",
+        "Dexterity",
+        "Vitality",
+        "Insight",
+        "Special (Pokémon Only)"
+      ],
+      "social": [
+        "Tough",
+        "Cool",
+        "Beauty",
+        "Cute",
+        "Clever"
+      ]
+    },
+    "skills": {
+      "description": "Skills represent a character's training and expertise. They are always paired with an Attribute to form a dice pool.",
+      "source": "POKEROLE COREBOOK 3.0-001.pdf",
+      "categories": {
+        "battle": ["Brawl", "Channel", "Clash", "Evasion", "Throw", "Weapons"],
+        "survival": ["Alert", "Athletic", "Nature", "Stealth"],
+        "social": ["Charm", "Empathy", "Etiquette", "Intimidate", "Perform"],
+        "knowledge": ["Crafts", "Lore", "Medicine", "Science"]
+      }
+    },
+    "derived_stats": {
+      "description": "These stats are calculated from your core Attributes.",
+      "source": "POKEROLE COREBOOK 3.0-001.pdf",
+      "health_points": {
+        "name": "Health Points (HP)",
+        "description": "A measure of your physical condition.",
+        "formula": "Base HP (4 for humans) + Vitality score"
+      },
+      "defenses": {
+        "name": "Defense & Special Defense",
+        "description": "Traits that protect you from damage. Campaigns will use one of two options.",
+        "options": [
+          {
+            "name": "Unified Defense",
+            "formula": "Defense and Special Defense are both equal to your Vitality score."
+          },
+          {
+            "name": "Split Defense",
+            "formula": "Defense is equal to your Vitality score, and Special Defense is equal to your Insight score."
+          }
+        ]
+      },
+      "will_points": {
+        "name": "Will Points (WP)",
+        "description": "Your inner strength and resolve. Can be spent to influence dice rolls or ignore pain.",
+        "formula": "Insight score + 3"
+      }
+    },
+    "dice_system": {
+      "name": "d6 Dice Pool",
+      "source": ["thatdragonlegacyauthor/pokettrpg/pokettrpg-860569b685794d6c009868bd2304f0e3b474af3a/core/core_engine_mechanics.json", "POKEROLE COREBOOK 3.0-001.pdf"],
+      "pool_construction": "Attribute score + Skill score.",
+      "success_threshold": "4, 5, or 6 on a d6.",
+      "difficulty_levels": {
+        "1": "Troublesome",
+        "2": "Challenging",
+        "3": "Hard",
+        "4": "Very Hard",
+        "5+": "Almost Impossible"
+      },
+      "critical_failure": {
+        "name": "Botch",
+        "condition": "Two or more dice show a '1'.",
+        "effect": "Subtract one Success from the total."
+      },
+      "asymmetrical_modifiers": {
+        "buffs": {
+          "timing": "pre_roll",
+          "effect": "Add dice to the pool."
+        },
+        "debuffs": {
+          "timing": "post_roll",
+          "effect": "Subtract successes from the result."
+        }
+      }
+    },
+    "relational_and_progression_concepts": {
+      "description": "Core concepts that govern character growth and interaction.",
+      "source": "POKEROLE COREBOOK 3.0-001.pdf",
+      "concepts": {
+        "happiness_and_loyalty": "Traits from 0-5 that define a Pokémon's relationship with its Trainer, influenced by roleplaying.",
+        "disobedience": "A Pokémon whose Rank is higher than its Trainer's may disobey commands.",
+        "ranks_and_training_points": "The core progression systems. Trainers gain Ranks via Achievements; Pokémon grow by spending Training Points."
+      }
+    }
+  }
+}
