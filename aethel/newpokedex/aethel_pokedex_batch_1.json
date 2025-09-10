@@ -164,7 +164,7 @@
         "insight": {"value": 4, "limit": 8}
       },
       "derived_stats": {"base_hp": 5, "hp": 9, "defense": 4, "special_defense": 4},
-      "abilities": ["Torrent", "System Shock (Hidden)"],
+      "abilities": ["Torrent", "tidal shell (hidden)"],
       "skills": ["Swimmer", "Fountain", "Geologist"],
       "move_pool": {
         "rank_1_starter": ["Tackle", "Tail Whip", "Water Gun", "Withdraw"],
@@ -189,7 +189,7 @@
         "insight": {"value": 5, "limit": 10}
       },
       "derived_stats": {"base_hp": 7, "hp": 12, "defense": 5, "special_defense": 5},
-      "abilities": ["Torrent", "System Shock (Hidden)"],
+      "abilities": ["Torrent", "tidal shell (hidden)"],
       "skills": ["Swimmer", "Fountain", "Geologist"],
       "move_pool": {
         "rank_1_starter": ["Tackle", "Tail Whip", "Water Gun", "Withdraw"],
@@ -214,7 +214,7 @@
         "insight": {"value": 6, "limit": 12}
       },
       "derived_stats": {"base_hp": 9, "hp": 15, "defense": 7, "special_defense": 6},
-      "abilities": ["Torrent", "System Shock (Hidden)"],
+      "abilities": ["Torrent", "tidal shell (hidden)"],
       "skills": ["Swimmer", "Fountain", "Geologist", "Mountaineer"],
       "move_pool": {
         "rank_1_starter": ["Tackle", "Tail Whip", "Water Gun", "Withdraw"],
