@@ -1,0 +1,62 @@
+{
+  "faction_reputation_system": {
+    "description": "A system to track a player's standing with each of the major factions in the Aethel region, offering tangible rewards and consequences for their actions.",
+    "mechanic": {
+      "scale": "Reputation is tracked on a scale from -5 (Hated) to +5 (Allied), starting at 0 (Neutral).",
+      "triggers": "Reputation changes based on player actions that either align with or oppose a faction's ideology and goals."
+    },
+    "reputation_tiers": [
+      {
+        "level": "Allied (+4 to +5)",
+        "description": "You are considered a trusted friend and champion of the faction's cause.",
+        "potential_rewards": [
+          "Access to faction-exclusive items (e.g., a Cartographer's all-terrain gear).",
+          "Gifts of special Pokémon (e.g., a rare egg from the Coastal Clan).",
+          "Access to unique Training Sessions with their top trainers."
+        ]
+      },
+      {
+        "level": "Liked (+2 to +3)",
+        "description": "You are a known associate and are treated with favor by faction members.",
+        "potential_rewards": [
+          "Significant discounts at faction-affiliated shops.",
+          "Access to restricted areas within their headquarters.",
+          "Faction members will offer you unique side quests."
+        ]
+      },
+      {
+        "level": "Neutral (-1 to +1)",
+        "description": "You are a neutral party. Faction members will treat you as they would any other stranger.",
+        "potential_rewards": []
+      },
+      {
+        "level": "Disliked (-2 to -3)",
+        "description": "You are a known opponent of the faction. Members will be uncooperative or hostile.",
+        "potential_consequences": [
+          "Faction members will refuse to sell you items or offer services.",
+          "You may be barred from entering faction-controlled towns or outposts.",
+          "More frequent hostile encounters from faction grunts in the wild."
+        ]
+      },
+      {
+        "level": "Hated (-4 to -5)",
+        "description": "You are a priority target for the faction. You will be actively hunted.",
+        "potential_consequences": [
+          "Faction Admins or powerful members may be dispatched to eliminate you.",
+          "Large bounties may be placed on your head.",
+          "Allied factions may refuse to associate with you."
+        ]
+      }
+    ],
+    "faction_tracker_shell": [
+      {"name": "Cryosys", "current_reputation": 0},
+      {"name": "The Eon Remnants", "current_reputation": 0},
+      {"name": "The Northwind Syndicate", "current_reputation": 0},
+      {"name": "The Prospector's Union", "current_reputation": 0},
+      {"name": "The Frontier Cartographers", "current_reputation": 0},
+      {"name": "The Wayward Hearth", "current_reputation": 0},
+      {"name": "The Aurora's Chosen", "current_reputation": 0},
+      {"name": "The Permafrost Foundation", "current_reputation": 0}
+    ]
+  }
+}
