@@ -1,1 +1,719 @@
-
+{
+  "pokedex": [
+    {
+      "id": "010",
+      "name": "Caterpie",
+      "types": [
+        "Bug"
+      ],
+      "category": "Worm Pokémon",
+      "abilities": [
+        "Shield Dust",
+        "Run Away"
+      ],
+      "lore": "Its coat is bright green to protect it from predators, blending in with its forest surroundings. It can release a powerful stench from its antennae."
+    },
+    {
+      "id": "011",
+      "name": "Metapod",
+      "types": [
+        "Bug"
+      ],
+      "category": "Cocoon Pokémon",
+      "abilities": [
+        "Shed Skin"
+      ],
+      "lore": "A hard shell protects its soft body from predators while it prepares for its next evolution. It is incredibly vulnerable to direct attacks."
+    },
+    {
+      "id": "012",
+      "name": "Butterfree",
+      "types": [
+        "Bug",
+        "Flying"
+      ],
+      "category": "Butterfly Pokémon",
+      "abilities": [
+        "Compound Eyes",
+        "Tinted Lens"
+      ],
+      "lore": "Butterfree can locate flowers and pollen from great distances. It can flap its wings at high speed to scatter poisonous dust."
+    },
+    {
+      "id": "013",
+      "name": "Weedle",
+      "types": [
+        "Bug",
+        "Poison"
+      ],
+      "category": "Hairy Bug Pokémon",
+      "abilities": [
+        "Shield Dust",
+        "Run Away"
+      ],
+      "lore": "Weedle has a sharp poison sting on its head. Its bright colors warn predators to stay away."
+    },
+    {
+      "id": "014",
+      "name": "Kakuna",
+      "types": [
+        "Bug",
+        "Poison"
+      ],
+      "category": "Cocoon Pokémon",
+      "abilities": [
+        "Shed Skin"
+      ],
+      "lore": "Kakuna remains dormant while its internal organs are undergoing a dramatic transformation. The poison on its shell is extremely potent."
+    },
+    {
+      "id": "015",
+      "name": "Beedrill",
+      "types": [
+        "Bug",
+        "Poison"
+      ],
+      "category": "Poison Bee Pokémon",
+      "abilities": [
+        "Swarm",
+        "Sniper"
+      ],
+      "lore": "Beedrill can fly at high speeds and attack with the two large poison stingers on its arms. It is fiercely territorial and will chase intruders away."
+    },
+    {
+      "id": "016",
+      "name": "Pidgey",
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "category": "Tiny Bird Pokémon",
+      "abilities": [
+        "Keen Eye",
+        "Tangled Feet",
+        "Big Pecks"
+      ],
+      "lore": "Pidgey can create a sandstorm by flapping its wings. It is harmless and often found in forests and plains."
+    },
+    {
+      "id": "017",
+      "name": "Pidgeotto",
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "category": "Bird Pokémon",
+      "abilities": [
+        "Keen Eye",
+        "Tangled Feet",
+        "Big Pecks"
+      ],
+      "lore": "Pidgeotto is a very protective Pokémon. It will fiercely defend its territory and will not hesitate to attack anyone who trespasses."
+    },
+    {
+      "id": "018",
+      "name": "Pidgeot",
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "category": "Bird Pokémon",
+      "abilities": [
+        "Keen Eye",
+        "Tangled Feet",
+        "Big Pecks"
+      ],
+      "lore": "Pidgeot can fly at Mach 2 speeds. Its feathers are a symbol of beauty and power."
+    },
+    {
+      "id": "019",
+      "name": "Rattata",
+      "types": [
+        "Normal"
+      ],
+      "category": "Mouse Pokémon",
+      "abilities": [
+        "Run Away",
+        "Guts",
+        "Hustle"
+      ],
+      "lore": "Rattata is a very cautious Pokémon. It is known to live in groups and will not hesitate to attack if it feels threatened."
+    },
+    {
+      "id": "020",
+      "name": "Raticate",
+      "types": [
+        "Normal"
+      ],
+      "category": "Mouse Pokémon",
+      "abilities": [
+        "Run Away",
+        "Guts",
+        "Hustle"
+      ],
+      "lore": "Raticate's sharp fangs can gnaw through anything. It is known to be very aggressive and will not hesitate to attack anything it sees as a threat."
+    },
+    {
+      "id": "021",
+      "name": "Spearow",
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "category": "Tiny Bird Pokémon",
+      "abilities": [
+        "Keen Eye",
+        "Sniper"
+      ],
+      "lore": "Spearow's small body makes it easy to maneuver in the air. It can be a very annoying Pokémon, as it is known to steal food from other Pokémon."
+    },
+    {
+      "id": "022",
+      "name": "Fearow",
+      "types": [
+        "Normal",
+        "Flying"
+      ],
+      "category": "Beak Pokémon",
+      "abilities": [
+        "Keen Eye",
+        "Sniper"
+      ],
+      "lore": "Fearow can fly at incredible speeds. Its sharp beak is so strong it can pierce a diamond."
+    },
+    {
+      "id": "023",
+      "name": "Ekans",
+      "types": [
+        "Poison"
+      ],
+      "category": "Snake Pokémon",
+      "abilities": [
+        "Intimidate",
+        "Shed Skin",
+        "Unnerve"
+      ],
+      "lore": "Ekans is known to coil up and swallow its prey whole. It can also produce a very powerful venom."
+    },
+    {
+      "id": "024",
+      "name": "Arbok",
+      "types": [
+        "Poison"
+      ],
+      "category": "Cobra Pokémon",
+      "abilities": [
+        "Intimidate",
+        "Shed Skin",
+        "Unnerve"
+      ],
+      "lore": "Arbok's pattern on its hood is said to be different in every region. It will constrict its prey until it is nothing more than a pulp."
+    },
+    {
+      "id": "025",
+      "name": "Pikachu",
+      "types": [
+        "Electric"
+      ],
+      "category": "Mouse Pokémon",
+      "abilities": [
+        "Static",
+        "Lightning Rod"
+      ],
+      "lore": "When it's in a large group, it can cause a large electric storm. Its thunderbolt is said to be extremely powerful."
+    },
+    {
+      "id": "026",
+      "name": "Raichu",
+      "types": [
+        "Electric"
+      ],
+      "category": "Mouse Pokémon",
+      "abilities": [
+        "Static",
+        "Lightning Rod"
+      ],
+      "lore": "Raichu can discharge over 100,000 volts of electricity. It will not hesitate to zap anyone who threatens it."
+    },
+    {
+      "id": "027",
+      "name": "Sandshrew",
+      "types": [
+        "Ground"
+      ],
+      "category": "Mouse Pokémon",
+      "abilities": [
+        "Sand Veil",
+        "Sand Rush"
+      ],
+      "lore": "Sandshrew can curl into a ball to protect itself. It is known to live in deserts and will not hesitate to burrow underground to escape from danger."
+    },
+    {
+      "id": "028",
+      "name": "Sandslash",
+      "types": [
+        "Ground"
+      ],
+      "category": "Mouse Pokémon",
+      "abilities": [
+        "Sand Veil",
+        "Sand Rush"
+      ],
+      "lore": "Sandslash can roll into a ball and attack its opponents. Its claws are so sharp it can cut through steel."
+    },
+    {
+      "id": "029",
+      "name": "Nidoran♀",
+      "types": [
+        "Poison"
+      ],
+      "category": "Poison Pin Pokémon",
+      "abilities": [
+        "Poison Point",
+        "Rivalry",
+        "Hustle"
+      ],
+      "lore": "Nidoran♀ is known to be very protective of its young. It will not hesitate to use its poison to protect its family."
+    },
+    {
+      "id": "030",
+      "name": "Nidorina",
+      "types": [
+        "Poison"
+      ],
+      "category": "Poison Pin Pokémon",
+      "abilities": [
+        "Poison Point",
+        "Rivalry",
+        "Hustle"
+      ],
+      "lore": "Nidorina's horn is incredibly potent. It can release a powerful poison that can paralyze its opponents."
+    },
+    {
+      "id": "031",
+      "name": "Nidoqueen",
+      "types": [
+        "Poison",
+        "Ground"
+      ],
+      "category": "Drill Pokémon",
+      "abilities": [
+        "Poison Point",
+        "Rivalry",
+        "Sheer Force"
+      ],
+      "lore": "Nidoqueen is a very protective and powerful Pokémon. It is a symbol of motherly love and will do anything to protect its young."
+    },
+    {
+      "id": "032",
+      "name": "Nidoran♂",
+      "types": [
+        "Poison"
+      ],
+      "category": "Poison Pin Pokémon",
+      "abilities": [
+        "Poison Point",
+        "Rivalry",
+        "Hustle"
+      ],
+      "lore": "Nidoran♂ is known to be very aggressive. It is known to use its horn to attack anything it sees as a threat."
+    },
+    {
+      "id": "033",
+      "name": "Nidorino",
+      "types": [
+        "Poison"
+      ],
+      "category": "Poison Pin Pokémon",
+      "abilities": [
+        "Poison Point",
+        "Rivalry",
+        "Hustle"
+      ],
+      "lore": "Nidorino's horn is so strong it can pierce through rocks. It is known to be very aggressive and will not hesitate to attack anyone who trespasses."
+    },
+    {
+      "id": "034",
+      "name": "Nidoking",
+      "types": [
+        "Poison",
+        "Ground"
+      ],
+      "category": "Drill Pokémon",
+      "abilities": [
+        "Poison Point",
+        "Rivalry",
+        "Sheer Force"
+      ],
+      "lore": "Nidoking is a very powerful and aggressive Pokémon. It is known to use its powerful horn to destroy anything in its path."
+    },
+    {
+      "id": "035",
+      "name": "Clefairy",
+      "types": [
+        "Fairy"
+      ],
+      "category": "Fairy Pokémon",
+      "abilities": [
+        "Cute Charm",
+        "Magic Guard",
+        "Friend Guard"
+      ],
+      "lore": "Clefairy is a very rare Pokémon. It is said to have a mysterious power, and it can be found in the mountains at night."
+    },
+    {
+      "id": "036",
+      "name": "Clefable",
+      "types": [
+        "Fairy"
+      ],
+      "category": "Fairy Pokémon",
+      "abilities": [
+        "Cute Charm",
+        "Magic Guard",
+        "Unaware"
+      ],
+      "lore": "Clefable can float in the air. It is said to be a very shy Pokémon, and it will not hesitate to use its powers to protect itself."
+    },
+    {
+      "id": "037",
+      "name": "Vulpix",
+      "types": [
+        "Fire"
+      ],
+      "category": "Fox Pokémon",
+      "abilities": [
+        "Flash Fire",
+        "Drought"
+      ],
+      "lore": "Vulpix can learn to control fire with its tails. When it is born, it only has one tail, and the more it ages, the more tails it gains."
+    },
+    {
+      "id": "038",
+      "name": "Ninetales",
+      "types": [
+        "Fire"
+      ],
+      "category": "Fox Pokémon",
+      "abilities": [
+        "Flash Fire",
+        "Drought"
+      ],
+      "lore": "Ninetales is a beautiful and elegant Pokémon. It is said to have a life span of 1,000 years, and it is known to be very intelligent."
+    },
+    {
+      "id": "039",
+      "name": "Jigglypuff",
+      "types": [
+        "Normal",
+        "Fairy"
+      ],
+      "category": "Balloon Pokémon",
+      "abilities": [
+        "Cute Charm",
+        "Competitive",
+        "Friend Guard"
+      ],
+      "lore": "Jigglypuff's voice is so soothing that it can put anyone to sleep. It is known to be very playful and will not hesitate to sing to anyone."
+    },
+    {
+      "id": "040",
+      "name": "Wigglytuff",
+      "types": [
+        "Normal",
+        "Fairy"
+      ],
+      "category": "Balloon Pokémon",
+      "abilities": [
+        "Cute Charm",
+        "Competitive",
+        "Frisk"
+      ],
+      "lore": "Wigglytuff's body is very soft and fluffy. It can expand its body to a great size, and it is known to be a very gentle Pokémon."
+    },
+    {
+      "id": "041",
+      "name": "Zubat",
+      "types": [
+        "Poison",
+        "Flying"
+      ],
+      "category": "Bat Pokémon",
+      "abilities": [
+        "Inner Focus",
+        "Infiltrator"
+      ],
+      "lore": "Zubat can emit ultrasonic waves to find its way around. It is a very nocturnal Pokémon and will not hesitate to attack anyone who disturbs its sleep."
+    },
+    {
+      "id": "042",
+      "name": "Golbat",
+      "types": [
+        "Poison",
+        "Flying"
+      ],
+      "category": "Bat Pokémon",
+      "abilities": [
+        "Inner Focus",
+        "Infiltrator"
+      ],
+      "lore": "Golbat can suck the blood of its prey. It is known to be very aggressive and will not hesitate to attack anything it sees as a threat."
+    },
+    {
+      "id": "043",
+      "name": "Oddish",
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "category": "Weed Pokémon",
+      "abilities": [
+        "Chlorophyll",
+        "Run Away"
+      ],
+      "lore": "Oddish is a very nocturnal Pokémon. It is known to walk around at night, and it will bury itself in the ground when the sun rises."
+    },
+    {
+      "id": "044",
+      "name": "Gloom",
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "category": "Weed Pokémon",
+      "abilities": [
+        "Chlorophyll",
+        "Stench"
+      ],
+      "lore": "Gloom's mouth is always dripping with a foul-smelling liquid. It is known to be a very smelly Pokémon, and it will not hesitate to use its stench to defend itself."
+    },
+    {
+      "id": "045",
+      "name": "Vileplume",
+      "types": [
+        "Grass",
+        "Poison"
+      ],
+      "category": "Flower Pokémon",
+      "abilities": [
+        "Chlorophyll",
+        "Effect Spore"
+      ],
+      "lore": "Vileplume's flower is said to be the largest in the world. It can release a powerful stench from its flower, which can cause its opponents to faint."
+    },
+    {
+      "id": "046",
+      "name": "Paras",
+      "types": [
+        "Bug",
+        "Grass"
+      ],
+      "category": "Mushroom Pokémon",
+      "abilities": [
+        "Effect Spore",
+        "Dry Skin",
+        "Damp"
+      ],
+      "lore": "Paras has a mushroom on its back that can be used to heal. It is known to be a very timid Pokémon and will not hesitate to run away from danger."
+    },
+    {
+      "id": "047",
+      "name": "Parasect",
+      "types": [
+        "Bug",
+        "Grass"
+      ],
+      "category": "Mushroom Pokémon",
+      "abilities": [
+        "Effect Spore",
+        "Dry Skin",
+        "Damp"
+      ],
+      "lore": "Parasect's mushroom has taken over its body. It is known to be a very powerful Pokémon, and it can use its mushroom to heal itself."
+    },
+    {
+      "id": "048",
+      "name": "Venonat",
+      "types": [
+        "Bug",
+        "Poison"
+      ],
+      "category": "Insect Pokémon",
+      "abilities": [
+        "Compound Eyes",
+        "Tinted Lens",
+        "Run Away"
+      ],
+      "lore": "Venonat's eyes can see through anything. It is a very nocturnal Pokémon and will not hesitate to use its eyes to find its way around."
+    },
+    {
+      "id": "049",
+      "name": "Venomoth",
+      "types": [
+        "Bug",
+        "Poison"
+      ],
+      "category": "Poison Moth Pokémon",
+      "abilities": [
+        "Shield Dust",
+        "Tinted Lens",
+        "Wonder Skin"
+      ],
+      "lore": "Venomoth's wings are covered in a powerful poison. It is known to be a very fast Pokémon and will not hesitate to use its poison to attack its opponents."
+    },
+    {
+      "id": "050",
+      "name": "Diglett",
+      "types": [
+        "Ground"
+      ],
+      "category": "Mole Pokémon",
+      "abilities": [
+        "Sand Veil",
+        "Arena Trap",
+        "Sand Force"
+      ],
+      "lore": "Diglett is known to live underground. It is a very shy Pokémon and will not hesitate to burrow underground to escape from danger."
+    },
+    {
+      "id": "051",
+      "name": "Dugtrio",
+      "types": [
+        "Ground"
+      ],
+      "category": "Mole Pokémon",
+      "abilities": [
+        "Sand Veil",
+        "Arena Trap",
+        "Sand Force"
+      ],
+      "lore": "Dugtrio is a very powerful Pokémon. It can burrow through the ground at high speeds, and it will not hesitate to use its burrowing to attack its opponents."
+    },
+    {
+      "id": "052",
+      "name": "Meowth",
+      "types": [
+        "Normal"
+      ],
+      "category": "Scratch Cat Pokémon",
+      "abilities": [
+        "Pickup",
+        "Technician",
+        "Unnerve"
+      ],
+      "lore": "Meowth loves to collect shiny things. It will not hesitate to steal anything it sees as valuable."
+    },
+    {
+      "id": "053",
+      "name": "Persian",
+      "types": [
+        "Normal"
+      ],
+      "category": "Classy Cat Pokémon",
+      "abilities": [
+        "Limber",
+        "Technician",
+        "Unnerve"
+      ],
+      "lore": "Persian is a very elegant and graceful Pokémon. It is known to be very proud and will not hesitate to attack anyone who insults it."
+    },
+    {
+      "id": "054",
+      "name": "Psyduck",
+      "types": [
+        "Water"
+      ],
+      "category": "Duck Pokémon",
+      "abilities": [
+        "Damp",
+        "Cloud Nine",
+        "Swift Swim"
+      ],
+      "lore": "Psyduck is constantly plagued by a headache. It will not hesitate to use its powers to attack anyone who makes its headache worse."
+    },
+    {
+      "id": "055",
+      "name": "Golduck",
+      "types": [
+        "Water"
+      ],
+      "category": "Duck Pokémon",
+      "abilities": [
+        "Damp",
+        "Cloud Nine",
+        "Swift Swim"
+      ],
+      "lore": "Golduck can swim at high speeds. It is known to be a very fast swimmer and will not hesitate to use its powers to attack its opponents."
+    },
+    {
+      "id": "056",
+      "name": "Mankey",
+      "types": [
+        "Fighting"
+      ],
+      "category": "Pig Monkey Pokémon",
+      "abilities": [
+        "Vital Spirit",
+        "Anger Point",
+        "Defiant"
+      ],
+      "lore": "Mankey is a very aggressive Pokémon. It will not hesitate to attack anyone who makes it angry."
+    },
+    {
+      "id": "057",
+      "name": "Primeape",
+      "types": [
+        "Fighting"
+      ],
+      "category": "Pig Monkey Pokémon",
+      "abilities": [
+        "Vital Spirit",
+        "Anger Point",
+        "Defiant"
+      ],
+      "lore": "Primeape is a very powerful and aggressive Pokémon. It will not hesitate to attack anyone who it sees as a threat."
+    },
+    {
+      "id": "058",
+      "name": "Growlithe",
+      "types": [
+        "Fire"
+      ],
+      "category": "Puppy Pokémon",
+      "abilities": [
+        "Intimidate",
+        "Flash Fire",
+        "Justified"
+      ],
+      "lore": "Growlithe is a very loyal and brave Pokémon. It will not hesitate to defend its trainer from any threat."
+    },
+    {
+      "id": "059",
+      "name": "Arcanine",
+      "types": [
+        "Fire"
+      ],
+      "category": "Legendary Pokémon",
+      "abilities": [
+        "Intimidate",
+        "Flash Fire",
+        "Justified"
+      ],
+      "lore": "Arcanine is a very powerful and fast Pokémon. It is known to be a very fast runner and will not hesitate to defend its trainer from any threat."
+    },
+    {
+      "id": "060",
+      "name": "Poliwag",
+      "types": [
+        "Water"
+      ],
+      "category": "Tadpole Pokémon",
+      "abilities": [
+        "Water Absorb",
+        "Damp",
+        "Swift Swim"
+      ],
+      "lore": "Poliwag can swim at incredible speeds. The swirl on its belly is a symbol of its power."
+    }
+  ]
+}
