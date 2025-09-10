@@ -1,0 +1,229 @@
+{
+  "aethel_pokedex_batch_8": [
+    {
+      "name": "Halibutt",
+      "id": "A066",
+      "typing": ["Water"],
+      "concept": "The Flatfish Pokémon. A common, bottom-dwelling fish known for its ability to camouflage itself in the sandy seafloor. The Coastal Clan believes its unique pattern is a symbol of a fisherman's luck.",
+      "suggested_rank": "Starter",
+      "attributes": {
+        "strength": {"value": 5, "limit": 9},
+        "dexterity": {"value": 4, "limit": 8},
+        "vitality": {"value": 6, "limit": 10},
+        "special": {"value": 4, "limit": 8},
+        "insight": {"value": 5, "limit": 9}
+      },
+      "derived_stats": {"base_hp": 6, "hp": 12, "defense": 6, "special_defense": 5},
+      "abilities": ["Swift Swim", "Water Absorb", "Guts (Hidden)"],
+      "skills": ["Swimmer", "Stealth"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Water Gun", "Mud-Slap", "Camouflage"],
+        "rank_2_rookie": ["Aqua Jet", "Razor Shell", "Muddy Water"],
+        "rank_3_standard": ["Aqua Tail", "Hydro Pump", "Double-Edge"],
+        "rank_4_advanced": ["Liquidation", "Water Spout"],
+        "rank_5_expert": ["Hydro Cannon"]
+      },
+      "evolution": "Final Stage."
+    },
+    {
+      "name": "Ermineer",
+      "id": "A067",
+      "typing": ["Fairy"],
+      "concept": "The Ermine Pokémon. A small, sleek Pokémon that changes its coat to a brilliant white in the winter. It uses its magical abilities to play tricks on travelers.",
+      "suggested_rank": "Starter",
+      "attributes": {
+        "strength": {"value": 3, "limit": 6},
+        "dexterity": {"value": 7, "limit": 12},
+        "vitality": {"value": 4, "limit": 8},
+        "special": {"value": 6, "limit": 10},
+        "insight": {"value": 5, "limit": 9}
+      },
+      "derived_stats": {"base_hp": 4, "hp": 8, "defense": 4, "special_defense": 5},
+      "abilities": ["Cunning", "Pixilate", "Prankster (Hidden)"],
+      "skills": ["Acrobat", "Stealth"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Growl", "Fairy Wind", "Quick Attack"],
+        "rank_2_rookie": ["Magical Leaf", "Draining Kiss", "Play Rough"],
+        "rank_3_standard": ["Dazzling Gleam", "Ice Beam", "Nasty Plot"],
+        "rank_4_advanced": ["Moonblast", "Foul Play"],
+        "rank_5_expert": ["Fairy Beam (New)"]
+      },
+      "evolution": "Evolves into Faelix."
+    },
+    {
+      "name": "Faelix",
+      "id": "A068",
+      "typing": ["Fairy", "Ice"],
+      "concept": "The Aurora Ermine Pokémon. A majestic ermine whose coat is a shimmering white, and its tail glows with the colors of the aurora borealis. It is a powerful guardian of the pristine winter landscape.",
+      "suggested_rank": "Rookie",
+      "attributes": {
+        "strength": {"value": 5, "limit": 9},
+        "dexterity": {"value": 9, "limit": 15},
+        "vitality": {"value": 6, "limit": 10},
+        "special": {"value": 8, "limit": 13},
+        "insight": {"value": 7, "limit": 12}
+      },
+      "derived_stats": {"base_hp": 6, "hp": 12, "defense": 6, "special_defense": 7},
+      "abilities": ["Cunning", "Pixilate", "Prankster (Hidden)"],
+      "skills": ["Acrobat", "Stealth"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Growl", "Fairy Wind", "Quick Attack"],
+        "rank_2_rookie": ["Magical Leaf", "Draining Kiss", "Play Rough", "Dazzling Gleam"],
+        "rank_3_standard": ["Ice Beam", "Nasty Plot", "Moonblast", "Foul Play"],
+        "rank_4_advanced": ["Sheer Cold", "Blizzard"],
+        "rank_5_expert": ["Fairy Beam (New)", "Blizzard"]
+      },
+      "evolution": "Final Stage."
+    },
+    {
+      "name": "Squiggly",
+      "id": "A069",
+      "typing": ["Normal"],
+      "concept": "The Arctic Ground Squirrel Pokémon. A small, burrowing Pokémon seen as a symbol of prosperity and community by the Athabaskan Analogue.",
+      "suggested_rank": "Starter",
+      "attributes": {
+        "strength": {"value": 4, "limit": 8},
+        "dexterity": {"value": 5, "limit": 9},
+        "vitality": {"value": 4, "limit": 8},
+        "special": {"value": 3, "limit": 6},
+        "insight": {"value": 4, "limit": 8}
+      },
+      "derived_stats": {"base_hp": 5, "hp": 9, "defense": 4, "special_defense": 4},
+      "abilities": ["Pickup", "Run Away", "Sand Force (Hidden)"],
+      "skills": ["Acrobat", "Stealth", "Burrow"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Growl", "Quick Attack", "Sand Attack"],
+        "rank_2_rookie": ["Dig", "Bite", "Defense Curl"],
+        "rank_3_standard": ["Body Slam", "Rock Smash", "Earthquake"],
+        "rank_4_advanced": ["Double Edge", "Last Resort"],
+        "rank_5_expert": ["Giga Impact"]
+      },
+      "evolution": "Evolves into Burrowlusk."
+    },
+    {
+      "name": "Burrowlusk",
+      "id": "A070",
+      "typing": ["Normal", "Ground"],
+      "concept": "The Tundra Burrower Pokémon. Its paws are incredibly powerful, allowing it to dig through even the hardest permafrost. The Prospector's Union often uses them to find valuable minerals.",
+      "suggested_rank": "Rookie",
+      "attributes": {
+        "strength": {"value": 6, "limit": 10},
+        "dexterity": {"value": 7, "limit": 12},
+        "vitality": {"value": 6, "limit": 10},
+        "special": {"value": 4, "limit": 8},
+        "insight": {"value": 5, "limit": 9}
+      },
+      "derived_stats": {"base_hp": 7, "hp": 13, "defense": 6, "special_defense": 5},
+      "abilities": ["Pickup", "Run Away", "Sand Force (Hidden)"],
+      "skills": ["Acrobat", "Stealth", "Burrow"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Growl", "Quick Attack", "Sand Attack"],
+        "rank_2_rookie": ["Dig", "Bite", "Defense Curl", "Body Slam"],
+        "rank_3_standard": ["Rock Smash", "Earthquake", "Double Edge", "Last Resort"],
+        "rank_4_advanced": ["Giga Impact", "Drill Run"],
+        "rank_5_expert": ["Fissure", "Earth Power"]
+      },
+      "evolution": "Final Stage."
+    },
+    {
+      "name": "Lemmin",
+      "id": "A071",
+      "typing": ["Normal"],
+      "concept": "The Leaping Pokémon. This small, rodent-like Pokémon is known for its massive population booms and its ability to overwhelm predators in a swarm.",
+      "suggested_rank": "Starter",
+      "attributes": {
+        "strength": {"value": 4, "limit": 8},
+        "dexterity": {"value": 6, "limit": 10},
+        "vitality": {"value": 3, "limit": 6},
+        "special": {"value": 3, "limit": 6},
+        "insight": {"value": 5, "limit": 9}
+      },
+      "derived_stats": {"base_hp": 4, "hp": 7, "defense": 3, "special_defense": 5},
+      "abilities": ["Pickup", "Run Away", "Swarm (Hidden)"],
+      "skills": ["Acrobat", "Stealth"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Growl", "Quick Attack", "Tail Whip"],
+        "rank_2_rookie": ["Bite", "Hyper Fang", "Endeavor", "Last Resort"],
+        "rank_3_standard": ["Double Edge", "Double Slap"],
+        "rank_4_advanced": ["Giga Impact", "Extreme Speed"],
+        "rank_5_expert": ["Final Gambit"]
+      },
+      "evolution": "Final Stage."
+    },
+    {
+      "name": "Stellas",
+      "id": "A072",
+      "typing": ["Water"],
+      "concept": "The Sea Lion Pokémon. A small, playful sea lion pup that is known for its friendly nature and its ability to swim at incredible speeds.",
+      "suggested_rank": "Starter",
+      "attributes": {
+        "strength": {"value": 5, "limit": 9},
+        "dexterity": {"value": 4, "limit": 8},
+        "vitality": {"value": 6, "limit": 10},
+        "special": {"value": 4, "limit": 8},
+        "insight": {"value": 5, "limit": 9}
+      },
+      "derived_stats": {"base_hp": 6, "hp": 12, "defense": 6, "special_defense": 5},
+      "abilities": ["Water Veil", "Thick Fat", "Swift Swim (Hidden)"],
+      "skills": ["Swimmer", "Acrobat"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Water Gun", "Growl", "Quick Attack"],
+        "rank_2_rookie": ["Aqua Jet", "Bite", "Dive", "Assurance"],
+        "rank_3_standard": ["Water Pulse", "Crunch", "Waterfall"],
+        "rank_4_advanced": ["Aqua Tail", "Hydro Pump", "Double-Edge"],
+        "rank_5_expert": ["Final Gambit"]
+      },
+      "evolution": "Evolves into Sealord."
+    },
+    {
+      "name": "Sealord",
+      "id": "A073",
+      "typing": ["Water"],
+      "concept": "The Sea Lion Pokémon. A larger, more powerful sea lion with a thick coat of fur. It is a very territorial Pokémon that will fiercely defend its home.",
+      "suggested_rank": "Rookie",
+      "attributes": {
+        "strength": {"value": 7, "limit": 12},
+        "dexterity": {"value": 6, "limit": 10},
+        "vitality": {"value": 8, "limit": 13},
+        "special": {"value": 6, "limit": 10},
+        "insight": {"value": 7, "limit": 12}
+      },
+      "derived_stats": {"base_hp": 8, "hp": 16, "defense": 8, "special_defense": 7},
+      "abilities": ["Water Veil", "Thick Fat", "Swift Swim (Hidden)"],
+      "skills": ["Swimmer", "Acrobat"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Water Gun", "Growl", "Quick Attack"],
+        "rank_2_rookie": ["Aqua Jet", "Bite", "Dive", "Assurance", "Water Pulse"],
+        "rank_3_standard": ["Crunch", "Waterfall", "Aqua Tail", "Hydro Pump"],
+        "rank_4_advanced": ["Double-Edge", "Final Gambit", "Liquidation"],
+        "rank_5_expert": ["Hydro Cannon", "Giga Impact"]
+      },
+      "evolution": "Evolves into Majestrias."
+    },
+    {
+      "name": "Majestrias",
+      "id": "A074",
+      "typing": ["Water"],
+      "concept": "The King Sea Lion Pokémon. A massive, powerful sea lion that is the unquestioned king of its territory. Its roar can be heard for miles.",
+      "suggested_rank": "Standard",
+      "attributes": {
+        "strength": {"value": 10, "limit": 15},
+        "dexterity": {"value": 8, "limit": 13},
+        "vitality": {"value": 10, "limit": 15},
+        "special": {"value": 8, "limit": 13},
+        "insight": {"value": 9, "limit": 15}
+      },
+      "derived_stats": {"base_hp": 10, "hp": 20, "defense": 10, "special_defense": 9},
+      "abilities": ["Water Veil", "Thick Fat", "Swift Swim (Hidden)"],
+      "skills": ["Swimmer", "Acrobat"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Water Gun", "Growl", "Quick Attack", "Aqua Jet"],
+        "rank_2_rookie": ["Bite", "Dive", "Assurance", "Water Pulse", "Crunch"],
+        "rank_3_standard": ["Waterfall", "Aqua Tail", "Hydro Pump", "Double-Edge", "Liquidation"],
+        "rank_4_advanced": ["Final Gambit", "Giga Impact", "Hydro Cannon"],
+        "rank_5_expert": ["Fissure", "Blizzard"]
+      },
+      "evolution": "Final Stage."
+    }
+  ]
+}
