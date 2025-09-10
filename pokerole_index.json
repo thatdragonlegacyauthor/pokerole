@@ -1,81 +1,98 @@
 {
-  "pokerole_index": {
-    "title": "Pokémon Legacy TTRPG - Master Index",
-    "description": "A comprehensive index of all core rulebooks and data compendiums for the Pokémon Legacy TTRPG.",
-    "chapters": [
+  "pokerole_system_index": {
+    "title": "Pokémon Legacy TTRPG - Master Index (Granular)",
+    "description": "A comprehensive, file-by-file index of all core rulebooks and data compendiums.",
+    "core_rulebook": [
       {
-        "chapter_number": "1",
+        "chapter": 1,
         "title": "The Core System",
         "file_path": "c1_the_core.json",
-        "contents": ["Attributes", "Skills", "Derived Stats", "Dice System", "Progression Concepts"]
+        "contents": ["attributes", "skills", "derived_stats", "dice_system", "relational_and_progression_concepts"]
       },
       {
-        "chapter_number": "5",
+        "chapter": 2,
+        "title": "Character Creation",
+        "file_path": "c2_character_creation.json",
+        "contents": ["core_concept", "origins", "attributes_and_skills", "final_touches"]
+      },
+      {
+        "chapter": 3,
+        "title": "Trainer Classes",
+        "file_path": "c3_classes.json",
+        "contents": ["base_classes", "class_progression"]
+      },
+      {
+        "chapter": 4,
+        "title": "The Rank System",
+        "file_path": "c4_ranks.json",
+        "contents": ["trainer_progression", "ranks"]
+      },
+      {
+        "chapter": 5,
         "title": "Pokémon Battles",
-        "file_path": "c5_battles",
-        "contents": ["Type Effectiveness", "Flow of Battle", "Action Resolution", "Health & Fainting", "Status Ailments", "Weather Conditions"]
+        "file_path": "c5_battles.json",
+        "contents": ["type_effectiveness", "flow_of_battle", "action_resolution", "health_and_fainting", "status_effects", "weather_conditions"]
       },
       {
-        "chapter_number": "9",
-        "title": "Pokédex",
-        "file_path": "c9_pokedex/",
-        "contents": [
-          {
-            "region": "Kanto",
-            "files": ["pokedex001-009.json", "pokedex010-060.json", "pokedex061-105.json", "pokedex106-151.json"]
-          },
-          {
-            "region": "Johto",
-            "files": ["pokedex152-202.json", "pokedex203-251.json"]
-          },
-          {
-            "region": "Hoenn",
-            "files": ["pokedex252-319.json", "pokedex320-370.json", "pokedex371-386.json"]
-          },
-          {
-            "region": "Sinnoh",
-            "files": ["pokedex387-440.json", "pokedex441-470.json"]
-          },
-          {
-            "region": "Unova",
-            "files": ["pokedex494-545.json", "pokedex546-597.json", "pokedex598-649.json"]
-          },
-          {
-            "region": "Kalos",
-            "files": ["pokedex650-685.json", "pokedex686-721.json"]
-          },
-          {
-            "region": "Alola",
-            "files": ["pokedex722-765.json", "pokedex766-809.json"]
-          },
-          {
-            "region": "Galar",
-            "files": ["pokedex810-857.json", "pokedex858-905.json"]
-          },
-          {
-            "region": "Paldea",
-            "files": ["pokedex906-943.json", "pokedex944-981.json", "pokedex982-1025.json"]
-          }
-        ]
+        "chapter": 6,
+        "title": "Acquiring Pokémon",
+        "file_path": "c6_acquiring_pokemon.json",
+        "contents": ["finding_wild_pokemon", "capture_mechanic", "poke_balls", "alternatives_to_capturing"]
       },
       {
-        "chapter_number": "11",
-        "title": "Movedex",
-        "file_path": "c11_moves/",
-        "contents": ["Bug Moves", "Dark Moves", "Dragon Moves", "Electric Moves", "Fairy Moves", "Fighting Moves", "Fire Moves", "Flying Moves", "Ghost Moves", "Grass Moves", "Ground Moves", "Ice Moves", "Normal Moves", "Poison Moves", "Psychic Moves", "Rock Moves", "Steel Moves", "Water Moves"]
+        "chapter": 7,
+        "title": "Training & Growth",
+        "file_path": "c7_training_and_growth.json",
+        "contents": ["earning_training_points", "spending_training_points", "alternative_training"]
       },
       {
-        "chapter_number": "12",
-        "title": "Abilitydex",
-        "file_path": "c12_abilitydex/",
-        "contents": ["Abilities A-C", "Abilities D-J", "Abilities K-R", "Abilities S-Z"]
+        "chapter": 8,
+        "title": "Items for the Journey",
+        "file_path": "c8_items.json",
+        "contents": ["trainer_gear", "healing_items", "held_items", "evolutionary_items"]
       },
       {
-        "chapter_number": "13",
+        "chapter": 13,
         "title": "Gamemaster's Guide",
         "file_path": "ch13_gamemasters_guide/",
-        "contents": ["Storytelling", "NPCs & Encounters", "Advanced Battle Mechanics", "League & Adversaries"]
+        "parts": [
+            {"part": 1, "title": "Storytelling", "file": "part1_storytelling.json"},
+            {"part": 2, "title": "NPCs & Encounters", "file": "part2_npcs_and_encounters.json"},
+            {"part": 3, "title": "Advanced Battle Mechanics", "file": "part3_advanced_battle_mechanics.json"},
+            {"part": 4, "title": "League & Adversaries", "file": "part4_league_and_adversaries.json"}
+        ]
       }
-    ]
+    ],
+    "game_data_compendium": {
+      "pokedex": {
+        "directory": "c9_pokedex/",
+        "regions": [
+          {"region": "Kanto", "files": ["kanto/pokedex001-009.json", "kanto/pokedex010-060.json", "kanto/pokedex061-105.json", "kanto/pokedex106-151.json"]},
+          {"region": "Johto", "files": ["johto/pokedex152-202.json", "johto/pokedex203-251.json"]},
+          {"region": "Hoenn", "files": ["hoenn/pokedex252-319.json", "hoenn/pokedex320-370.json", "hoenn/pokedex371-386.json"]},
+          {"region": "Sinnoh", "files": ["sinnoh/pokedex387-440.json", "sinnoh/pokedex441-470.json"]},
+          {"region": "Unova", "files": ["unova/pokedex494-545.json", "unova/pokedex546-597.json", "unova/pokedex598-649.json"]},
+          {"region": "Kalos", "files": ["kalos/pokedex650-685.json", "kalos/pokedex686-721.json"]},
+          {"region": "Alola", "files": ["alola/pokedex722-765.json", "alola/pokedex766-809.json"]},
+          {"region": "Galar", "files": ["galar/pokedex810-857.json", "galar/pokedex858-905.json"]},
+          {"region": "Paldea", "files": ["paldea/pokedex906-943.json", "paldea/pokedex944-981.json", "paldea/pokedex982-1025.json"]}
+        ]
+      },
+      "forms_dex": {
+        "directory": "c10_forms/",
+        "files": ["other_forms.json", "regional_alola.json", "regional_galar.json", "regional_hisui.json"]
+      },
+      "movedex": {
+        "directory": "c11_moves/",
+        "files": ["bug.json", "dark.json", "dragon.json", "electric.json", "fairy.json", "fighting.json", "fire.json", "flying.json", "ghost.json", "grass.json", "ground.json", "ice.json", "normal.json", "poison.json", "psychic.json", "rock.json", "steel.json", "water.json"]
+      },
+      "abilitydex": {
+        "directory": "c12_abilitydex/",
+        "files": ["abilities_a-c.json", "abilities_d-j.json", "abilities_k-r.json", "abilities_s-z.json"]
+      }
+    },
+    "custom_content_index": {
+      "file_path": "aethel/aethel_index.json"
+    }
   }
 }
