@@ -1,0 +1,91 @@
+{
+  "new_moves": [
+    {
+      "name": "Glacial Roots",
+      "type": "Grass",
+      "description": "The Pokémon slams its horns into the ground, causing massive roots made of solid ice to erupt from below. It is a powerful physical attack that deals damage and has a chance to bind the opponent, preventing them from moving for one turn. It also has a chance to summon a thick fog on the battlefield, which can be used to hide allies."
+    },
+    {
+      "name": "Plasma Plume",
+      "type": "Electric",
+      "description": "The Pokémon exhales a torrent of superheated, electrically charged plasma. It is a powerful special attack that deals massive damage and has a high chance of causing a burn or paralysis. The move is highly volatile and could cause the Pokémon to become overcharged, causing it to take damage from the next attack it receives."
+    },
+    {
+      "name": "Stone Torrent",
+      "type": "Water",
+      "description": "The Pokémon summons a massive wave of water and jagged rocks that crashes down on the opponent. It is a powerful physical attack that deals massive damage and has a high chance of causing the opponent to flinch. It can also cause a sandstorm on the battlefield, which can be used to damage all opponents."
+    },
+    {
+      "name": "Mossy Coat",
+      "type": "Grass",
+      "description": "The Pokémon hardens its mossy coat into a protective layer, increasing its Defense and Special Defense for the next two turns. It also restores a small amount of its HP. This move has no effect on a Pokémon that is not Grass-type."
+    },
+    {
+      "name": "Glacial Horns",
+      "type": "Ice",
+      "description": "The Pokémon charges its horns with a powerful blast of freezing energy and charges at the opponent. It is a powerful physical attack that deals massive damage and has a high chance of causing a freeze."
+    },
+    {
+      "name": "Plasma Surge",
+      "type": "Electric",
+      "description": "The Pokémon's body becomes supercharged with electricity. Its next Electric-type move will have increased damage and a high chance of causing paralysis. This move has no effect on a Pokémon that is not Electric-type."
+    },
+    {
+      "name": "Volcanic Roar",
+      "type": "Fire",
+      "description": "The Pokémon unleashes a powerful roar that is a mix of a fiery blast and a shockwave. It is a powerful special attack that deals massive damage and has a high chance of causing a burn or a flinch."
+    },
+    {
+      "name": "Geothermal Drill",
+      "type": "Ground",
+      "description": "The Pokémon drills into the ground, causing a powerful geyser of superheated steam to erupt from below. It is a powerful physical attack that deals massive damage and has a high chance of causing a burn."
+    },
+    {
+      "name": "Stone Shell",
+      "type": "Rock",
+      "description": "The Pokémon hardens its body into a solid rock, increasing its Defense and Special Defense for the next two turns. It also restores a small amount of its HP. This move has no effect on a Pokémon that is not Rock-type."
+    }
+  ],
+  "new_abilities": [
+    {
+      "name": "Glacial Sprout",
+      "description": "When the Pokémon enters the battlefield, it immediately summons a hail storm for five turns. While hail is active, the Pokémon's Grass-type moves deal increased damage."
+    },
+    {
+      "name": "Thermal Overload",
+      "description": "When the Pokémon is hit with a move that is super-effective against it, it becomes overcharged with heat and electricity. Its Speed and Special Attack are increased, and its next move will be a guaranteed critical hit."
+    },
+    {
+      "name": "System Shock",
+      "description": "When the Pokémon enters the battlefield, it emits a powerful pulse of energy that can paralyze all opponents and lower their Speed and Special Attack. This ability can only be used once per battle."
+    },
+    {
+      "name": "Permafrost",
+      "description": "Increases the Pokémon's Defense and Special Defense when it is hit with a Fire-type move. It also makes the Pokémon immune to freezing and all other ice-related status conditions."
+    },
+    {
+      "name": "Volcanic Surge",
+      "description": "Increases the Pokémon's Speed and Attack when it is hit with a Water-type move. It also makes the Pokémon immune to all water-related status conditions."
+    },
+    {
+      "name": "Glacial Armor",
+      "description": "Increases the Pokémon's Defense and Special Defense when it is hit with a Fire-type or Electric-type move. It also makes the Pokémon immune to all ice-related status conditions."
+    },
+    {
+      "name": "Geothermal Core",
+      "description": "When the Pokémon is hit with an Ice-type move, its internal core heats up, raising its Attack and Special Attack. It also becomes immune to freezing and all other ice-related status conditions."
+    },
+    {
+      "name": "Rootbound",
+      "description": "When the Pokémon is hit with a physical attack, it has a chance to entangle the attacker's Pokémon in icy roots, preventing it from switching out or retreating."
+    },
+    {
+      "name": "Glacial Shell",
+      "description": "When the Pokémon is hit with a move that would cause a status condition, it hardens its body into a solid rock, making it immune to that status condition for the remainder of the battle."
+    },
+    {
+      "name": "Stone Heart",
+      "description": "When the Pokémon is hit with a critical hit, it hardens its body into a solid rock. Its Defense and Special Defense stats are increased, and it is immune to critical hits for the remainder of the battle."
+    }
+  ]
+}
