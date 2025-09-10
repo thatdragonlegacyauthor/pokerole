@@ -1,0 +1,23 @@
+{
+  "aethelian_variants_project": [
+    {"name": "Aethelian Ursaring", "type": "Ice / Fighting", "concept": "A powerful, physically imposing variant inspired by the massive Kodiak bears of Alaska."},
+    {"name": "Aethelian Kingler", "type": "Water / Steel", "concept": "A larger, more formidable variant inspired by the Alaskan King Crab, with a durable, metallic shell."},
+    {"name": "Aethelian Heliolisk", "type": "Electric / Ice", "concept": "A variant that has adapted to absorb energy from the Aurora Borealis through its icy frill."},
+    {"name": "Aethelian Tauros & Miltank", "type": "Normal / Ice", "concept": "Hardy, resilient herd animals with thick, shaggy coats, inspired by the Muskox."},
+    {"name": "Aethelian Skarmory", "type": "Steel / Ice", "concept": "Its metallic body is super-chilled, causing moisture to flash-freeze into an armor of rime ice and sharp ice shards."},
+    {"name": "Aethelian Ariados", "type": "Bug / Ice", "concept": "A patient hunter that spins beautiful, intricate webs covered in a layer of immobilizing frost."},
+    {"name": "Aethelian Florges line", "type": "Fairy / Ice", "concept": "A fairy line that has formed a symbiotic relationship with a magical, unmelting snowflake instead of a flower."},
+    {"name": "Aethelian Arbok", "type": "Ground / Ice", "concept": "A serpent that burrows through permafrost and uses a cryo-toxin to freeze and immobilize prey."},
+    {"name": "Aethelian Dunsparce & Dunserpent", "type": "Ground / Dragon", "concept": "A new evolutionary line for Dunsparce, inspired by the legendary Inuit cryptid, the Tizheruk."},
+    {"name": "Aethelian Trevenant", "type": "Ghost / Fire", "concept": "A benevolent spirit of rebirth, its body made of charred birch wood with a head of spectral flame, representing natural wildfires."},
+    {"name": "Aethelian Quagsire", "type": "Ground / Fairy", "concept": "A variant infused with the magical, life-giving properties of mineral-rich glacial silt from Aethel's rivers."},
+    {"name": "Aethelian Spiritomb", "type": "Ghost / Rock", "concept": "A primal nature spirit whose 108 souls are bound to an ancient, mossy petroglyph stone instead of a man-made keystone."},
+    {"name": "Aethelian Noctowl", "type": "Ice / Flying", "concept": "A silent predator of the frozen forests and tundra, based on the snowy owl."},
+    {"name": "Aethelian Sudowoodo", "type": "Rock / Grass", "concept": "Mimics the petrified, moss-covered logs found in Aethel's ancient forests."},
+    {"name": "Aethelian Golem", "type": "Rock / Water", "concept": "Its body is formed from smooth, dark river stones, carved by millennia of powerful currents."},
+    {"name": "Aethelian Lumineon", "type": "Water / Ghost", "concept": "An ethereal spirit of a salmon that has completed its long journey, now dwelling in the darkest depths of Aethel's fjords."},
+    {"name": "Aethelian Pyroar", "type": "Ice / Normal", "concept": "A tundra predator based on the Canada lynx, with a mane of icicles and paws like snowshoes."},
+    {"name": "Aethelian Gogoat", "type": "Ice / Rock", "concept": "A variant adapted to treacherous, icy mountain peaks, based on a mountain goat."},
+    {"name": "Aethelian Excadrill", "type": "Ground / Ice", "concept": "Adapted to digging through solid permafrost with super-chilled steel claws."}
+  ]
+}
