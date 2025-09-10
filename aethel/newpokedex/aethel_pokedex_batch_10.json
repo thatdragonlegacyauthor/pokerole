@@ -1,0 +1,301 @@
+{
+  "aethel_pokedex_batch_10": [
+    {
+      "name": "Pikaneer",
+      "id": "A084",
+      "typing": ["Electric"],
+      "concept": "The Collared Pika Pokémon. A small, Electric-type Pokémon with a high-pitched chirp used to communicate with other Pokémon through electrical signals.",
+      "suggested_rank": "Starter",
+      "attributes": {
+        "strength": {"value": 4, "limit": 8},
+        "dexterity": {"value": 7, "limit": 12},
+        "vitality": {"value": 4, "limit": 8},
+        "special": {"value": 6, "limit": 10},
+        "insight": {"value": 5, "limit": 9}
+      },
+      "derived_stats": {"base_hp": 4, "hp": 8, "defense": 4, "special_defense": 5},
+      "abilities": ["Static", "Quick Feet", "Lightning Rod (Hidden)"],
+      "skills": ["Acrobat", "Stealth"],
+      "move_pool": {
+        "rank_1_starter": ["Growl", "Thunder Shock", "Quick Attack", "Leer"],
+        "rank_2_rookie": ["Spark", "Charge Beam", "Nuzzle", "Agility"],
+        "rank_3_standard": ["Thunderbolt", "Thunder", "Electro Ball"],
+        "rank_4_advanced": ["Discharge", "Wild Charge"],
+        "rank_5_expert": ["Zap Cannon"]
+      },
+      "evolution": "Final Stage."
+    },
+    {
+      "name": "Sneasby",
+      "id": "A085",
+      "typing": ["Dark", "Ice"],
+      "concept": "A small, timid creature known for its mischievous nature. Its unique genetic code makes it a prime target for the Eon Remnants' 'Apex Protocol.'",
+      "suggested_rank": "Rookie",
+      "attributes": {
+        "strength": {"value": 3, "limit": 6},
+        "dexterity": {"value": 5, "limit": 9},
+        "vitality": {"value": 3, "limit": 6},
+        "special": {"value": 4, "limit": 8},
+        "insight": {"value": 4, "limit": 8}
+      },
+      "derived_stats": {"base_hp": 3, "hp": 6, "defense": 3, "special_defense": 4},
+      "abilities": ["Inner Focus", "Keen Eye", "Pickpocket (Hidden)"],
+      "skills": ["Acrobat", "Stealth"],
+      "move_pool": {
+        "rank_1_starter": ["Scratch", "Leer", "Astonish", "Quick Attack"],
+        "rank_2_rookie": ["Icy Wind", "Feint Attack", "Ice Shard"],
+        "rank_3_standard": ["Nasty Plot", "Snarl"],
+        "rank_4_advanced": ["Foul Play"]
+      },
+      "evolution": "Evolves into Sneasel with high Happiness while holding a Razor Claw at night. Evolves into Aethelian Sneasel when exposed to an 'Apex Catalyst.'"
+    },
+    {
+      "name": "Sneasel (Aethelian Form)",
+      "id": "A086",
+      "typing": ["Ice", "Electric"],
+      "concept": "Engineered by the Eon Remnants, this Sneasel was created to absorb and weaponize the Aethel region's unique atmospheric electricity. Its fur is a stark white, with veins of glowing, electric blue running through it like living circuits.",
+      "suggested_rank": "Standard",
+      "attributes": {
+        "strength": {"value": 5, "limit": 10},
+        "dexterity": {"value": 7, "limit": 13},
+        "vitality": {"value": 3, "limit": 6},
+        "special": {"value": 5, "limit": 10},
+        "insight": {"value": 4, "limit": 9}
+      },
+      "derived_stats": {"base_hp": 6, "hp": 9, "defense": 3, "special_defense": 4},
+      "abilities": ["Volt Absorb", "Slush Rush", "Motor Drive (Hidden)"],
+      "skills": ["Acrobat", "Stealth", "Zapper"],
+      "move_pool": {
+        "rank_1_starter": ["Thunder Shock", "Leer", "Taunt"],
+        "rank_2_rookie": ["Quick Attack", "Icy Wind", "Spark", "Assurance"],
+        "rank_3_standard": ["Fury Swipes", "Agility", "Metal Claw", "Hone Claws", "Nasty Plot"],
+        "rank_4_advanced": ["Beat Up", "Screech", "Slash", "Snatch", "Punishment", "Fling", "Dark Pulse"]
+      },
+      "evolution": "Evolves into Aethelian Weavile when holding a Magnet during a hailstorm."
+    },
+    {
+      "name": "Weavile (Aethelian Form)",
+      "id": "A087",
+      "typing": ["Ice", "Electric"],
+      "concept": "The ultimate tundra predator, this Pokémon combines natural cold adaptation with potent electrical power. Its magnetized ice claws constantly crackle with static discharge.",
+      "suggested_rank": "Advanced",
+      "attributes": {
+        "strength": {"value": 6, "limit": 12},
+        "dexterity": {"value": 8, "limit": 14},
+        "vitality": {"value": 4, "limit": 8},
+        "special": {"value": 7, "limit": 14},
+        "insight": {"value": 5, "limit": 10}
+      },
+      "derived_stats": {"base_hp": 8, "hp": 12, "defense": 4, "special_defense": 5},
+      "abilities": ["Volt Absorb", "Slush Rush", "Motor Drive (Hidden)"],
+      "skills": ["Acrobat", "Stealth", "Zapper"],
+      "move_pool": {
+        "rank_1_starter": ["Thunder Shock", "Leer", "Taunt", "Embargo", "Revenge"],
+        "rank_2_rookie": ["Quick Attack", "Spark", "Icy Wind", "Assurance"],
+        "rank_3_standard": ["Fury Swipes", "Agility", "Metal Claw", "Hone Claws", "Nasty Plot", "Thunderbolt"],
+        "rank_4_advanced": ["Aurora Pulse", "Ice Beam", "Slash", "Snatch", "Punishment", "Fling", "Dark Pulse"]
+      },
+      "evolution": "Final Stage."
+    },
+    {
+      "name": "Psybergeist",
+      "id": "A088",
+      "typing": ["Psychic", "Ghost"],
+      "concept": "The Corrupted Spirit Pokémon. A small, ghostly creature often seen in the shadows of Cryosys facilities, born from a spirit corrupted by technology.",
+      "suggested_rank": "Starter",
+      "attributes": {
+        "strength": {"value": 3, "limit": 6},
+        "dexterity": {"value": 7, "limit": 12},
+        "vitality": {"value": 4, "limit": 8},
+        "special": {"value": 6, "limit": 10},
+        "insight": {"value": 5, "limit": 9}
+      },
+      "derived_stats": {"base_hp": 4, "hp": 8, "defense": 4, "special_defense": 5},
+      "abilities": ["Levitate", "Clear Body", "Technician (Hidden)"],
+      "skills": ["Acrobat", "Stealth"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Hypnosis", "Lick", "Confusion"],
+        "rank_2_rookie": ["Psybeam", "Shadow Sneak", "Disable"],
+        "rank_3_standard": ["Psychic", "Shadow Ball", "Psyshock"],
+        "rank_4_advanced": ["Future Sight", "Hex", "Poltergeist"],
+        "rank_5_expert": ["Dream Eater"]
+      },
+      "evolution": "Evolves into Spectracon."
+    },
+    {
+      "name": "Spectracon",
+      "id": "A089",
+      "typing": ["Psychic", "Ghost"],
+      "concept": "The Phantom Wyrm Pokémon. A serpentine creature with a body of psychic energy and a head made of a strange, metallic alloy.",
+      "suggested_rank": "Rookie",
+      "attributes": {
+        "strength": {"value": 5, "limit": 9},
+        "dexterity": {"value": 8, "limit": 13},
+        "vitality": {"value": 6, "limit": 10},
+        "special": {"value": 8, "limit": 13},
+        "insight": {"value": 7, "limit": 12}
+      },
+      "derived_stats": {"base_hp": 6, "hp": 12, "defense": 6, "special_defense": 7},
+      "abilities": ["Levitate", "Clear Body", "Technician (Hidden)"],
+      "skills": ["Acrobat", "Stealth"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Hypnosis", "Lick", "Confusion"],
+        "rank_2_rookie": ["Psybeam", "Shadow Sneak", "Disable", "Psychic"],
+        "rank_3_standard": ["Shadow Ball", "Psyshock", "Future Sight", "Hex"],
+        "rank_4_advanced": ["Poltergeist", "Dream Eater", "Psychic"],
+        "rank_5_expert": ["Phantom Force", "Shadow Force"]
+      },
+      "evolution": "Evolves into Technomancy."
+    },
+    {
+      "name": "Technomancy",
+      "id": "A090",
+      "typing": ["Psychic", "Ghost"],
+      "concept": "The Chimera Pokémon. A monstrous hybrid of a wild animal and a machine, its psychic powers are amplified by technology. A symbol of the dangers of technology.",
+      "suggested_rank": "Advanced",
+      "attributes": {
+        "strength": {"value": 8, "limit": 13},
+        "dexterity": {"value": 10, "limit": 15},
+        "vitality": {"value": 8, "limit": 13},
+        "special": {"value": 10, "limit": 15},
+        "insight": {"value": 9, "limit": 15}
+      },
+      "derived_stats": {"base_hp": 8, "hp": 16, "defense": 8, "special_defense": 9},
+      "abilities": ["Levitate", "Clear Body", "Technician (Hidden)"],
+      "skills": ["Acrobat", "Stealth"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Hypnosis", "Lick", "Confusion", "Psybeam"],
+        "rank_2_rookie": ["Shadow Sneak", "Disable", "Psychic", "Shadow Ball", "Psyshock"],
+        "rank_3_standard": ["Future Sight", "Hex", "Poltergeist", "Dream Eater"],
+        "rank_4_advanced": ["Phantom Force", "Shadow Force", "Psychic", "Hyper Beam"],
+        "rank_5_expert": ["Blizzard", "Ice Beam"]
+      },
+      "evolution": "Final Stage."
+    },
+    {
+      "name": "Ferrocoil",
+      "id": "A090",
+      "typing": ["Dragon", "Steel"],
+      "concept": "The Magnetic Worm Pokémon. A small, serpentine creature with a body of magnetic coils, often found hiding in deep mines.",
+      "suggested_rank": "Starter",
+      "attributes": {
+        "strength": {"value": 4, "limit": 8},
+        "dexterity": {"value": 5, "limit": 9},
+        "vitality": {"value": 6, "limit": 10},
+        "special": {"value": 5, "limit": 9},
+        "insight": {"value": 4, "limit": 8}
+      },
+      "derived_stats": {"base_hp": 6, "hp": 12, "defense": 6, "special_defense": 5},
+      "abilities": ["Magnet Pull", "Shed Skin", "Levitate (Hidden)"],
+      "skills": ["Acrobat", "Stealth"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Wrap", "Metal Claw", "Thunder Shock"],
+        "rank_2_rookie": ["Dragon Breath", "Iron Defense", "Coil"],
+        "rank_3_standard": ["Dragon Tail", "Flash Cannon", "Iron Head"],
+        "rank_4_advanced": ["Draco Meteor", "Dragon Rush"],
+        "rank_5_expert": ["Steel Beam"]
+      },
+      "evolution": "Evolves into Draconcoil."
+    },
+    {
+      "name": "Draconcoil",
+      "id": "A091",
+      "typing": ["Dragon", "Steel"],
+      "concept": "The Magnetic Serpent Pokémon. It can generate a powerful magnetic field, causing metallic objects to fly around it.",
+      "suggested_rank": "Rookie",
+      "attributes": {
+        "strength": {"value": 7, "limit": 12},
+        "dexterity": {"value": 7, "limit": 12},
+        "vitality": {"value": 8, "limit": 13},
+        "special": {"value": 7, "limit": 12},
+        "insight": {"value": 6, "limit": 10}
+      },
+      "derived_stats": {"base_hp": 8, "hp": 16, "defense": 8, "special_defense": 7},
+      "abilities": ["Magnet Pull", "Shed Skin", "Levitate (Hidden)"],
+      "skills": ["Acrobat", "Stealth"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Wrap", "Metal Claw", "Thunder Shock"],
+        "rank_2_rookie": ["Dragon Breath", "Iron Defense", "Coil", "Dragon Tail"],
+        "rank_3_standard": ["Flash Cannon", "Iron Head", "Draco Meteor", "Dragon Rush"],
+        "rank_4_advanced": ["Steel Beam", "Outrage"],
+        "rank_5_expert": ["Metal Burst", "Hyper Beam"]
+      },
+      "evolution": "Evolves into Titanomagnus."
+    },
+    {
+      "name": "Titanomagnus",
+      "id": "A092",
+      "typing": ["Dragon", "Steel"],
+      "concept": "The Geomagnetic Wyrm Pokémon. A massive dragon that can control the magnetic fields of the earth, disrupting technology and creating storms.",
+      "suggested_rank": "Advanced",
+      "attributes": {
+        "strength": {"value": 10, "limit": 15},
+        "dexterity": {"value": 9, "limit": 15},
+        "vitality": {"value": 9, "limit": 15},
+        "special": {"value": 9, "limit": 15},
+        "insight": {"value": 8, "limit": 13}
+      },
+      "derived_stats": {"base_hp": 10, "hp": 19, "defense": 9, "special_defense": 9},
+      "abilities": ["Magnet Pull", "Shed Skin", "Levitate (Hidden)"],
+      "skills": ["Acrobat", "Stealth"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Wrap", "Metal Claw", "Thunder Shock", "Dragon Breath"],
+        "rank_2_rookie": ["Iron Defense", "Coil", "Dragon Tail", "Flash Cannon", "Iron Head"],
+        "rank_3_standard": ["Draco Meteor", "Dragon Rush", "Steel Beam", "Outrage"],
+        "rank_4_advanced": ["Metal Burst", "Hyper Beam", "Magnet Rise", "Meteor Mash"],
+        "rank_5_expert": ["Giga Impact", "Draco Meteor"]
+      },
+      "evolution": "Final Stage."
+    },
+    {
+      "name": "Tuskid",
+      "id": "A093",
+      "typing": ["Ground", "Psychic"],
+      "concept": "The Spiritual Calf Pokémon. A small, woolly creature with a keen psychic sense, able to communicate with the spirits of the past.",
+      "suggested_rank": "Starter",
+      "attributes": {
+        "strength": {"value": 5, "limit": 9},
+        "dexterity": {"value": 3, "limit": 6},
+        "vitality": {"value": 6, "limit": 10},
+        "special": {"value": 6, "limit": 10},
+        "insight": {"value": 5, "limit": 9}
+      },
+      "derived_stats": {"base_hp": 6, "hp": 12, "defense": 6, "special_defense": 5},
+      "abilities": ["Thick Fat", "Solid Rock", "Telepathy (Hidden)"],
+      "skills": ["Endurance", "Telepath"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Confusion", "Mud-Slap", "Growl"],
+        "rank_2_rookie": ["Psybeam", "Bulldoze", "Ancient Power"],
+        "rank_3_standard": ["Earth Power", "Psychic", "Avalanche"],
+        "rank_4_advanced": ["Future Sight", "Earthquake"],
+        "rank_5_expert": ["Head Smash", "Fissure"]
+      },
+      "evolution": "Evolves into Mammosoul."
+    },
+    {
+      "name": "Mammosoul",
+      "id": "A094",
+      "typing": ["Ground", "Psychic"],
+      "concept": "The Ancestral Guardian Pokémon. A massive mammoth that is a guardian of ancient knowledge, its tusks are made of a spiritual, psychically-charged material.",
+      "suggested_rank": "Rookie",
+      "attributes": {
+        "strength": {"value": 8, "limit": 13},
+        "dexterity": {"value": 5, "limit": 9},
+        "vitality": {"value": 10, "limit": 15},
+        "special": {"value": 9, "limit": 15},
+        "insight": {"value": 8, "limit": 13}
+      },
+      "derived_stats": {"base_hp": 10, "hp": 20, "defense": 10, "special_defense": 9},
+      "abilities": ["Thick Fat", "Solid Rock", "Telepathy (Hidden)"],
+      "skills": ["Endurance", "Telepath"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Confusion", "Mud-Slap", "Growl"],
+        "rank_2_rookie": ["Psybeam", "Bulldoze", "Ancient Power", "Earth Power"],
+        "rank_3_standard": ["Psychic", "Avalanche", "Future Sight", "Earthquake"],
+        "rank_4_advanced": ["Head Smash", "Fissure", "Meteor Beam"],
+        "rank_5_expert": ["Giga Impact", "Head Smash"]
+      },
+      "evolution": "Final Stage."
+    }
+  ]
+}
