@@ -1,0 +1,442 @@
+{
+  "aethel_dlc_pokedex": [
+    {
+      "name": "Ferrocoil",
+      "id": "D001",
+      "typing": ["Dragon", "Steel"],
+      "concept": "The Magnetic Worm Pokémon. A small, serpentine creature with a body made of magnetic coils. It can generate a weak magnetic field, causing small metallic objects to stick to it. It is a very timid Pokémon that is often found hiding in the deep mines of the Aethel region.",
+      "suggested_rank": "Starter",
+      "attributes": {
+        "strength": {"value": 4, "limit": 8},
+        "dexterity": {"value": 5, "limit": 9},
+        "vitality": {"value": 6, "limit": 10},
+        "special": {"value": 5, "limit": 9},
+        "insight": {"value": 4, "limit": 8}
+      },
+      "derived_stats": {"base_hp": 6, "hp": 11, "defense": 6, "special_defense": 5},
+      "abilities": ["Magnet Pull", "Shed Skin", "Levitate (Hidden)"],
+      "skills": ["Acrobat", "Stealth"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Wrap", "Metal Claw", "Thunder Shock"],
+        "rank_2_rookie": ["Dragon Breath", "Iron Defense", "Coil"],
+        "rank_3_standard": ["Dragon Tail", "Flash Cannon", "Iron Head"],
+        "rank_4_advanced": ["Draco Meteor", "Dragon Rush"],
+        "rank_5_expert": ["Steel Beam"]
+      },
+      "evolution": "Evolves into Draconcoil."
+    },
+    {
+      "name": "Draconcoil",
+      "id": "D002",
+      "typing": ["Dragon", "Steel"],
+      "concept": "The Magnetic Serpent Pokémon. A larger, more powerful version of Ferrocoil with a body of metallic scales. It can generate a powerful magnetic field, causing metallic objects to fly around it. It is a very territorial Pokémon that will fiercely defend its home from any intruders.",
+      "suggested_rank": "Rookie",
+      "attributes": {
+        "strength": {"value": 7, "limit": 12},
+        "dexterity": {"value": 7, "limit": 12},
+        "vitality": {"value": 8, "limit": 13},
+        "special": {"value": 7, "limit": 12},
+        "insight": {"value": 6, "limit": 10}
+      },
+      "derived_stats": {"base_hp": 8, "hp": 16, "defense": 8, "special_defense": 7},
+      "abilities": ["Magnet Pull", "Shed Skin", "Levitate (Hidden)"],
+      "skills": ["Acrobat", "Stealth"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Wrap", "Metal Claw", "Thunder Shock"],
+        "rank_2_rookie": ["Dragon Breath", "Iron Defense", "Coil", "Dragon Tail"],
+        "rank_3_standard": ["Flash Cannon", "Iron Head", "Draco Meteor", "Dragon Rush"],
+        "rank_4_advanced": ["Steel Beam", "Outrage"],
+        "rank_5_expert": ["Metal Burst", "Hyper Beam"]
+      },
+      "evolution": "Evolves into Titanomagnus."
+    },
+    {
+      "name": "Titanomagnus",
+      "id": "D003",
+      "typing": ["Dragon", "Steel"],
+      "concept": "The Geomagnetic Wyrm Pokémon. A massive, powerful dragon with a body of metallic scales that can control the magnetic fields of the earth. It can disrupt technology and create powerful storms. It is a symbol of the raw, untamed power of the region's geomagnetism.",
+      "suggested_rank": "Advanced",
+      "attributes": {
+        "strength": {"value": 10, "limit": 15},
+        "dexterity": {"value": 9, "limit": 15},
+        "vitality": {"value": 9, "limit": 15},
+        "special": {"value": 9, "limit": 15},
+        "insight": {"value": 8, "limit": 13}
+      },
+      "derived_stats": {"base_hp": 10, "hp": 20, "defense": 9, "special_defense": 9},
+      "abilities": ["Magnet Pull", "Shed Skin", "Levitate (Hidden)"],
+      "skills": ["Acrobat", "Stealth"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Wrap", "Metal Claw", "Thunder Shock", "Dragon Breath"],
+        "rank_2_rookie": ["Iron Defense", "Coil", "Dragon Tail", "Flash Cannon", "Iron Head"],
+        "rank_3_standard": ["Draco Meteor", "Dragon Rush", "Steel Beam", "Outrage"],
+        "rank_4_advanced": ["Metal Burst", "Hyper Beam", "Magnet Rise", "Meteor Mash"],
+        "rank_5_expert": ["Giga Impact", "Draco Meteor"]
+      },
+      "evolution": "Final Stage."
+    }
+  ]
+}
+    {
+      "name": "Tuskid",
+      "id": "D004",
+      "typing": ["Ground", "Psychic"],
+      "concept": "The Spiritual Calf Pokémon. A small, woolly creature with a keen psychic sense. It is known for its ability to communicate with the spirits of the past and is a great symbol of the indigenous cultures' connection to the land.",
+      "suggested_rank": "Starter",
+      "attributes": {
+        "strength": {"value": 5, "limit": 9},
+        "dexterity": {"value": 3, "limit": 6},
+        "vitality": {"value": 6, "limit": 10},
+        "special": {"value": 6, "limit": 10},
+        "insight": {"value": 5, "limit": 9}
+      },
+      "derived_stats": {"base_hp": 6, "hp": 11, "defense": 6, "special_defense": 5},
+      "abilities": ["Thick Fat", "Solid Rock", "Telepathy (Hidden)"],
+      "skills": ["Endurance", "Telepath"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Confusion", "Mud-Slap", "Growl"],
+        "rank_2_rookie": ["Psybeam", "Bulldoze", "Ancient Power"],
+        "rank_3_standard": ["Earth Power", "Psychic", "Avalanche"],
+        "rank_4_advanced": ["Future Sight", "Earthquake"],
+        "rank_5_expert": ["Head Smash", "Fissure"]
+      },
+      "evolution": "Evolves into Mammosoul."
+    },
+    {
+      "name": "Mammosoul",
+      "id": "D005",
+      "typing": ["Ground", "Psychic"],
+      "concept": "The Ancestral Guardian Pokémon. A massive, powerful mammoth that is a guardian of ancient knowledge. Its powerful tusks are made of a spiritual, psychically-charged material. It can use its psychic abilities to communicate with the spirits of the past and can cause small earthquakes with its footsteps. Its lore is tied to the spiritual power of the indigenous cultures and the ancient knowledge they hold.",
+      "suggested_rank": "Rookie",
+      "attributes": {
+        "strength": {"value": 8, "limit": 13},
+        "dexterity": {"value": 5, "limit": 9},
+        "vitality": {"value": 10, "limit": 15},
+        "special": {"value": 9, "limit": 15},
+        "insight": {"value": 8, "limit": 13}
+      },
+      "derived_stats": {"base_hp": 10, "hp": 20, "defense": 10, "special_defense": 9},
+      "abilities": ["Thick Fat", "Solid Rock", "Telepathy (Hidden)"],
+      "skills": ["Endurance", "Telepath"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Confusion", "Mud-Slap", "Growl"],
+        "rank_2_rookie": ["Psybeam", "Bulldoze", "Ancient Power", "Earth Power"],
+        "rank_3_standard": ["Psychic", "Avalanche", "Future Sight", "Earthquake"],
+        "rank_4_advanced": ["Head Smash", "Fissure", "Meteor Beam"],
+        "rank_5_expert": ["Giga Impact", "Head Smash"]
+      },
+      "evolution": "Final Stage."
+    }
+  ]
+}
+    {
+
+      "name": "Psybergeist",
+
+      "id": "D006",
+
+      "typing": ["Psychic", "Ghost"],
+
+      "concept": "The Corrupted Spirit Pokémon. A small, ghostly creature that is often seen in the shadows of Cryosys facilities. It is known for its ability to phase through walls and its eerie, psychically-charged cries. Its lore is tied to a spirit that was corrupted by technology, a great danger in the Aethel region.",
+
+      "suggested_rank": "Starter",
+
+      "attributes": {
+
+        "strength": {"value": 3, "limit": 6},
+
+        "dexterity": {"value": 7, "limit": 12},
+
+        "vitality": {"value": 4, "limit": 8},
+
+        "special": {"value": 6, "limit": 10},
+
+        "insight": {"value": 5, "limit": 9}
+
+      },
+
+      "derived_stats": {"base_hp": 4, "hp": 8, "defense": 4, "special_defense": 5},
+
+      "abilities": ["Levitate", "Clear Body", "Technician (Hidden)"],
+
+      "skills": ["Acrobat", "Stealth"],
+
+      "move_pool": {
+
+        "rank_1_starter": ["Tackle", "Hypnosis", "Lick", "Confusion"],
+
+        "rank_2_rookie": ["Psybeam", "Shadow Sneak", "Disable"],
+
+        "rank_3_standard": ["Psychic", "Shadow Ball", "Psyshock"],
+
+        "rank_4_advanced": ["Future Sight", "Hex", "Poltergeist"],
+
+        "rank_5_expert": ["Dream Eater"]
+
+      },
+
+      "evolution": "Evolves into Spectracon."
+
+    },
+
+    {
+
+      "name": "Spectracon",
+
+      "id": "D007",
+
+      "typing": ["Psychic", "Ghost"],
+
+      "concept": "The Phantom Wyrm Pokémon. A larger, more powerful version of Psybergeist. It is a serpentine creature with a body made of psychic energy and a head made of a strange, metallic alloy. It is a very territorial Pokémon that will fiercely defend its home from any intruders.",
+
+      "suggested_rank": "Rookie",
+
+      "attributes": {
+
+        "strength": {"value": 5, "limit": 9},
+
+        "dexterity": {"value": 8, "limit": 13},
+
+        "vitality": {"value": 6, "limit": 10},
+
+        "special": {"value": 8, "limit": 13},
+
+        "insight": {"value": 7, "limit": 12}
+
+      },
+
+      "derived_stats": {"base_hp": 6, "hp": 12, "defense": 6, "special_defense": 7},
+
+      "abilities": ["Levitate", "Clear Body", "Technician (Hidden)"],
+
+      "skills": ["Acrobat", "Stealth"],
+
+      "move_pool": {
+
+        "rank_1_starter": ["Tackle", "Hypnosis", "Lick", "Confusion"],
+
+        "rank_2_rookie": ["Psybeam", "Shadow Sneak", "Disable", "Psychic"],
+
+        "rank_3_standard": ["Shadow Ball", "Psyshock", "Future Sight", "Hex"],
+
+        "rank_4_advanced": ["Poltergeist", "Dream Eater", "Psychic"],
+
+        "rank_5_expert": ["Phantom Force", "Shadow Force"]
+
+      },
+
+      "evolution": "Evolves into Technomancy."
+
+    },
+
+    {
+
+      "name": "Technomancy",
+
+      "id": "D008",
+
+      "typing": ["Psychic", "Ghost"],
+
+      "concept": "The Chimera Pokémon. A monstrous hybrid of a wild animal and a machine. Its body is a fusion of a wild animal and a machine, and its psychic powers are amplified by the technology. It can create massive ice storms and is a symbol of the dangers of technology. It is a very intelligent and powerful Pokémon that is feared by those who travel alone at night.",
+
+      "suggested_rank": "Advanced",
+
+      "attributes": {
+
+        "strength": {"value": 8, "limit": 13},
+
+        "dexterity": {"value": 10, "limit": 15},
+
+        "vitality": {"value": 8, "limit": 13},
+
+        "special": {"value": 10, "limit": 15},
+
+        "insight": {"value": 9, "limit": 15}
+
+      },
+
+      "derived_stats": {"base_hp": 8, "hp": 16, "defense": 8, "special_defense": 9},
+
+      "abilities": ["Levitate", "Clear Body", "Technician (Hidden)"],
+
+      "skills": ["Acrobat", "Stealth"],
+
+      "move_pool": {
+
+        "rank_1_starter": ["Tackle", "Hypnosis", "Lick", "Confusion", "Psybeam"],
+
+        "rank_2_rookie": ["Shadow Sneak", "Disable", "Psychic", "Shadow Ball", "Psyshock"],
+
+        "rank_3_standard": ["Future Sight", "Hex", "Poltergeist", "Dream Eater"],
+
+        "rank_4_advanced": ["Phantom Force", "Shadow Force", "Psychic", "Hyper Beam"],
+
+        "rank_5_expert": ["Blizzard", "Ice Beam"]
+
+      },
+
+      "evolution": "Final Stage."
+
+    }
+
+  ]
+
+OR
+
+{
+
+  "aethel_dlc_pokedex": [
+
+    {
+
+      "name": "Spiritem",
+
+      "id": "D006",
+
+      "typing": ["Psychic", "Ghost"],
+
+      "concept": "The Corrupted Spirit Pokémon. A small, ghostly creature that has been fused with a technological item. It is a very timid Pokémon that is often found near abandoned research facilities. Its psychic powers are weak, but it can create small illusions to confuse its opponents.",
+
+      "suggested_rank": "Starter",
+
+      "attributes": {
+
+        "strength": {"value": 3, "limit": 6},
+
+        "dexterity": {"value": 5, "limit": 9},
+
+        "vitality": {"value": 4, "limit": 8},
+
+        "special": {"value": 6, "limit": 10},
+
+        "insight": {"value": 5, "limit": 9}
+
+      },
+
+      "derived_stats": {"base_hp": 4, "hp": 8, "defense": 4, "special_defense": 5},
+
+      "abilities": ["Levitate", "Cursed Body", "Shadow Tag (Hidden)"],
+
+      "skills": ["Acrobat", "Stealth"],
+
+      "move_pool": {
+
+        "rank_1_starter": ["Tackle", "Hypnosis", "Lick", "Confuse Ray"],
+
+        "rank_2_rookie": ["Psybeam", "Shadow Sneak", "Disable", "Slam"],
+
+        "rank_3_standard": ["Psychic", "Shadow Ball", "Psyshock"],
+
+        "rank_4_advanced": ["Future Sight", "Hex", "Phantom Force"],
+
+        "rank_5_expert": ["Dream Eater"]
+
+      },
+
+      "evolution": "Evolves into Mindspectre."
+
+    },
+
+    {
+
+      "name": "Mindspectre",
+
+      "id": "D007",
+
+      "typing": ["Psychic", "Ghost"],
+
+      "concept": "The Cybernetic Spectre Pokémon. A larger, more powerful version of Spiritem. Its body is a fusion of a wild animal and a technological machine. It can use its psychic abilities to create powerful illusions and can use its ghost-like body to pass through solid objects.",
+
+      "suggested_rank": "Rookie",
+
+      "attributes": {
+
+        "strength": {"value": 5, "limit": 9},
+
+        "dexterity": {"value": 7, "limit": 12},
+
+        "vitality": {"value": 6, "limit": 10},
+
+        "special": {"value": 8, "limit": 13},
+
+        "insight": {"value": 7, "limit": 12}
+
+      },
+
+      "derived_stats": {"base_hp": 6, "hp": 12, "defense": 6, "special_defense": 7},
+
+      "abilities": ["Levitate", "Cursed Body", "Shadow Tag (Hidden)"],
+
+      "skills": ["Acrobat", "Stealth"],
+
+      "move_pool": {
+
+        "rank_1_starter": ["Tackle", "Hypnosis", "Lick", "Confuse Ray"],
+
+        "rank_2_rookie": ["Psybeam", "Shadow Sneak", "Disable", "Slam", "Psychic"],
+
+        "rank_3_standard": ["Shadow Ball", "Psyshock", "Future Sight", "Hex"],
+
+        "rank_4_advanced": ["Phantom Force", "Dream Eater", "Psychic"],
+
+        "rank_5_expert": ["Destiny Bond", "Nasty Plot"]
+
+      },
+
+      "evolution": "Evolves into Technoweaver."
+
+    },
+
+    {
+
+      "name": "Technoweaver",
+
+      "id": "D008",
+
+      "typing": ["Psychic", "Ghost"],
+
+      "concept": "The Ethereal-Cyber Spectre Pokémon. A massive, terrifying creature that is a fusion of a wild animal and a machine. It can use its psychic abilities to create powerful ice storms and can use its ghost-like body to pass through solid objects. It is a symbol of the dangers of technology and is a master of illusions.",
+
+      "suggested_rank": "Advanced",
+
+      "attributes": {
+
+        "strength": {"value": 7, "limit": 12},
+
+        "dexterity": {"value": 9, "limit": 15},
+
+        "vitality": {"value": 8, "limit": 13},
+
+        "special": {"value": 10, "limit": 15},
+
+        "insight": {"value": 9, "limit": 15}
+
+      },
+
+      "derived_stats": {"base_hp": 8, "hp": 16, "defense": 8, "special_defense": 9},
+
+      "abilities": ["Levitate", "Cursed Body", "Shadow Tag (Hidden)"],
+
+      "skills": ["Acrobat", "Stealth"],
+
+      "move_pool": {
+
+        "rank_1_starter": ["Tackle", "Hypnosis", "Lick", "Confuse Ray", "Psybeam", "Shadow Sneak"],
+
+        "rank_2_rookie": ["Disable", "Slam", "Psychic", "Shadow Ball", "Psyshock"],
+
+        "rank_3_standard": ["Future Sight", "Hex", "Phantom Force", "Dream Eater"],
+
+        "rank_4_advanced": ["Destiny Bond", "Nasty Plot", "Blizzard"],
+
+        "rank_5_expert": ["Spacial Rend", "Blizzard"]
+
+      },
+
+      "evolution": "Final Stage."
+
+    }
+
+  ]
+
+}
