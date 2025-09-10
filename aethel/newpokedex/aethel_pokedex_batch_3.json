@@ -1,0 +1,179 @@
+{
+  "aethel_pokedex_batch_3": [
+    {
+      "name": "Lycosibae",
+      "id": "A019",
+      "typing": ["Bug", "Ground"],
+      "concept": "The Wolf Spider Pokémon. A small, fast-moving spider that is a master of hunting on the ground, camouflaged in dirt and rocks.",
+      "suggested_rank": "Starter",
+      "attributes": {
+        "strength": {"value": 5, "limit": 9},
+        "dexterity": {"value": 7, "limit": 12},
+        "vitality": {"value": 4, "limit": 8},
+        "special": {"value": 3, "limit": 6},
+        "insight": {"value": 5, "limit": 9}
+      },
+      "derived_stats": {"base_hp": 4, "hp": 8, "defense": 4, "special_defense": 5},
+      "abilities": ["Swarm", "Compound Eyes", "Stealthy (Hidden)"],
+      "skills": ["Acrobat", "Stealth"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "String Shot", "Mud-Slap", "Leer"],
+        "rank_2_rookie": ["Bug Bite", "Dig", "Sucker Punch"],
+        "rank_3_standard": ["Bug Buzz", "Earthquake"],
+        "rank_4_advanced": ["Megahorn", "U-turn"],
+        "rank_5_expert": ["First Impression"]
+      },
+      "evolution": "Evolves into Lycosacrawl."
+    },
+    {
+      "name": "Lycosacrawl",
+      "id": "A020",
+      "typing": ["Bug", "Ground"],
+      "concept": "The Predator Pokémon. A large, formidable wolf spider that digs burrows to ambush its prey. It is a master of stealth and long-distance tracking.",
+      "suggested_rank": "Rookie",
+      "attributes": {
+        "strength": {"value": 8, "limit": 13},
+        "dexterity": {"value": 9, "limit": 15},
+        "vitality": {"value": 6, "limit": 10},
+        "special": {"value": 5, "limit": 9},
+        "insight": {"value": 7, "limit": 12}
+      },
+      "derived_stats": {"base_hp": 6, "hp": 12, "defense": 6, "special_defense": 7},
+      "abilities": ["Swarm", "Compound Eyes", "Stealthy (Hidden)"],
+      "skills": ["Acrobat", "Stealth"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "String Shot", "Mud-Slap", "Leer"],
+        "rank_2_rookie": ["Bug Bite", "Dig", "Sucker Punch", "Bug Buzz"],
+        "rank_3_standard": ["Earthquake", "Megahorn", "U-turn"],
+        "rank_4_advanced": ["First Impression", "Leech Life"],
+        "rank_5_expert": ["Earth Power", "Lunge"]
+      },
+      "evolution": "Final Stage."
+    },
+    {
+      "name": "Sanguito",
+      "id": "A021",
+      "typing": ["Bug", "Flying"],
+      "concept": "The Bloodsucker Pokémon. A mosquito-like Pokémon known for its annoying buzzing and its ability to suck the blood of other Pokémon with a debilitating toxin.",
+      "suggested_rank": "Starter",
+      "attributes": {
+        "strength": {"value": 3, "limit": 6},
+        "dexterity": {"value": 8, "limit": 13},
+        "vitality": {"value": 3, "limit": 6},
+        "special": {"value": 5, "limit": 9},
+        "insight": {"value": 4, "limit": 8}
+      },
+      "derived_stats": {"base_hp": 3, "hp": 6, "defense": 3, "special_defense": 4},
+      "abilities": ["Swarm", "Compound Eyes", "Levitate (Hidden)"],
+      "skills": ["Acrobat", "Stealth"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Absorb", "Leech Life", "Gust"],
+        "rank_2_rookie": ["Sting", "Bug Bite", "Air Cutter"],
+        "rank_3_standard": ["Bug Buzz", "Air Slash", "Hurricane"],
+        "rank_4_advanced": ["Quiver Dance", "Leech Life"],
+        "rank_5_expert": ["Tailwind"]
+      },
+      "evolution": "Final Stage."
+    },
+    {
+      "name": "Salminy",
+      "id": "A022",
+      "typing": ["Water", "Ghost"],
+      "concept": "The Spirit Salmon Pokémon. A small, ethereal salmon that can swim through solid objects, believed to be the soul of a salmon that has completed its journey upstream.",
+      "suggested_rank": "Starter",
+      "attributes": {
+        "strength": {"value": 3, "limit": 6},
+        "dexterity": {"value": 5, "limit": 9},
+        "vitality": {"value": 4, "limit": 8},
+        "special": {"value": 6, "limit": 10},
+        "insight": {"value": 5, "limit": 9}
+      },
+      "derived_stats": {"base_hp": 4, "hp": 8, "defense": 4, "special_defense": 5},
+      "abilities": ["Swift Swim", "Water Veil", "Cursed Body (Hidden)"],
+      "skills": ["Swimmer", "Stealth", "Climber"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Water Gun", "Growl", "Spite"],
+        "rank_2_rookie": ["Ghostly Splash (New)", "Shadow Sneak", "Aqua Jet", "Will-O-Wisp"],
+        "rank_3_standard": ["Water Pulse", "Hex", "Brine", "Hydro Pump"],
+        "rank_4_advanced": ["Shadow Ball", "Surf", "Poltergeist", "Aqua Tail"],
+        "rank_5_expert": ["Destiny Bond", "Hydro Cannon"]
+      },
+      "evolution": "Evolves into Solmancer."
+    },
+    {
+      "name": "Solmancer",
+      "id": "A023",
+      "typing": ["Water", "Ghost"],
+      "concept": "The Ancestral Salmon Pokémon. Upon evolution, it gains a more ghostly appearance with spectral fins. It is a powerful swimmer believed to guide lost souls.",
+      "suggested_rank": "Rookie",
+      "attributes": {
+        "strength": {"value": 4, "limit": 8},
+        "dexterity": {"value": 6, "limit": 10},
+        "vitality": {"value": 5, "limit": 9},
+        "special": {"value": 8, "limit": 13},
+        "insight": {"value": 7, "limit": 12}
+      },
+      "derived_stats": {"base_hp": 6, "hp": 11, "defense": 5, "special_defense": 7},
+      "abilities": ["Swift Swim", "Water Veil", "Cursed Body (Hidden)"],
+      "skills": ["Swimmer", "Stealth", "Climber"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Water Gun", "Growl", "Spite"],
+        "rank_2_rookie": ["Ghostly Splash (New)", "Shadow Sneak", "Aqua Jet", "Will-O-Wisp", "Water Pulse", "Hex"],
+        "rank_3_standard": ["Brine", "Hydro Pump", "Shadow Ball", "Surf"],
+        "rank_4_advanced": ["Poltergeist", "Aqua Tail", "Destiny Bond"],
+        "rank_5_expert": ["Hydro Cannon"]
+      },
+      "evolution": "Final Stage."
+    },
+    {
+      "name": "Puffreeze",
+      "id": "A024",
+      "typing": ["Ice", "Flying"],
+      "concept": "The Puffin Pokémon. A small bird that is a clumsy swimmer but an agile flyer. It uses its large, colorful beak to chip away at ice for food and to make nests.",
+      "suggested_rank": "Starter",
+      "attributes": {
+        "strength": {"value": 4, "limit": 8},
+        "dexterity": {"value": 5, "limit": 9},
+        "vitality": {"value": 4, "limit": 8},
+        "special": {"value": 4, "limit": 8},
+        "insight": {"value": 4, "limit": 8}
+      },
+      "derived_stats": {"base_hp": 4, "hp": 8, "defense": 4, "special_defense": 4},
+      "abilities": ["Keen Eye", "Glacial Armor (Hidden)"],
+      "skills": ["Acrobat", "Climber", "Swimmer"],
+      "move_pool": {
+        "rank_1_starter": ["Peck", "Powder Snow", "Gust", "Growl"],
+        "rank_2_rookie": ["Ice Shard", "Wing Attack", "Roost", "Aqua Jet"],
+        "rank_3_standard": ["Avalanche", "Blizzard", "Air Slash"],
+        "rank_4_advanced": ["Brave Bird", "Ice Beam", "Aurora Veil"],
+        "rank_5_expert": ["Sheer Cold"]
+      },
+      "evolution": "Evolves into Puffrost."
+    },
+    {
+      "name": "Puffrost",
+      "id": "A025",
+      "typing": ["Ice", "Flying"],
+      "concept": "The Frigid Flyer Pokémon. This Pokémon has a sleek, aerodynamic body with wings made of pure ice. Its beak is a solid, unbreakable material.",
+      "suggested_rank": "Rookie",
+      "attributes": {
+        "strength": {"value": 6, "limit": 10},
+        "dexterity": {"value": 8, "limit": 13},
+        "vitality": {"value": 6, "limit": 10},
+        "special": {"value": 7, "limit": 12},
+        "insight": {"value": 6, "limit": 10}
+      },
+      "derived_stats": {"base_hp": 6, "hp": 12, "defense": 6, "special_defense": 6},
+      "abilities": ["Keen Eye", "Glacial Armor (Hidden)"],
+      "skills": ["Acrobat", "Climber", "Swimmer"],
+      "move_pool": {
+        "rank_1_starter": ["Peck", "Powder Snow", "Gust", "Growl"],
+        "rank_2_rookie": ["Ice Shard", "Wing Attack", "Roost", "Aqua Jet", "Avalanche", "Air Slash"],
+        "rank_3_standard": ["Brave Bird", "Ice Beam", "Aurora Veil", "Blizzard"],
+        "rank_4_advanced": ["Sheer Cold", "Hurricane"],
+        "rank_5_expert": ["Sky Attack"]
+      },
+      "evolution": "Final Stage."
+    }
+  ]
+}
