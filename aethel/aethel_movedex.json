@@ -1,0 +1,81 @@
+{
+  "aethel_movedex": [
+    {
+      "name": "Aurora Dust",
+      "type": "Fairy",
+      "accuracy": "Special + Channel",
+      "damage": "Special",
+      "effect": "The user scatters a shimmering, hypnotic dust. On a successful hit, roll 1d6. On a 5 or 6, the target's Vitality and Insight are both lowered by 1."
+    },
+    {
+      "name": "Ghostly Splash",
+      "type": "Ghost",
+      "accuracy": "Special + Channel",
+      "damage": "Special + 2",
+      "effect": "On a successful hit, roll 1d6. On a 5 or 6, the target's Dexterity is lowered by 1."
+    },
+    {
+      "name": "Glacier Forge",
+      "type": "Steel",
+      "accuracy": "Special + Channel",
+      "damage": "Special + 7",
+      "effect": "Hits all adjacent opponents. On a successful hit, roll 1d6. On a 5 or 6, the target is Frozen."
+    },
+    {
+      "name": "Earthen Stomp",
+      "type": "Ground",
+      "accuracy": "Strength + Brawl",
+      "damage": "Strength + 6",
+      "effect": "Hits all adjacent opponents. On a successful hit, roll 1d6. On a 5 or 6, the target Flinches."
+    },
+    {
+      "name": "Mountain's Call",
+      "type": "Fighting",
+      "accuracy": "Automatic",
+      "damage": "None",
+      "effect": "The user and all its allies raise their Strength and Vitality by 1 for the rest of the scene."
+    },
+    {
+      "name": "Aurora Borealis",
+      "type": "Psychic",
+      "accuracy": "Special + Channel",
+      "damage": "Special + 7",
+      "effect": "Hits all adjacent opponents. On a successful hit, roll 1d6. On a 5 or 6, the target is either Burned or Paralyzed (user's choice)."
+    },
+    {
+      "name": "Spiritual Shard",
+      "type": "Electric",
+      "accuracy": "Special + Channel",
+      "damage": "Special + 6",
+      "effect": "High critical hit ratio."
+    },
+    {
+      "name": "Psychic Gambit",
+      "type": "Psychic",
+      "accuracy": "Special + Charm",
+      "damage": "None",
+      "effect": "The user and the target swap all of their current status conditions and stat changes."
+    },
+    {
+      "name": "Trickster's Blade",
+      "type": "Dark",
+      "accuracy": "Strength + Brawl",
+      "damage": "Strength + 5",
+      "effect": "On a successful hit, the user copies the last move used by the target. The copied move replaces Trickster's Blade for the rest of the scene."
+    },
+    {
+      "name": "Permafrost Prison",
+      "type": "Ice",
+      "accuracy": "Special + Channel",
+      "damage": "Special + 10",
+      "effect": "Hits all Pokémon on the field. On a successful hit, the target is permanently Frozen. This move has a very high chance of missing."
+    },
+    {
+      "name": "World-Root Anchor",
+      "type": "Grass",
+      "accuracy": "Strength + Brawl",
+      "damage": "Strength + 8",
+      "effect": "Hits all non-Grass type Pokémon on the field. On a successful hit, targets are trapped and cannot switch out or flee for the rest of the scene."
+    }
+  ]
+}
