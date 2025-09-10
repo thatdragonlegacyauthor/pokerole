@@ -1,0 +1,229 @@
+{
+  "aethel_pokedex_batch_6": [
+    {
+      "name": "Cavenyct",
+      "id": "A045",
+      "typing": ["Flying", "Dark"],
+      "concept": "The Cavern Bat Pokémon. A small, bat-like creature that lives in dark caverns. It uses echolocation to navigate and hunt.",
+      "suggested_rank": "Starter",
+      "attributes": {
+        "strength": {"value": 4, "limit": 8},
+        "dexterity": {"value": 6, "limit": 10},
+        "vitality": {"value": 3, "limit": 6},
+        "special": {"value": 5, "limit": 9},
+        "insight": {"value": 6, "limit": 10}
+      },
+      "derived_stats": {"base_hp": 3, "hp": 6, "defense": 3, "special_defense": 5},
+      "abilities": ["Keen Eye", "Frisk", "Unnerve (Hidden)"],
+      "skills": ["Acrobat", "Stealth"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Leer", "Peck", "Astonish"],
+        "rank_2_rookie": ["Wing Attack", "Bite", "Confuse Ray", "Gust"],
+        "rank_3_standard": ["Air Slash", "Dark Pulse", "Crunch", "Roost"],
+        "rank_4_advanced": ["Brave Bird", "Nasty Plot"],
+        "rank_5_expert": ["Hurricane", "Foul Play"]
+      },
+      "evolution": "Evolves into Speleonyx."
+    },
+    {
+      "name": "Speleonyx",
+      "id": "A046",
+      "typing": ["Flying", "Dark"],
+      "concept": "The Cavern Hunter Pokémon. Its wings are razor-sharp, and it can move at incredible speeds through caverns. It is a solitary hunter.",
+      "suggested_rank": "Rookie",
+      "attributes": {
+        "strength": {"value": 6, "limit": 10},
+        "dexterity": {"value": 8, "limit": 13},
+        "vitality": {"value": 5, "limit": 9},
+        "special": {"value": 7, "limit": 12},
+        "insight": {"value": 8, "limit": 13}
+      },
+      "derived_stats": {"base_hp": 5, "hp": 10, "defense": 5, "special_defense": 7},
+      "abilities": ["Keen Eye", "Frisk", "Unnerve (Hidden)"],
+      "skills": ["Acrobat", "Stealth"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Leer", "Peck", "Astonish", "Wing Attack"],
+        "rank_2_rookie": ["Bite", "Confuse Ray", "Gust", "Air Slash"],
+        "rank_3_standard": ["Dark Pulse", "Crunch", "Roost", "Brave Bird"],
+        "rank_4_advanced": ["Nasty Plot", "Hurricane", "Foul Play"],
+        "rank_5_expert": ["Night Slash", "Extreme Speed"]
+      },
+      "evolution": "Final Stage."
+    },
+    {
+      "name": "Volcanid",
+      "id": "A047",
+      "typing": ["Fire", "Ground"],
+      "concept": "The Geyser Pokémon. A small, mole-like Pokémon that burrows near geysers. It can shoot jets of superheated steam from its nose.",
+      "suggested_rank": "Starter",
+      "attributes": {
+        "strength": {"value": 4, "limit": 8},
+        "dexterity": {"value": 3, "limit": 6},
+        "vitality": {"value": 5, "limit": 9},
+        "special": {"value": 5, "limit": 9},
+        "insight": {"value": 4, "limit": 8}
+      },
+      "derived_stats": {"base_hp": 5, "hp": 10, "defense": 5, "special_defense": 5},
+      "abilities": ["Magma Armor", "Flash Fire", "Geothermal Core (Hidden)"],
+      "skills": ["Climber", "Digger"],
+      "move_pool": {
+        "rank_1_starter": ["Ember", "Mud-Slap", "Tackle", "Smokescreen"],
+        "rank_2_rookie": ["Flame Burst", "Bulldoze", "Geothermal Drill (New)"],
+        "rank_3_standard": ["Lava Plume", "Earthquake", "Body Slam"],
+        "rank_4_advanced": ["Flamethrower", "Earth Power"],
+        "rank_5_expert": ["Eruption", "Fissure"]
+      },
+      "evolution": "Evolves into Eruptox."
+    },
+    {
+      "name": "Eruptox",
+      "id": "A048",
+      "typing": ["Fire", "Ground"],
+      "concept": "The Lava Badger Pokémon. This powerful Pokémon has a body made of hardened lava and can cause minor eruptions by stomping its feet.",
+      "suggested_rank": "Rookie",
+      "attributes": {
+        "strength": {"value": 7, "limit": 12},
+        "dexterity": {"value": 5, "limit": 9},
+        "vitality": {"value": 8, "limit": 13},
+        "special": {"value": 7, "limit": 12},
+        "insight": {"value": 6, "limit": 10}
+      },
+      "derived_stats": {"base_hp": 8, "hp": 16, "defense": 8, "special_defense": 7},
+      "abilities": ["Magma Armor", "Flash Fire", "Geothermal Core (Hidden)"],
+      "skills": ["Climber", "Digger"],
+      "move_pool": {
+        "rank_1_starter": ["Ember", "Mud-Slap", "Tackle", "Smokescreen"],
+        "rank_2_rookie": ["Flame Burst", "Bulldoze", "Geothermal Drill (New)", "Lava Plume"],
+        "rank_3_standard": ["Earthquake", "Body Slam", "Flamethrower", "Earth Power"],
+        "rank_4_advanced": ["Eruption", "Fissure", "Volcanic Roar (New)"],
+        "rank_5_expert": ["Overheat", "Blast Burn"]
+      },
+      "evolution": "Final Stage."
+    },
+    {
+      "name": "Cawper",
+      "id": "A052",
+      "typing": ["Flying", "Dark"],
+      "concept": "The Carrion Pokémon. A small, black, crow-like Pokémon known for its mischievous nature and its ability to mimic other Pokémon cries.",
+      "suggested_rank": "Starter",
+      "attributes": {
+        "strength": {"value": 4, "limit": 8},
+        "dexterity": {"value": 6, "limit": 10},
+        "vitality": {"value": 3, "limit": 6},
+        "special": {"value": 4, "limit": 8},
+        "insight": {"value": 5, "limit": 9}
+      },
+      "derived_stats": {"base_hp": 4, "hp": 7, "defense": 3, "special_defense": 4},
+      "abilities": ["Keen Eye", "Prankster", "Moxie (Hidden)"],
+      "skills": ["Acrobat", "Stealth"],
+      "move_pool": {
+        "rank_1_starter": ["Peck", "Growl", "Astonish", "Leer"],
+        "rank_2_rookie": ["Wing Attack", "Feint Attack", "Pursuit", "Thief"],
+        "rank_3_standard": ["Air Slash", "Foul Play", "Taunt"],
+        "rank_4_advanced": ["Brave Bird", "Dark Pulse"],
+        "rank_5_expert": ["Hurricane", "Night Slash"]
+      },
+      "evolution": "Evolves into Noctcrow."
+    },
+    {
+      "name": "Noctcrow",
+      "id": "A053",
+      "typing": ["Flying", "Dark"],
+      "concept": "The Shadow Crow Pokémon. A cunning and intelligent Pokémon with a sharp, metallic beak, often used by the Northwind Syndicate for spying.",
+      "suggested_rank": "Rookie",
+      "attributes": {
+        "strength": {"value": 6, "limit": 10},
+        "dexterity": {"value": 8, "limit": 13},
+        "vitality": {"value": 5, "limit": 9},
+        "special": {"value": 6, "limit": 10},
+        "insight": {"value": 7, "limit": 12}
+      },
+      "derived_stats": {"base_hp": 6, "hp": 11, "defense": 5, "special_defense": 6},
+      "abilities": ["Keen Eye", "Prankster", "Moxie (Hidden)"],
+      "skills": ["Acrobat", "Stealth"],
+      "move_pool": {
+        "rank_1_starter": ["Peck", "Growl", "Astonish", "Leer"],
+        "rank_2_rookie": ["Wing Attack", "Feint Attack", "Pursuit", "Thief", "Air Slash"],
+        "rank_3_standard": ["Foul Play", "Taunt", "Brave Bird", "Dark Pulse"],
+        "rank_4_advanced": ["Hurricane", "Night Slash", "Snarl"],
+        "rank_5_expert": ["Sucker Punch", "Knock Off"]
+      },
+      "evolution": "Evolves into Umbralore."
+    },
+    {
+      "name": "Umbralore",
+      "id": "A054",
+      "typing": ["Flying", "Dark"],
+      "concept": "The Shadow Raven Pokémon. A powerful creature of the night with feathers of deep black and sinister glowing eyes. A symbol of the Northwind Syndicate's power.",
+      "suggested_rank": "Standard",
+      "attributes": {
+        "strength": {"value": 8, "limit": 13},
+        "dexterity": {"value": 10, "limit": 15},
+        "vitality": {"value": 7, "limit": 12},
+        "special": {"value": 8, "limit": 13},
+        "insight": {"value": 9, "limit": 15}
+      },
+      "derived_stats": {"base_hp": 8, "hp": 15, "defense": 7, "special_defense": 8},
+      "abilities": ["Keen Eye", "Prankster", "Moxie (Hidden)"],
+      "skills": ["Acrobat", "Stealth"],
+      "move_pool": {
+        "rank_1_starter": ["Peck", "Growl", "Astonish", "Leer", "Wing Attack", "Feint Attack"],
+        "rank_2_rookie": ["Pursuit", "Thief", "Air Slash", "Foul Play", "Taunt", "Brave Bird"],
+        "rank_3_standard": ["Dark Pulse", "Hurricane", "Night Slash", "Snarl", "Sucker Punch"],
+        "rank_4_advanced": ["Knock Off", "Brave Bird", "Nasty Plot"],
+        "rank_5_expert": ["Foul Play", "Hurricane"]
+      },
+      "evolution": "Final Stage."
+    },
+    {
+      "name": "Porpaise",
+      "id": "A055",
+      "typing": ["Water"],
+      "concept": "The Porpoise Pokémon. A small, playful dolphin-like Pokémon known for its incredible speed and use of echolocation.",
+      "suggested_rank": "Starter",
+      "attributes": {
+        "strength": {"value": 3, "limit": 6},
+        "dexterity": {"value": 6, "limit": 10},
+        "vitality": {"value": 4, "limit": 8},
+        "special": {"value": 4, "limit": 8},
+        "insight": {"value": 4, "limit": 8}
+      },
+      "derived_stats": {"base_hp": 5, "hp": 9, "defense": 4, "special_defense": 4},
+      "abilities": ["Swift Swim", "Water Veil", "Defiant (Hidden)"],
+      "skills": ["Swimmer"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Water Gun", "Growl", "Supersonic"],
+        "rank_2_rookie": ["Aqua Jet", "Bite", "Dive", "Assurance"],
+        "rank_3_standard": ["Water Pulse", "Crunch", "Waterfall"],
+        "rank_4_advanced": ["Aqua Tail", "Hydro Pump", "Double-Edge"],
+        "rank_5_expert": ["Final Gambit"]
+      },
+      "evolution": "Evolves into Cetastream."
+    },
+    {
+      "name": "Cetastream",
+      "id": "A056",
+      "typing": ["Water", "Dark"],
+      "concept": "The Pod Leader Pokémon. A powerful orca-like Pokémon that commands a pod of Porpaise, feared for its cunning hunting tactics.",
+      "suggested_rank": "Rookie",
+      "attributes": {
+        "strength": {"value": 7, "limit": 13},
+        "dexterity": {"value": 8, "limit": 15},
+        "vitality": {"value": 5, "limit": 10},
+        "special": {"value": 6, "limit": 11},
+        "insight": {"value": 6, "limit": 11}
+      },
+      "derived_stats": {"base_hp": 8, "hp": 13, "defense": 5, "special_defense": 6},
+      "abilities": ["Swift Swim", "Water Veil", "Defiant (Hidden)"],
+      "skills": ["Swimmer", "Stealth"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Water Gun", "Growl", "Supersonic"],
+        "rank_2_rookie": ["Aqua Jet", "Bite", "Dive", "Assurance", "Water Pulse", "Crunch"],
+        "rank_3_standard": ["Waterfall", "Aqua Tail", "Hydro Pump", "Double-Edge"],
+        "rank_4_advanced": ["Final Gambit", "Dark Pulse", "Outrage"],
+        "rank_5_expert": ["Aqua Jet", "Last Resort"]
+      },
+      "evolution": "Final Stage."
+    }
+  ]
+}
