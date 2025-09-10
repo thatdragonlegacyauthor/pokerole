@@ -1,0 +1,110 @@
+{
+  "aethel_mini_arcs": [
+    {
+      "name": "The Apex Protocol",
+      "theme": "Engineered Perfection vs. Natural Potential",
+      "factions_involved": [
+        "The Eon Remnants",
+        "The Frontier Cartographers"
+      ],
+      "setup": "The player discovers a hidden Eon Remnants' alpine research outpost while exploring near the Silverpeak Institute. Inside, they find research on 'Project Apex,' detailing a process to unlock what they call the 'perfected' evolutionary path of Sneasby. The Eon Remnants believe Sneasby's natural evolution is a flawed adaptation, and through 'Forced Gene-Splicing' with a proprietary serum called the 'Apex Catalyst,' they can create a superior hunter: a new Ice/Electric type Sneasel.",
+      "key_players": [
+        "Dr. Elias Vance (Antagonist)",
+        "Ren (Ally/Informant)"
+      ],
+      "narrative_paths": [
+        {
+          "title": "Natural Order Restored",
+          "outcome": "The player defeats the Remnants' researchers, destroys their supply of the Apex Catalyst, and frees any captive Sneasby. The Apex Protocol is set back significantly.",
+          "consequences": [
+            "The party forges a strong alliance with Ren and the Frontier Cartographers, who are grateful for the preservation of a natural species.",
+            "Dr. Elias Vance becomes a recurring antagonist, furious at the destruction of his 'perfect' creation.",
+            "The player loses the opportunity to acquire an Aethelian Sneasel through this method."
+          ]
+        },
+        {
+          "title": "A Necessary Evolution",
+          "outcome": "Tempted by the promise of power or forced into a corner, the player uses a captured Apex Catalyst on a Sneasby, triggering its evolution into the Aethelian Sneasel.",
+          "consequences": [
+            "The player acquires a powerful and extremely rare Aethelian Sneasel, a Pokémon that represents a significant ethical compromise.",
+            "They become a permanent enemy of the Frontier Cartographers and will be treated with hostility by members like Rowan.",
+            "Dr. Vance may see the player as a potential asset or a rival, leading to complex and dangerous future encounters."
+          ]
+        },
+        {
+          "title": "Knowledge is Power",
+          "outcome": "The player defeats the Eon Remnants at the outpost but manages to steal the research data on the Apex Protocol and a sample of the Apex Catalyst.",
+          "consequences": [
+            "The player now holds the unique and dangerous secret to creating Aethelian Sneasel.",
+            "They become a high-priority target for the Eon Remnants, who will stop at nothing to reclaim their proprietary research.",
+            "Their standing with other factions will be heavily influenced by what they choose to do with this powerful genetic tool."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "The Slumbering Leviathan",
+      "theme": "Greed vs. Nature's Fury",
+      "factions_involved": [
+        "The Northwind Syndicate",
+        "The Coastal Clan"
+      ],
+      "setup": "Dr. Finn contacts the party with frantic news. Syndicate poachers, using advanced sonar jammers, have discovered the undersea cavern where a massive, ancient Plesiosword—a Pokémon thought to be a local legend—is hibernating. They plan to capture and sell it on the black market. The party must intervene before the Syndicate awakens a creature that the entire port is unprepared to handle.",
+      "key_players": [
+        "Dr. Finn (Ally)",
+        "Gym Leader Marina (Ally/Rival)",
+        "A newly created Syndicate Admin (Antagonist)"
+      ],
+      "narrative_paths": [
+        {
+          "title": "The Silent Takedown",
+          "outcome": "The party uses stealth and cunning to sabotage the Syndicate's capture equipment and drive them out of the cavern without ever waking the Plesiosword.",
+          "consequences": [
+            "The Syndicate's local operations are crippled.",
+            "The party earns the deep respect of Marina and the Coastal Clan, gaining a permanent ally and safe harbor in Port Lumina.",
+            "Dr. Finn provides them with unique, water-themed items."
+          ]
+        },
+        {
+          "title": "The Raging Titan",
+          "outcome": "The party's intervention is loud and chaotic. They manage to defeat the Syndicate, but not before the Plesiosword is violently awakened. It rampages, threatening Port Lumina itself. The party must now battle or appease the enraged Pokémon to save the city.",
+          "consequences": [
+            "The party is hailed as heroes for saving the city but must contend with a powerful, displaced Pokémon now active in the region.",
+            "Marina is grateful but concerned about the new instability.",
+            "The Syndicate escapes, vowing revenge."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "The Heart of the Geyser Fields",
+      "theme": "Preservation vs. Exploitation",
+      "factions_involved": [
+        "The Frontier Cartographers",
+        "The Prospector's Union"
+      ],
+      "setup": "Gym Leader Forrest alerts the party that a Prospector's Union mining crew has blasted open a new, undiscovered cavern within the Geyser Fields. This cavern is a unique micro-habitat for the rare Volcanid Pokémon, whose geothermal energy is vital to the stability of the entire biome. The Union wants to mine the cavern for its rare minerals, which would destroy the habitat.",
+      "key_players": [
+        "Gym Leader Forrest (Ally)",
+        "A newly created Prospector Foreman (Antagonist)"
+      ],
+      "narrative_paths": [
+        {
+          "title": "The Naturalist's Solution",
+          "outcome": "The party works with the Cartographers to prove the Volcanid's ecological importance through a series of skill challenges. They present their findings and persuade the Union to designate the cavern a protected area.",
+          "consequences": [
+            "The party earns high standing with the Frontier Cartographers, gaining access to detailed regional maps and secret paths.",
+            "They make a temporary enemy of the Prospector's Union foreman but avoid large-scale conflict."
+          ]
+        },
+        {
+          "title": "The Saboteur's Gambit",
+          "outcome": "The party decides persuasion is pointless and opts for direct action. They infiltrate the mining camp and sabotage the Union's heavy machinery, forcing them to abandon the site, culminating in a battle.",
+          "consequences": [
+            "The Volcanid habitat is saved for now, but the Prospector's Union is now a permanent enemy of the party and the Cartographers, potentially leading to violent retaliation later in the campaign."
+          ]
+        }
+      ]
+    }
+  ]
+}
