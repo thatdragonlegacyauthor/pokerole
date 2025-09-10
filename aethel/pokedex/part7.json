@@ -76,58 +76,8 @@
       "evolution": "Final Stage."
     },
     {
-      "name": "Narwhisp",
-      "id": "A096",
-      "typing": ["Ice", "Psychic"],
-      "concept": "The Psychic Narwhal Pokémon. Its horn is made of pure psychic energy and can be used to communicate with other Pokémon over long distances. It is a very reclusive Pokémon that is rarely seen.",
-      "suggested_rank": "Standard",
-      "attributes": {
-        "strength": {"value": 5, "limit": 9},
-        "dexterity": {"value": 6, "limit": 10},
-        "vitality": {"value": 7, "limit": 12},
-        "special": {"value": 9, "limit": 15},
-        "insight": {"value": 8, "limit": 13}
-      },
-      "derived_stats": {"base_hp": 8, "hp": 15, "defense": 7, "special_defense": 9},
-      "abilities": ["Telepathy", "Ice Body", "Psychic Surge (Hidden)"],
-      "skills": ["Swimmer", "Telepath"],
-      "move_pool": {
-        "rank_1_starter": ["Psybeam", "Powder Snow", "Water Gun"],
-        "rank_2_rookie": ["Ice Shard", "Psycho Cut", "Avalanche"],
-        "rank_3_standard": ["Psychic", "Ice Beam", "Blizzard", "Calm Mind"],
-        "rank_4_advanced": ["Future Sight", "Aurora Veil", "Sheer Cold"],
-        "rank_5_expert": ["Psychic Horn (New)"]
-      },
-      "evolution": "Final Stage."
-    },
-    {
-      "name": "Glacisquid",
-      "id": "A097",
-      "typing": ["Ice", "Water"],
-      "concept": "The Deep Sea Squid Pokémon. A large, deep-sea squid that uses its tentacles to grab its prey and drag it into the icy depths. It can also create powerful ice storms to disorient its enemies.",
-      "suggested_rank": "Standard",
-      "attributes": {
-        "strength": {"value": 9, "limit": 15},
-        "dexterity": {"value": 7, "limit": 12},
-        "vitality": {"value": 8, "limit": 13},
-        "special": {"value": 8, "limit": 13},
-        "insight": {"value": 7, "limit": 12}
-      },
-      "derived_stats": {"base_hp": 9, "hp": 17, "defense": 8, "special_defense": 8},
-      "abilities": ["Suction Cups", "Ice Body"],
-      "skills": ["Swimmer", "Climber"],
-      "move_pool": {
-        "rank_1_starter": ["Tackle", "Water Gun", "Powder Snow"],
-        "rank_2_rookie": ["Ice Shard", "Feint Attack", "Ice Ball", "Blizzard"],
-        "rank_3_standard": ["Avalanche", "Dive", "Icicle Crash", "Lash Out"],
-        "rank_4_advanced": ["Ice Beam", "Octazooka", "Blizzard"],
-        "rank_5_expert": ["Sheer Cold", "Hydro Cannon"]
-      },
-      "evolution": "Final Stage."
-    },
-    {
       "name": "Aquilon",
-      "id": "A098",
+      "id": "A096",
       "typing": ["Water", "Steel"],
       "concept": "A massive, armored creature that protects the seas, inspired by the Glacier Forge myth of the Tlingit.",
       "stats": {
@@ -156,7 +106,7 @@
     },
     {
       "name": "Terrin",
-      "id": "A099",
+      "id": "A097",
       "typing": ["Ground", "Fighting"],
       "concept": "A massive, ancient creature that protects the earth, inspired by the 'Shifting Earth' myth of the Athabaskan.",
       "stats": {
@@ -185,7 +135,7 @@
     },
     {
       "name": "Aurabeast",
-      "id": "A100",
+      "id": "A098",
       "typing": ["Psychic", "Electric"],
       "concept": "A massive, spiritual bear that can control the weather and is connected to the aurora borealis, inspired by the 'Star-Born Bear' myth of the Yup'ik.",
       "stats": {
@@ -214,7 +164,7 @@
     },
     {
       "name": "Mischievian",
-      "id": "A101",
+      "id": "A099",
       "typing": ["Dark", "Psychic"],
       "concept": "The trickster god of the Aethel region.",
       "stats": {
@@ -249,7 +199,7 @@
     },
     {
       "name": "Fimbulstorm",
-      "id": "A102",
+      "id": "A100",
       "typing": "N/A",
       "concept": "The great ice that covered the earth, a primordial force of stasis and cold.",
       "stats": {
@@ -275,7 +225,7 @@
     },
     {
       "name": "Yggdrys",
-      "id": "A103",
+      "id": "A101",
       "typing": "N/A",
       "concept": "The great tree that held the heavens, a primordial force of nature and growth.",
       "stats": {
