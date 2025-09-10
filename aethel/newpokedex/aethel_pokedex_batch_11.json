@@ -14,7 +14,7 @@
         "insight": {"value": 8, "limit": 13}
       },
       "derived_stats": {"base_hp": 10, "hp": 20, "defense": 10, "special_defense": 8},
-      "abilities": ["Filter", "System Shock (Hidden)"],
+      "abilities": ["Rimeforged Armor"],
       "skills": ["Swimmer", "Endurance"],
       "signature_moves": [
         {
@@ -44,7 +44,7 @@
         "insight": {"value": 8, "limit": 13}
       },
       "derived_stats": {"base_hp": 10, "hp": 20, "defense": 10, "special_defense": 8},
-      "abilities": ["Solid Rock", "Geothermal Core (Hidden)"],
+      "abilities": ["Terraform"],
       "skills": ["Climber", "Endurance"],
       "signature_moves": [
         {
@@ -74,7 +74,7 @@
         "insight": {"value": 10, "limit": 15}
       },
       "derived_stats": {"base_hp": 10, "hp": 18, "defense": 8, "special_defense": 10},
-      "abilities": ["Electric Surge", "Aurora Veil"],
+      "abilities": ["Cosmic Surge"],
       "skills": ["Telepath", "Endurance"],
       "signature_moves": [
         {
@@ -166,6 +166,12 @@
           "name": "World-Root Anchor",
           "type": "Grass",
           "description": "Yggdrys slams its roots into the earth, causing an earthquake that uproots all non-Grass type Pokémon, rendering them immobile."
+        }
+        {
+          "name": "Dormant Heart", "type": "Grass", "description": "The user draws its life energy inward, deactivating its Arboreal Genesis ability for 5 rounds. While the ability is suppressed, the user's Defense and Special Defense are increased by 2; this effect goes away if Life Surge is used."
+        }
+        {
+          "name": "Life Surge", "type": "Grass", "description": "The user unleashes a wave of pure life energy, reactivating its Arboreal Genesis ability. The user's Vitality and Insight are raised by 1 unless/until Dormant Heart is used. This move fails if the ability is already active."
         }
       ],
       "evolution": "Primordial Legendary."
