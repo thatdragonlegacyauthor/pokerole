@@ -1,0 +1,229 @@
+{
+  "aethel_pokedex_batch_2": [
+    {
+      "name": "Froslet",
+      "id": "A010",
+      "typing": ["Normal", "Ice"],
+      "concept": "The Snow Vole Pokémon. A timid, snow-white vole that is a master of camouflage.",
+      "suggested_rank": "Starter",
+      "attributes": {
+        "strength": {"value": 2, "limit": 5},
+        "dexterity": {"value": 6, "limit": 10},
+        "vitality": {"value": 3, "limit": 6},
+        "special": {"value": 4, "limit": 8},
+        "insight": {"value": 5, "limit": 9}
+      },
+      "derived_stats": {"base_hp": 3, "hp": 6, "defense": 3, "special_defense": 4},
+      "abilities": ["Snow Cloak", "Fluffy"],
+      "skills": ["Acrobat", "Stealth", "Climber"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Powder Snow", "Quick Attack", "Odor Sleuth"],
+        "rank_2_rookie": ["Ice Shard", "Camouflage", "Take Down", "Charm"],
+        "rank_3_standard": ["Avalanche", "Blizzard", "Endure", "Defense Curl"],
+        "rank_4_advanced": ["Ice Beam", "Aurora Veil", "Quick Guard"],
+        "rank_5_expert": ["Sheer Cold"]
+      },
+      "evolution": "Evolves into Sleetusk."
+    },
+    {
+      "name": "Sleetusk",
+      "id": "A011",
+      "typing": ["Normal", "Ice"],
+      "concept": "A medium-sized vole with large, sharp tusks made of ice. Its fur is dense and a dark gray, making it a master of camouflage in rocky, mountainous terrain.",
+      "suggested_rank": "Rookie",
+      "attributes": {
+        "strength": {"value": 4, "limit": 8},
+        "dexterity": {"value": 7, "limit": 12},
+        "vitality": {"value": 5, "limit": 9},
+        "special": {"value": 6, "limit": 10},
+        "insight": {"value": 6, "limit": 10}
+      },
+      "derived_stats": {"base_hp": 5, "hp": 10, "defense": 5, "special_defense": 6},
+      "abilities": ["Snow Cloak", "Fluffy"],
+      "skills": ["Acrobat", "Stealth", "Climber"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Powder Snow", "Quick Attack", "Odor Sleuth"],
+        "rank_2_rookie": ["Ice Shard", "Camouflage", "Take Down", "Charm"],
+        "rank_3_standard": ["Avalanche", "Blizzard", "Endure", "Defense Curl"],
+        "rank_4_advanced": ["Ice Beam", "Aurora Veil", "Quick Guard", "Icicle Crash"],
+        "rank_5_expert": ["Sheer Cold"]
+      },
+      "evolution": "Evolves into Glacivole."
+    },
+    {
+      "name": "Glacivole",
+      "id": "A012",
+      "typing": ["Normal", "Ice"],
+      "concept": "A massive, powerful vole with a thick coat of fur and long, curved tusks of solid ice. It is a territorial Pokémon that is fiercely protective of its home.",
+      "suggested_rank": "Standard",
+      "attributes": {
+        "strength": {"value": 7, "limit": 12},
+        "dexterity": {"value": 8, "limit": 13},
+        "vitality": {"value": 7, "limit": 12},
+        "special": {"value": 8, "limit": 13},
+        "insight": {"value": 8, "limit": 13}
+      },
+      "derived_stats": {"base_hp": 8, "hp": 15, "defense": 7, "special_defense": 8},
+      "abilities": ["Snow Cloak", "Fluffy", "Thick Fat"],
+      "skills": ["Acrobat", "Stealth", "Climber"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Powder Snow", "Quick Attack", "Odor Sleuth"],
+        "rank_2_rookie": ["Ice Shard", "Camouflage", "Take Down", "Charm"],
+        "rank_3_standard": ["Avalanche", "Blizzard", "Endure", "Defense Curl", "Icicle Spear"],
+        "rank_4_advanced": ["Ice Beam", "Aurora Veil", "Quick Guard", "Icicle Crash"],
+        "rank_5_expert": ["Sheer Cold", "Blizzard"]
+      },
+      "evolution": "Final Stage."
+    },
+    {
+      "name": "Ptarmi",
+      "id": "A013",
+      "typing": ["Normal", "Flying"],
+      "concept": "The Ptarmigan of the Tundra, a small, timid bird that is a master of camouflage.",
+      "suggested_rank": "Starter",
+      "attributes": {
+        "strength": {"value": 3, "limit": 6},
+        "dexterity": {"value": 6, "limit": 10},
+        "vitality": {"value": 3, "limit": 6},
+        "special": {"value": 4, "limit": 8},
+        "insight": {"value": 5, "limit": 9}
+      },
+      "derived_stats": {"base_hp": 4, "hp": 7, "defense": 3, "special_defense": 4},
+      "abilities": ["Snow Cloak", "Keen Eye"],
+      "skills": ["Acrobat", "Flight", "Stealth"],
+      "move_pool": {
+        "rank_1_starter": ["Peck", "Powder Snow", "Gust", "Growl"],
+        "rank_2_rookie": ["Ice Shard", "Feather Dance", "Wing Attack", "Roost"],
+        "rank_3_standard": ["Ice Beam", "Avalanche", "Air Slash"],
+        "rank_4_advanced": ["Blizzard", "Brave Bird", "Aurora Veil"],
+        "rank_5_expert": ["Sheer Cold"]
+      },
+      "evolution": "Evolves into Snovault."
+    },
+    {
+      "name": "Snovault",
+      "id": "A014",
+      "typing": ["Normal", "Flying"],
+      "concept": "A sleek, fast-flying ptarmigan with a long tail of hardened ice. It is known for its ability to fly at incredible speeds through blizzards.",
+      "suggested_rank": "Rookie",
+      "attributes": {
+        "strength": {"value": 5, "limit": 9},
+        "dexterity": {"value": 8, "limit": 13},
+        "vitality": {"value": 4, "limit": 8},
+        "special": {"value": 6, "limit": 10},
+        "insight": {"value": 6, "limit": 10}
+      },
+      "derived_stats": {"base_hp": 6, "hp": 10, "defense": 4, "special_defense": 6},
+      "abilities": ["Snow Cloak", "Keen Eye", "Speed Boost"],
+      "skills": ["Acrobat", "Flight", "Stealth"],
+      "move_pool": {
+        "rank_1_starter": ["Peck", "Powder Snow", "Gust", "Growl"],
+        "rank_2_rookie": ["Ice Shard", "Feather Dance", "Wing Attack", "Roost"],
+        "rank_3_standard": ["Ice Beam", "Avalanche", "Air Slash", "Fly"],
+        "rank_4_advanced": ["Blizzard", "Brave Bird", "Aurora Veil", "Hurricane"],
+        "rank_5_expert": ["Sheer Cold"]
+      },
+      "evolution": "Evolves into Borealisage."
+    },
+    {
+      "name": "Borealisage",
+      "id": "A015",
+      "typing": ["Ice", "Flying"],
+      "concept": "A majestic and powerful ptarmigan that can command the winds and blizzards of the tundra. Its feathers shimmer with the colors of the aurora borealis.",
+      "suggested_rank": "Standard",
+      "attributes": {
+        "strength": {"value": 7, "limit": 12},
+        "dexterity": {"value": 9, "limit": 15},
+        "vitality": {"value": 6, "limit": 10},
+        "special": {"value": 8, "limit": 13},
+        "insight": {"value": 8, "limit": 13}
+      },
+      "derived_stats": {"base_hp": 8, "hp": 14, "defense": 6, "special_defense": 8},
+      "abilities": ["Snow Cloak", "Keen Eye", "Speed Boost", "Aerilate"],
+      "skills": ["Acrobat", "Flight", "Stealth"],
+      "move_pool": {
+        "rank_1_starter": ["Peck", "Powder Snow", "Gust", "Growl"],
+        "rank_2_rookie": ["Ice Shard", "Feather Dance", "Wing Attack", "Roost"],
+        "rank_3_standard": ["Ice Beam", "Avalanche", "Air Slash", "Fly"],
+        "rank_4_advanced": ["Blizzard", "Brave Bird", "Aurora Veil", "Hurricane", "Sky Attack"],
+        "rank_5_expert": ["Sheer Cold", "Extreme Speed"]
+      },
+      "evolution": "Final Stage."
+    },
+    {
+      "name": "Nymphi",
+      "id": "A016",
+      "typing": ["Bug", "Grass"],
+      "concept": "The Mossy Larva Pokémon. Its body is covered in a soft, moss-like fur that allows it to perfectly camouflage in the forests and swamps.",
+      "suggested_rank": "Starter",
+      "attributes": {
+        "strength": {"value": 2, "limit": 5},
+        "dexterity": {"value": 5, "limit": 9},
+        "vitality": {"value": 4, "limit": 8},
+        "special": {"value": 3, "limit": 6},
+        "insight": {"value": 4, "limit": 8}
+      },
+      "derived_stats": {"base_hp": 4, "hp": 8, "defense": 4, "special_defense": 4},
+      "abilities": ["Shield Dust", "Sap Sipper"],
+      "skills": ["Stealth", "Athletic", "Climber"],
+      "move_pool": {
+        "rank_1_starter": ["String Shot", "Tackle", "Absorb", "Stun Spore"],
+        "rank_2_rookie": ["Bug Bite", "Grass Knot", "Growth", "Mossy Coat"],
+        "rank_3_standard": ["Struggle Bug", "Slam", "Giga Drain"],
+        "rank_4_advanced": ["Leech Life", "Synthesis"],
+        "rank_5_expert": ["Bug Buzz"]
+      },
+      "evolution": "Evolves into Cocoonium."
+    },
+    {
+      "name": "Cocoonium",
+      "id": "A017",
+      "typing": ["Bug", "Grass"],
+      "concept": "The Petrified Cocoon Pokémon. This Pokémon hardens its body into a solid, rock-like shell, mimicking a geode or ancient petroglyph.",
+      "suggested_rank": "Rookie",
+      "attributes": {
+        "strength": {"value": 3, "limit": 6},
+        "dexterity": {"value": 2, "limit": 5},
+        "vitality": {"value": 8, "limit": 13},
+        "special": {"value": 4, "limit": 8},
+        "insight": {"value": 5, "limit": 9}
+      },
+      "derived_stats": {"base_hp": 7, "hp": 15, "defense": 8, "special_defense": 5},
+      "abilities": ["Shed Skin", "Rock Armor (New)"],
+      "skills": ["Stealth", "Endurance"],
+      "move_pool": {
+        "rank_1_starter": ["Harden", "Bug Bite", "Absorb"],
+        "rank_2_rookie": ["Iron Defense", "String Shot", "Stun Spore", "Rock Throw"],
+        "rank_3_standard": ["Recover", "Ingrain"],
+        "rank_4_advanced": ["Synthesis", "Protect"],
+        "rank_5_expert": ["Bug Buzz", "Giga Drain"]
+      },
+      "evolution": "Evolves into Auroramoth."
+    },
+    {
+      "name": "Auroramoth",
+      "id": "A018",
+      "typing": ["Bug", "Fairy"],
+      "concept": "The Aurora Moth Pokémon. Upon evolution, its wings shimmer with the colors of the aurora borealis. It is an elegant and swift flyer.",
+      "suggested_rank": "Standard",
+      "attributes": {
+        "strength": {"value": 5, "limit": 10},
+        "dexterity": {"value": 8, "limit": 13},
+        "vitality": {"value": 6, "limit": 10},
+        "special": {"value": 9, "limit": 15},
+        "insight": {"value": 7, "limit": 12}
+      },
+      "derived_stats": {"base_hp": 8, "hp": 14, "defense": 6, "special_defense": 7},
+      "abilities": ["Compound Eyes", "Tinted Lens"],
+      "skills": ["Acrobat", "Flight", "Stealth"],
+      "move_pool": {
+        "rank_1_starter": ["Gust", "Silver Wind", "Draining Kiss", "Fairy Wind"],
+        "rank_2_rookie": ["Bug Buzz", "Air Slash", "Psyshock", "Moonblast"],
+        "rank_3_standard": ["Quiver Dance", "Tailwind", "Energy Ball", "Psychic"],
+        "rank_4_advanced": ["Fairy Beam (New)", "Bug Bite", "Hurricane"],
+        "rank_5_expert": ["Power Gem", "Dazzling Gleam"]
+      },
+      "evolution": "Final Stage."
+    }
+  ]
+}
