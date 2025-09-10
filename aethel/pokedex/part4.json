@@ -1,0 +1,429 @@
+{
+  "aethel_pokedex_part_4": [
+    {
+      "name": "Cawper",
+      "id": "A052",
+      "typing": ["Flying", "Dark"],
+      "concept": "The Carrion Pokémon. A small, black, crow-like Pokémon that is often seen in large flocks. It is known for its mischievous nature and its ability to mimic the cries of other Pokémon. It's a common sight in the forests and towns of Aethel.",
+      "suggested_rank": "Starter",
+      "attributes": {
+        "strength": {"value": 4, "limit": 8},
+        "dexterity": {"value": 6, "limit": 10},
+        "vitality": {"value": 3, "limit": 6},
+        "special": {"value": 4, "limit": 8},
+        "insight": {"value": 5, "limit": 9}
+      },
+      "derived_stats": {"base_hp": 4, "hp": 8, "defense": 3, "special_defense": 4},
+      "abilities": ["Keen Eye", "Prankster", "Moxie (Hidden)"],
+      "skills": ["Acrobat", "Stealth"],
+      "move_pool": {
+        "rank_1_starter": ["Peck", "Growl", "Astonish", "Leer"],
+        "rank_2_rookie": ["Wing Attack", "Feint Attack", "Pursuit", "Thief"],
+        "rank_3_standard": ["Air Slash", "Foul Play", "Taunt"],
+        "rank_4_advanced": ["Brave Bird", "Dark Pulse"],
+        "rank_5_expert": ["Hurricane", "Night Slash"]
+      },
+      "evolution": "Evolves into Noctcrow."
+    },
+    {
+      "name": "Noctcrow",
+      "id": "A053",
+      "typing": ["Flying", "Dark"],
+      "concept": "The Shadow Crow Pokémon. A larger, more powerful version of Cawper. It has a sleek, black body and a sharp, metallic beak. It is a cunning and intelligent Pokémon that is often used by the Northwind Syndicate to spy on rival gangs.",
+      "suggested_rank": "Rookie",
+      "attributes": {
+        "strength": {"value": 6, "limit": 10},
+        "dexterity": {"value": 8, "limit": 13},
+        "vitality": {"value": 5, "limit": 9},
+        "special": {"value": 6, "limit": 10},
+        "insight": {"value": 7, "limit": 12}
+      },
+      "derived_stats": {"base_hp": 6, "hp": 11, "defense": 5, "special_defense": 6},
+      "abilities": ["Keen Eye", "Prankster", "Moxie (Hidden)"],
+      "skills": ["Acrobat", "Stealth"],
+      "move_pool": {
+        "rank_1_starter": ["Peck", "Growl", "Astonish", "Leer"],
+        "rank_2_rookie": ["Wing Attack", "Feint Attack", "Pursuit", "Thief", "Air Slash"],
+        "rank_3_standard": ["Foul Play", "Taunt", "Brave Bird", "Dark Pulse"],
+        "rank_4_advanced": ["Hurricane", "Night Slash", "Snarl"],
+        "rank_5_expert": ["Sucker Punch", "Knock Off"]
+      },
+      "evolution": "Evolves into Umbralore."
+    },
+    {
+      "name": "Umbralore",
+      "id": "A054",
+      "typing": ["Flying", "Dark"],
+      "concept": "The Shadow Raven Pokémon. This powerful creature is a master of the night. Its feathers are a deep black, and its eyes glow with a sinister red light. It is a solitary hunter and is feared by those who travel alone at night. It is a symbol of the Northwind Syndicate's power and influence.",
+      "suggested_rank": "Standard",
+      "attributes": {
+        "strength": {"value": 8, "limit": 13},
+        "dexterity": {"value": 10, "limit": 15},
+        "vitality": {"value": 7, "limit": 12},
+        "special": {"value": 8, "limit": 13},
+        "insight": {"value": 9, "limit": 15}
+      },
+      "derived_stats": {"base_hp": 8, "hp": 15, "defense": 7, "special_defense": 8},
+      "abilities": ["Keen Eye", "Prankster", "Moxie (Hidden)"],
+      "skills": ["Acrobat", "Stealth"],
+      "move_pool": {
+        "rank_1_starter": ["Peck", "Growl", "Astonish", "Leer", "Wing Attack", "Feint Attack"],
+        "rank_2_rookie": ["Pursuit", "Thief", "Air Slash", "Foul Play", "Taunt", "Brave Bird"],
+        "rank_3_standard": ["Dark Pulse", "Hurricane", "Night Slash", "Snarl", "Sucker Punch"],
+        "rank_4_advanced": ["Knock Off", "Brave Bird", "Nasty Plot"],
+        "rank_5_expert": ["Foul Play", "Hurricane"]
+      },
+      "evolution": "Final Stage."
+    },
+    {
+      "name": "Porpaise",
+      "id": "A055",
+      "typing": ["Water"],
+      "concept": "The Porpoise Pokémon. A small, playful dolphin-like Pokémon known for its incredible speed in the water. It uses echolocation to find prey and is a common sight in Port Lumina.",
+      "suggested_rank": "Starter",
+      "attributes": {
+        "strength": {"value": 3, "limit": 6},
+        "dexterity": {"value": 6, "limit": 10},
+        "vitality": {"value": 4, "limit": 8},
+        "special": {"value": 4, "limit": 8},
+        "insight": {"value": 4, "limit": 8}
+      },
+      "derived_stats": {"base_hp": 5, "hp": 9, "defense": 4, "special_defense": 4},
+      "abilities": ["Swift Swim", "Water Veil", "Defiant (Hidden)"],
+      "skills": ["Swimmer"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Water Gun", "Growl", "Supersonic"],
+        "rank_2_rookie": ["Aqua Jet", "Bite", "Dive", "Assurance"],
+        "rank_3_standard": ["Water Pulse", "Crunch", "Waterfall"],
+        "rank_4_advanced": ["Aqua Tail", "Hydro Pump", "Double-Edge"],
+        "rank_5_expert": ["Final Gambit"]
+      },
+      "evolution": "Evolves into Cetastream."
+    },
+    {
+      "name": "Cetastream",
+      "id": "A056",
+      "typing": ["Water", "Dark"],
+      "concept": "The Pod Leader Pokémon. A powerful orca-like Pokémon that commands a pod of Porpaise. It is a feared predator of the cold waters and is known for its cunning hunting tactics.",
+      "suggested_rank": "Rookie",
+      "attributes": {
+        "strength": {"value": 7, "limit": 13},
+        "dexterity": {"value": 8, "limit": 15},
+        "vitality": {"value": 5, "limit": 10},
+        "special": {"value": 6, "limit": 11},
+        "insight": {"value": 6, "limit": 11}
+      },
+      "derived_stats": {"base_hp": 8, "hp": 13, "defense": 5, "special_defense": 6},
+      "abilities": ["Swift Swim", "Water Veil", "Defiant (Hidden)"],
+      "skills": ["Swimmer", "Stealth"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Water Gun", "Growl", "Supersonic"],
+        "rank_2_rookie": ["Aqua Jet", "Bite", "Dive", "Assurance", "Water Pulse", "Crunch"],
+        "rank_3_standard": ["Waterfall", "Aqua Tail", "Hydro Pump", "Double-Edge"],
+        "rank_4_advanced": ["Final Gambit", "Dark Pulse", "Outrage"],
+        "rank_5_expert": ["Aqua Jet", "Last Resort"]
+      },
+      "evolution": "Final Stage."
+    },
+    {
+      "name": "Terraground",
+      "id": "A057",
+      "typing": ["Ground", "Grass"],
+      "concept": "The Root-Marmot Pokémon. This Pokémon is often found near the bases of mountains, burrowing through the earth to find nutrient-rich roots. Its thick fur is stained with dirt and moss, providing perfect camouflage.",
+      "suggested_rank": "Starter",
+      "attributes": {
+        "strength": {"value": 3, "limit": 6},
+        "dexterity": {"value": 5, "limit": 9},
+        "vitality": {"value": 4, "limit": 8},
+        "special": {"value": 4, "limit": 8},
+        "insight": {"value": 3, "limit": 6}
+      },
+      "derived_stats": {"base_hp": 5, "hp": 9, "defense": 4, "special_defense": 4},
+      "abilities": ["Overgrow", "Vital Spirit", "Thick Fat (Hidden)"],
+      "skills": ["Climber", "Burrow"],
+      "move_pool": {
+        "rank_1_starter": ["Growl", "Absorb", "Mud-Slap", "Quick Attack"],
+        "rank_2_rookie": ["Leech Seed", "Growth", "Dig", "Rock Smash"],
+        "rank_3_standard": ["Giga Drain", "Earth Power", "Energy Ball"],
+        "rank_4_advanced": ["Solar Beam", "Earthquake"],
+        "rank_5_expert": ["Frenzy Plant", "Fissure"]
+      },
+      "evolution": "Evolves into Terrasquall."
+    },
+    {
+      "name": "Terrasquall",
+      "id": "A058",
+      "typing": ["Ground", "Grass"],
+      "concept": "The Seismic Marmot Pokémon. This Pokémon's powerful tail can cause small tremors to unearth buried roots and minerals. Its body is covered in thick, mossy fur. It is a very territorial Pokémon that will fiercely defend its home from any intruders.",
+      "suggested_rank": "Rookie",
+      "attributes": {
+        "strength": {"value": 6, "limit": 10},
+        "dexterity": {"value": 7, "limit": 12},
+        "vitality": {"value": 6, "limit": 10},
+        "special": {"value": 7, "limit": 12},
+        "insight": {"value": 5, "limit": 9}
+      },
+      "derived_stats": {"base_hp": 7, "hp": 13, "defense": 6, "special_defense": 5},
+      "abilities": ["Overgrow", "Vital Spirit", "Thick Fat (Hidden)"],
+      "skills": ["Climber", "Burrow"],
+      "move_pool": {
+        "rank_1_starter": ["Growl", "Absorb", "Mud-Slap", "Quick Attack"],
+        "rank_2_rookie": ["Leech Seed", "Growth", "Dig", "Rock Smash"],
+        "rank_3_standard": ["Giga Drain", "Earth Power", "Energy Ball", "Solar Beam"],
+        "rank_4_advanced": ["Earthquake", "Fissure"],
+        "rank_5_expert": ["Frenzy Plant", "Wood Hammer"]
+      },
+      "evolution": "Final Stage."
+    },
+    {
+      "name": "Voltingo",
+      "id": "A059",
+      "typing": ["Electric"],
+      "concept": "The Arctic Rabbit Pokémon. This small, lightning-fast Pokémon is known for its ability to hop across the tundra at incredible speeds. It's often seen chasing after the aurora, which it uses to store electricity in its fur. It is a very timid Pokémon that is rarely seen by humans.",
+      "suggested_rank": "Starter",
+      "attributes": {
+        "strength": {"value": 3, "limit": 6},
+        "dexterity": {"value": 8, "limit": 13},
+        "vitality": {"value": 4, "limit": 8},
+        "special": {"value": 5, "limit": 9},
+        "insight": {"value": 5, "limit": 9}
+      },
+      "derived_stats": {"base_hp": 4, "hp": 8, "defense": 4, "special_defense": 5},
+      "abilities": ["Static", "Speed Boost", "Lightning Rod (Hidden)"],
+      "skills": ["Acrobat", "Endurance"],
+      "move_pool": {
+        "rank_1_starter": ["Growl", "Thunder Shock", "Quick Attack", "Leer"],
+        "rank_2_rookie": ["Spark", "Charge Beam", "Nuzzle", "Agility"],
+        "rank_3_standard": ["Thunderbolt", "Thunder", "Electro Ball"],
+        "rank_4_advanced": ["Discharge", "Wild Charge"],
+        "rank_5_expert": ["Zap Cannon"]
+      },
+      "evolution": "Evolves into Glacialink."
+    },
+    {
+      "name": "Glacialink",
+      "id": "A060",
+      "typing": ["Electric", "Ice"],
+      "concept": "The Aurora Rabbit Pokémon. A sleek, powerful rabbit-like Pokémon that can summon powerful electric storms. It is a very rare sight and is said to be a guide for lost travelers. Its fur shimmers with the colors of the aurora borealis.",
+      "suggested_rank": "Rookie",
+      "attributes": {
+        "strength": {"value": 5, "limit": 9},
+        "dexterity": {"value": 10, "limit": 15},
+        "vitality": {"value": 6, "limit": 10},
+        "special": {"value": 7, "limit": 12},
+        "insight": {"value": 7, "limit": 12}
+      },
+      "derived_stats": {"base_hp": 6, "hp": 12, "defense": 6, "special_defense": 7},
+      "abilities": ["Static", "Speed Boost", "Lightning Rod (Hidden)"],
+      "skills": ["Acrobat", "Endurance"],
+      "move_pool": {
+        "rank_1_starter": ["Growl", "Thunder Shock", "Quick Attack", "Leer"],
+        "rank_2_rookie": ["Spark", "Charge Beam", "Nuzzle", "Agility", "Thunderbolt"],
+        "rank_3_standard": ["Thunder", "Electro Ball", "Discharge", "Wild Charge"],
+        "rank_4_advanced": ["Zap Cannon", "Sheer Cold", "Blizzard"],
+        "rank_5_expert": ["Volt Tackle", "Freeze-Dry"]
+      },
+      "evolution": "Final Stage."
+    },
+    {
+      "name": "Sledpup",
+      "id": "A061",
+      "typing": ["Ice", "Dark"],
+      "concept": "The Sled Dog Pokémon. A small, puppy-like Pokémon with a thick coat of fur. It is a very energetic and loyal Pokémon that is often used by trainers for companionship and to help pull sleds. Its fur is a deep black, and its eyes glow with a sinister red light.",
+      "suggested_rank": "Starter",
+      "attributes": {
+        "strength": {"value": 5, "limit": 9},
+        "dexterity": {"value": 5, "limit": 9},
+        "vitality": {"value": 4, "limit": 8},
+        "special": {"value": 4, "limit": 8},
+        "insight": {"value": 4, "limit": 8}
+      },
+      "derived_stats": {"base_hp": 4, "hp": 8, "defense": 4, "special_defense": 4},
+      "abilities": ["Intimidate", "Quick Feet", "Permafrost (Hidden)"],
+      "skills": ["Acrobat", "Endurance"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Growl", "Powder Snow", "Quick Attack"],
+        "rank_2_rookie": ["Bite", "Snarl", "Ice Shard", "Assurance"],
+        "rank_3_standard": ["Icicle Crash", "Dark Pulse", "Crunch"],
+        "rank_4_advanced": ["Blizzard", "Foul Play", "Night Slash"],
+        "rank_5_expert": ["Icicle Crash", "Sucker Punch"]
+      },
+      "evolution": "Evolves into Sledrus."
+    },
+    {
+      "name": "Sledrus",
+      "id": "A062",
+      "typing": ["Ice", "Dark"],
+      "concept": "The Team Pokémon. A larger, more powerful version of Sledpup. It is a very loyal and powerful Pokémon that is often seen in teams, pulling large sleds. It is a cunning and intelligent Pokémon that can work with its pack to hunt its prey.",
+      "suggested_rank": "Rookie",
+      "attributes": {
+        "strength": {"value": 7, "limit": 12},
+        "dexterity": {"value": 7, "limit": 12},
+        "vitality": {"value": 6, "limit": 10},
+        "special": {"value": 6, "limit": 10},
+        "insight": {"value": 6, "limit": 10}
+      },
+      "derived_stats": {"base_hp": 6, "hp": 12, "defense": 6, "special_defense": 6},
+      "abilities": ["Intimidate", "Quick Feet", "Permafrost (Hidden)"],
+      "skills": ["Acrobat", "Endurance"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Growl", "Powder Snow", "Quick Attack"],
+        "rank_2_rookie": ["Bite", "Snarl", "Ice Shard", "Assurance", "Icicle Crash"],
+        "rank_3_standard": ["Dark Pulse", "Crunch", "Blizzard", "Foul Play", "Night Slash"],
+        "rank_4_advanced": ["Sucker Punch", "Icicle Crash", "Outrage"],
+        "rank_5_expert": ["Foul Play", "Giga Impact"]
+      },
+      "evolution": "Evolves into Siberus."
+    },
+    {
+      "name": "Siberus",
+      "id": "A063",
+      "typing": ["Ice", "Dark"],
+      "concept": "The Alpha Pokémon. A majestic, powerful version of Sledrus. Its fur is a deep black, and its eyes glow with a sinister red light. It is a very intelligent and loyal Pokémon that can lead its pack to victory. Its howls can cause powerful blizzards.",
+      "suggested_rank": "Standard",
+      "attributes": {
+        "strength": {"value": 9, "limit": 15},
+        "dexterity": {"value": 9, "limit": 15},
+        "vitality": {"value": 8, "limit": 13},
+        "special": {"value": 8, "limit": 13},
+        "insight": {"value": 8, "limit": 13}
+      },
+      "derived_stats": {"base_hp": 8, "hp": 16, "defense": 8, "special_defense": 8},
+      "abilities": ["Intimidate", "Quick Feet", "Permafrost (Hidden)"],
+      "skills": ["Acrobat", "Endurance"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Growl", "Powder Snow", "Quick Attack", "Bite", "Snarl"],
+        "rank_2_rookie": ["Ice Shard", "Assurance", "Icicle Crash", "Dark Pulse", "Crunch", "Blizzard"],
+        "rank_3_standard": ["Foul Play", "Night Slash", "Sucker Punch", "Outrage", "Giga Impact"],
+        "rank_4_advanced": ["Icicle Crash", "Last Resort", "Night Slash"],
+        "rank_5_expert": ["Foul Play", "Blizzard"]
+      },
+      "evolution": "Final Stage."
+    },
+    {
+      "name": "Vulpesh",
+      "id": "A064",
+      "typing": ["Ice"],
+      "concept": "The Arctic Fox Pokémon. A small, agile fox-like Pokémon with a thick, white coat of fur that changes color to camouflage with the season. It is a very intelligent and curious Pokémon that is known for its ability to find food in the harshest of environments.",
+      "suggested_rank": "Starter",
+      "attributes": {
+        "strength": {"value": 4, "limit": 8},
+        "dexterity": {"value": 6, "limit": 10},
+        "vitality": {"value": 4, "limit": 8},
+        "special": {"value": 5, "limit": 9},
+        "insight": {"value": 5, "limit": 9}
+      },
+      "derived_stats": {"base_hp": 4, "hp": 8, "defense": 4, "special_defense": 5},
+      "abilities": ["Snow Cloak", "Ice Body", "Permafrost (Hidden)"],
+      "skills": ["Acrobat", "Stealth"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Growl", "Powder Snow", "Quick Attack"],
+        "rank_2_rookie": ["Ice Shard", "Bite", "Confuse Ray", "Gust"],
+        "rank_3_standard": ["Aurora Veil", "Ice Beam", "Freeze-Dry"],
+        "rank_4_advanced": ["Blizzard", "Foul Play"],
+        "rank_5_expert": ["Sheer Cold"]
+      },
+      "evolution": "Evolves into Glacialox."
+    },
+    {
+      "name": "Glacialox",
+      "id": "A065",
+      "typing": ["Ice", "Psychic"],
+      "concept": "The Arctic Predator Pokémon. A larger, more powerful arctic fox with a coat of ice that serves as armor. It is a very intelligent and cunning Pokémon that can use its psychic abilities to track its prey.",
+      "suggested_rank": "Rookie",
+      "attributes": {
+        "strength": {"value": 6, "limit": 10},
+        "dexterity": {"value": 8, "limit": 13},
+        "vitality": {"value": 6, "limit": 10},
+        "special": {"value": 8, "limit": 13},
+        "insight": {"value": 9, "limit": 15}
+      },
+      "derived_stats": {"base_hp": 6, "hp": 12, "defense": 6, "special_defense": 9},
+      "abilities": ["Snow Cloak", "Ice Body", "Permafrost (Hidden)"],
+      "skills": ["Acrobat", "Stealth"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Growl", "Powder Snow", "Quick Attack"],
+        "rank_2_rookie": ["Ice Shard", "Bite", "Confuse Ray", "Gust", "Aurora Veil"],
+        "rank_3_standard": ["Ice Beam", "Freeze-Dry", "Blizzard", "Foul Play"],
+        "rank_4_advanced": ["Sheer Cold", "Psyshock"],
+        "rank_5_expert": ["Blizzard", "Psychic"]
+      },
+      "evolution": "Final Stage."
+    },
+    {
+      "name": "Halibutt",
+      "id": "A066",
+      "typing": ["Water"],
+      "concept": "The Flatfish Pokémon. A common, bottom-dwelling fish with a flat, disc-shaped body. It is known for its ability to camouflage itself in the sandy seafloor. The Coastal Clan believes that a Halibutt's unique pattern is a symbol of a fisherman's luck.",
+      "suggested_rank": "Starter",
+      "attributes": {
+        "strength": {"value": 5, "limit": 9},
+        "dexterity": {"value": 4, "limit": 8},
+        "vitality": {"value": 6, "limit": 10},
+        "special": {"value": 4, "limit": 8},
+        "insight": {"value": 5, "limit": 9}
+      },
+      "derived_stats": {"base_hp": 6, "hp": 11, "defense": 6, "special_defense": 5},
+      "abilities": ["Swift Swim", "Water Absorb", "Guts (Hidden)"],
+      "skills": ["Swimmer", "Stealth"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Water Gun", "Mud-Slap", "Camouflage"],
+        "rank_2_rookie": ["Aqua Jet", "Razor Shell", "Muddy Water"],
+        "rank_3_standard": ["Aqua Tail", "Hydro Pump", "Double-Edge"],
+        "rank_4_advanced": ["Liquidation", "Water Spout"],
+        "rank_5_expert": ["Hydro Cannon"]
+      },
+      "evolution": "Final Stage."
+    },
+    {
+      "name": "Ermineer",
+      "id": "A067",
+      "typing": ["Fairy"],
+      "concept": "The Ermine Pokémon. A small, sleek, ermine-like Pokémon that changes its coat to a brilliant white in the winter. It is known for its cunning nature and its magical abilities, which it uses to play tricks on travelers. The Frontier Cartographers tell stories of Ermineer leading lost hikers to safety with its magical glow.",
+      "suggested_rank": "Starter",
+      "attributes": {
+        "strength": {"value": 3, "limit": 6},
+        "dexterity": {"value": 7, "limit": 12},
+        "vitality": {"value": 4, "limit": 8},
+        "special": {"value": 6, "limit": 10},
+        "insight": {"value": 5, "limit": 9}
+      },
+      "derived_stats": {"base_hp": 4, "hp": 8, "defense": 4, "special_defense": 5},
+      "abilities": ["Cunning", "Pixilate", "Prankster (Hidden)"],
+      "skills": ["Acrobat", "Stealth"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Growl", "Fairy Wind", "Quick Attack"],
+        "rank_2_rookie": ["Magical Leaf", "Draining Kiss", "Play Rough"],
+        "rank_3_standard": ["Dazzling Gleam", "Ice Beam", "Nasty Plot"],
+        "rank_4_advanced": ["Moonblast", "Foul Play"],
+        "rank_5_expert": ["Fairy Beam (New)"]
+      },
+      "evolution": "Evolves into Faelix."
+    },
+    {
+      "name": "Faelix",
+      "id": "A068",
+      "typing": ["Fairy", "Ice"],
+      "concept": "The Aurora Ermine Pokémon. A more powerful and majestic ermine. Its coat is a shimmering white, and its tail glows with the colors of the aurora borealis. It is a solitary hunter and a powerful guardian of the pristine winter landscape, often in conflict with the Eon Remnants who see it as a perfect specimen.",
+      "suggested_rank": "Rookie",
+      "attributes": {
+        "strength": {"value": 5, "limit": 9},
+        "dexterity": {"value": 9, "limit": 15},
+        "vitality": {"value": 6, "limit": 10},
+        "special": {"value": 8, "limit": 13},
+        "insight": {"value": 7, "limit": 12}
+      },
+      "derived_stats": {"base_hp": 6, "hp": 12, "defense": 6, "special_defense": 7},
+      "abilities": ["Cunning", "Pixilate", "Prankster (Hidden)"],
+      "skills": ["Acrobat", "Stealth"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Growl", "Fairy Wind", "Quick Attack"],
+        "rank_2_rookie": ["Magical Leaf", "Draining Kiss", "Play Rough", "Dazzling Gleam"],
+        "rank_3_standard": ["Ice Beam", "Nasty Plot", "Moonblast", "Foul Play"],
+        "rank_4_advanced": ["Sheer Cold", "Blizzard"],
+        "rank_5_expert": ["Fairy Beam (New)", "Blizzard"]
+      },
+      "evolution": "Final Stage."
+    }
+  ]
+}
