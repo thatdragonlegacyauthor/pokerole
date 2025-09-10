@@ -1,0 +1,279 @@
+{
+  "aethel_pokedex_part_5": [
+    {
+      "name": "Squiggly",
+      "id": "A069",
+      "typing": ["Normal"],
+      "concept": "The Arctic Ground Squirrel Pokémon. A small, burrowing Pokémon with a thick, insulated coat of fur. It is a very common Pokémon in the mountainous regions of Aethel. The Athabaskan Analogue see it as a symbol of prosperity and community, as its large burrows are often home to many different Pokémon.",
+      "suggested_rank": "Starter",
+      "attributes": {
+        "strength": {"value": 4, "limit": 8},
+        "dexterity": {"value": 5, "limit": 9},
+        "vitality": {"value": 4, "limit": 8},
+        "special": {"value": 3, "limit": 6},
+        "insight": {"value": 4, "limit": 8}
+      },
+      "derived_stats": {"base_hp": 5, "hp": 9, "defense": 4, "special_defense": 4},
+      "abilities": ["Pickup", "Run Away", "Sand Force (Hidden)"],
+      "skills": ["Acrobat", "Stealth", "Burrow"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Growl", "Quick Attack", "Sand Attack"],
+        "rank_2_rookie": ["Dig", "Bite", "Defense Curl"],
+        "rank_3_standard": ["Body Slam", "Rock Smash", "Earthquake"],
+        "rank_4_advanced": ["Double Edge", "Last Resort"],
+        "rank_5_expert": ["Giga Impact"]
+      },
+      "evolution": "Evolves into Burrowlusk."
+    },
+    {
+      "name": "Burrowlusk",
+      "id": "A070",
+      "typing": ["Normal", "Ground"],
+      "concept": "The Tundra Burrower Pokémon. A larger, more powerful version of Squiggly. Its body is covered in a thick, dirt-stained coat of fur, and its paws are incredibly powerful, allowing it to dig through even the hardest permafrost. The Prospector's Union often uses them to find valuable minerals.",
+      "suggested_rank": "Rookie",
+      "attributes": {
+        "strength": {"value": 6, "limit": 10},
+        "dexterity": {"value": 7, "limit": 12},
+        "vitality": {"value": 6, "limit": 10},
+        "special": {"value": 4, "limit": 8},
+        "insight": {"value": 5, "limit": 9}
+      },
+      "derived_stats": {"base_hp": 7, "hp": 13, "defense": 6, "special_defense": 5},
+      "abilities": ["Pickup", "Run Away", "Sand Force (Hidden)"],
+      "skills": ["Acrobat", "Stealth", "Burrow"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Growl", "Quick Attack", "Sand Attack"],
+        "rank_2_rookie": ["Dig", "Bite", "Defense Curl", "Body Slam"],
+        "rank_3_standard": ["Rock Smash", "Earthquake", "Double Edge", "Last Resort"],
+        "rank_4_advanced": ["Giga Impact", "Drill Run"],
+        "rank_5_expert": ["Fissure", "Earth Power"]
+      },
+      "evolution": "Final Stage."
+    },
+    {
+      "name": "Lemmin",
+      "id": "A071",
+      "typing": ["Normal"],
+      "concept": "The Leaping Pokémon. This small, rodent-like Pokémon is known for its massive population booms and its ability to overwhelm predators in a swarm. It is a very timid Pokémon that will flee at the first sign of danger. Its lore is tied to the idea of community and strength in numbers.",
+      "suggested_rank": "Starter",
+      "attributes": {
+        "strength": {"value": 4, "limit": 8},
+        "dexterity": {"value": 6, "limit": 10},
+        "vitality": {"value": 3, "limit": 6},
+        "special": {"value": 3, "limit": 6},
+        "insight": {"value": 5, "limit": 9}
+      },
+      "derived_stats": {"base_hp": 4, "hp": 8, "defense": 3, "special_defense": 5},
+      "abilities": ["Pickup", "Run Away", "Swarm (Hidden)"],
+      "skills": ["Acrobat", "Stealth"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Growl", "Quick Attack", "Tail Whip"],
+        "rank_2_rookie": ["Bite", "Hyper Fang", "Endeavor", "Last Resort"],
+        "rank_3_standard": ["Double Edge", "Double Slap"],
+        "rank_4_advanced": ["Giga Impact", "Extreme Speed"],
+        "rank_5_expert": ["Final Gambit"]
+      },
+      "evolution": "Final Stage."
+    },
+    {
+      "name": "Stellas",
+      "id": "A072",
+      "typing": ["Water"],
+      "concept": "The Sea Lion Pokémon. A small, playful sea lion pup that is known for its friendly nature and its ability to swim at incredible speeds. It is a very common Pokémon in the coastal waters of the Aethel region. It is a symbol of a healthy ecosystem.",
+      "suggested_rank": "Starter",
+      "attributes": {
+        "strength": {"value": 5, "limit": 9},
+        "dexterity": {"value": 4, "limit": 8},
+        "vitality": {"value": 6, "limit": 10},
+        "special": {"value": 4, "limit": 8},
+        "insight": {"value": 5, "limit": 9}
+      },
+      "derived_stats": {"base_hp": 6, "hp": 11, "defense": 6, "special_defense": 5},
+      "abilities": ["Water Veil", "Thick Fat", "Swift Swim (Hidden)"],
+      "skills": ["Swimmer", "Acrobat"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Water Gun", "Growl", "Quick Attack"],
+        "rank_2_rookie": ["Aqua Jet", "Bite", "Dive", "Assurance"],
+        "rank_3_standard": ["Water Pulse", "Crunch", "Waterfall"],
+        "rank_4_advanced": ["Aqua Tail", "Hydro Pump", "Double-Edge"],
+        "rank_5_expert": ["Final Gambit"]
+      },
+      "evolution": "Evolves into Sealord."
+    },
+    {
+      "name": "Sealord",
+      "id": "A073",
+      "typing": ["Water"],
+      "concept": "The Sea Lion Pokémon. A larger, more powerful sea lion with a thick coat of fur. It is a very territorial Pokémon that will fiercely defend its home from any intruders. Its body is covered in a thick layer of fat that protects it from the cold. It is a symbol of a healthy ecosystem.",
+      "suggested_rank": "Rookie",
+      "attributes": {
+        "strength": {"value": 7, "limit": 12},
+        "dexterity": {"value": 6, "limit": 10},
+        "vitality": {"value": 8, "limit": 13},
+        "special": {"value": 6, "limit": 10},
+        "insight": {"value": 7, "limit": 12}
+      },
+      "derived_stats": {"base_hp": 8, "hp": 16, "defense": 8, "special_defense": 7},
+      "abilities": ["Water Veil", "Thick Fat", "Swift Swim (Hidden)"],
+      "skills": ["Swimmer", "Acrobat"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Water Gun", "Growl", "Quick Attack"],
+        "rank_2_rookie": ["Aqua Jet", "Bite", "Dive", "Assurance", "Water Pulse"],
+        "rank_3_standard": ["Crunch", "Waterfall", "Aqua Tail", "Hydro Pump"],
+        "rank_4_advanced": ["Double-Edge", "Final Gambit", "Liquidation"],
+        "rank_5_expert": ["Hydro Cannon", "Giga Impact"]
+      },
+      "evolution": "Evolves into Majestrias."
+    },
+    {
+      "name": "Majestrias",
+      "id": "A074",
+      "typing": ["Water"],
+      "concept": "The King Sea Lion Pokémon. A massive, powerful sea lion that is the unquestioned king of its territory. Its roar can be heard for miles and its body is a symbol of the coastal waters' strength. It is a fierce protector of its ecosystem and is revered by the Coastal Clan.",
+      "suggested_rank": "Standard",
+      "attributes": {
+        "strength": {"value": 10, "limit": 15},
+        "dexterity": {"value": 8, "limit": 13},
+        "vitality": {"value": 10, "limit": 15},
+        "special": {"value": 8, "limit": 13},
+        "insight": {"value": 9, "limit": 15}
+      },
+      "derived_stats": {"base_hp": 10, "hp": 20, "defense": 10, "special_defense": 9},
+      "abilities": ["Water Veil", "Thick Fat", "Swift Swim (Hidden)"],
+      "skills": ["Swimmer", "Acrobat"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Water Gun", "Growl", "Quick Attack", "Aqua Jet"],
+        "rank_2_rookie": ["Bite", "Dive", "Assurance", "Water Pulse", "Crunch"],
+        "rank_3_standard": ["Waterfall", "Aqua Tail", "Hydro Pump", "Double-Edge", "Liquidation"],
+        "rank_4_advanced": ["Final Gambit", "Giga Impact", "Hydro Cannon"],
+        "rank_5_expert": ["Fissure", "Blizzard"]
+      },
+      "evolution": "Final Stage."
+    },
+    {
+      "name": "Dallamb",
+      "id": "A075",
+      "typing": ["Fighting"],
+      "concept": "The Lamb Pokémon. A small, timid, sheep-like Pokémon that is often found in the high mountains of the Aethel region. It is known for its ability to leap incredible distances and its surprisingly strong headbutt, which it uses to defend itself from predators.",
+      "suggested_rank": "Starter",
+      "attributes": {
+        "strength": {"value": 5, "limit": 9},
+        "dexterity": {"value": 4, "limit": 8},
+        "vitality": {"value": 5, "limit": 9},
+        "special": {"value": 3, "limit": 6},
+        "insight": {"value": 4, "limit": 8}
+      },
+      "derived_stats": {"base_hp": 5, "hp": 10, "defense": 5, "special_defense": 4},
+      "abilities": ["Inner Focus", "Anger Point", "Rock Head (Hidden)"],
+      "skills": ["Acrobat", "Climber"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Growl", "Headbutt", "Leer"],
+        "rank_2_rookie": ["Double Kick", "Focus Energy", "Bide"],
+        "rank_3_standard": ["Take Down", "Jump Kick", "Rock Throw"],
+        "rank_4_advanced": ["Close Combat", "Head Smash"],
+        "rank_5_expert": ["Final Gambit"]
+      },
+      "evolution": "Evolves into Ramhead."
+    },
+    {
+      "name": "Ramhead",
+      "id": "A076",
+      "typing": ["Fighting"],
+      "concept": "The Ram Pokémon. A larger, more powerful version of Dallamb with a small set of horns. It is a very territorial Pokémon that will fiercely defend its home from any intruders. Its headbutt is incredibly powerful, and it is known to be able to shatter rocks with a single hit.",
+      "suggested_rank": "Rookie",
+      "attributes": {
+        "strength": {"value": 8, "limit": 13},
+        "dexterity": {"value": 6, "limit": 10},
+        "vitality": {"value": 7, "limit": 12},
+        "special": {"value": 4, "limit": 8},
+        "insight": {"value": 6, "limit": 10}
+      },
+      "derived_stats": {"base_hp": 7, "hp": 14, "defense": 7, "special_defense": 6},
+      "abilities": ["Inner Focus", "Anger Point", "Rock Head (Hidden)"],
+      "skills": ["Acrobat", "Climber"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Growl", "Headbutt", "Leer"],
+        "rank_2_rookie": ["Double Kick", "Focus Energy", "Bide", "Take Down"],
+        "rank_3_standard": ["Jump Kick", "Rock Throw", "Close Combat", "Head Smash"],
+        "rank_4_advanced": ["Final Gambit", "Rock Slide"],
+        "rank_5_expert": ["Head Smash", "Rock Wrecker"]
+      },
+      "evolution": "Evolves into Bellwether."
+    },
+    {
+      "name": "Bellwether",
+      "id": "A077",
+      "typing": ["Fighting", "Rock"],
+      "concept": "The Alpha Pokémon. A majestic, powerful ram with a massive set of horns. It is the leader of its herd and is a master of the mountainous terrain. It can use its powerful headbutt to cause small landslides and can shatter even the hardest rock with a single hit.",
+      "suggested_rank": "Standard",
+      "attributes": {
+        "strength": {"value": 11, "limit": 16},
+        "dexterity": {"value": 8, "limit": 13},
+        "vitality": {"value": 9, "limit": 15},
+        "special": {"value": 6, "limit": 10},
+        "insight": {"value": 8, "limit": 13}
+      },
+      "derived_stats": {"base_hp": 9, "hp": 18, "defense": 9, "special_defense": 8},
+      "abilities": ["Inner Focus", "Anger Point", "Rock Head (Hidden)"],
+      "skills": ["Acrobat", "Climber"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Growl", "Headbutt", "Leer"],
+        "rank_2_rookie": ["Double Kick", "Focus Energy", "Bide", "Take Down"],
+        "rank_3_standard": ["Jump Kick", "Rock Throw", "Close Combat", "Head Smash", "Final Gambit"],
+        "rank_4_advanced": ["Rock Slide", "Head Smash", "Rock Wrecker"],
+        "rank_5_expert": ["Head Smash", "Rock Wrecker"]
+      },
+      "evolution": "Final Stage."
+    },
+    {
+      "name": "Sneklace",
+      "id": "A078",
+      "typing": ["Normal", "Poison"],
+      "concept": "The House Snake Pokémon. A small, docile snake that is a popular pet in the towns of the Aethel region. It loves to coil around a person's neck, giving it its name. It is a very friendly Pokémon that is known for its gentle nature.",
+      "suggested_rank": "Starter",
+      "attributes": {
+        "strength": {"value": 4, "limit": 8},
+        "dexterity": {"value": 6, "limit": 10},
+        "vitality": {"value": 4, "limit": 8},
+        "special": {"value": 5, "limit": 9},
+        "insight": {"value": 5, "limit": 9}
+      },
+      "derived_stats": {"base_hp": 4, "hp": 8, "defense": 4, "special_defense": 5},
+      "abilities": ["Shed Skin", "Run Away", "Intimidate (Hidden)"],
+      "skills": ["Acrobat", "Stealth"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Wrap", "Poison Sting", "Leer"],
+        "rank_2_rookie": ["Coil", "Bite", "Glare", "Acid"],
+        "rank_3_standard": ["Sludge", "Acid Spray", "Slam"],
+        "rank_4_advanced": ["Body Slam", "Poison Fang"],
+        "rank_5_expert": ["Gunk Shot"]
+      },
+      "evolution": "Evolves into Constrictorn."
+    },
+    {
+      "name": "Constrictorn",
+      "id": "A079",
+      "typing": ["Normal", "Poison"],
+      "concept": "The Constrictor Pokémon. A larger, more powerful version of Sneklace with a more intimidating appearance. It is a very loyal Pokémon that will fiercely defend its trainer from any threat. Its powerful coils can crush anything with ease.",
+      "suggested_rank": "Rookie",
+      "attributes": {
+        "strength": {"value": 8, "limit": 13},
+        "dexterity": {"value": 8, "limit": 13},
+        "vitality": {"value": 6, "limit": 10},
+        "special": {"value": 7, "limit": 12},
+        "insight": {"value": 7, "limit": 12}
+      },
+      "derived_stats": {"base_hp": 6, "hp": 12, "defense": 6, "special_defense": 7},
+      "abilities": ["Shed Skin", "Run Away", "Intimidate (Hidden)"],
+      "skills": ["Acrobat", "Stealth"],
+      "move_pool": {
+        "rank_1_starter": ["Tackle", "Wrap", "Poison Sting", "Leer"],
+        "rank_2_rookie": ["Coil", "Bite", "Glare", "Acid", "Sludge"],
+        "rank_3_standard": ["Acid Spray", "Slam", "Body Slam", "Poison Fang"],
+        "rank_4_advanced": ["Gunk Shot", "Crunch", "Dragon Tail"],
+        "rank_5_expert": ["Outrage", "Giga Impact"]
+      },
+      "evolution": "Final Stage."
+    }
+  ]
+}
