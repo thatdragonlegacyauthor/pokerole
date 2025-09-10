@@ -11,350 +11,89 @@
     {
       "name": "Cryosys",
       "ideology": "Progress is the only way to save humanity. We will harness the land's power for the greater good, no matter the cost.",
-      "goals": "To use advanced technology to thaw the Grand Glacier and harness the ancient energy contained within to power the world."
+      "goals": "To use advanced technology to thaw the Grand Glacier and harness the ancient energy contained within to power the world. (Secretly, to awaken Fimbulstorm and usher in a new ice age of perfect order.)"
     },
-    {
-      "name": "The Eon Remnants",
-      "ideology": "The perfection of the gene pool is the only way to save a species from itself.",
-      "goals": "To capture and 'purify' regional variants through forced genetic modification."
-    },
-    {
-      "name": "The Northwind Syndicate",
-      "ideology": "In the wilderness, only the strongest survive and seize control.",
-      "goals": "To control the black market for rare Pokémon and valuable goods in the Aethel region."
-    },
-    {
-      "name": "The Prospector's Union",
-      "ideology": "The resources of the land are for those who can claim them.",
-      "goals": "To extract valuable minerals and resources from the land, often causing environmental damage."
-    },
-    {
-      "name": "The Frontier Cartographers",
-      "ideology": "Progress is charting the unknown, not in conquering it.",
-      "goals": "To protect the region's wilderness and undisturbed natural phenomena from exploitation."
-    },
-    {
-      "name": "The Wayward Hearth",
-      "ideology": "We are a family, and our home is wherever we find a need.",
-      "goals": "To provide aid to towns and Pokémon in need, acting as a benevolent, nomadic group of healers."
-    },
-    {
-      "name": "The Aurora's Chosen",
-      "ideology": "The lights speak to us. We are their voice.",
-      "goals": "To preserve the ancient knowledge and rituals of the Aethel region."
-    },
-    {
-      "name": "The Permafrost Foundation",
-      "ideology": "Pokémon are a force of nature, and we must preserve them from the corruption of the modern world.",
-      "goals": "To protect the Aethel region's ecosystem from outside influence, often taking their goals to the extreme."
-    }
-  ],
-  "indigenous_cultures": [
-    {
-      "name": "The Athabaskan Analogue: The Interior Hearth",
-      "description": "A culture built on community, storytelling, and a deep, ancestral connection to the forest Pokémon."
-    },
-    {
-      "name": "The Tlingit Analogue: The Coastal Clan",
-      "description": "A culture defined by its stunning art, its complex social structure, and its deep connection to the salmon and other marine life."
-    },
-    {
-      "name": "The Yup'ik Analogue: The Tundra Collective",
-      "description": "A culture that is deeply spiritual, centered on the belief that all living things are connected by a shared soul."
-    }
+    { "name": "The Eon Remnants", "ideology": "The perfection of the gene pool is the only way to save a species from itself.", "goals": "To capture and 'purify' regional variants through forced genetic modification." },
+    { "name": "The Northwind Syndicate", "ideology": "In the wilderness, only the strongest survive and seize control.", "goals": "To control the black market for rare Pokémon and valuable goods in the Aethel region." },
+    { "name": "The Prospector's Union", "ideology": "The resources of the land are for those who can claim them.", "goals": "To extract valuable minerals and resources from the land, often causing environmental damage." },
+    { "name": "The Frontier Cartographers", "ideology": "Progress is charting the unknown, not in conquering it.", "goals": "To protect the region's wilderness and undisturbed natural phenomena from exploitation." },
+    { "name": "The Wayward Hearth", "ideology": "We are a family, and our home is wherever we find a need.", "goals": "To provide aid to towns and Pokémon in need, acting as a benevolent, nomadic group of healers." },
+    { "name": "The Aurora's Chosen", "ideology": "The lights speak to us. We are their voice.", "goals": "To preserve the ancient knowledge and rituals of the Aethel region." },
+    { "name": "The Permafrost Foundation", "ideology": "Pokémon are a force of nature, and we must preserve them from the corruption of the modern world.", "goals": "To protect the Aethel region's ecosystem from outside influence, often taking their goals to the extreme." }
   ],
   "key_npcs": [
     {
       "name": "Professor Aspen",
-      "role": "Pokémon League Champion, Regional Professor",
-      "specialty": "Pokémon habitats and auras",
-      "personality": "Laid-back, outdoorsy, and a philosophical counterpoint to Cryosys's cold, calculating methods.",
-      "faction_tie": "Indigenous Cultures",
-      "team": []
+      "role": "Pokémon League Champion (Retired), Regional Professor",
+      "team": ["Wyrdeer", "Ursaluna", "Basculegion", "Kleavor", "Hisuian Arcanine", "Hisuian Goodra"]
     },
     {
-      "name": "Leo",
-      "role": "Rival",
-      "personality": "Ambitious, competitive, and arrogant. Idolizes Cryosys and views the player as his greatest competition.",
-      "faction_tie": "Cryosys",
-      "team": []
+      "name": "Chairman Thorne",
+      "role": "Primary Antagonist, CEO of Cryosys",
+      "team": ["Bronzong", "Metagross", "Armored Mewtwo"]
     },
     {
-      "name": "Forrest",
-      "role": "Gym Leader 1",
-      "location": "Birchhaven City",
-      "type_specialty": "Bug",
-      "badge": "Chitin Badge",
-      "personality": "Calm, patient, and deeply knowledgeable about the local ecosystem. A quiet protestor against Cryosys's industrial practices.",
-      "faction_tie": "Frontier Cartographers",
-      "team": [
-        {"pokemon": "Aethelian Ariados"},
-        {"pokemon": "Scyther"}
-      ]
+      "name": "Commander Valen",
+      "role": "Antagonist, Cryosys Field Commander",
+      "team": ["Corviknight", "Krookodile", "Hisuian Arcanine"]
     },
-    {
-      "name": "Slade",
-      "role": "Gym Leader 2",
-      "location": "Gold-Paw Gulch",
-      "type_specialty": "Rock",
-      "badge": "Lode Badge",
-      "personality": "Gruff and no-nonsense. A former prospector who believes Cryosys's presence is for the greater good of his community.",
-      "faction_tie": "Prospector's Union",
-      "team": [
-        {"pokemon": "Carbink"},
-        {"pokemon": "Aethelian Golem"},
-        {"pokemon": "Aethelian Gogoat"}
-      ]
-    },
-    {
-      "name": "Marina",
-      "role": "Gym Leader 3",
-      "location": "Port Lumina",
-      "type_specialty": "Water",
-      "badge": "Tidal Badge",
-      "personality": "Calm and patient like the sea on a clear day, but with a fierce and unpredictable streak when challenged.",
-      "faction_tie": "Coastal Clan",
-      "team": [
-        {"pokemon": "Kingler"},
-        {"pokemon": "Vaporeon"},
-        {"pokemon": "Mantine"}
-      ]
-    },
-    {
-      "name": "Dr. Elias Vance",
-      "role": "Gym Leader 4",
-      "location": "Silverpeak Institute",
-      "type_specialty": "Ice",
-      "badge": "Glacial Badge",
-      "personality": "A brilliant but detached scientist who sees Pokémon not as partners but as biological data sets to be optimized. A primary antagonist of the Eon Remnants.",
-      "faction_tie": "The Eon Remnants",
-      "team": [
-        {"pokemon": "Glalie"},
-        {"pokemon": "Vanilluxe"},
-        {"pokemon": "Cryogonal"}
-      ]
-    },
-    {
-      "name": "Warden Kael",
-      "role": "Gym Leader 5",
-      "location": "Fort Reliance",
-      "type_specialty": "Steel",
-      "badge": "Forged Badge",
-      "personality": "Cold, pragmatic, and a master of authority and control. Sees the Gym Challenge as a way to test and recruit new talent for the company.",
-      "faction_tie": "Cryosys",
-      "team": [
-        {"pokemon": "Skarmory"},
-        {"pokemon": "Steelix"},
-        {"pokemon": "Lucario"}
-      ]
-    },
-    {
-      "name": "Elder Torik",
-      "role": "Gym Leader 6",
-      "location": "Tundra Spire",
-      "type_specialty": "Fighting",
-      "badge": "Stone Badge",
-      "personality": "A gruff, no-nonsense elder with a heart of gold. He believes that a trainer's true strength is in their bond with their community and their Pokémon.",
-      "faction_tie": "The Tundra Collective",
-      "team": [
-        {"pokemon": "Crabominable"},
-        {"pokemon": "Hariyama"},
-        {"pokemon": "Hitmonchan"}
-      ]
-    },
-    {
-      "name": "Rowan",
-      "role": "Gym Leader 7",
-      "location": "Oldgrowth Haven",
-      "type_specialty": "Grass",
-      "badge": "Haven Badge",
-      "personality": "A calm, soft-spoken individual who is fiercely protective of the forest. Rowan is a druid-like figure who is deeply connected to the natural world.",
-      "faction_tie": "The Frontier Cartographers",
-      "team": [
-        {"pokemon": "Tangrowth"},
-        {"pokemon": "Abomasnow"},
-        {"pokemon": "Trevenant"}
-      ]
-    },
-    {
-      "name": "Prophet Lyra",
-      "role": "Gym Leader 8",
-      "location": "The Ancestral Bluffs",
-      "type_specialty": "Ghost/Psychic",
-      "badge": "Spiritual Badge",
-      "personality": "Enigmatic and ethereal, Lyra believes she can communicate with the spirits of ancient Pokémon. She is a compassionate but distant figure who sees the future as an echo of the past.",
-      "faction_tie": "The Aurora's Chosen",
-      "team": [
-        {"pokemon": "Spiritomb"},
-        {"pokemon": "Misdreavus"},
-        {"pokemon": "Mismagius"}
-      ]
-    },
-    {
-      "name": "Dr. Anya Petrova",
-      "role": "Fossil Researcher",
-      "location": "The Ancestral Bluffs",
-      "personality": "Enthusiastic, kind, and passionate about her work. She believes that the Pokémon of the past are a gift to be cherished, not a resource to be controlled.",
-      "faction_tie": "Frontier Cartographers",
-      "team": [
-        {"pokemon": "Cradily"},
-        {"pokemon": "Anorith"},
-        {"pokemon": "Kabutops"}
-      ]
-    },
-    {
-      "name": "Silas",
-      "role": "Eon Remnants Informant",
-      "personality": "Paranoid and furtive, Silas is a former Cryosys employee who witnessed their dangerous practices and now lives in constant fear.",
-      "faction_tie": "The Eon Remnants",
-      "team": []
-    }
+    { "name": "Forrest", "role": "Gym Leader 1", "location": "Birchhaven City", "type_specialty": "Bug", "team": ["Aethelian Ariados", "Scyther"] },
+    { "name": "Slade", "role": "Gym Leader 2", "location": "Gold-Paw Gulch", "type_specialty": "Rock", "team": ["Carbink", "Aethelian Golem", "Aethelian Gogoat"] },
+    { "name": "Marina", "role": "Gym Leader 3 / Elite Four", "location": "Port Lumina", "type_specialty": "Water", "team": ["Kingler", "Vaporeon", "Mantine", "Gyarados", "Krakenos"] },
+    { "name": "Dr. Elias Vance", "role": "Gym Leader 4", "location": "Silverpeak Institute", "type_specialty": "Ice", "team": ["Glalie", "Vanilluxe", "Cryogonal"] },
+    { "name": "Warden Kael", "role": "Gym Leader 5", "location": "Fort Reliance", "type_specialty": "Steel", "team": ["Skarmory", "Steelix", "Lucario"] },
+    { "name": "Elder Torik", "role": "Gym Leader 6", "location": "Tundra Spire", "type_specialty": "Fighting", "team": ["Crabominable", "Hariyama", "Hitmonchan"] },
+    { "name": "Rowan", "role": "Gym Leader 7", "location": "Oldgrowth Haven", "type_specialty": "Grass", "team": ["Tangrowth", "Abomasnow", "Trevenant"] },
+    { "name": "Prophet Lyra", "role": "Gym Leader 8 / Elite Four", "location": "The Ancestral Bluffs", "type_specialty": "Ghost/Psychic", "team": ["Spiritomb", "Misdreavus", "Mismagius", "Golurk", "Spectracon"] },
+    { "name": "Nuna", "role": "Elite Four Member", "faction_tie": "The Tundra Collective", "team": ["Crabominable", "Weavile", "Hitmonlee", "Siberus"] },
+    { "name": "Dr. Finn", "role": "Ally, Marine Biologist", "team": ["Kingler"] },
+    { "name": "Elara", "role": "Ally, Leader of the Wayward Hearth", "team": ["Audino"] },
+    { "name": "Silas", "role": "Ally, Stealth Expert", "team": ["Lycosacrawl"] },
+    { "name": "Lena", "role": "Ally, Tech Expert", "team": ["Porygon2"] }
   ],
   "locations_and_plot": [
-    {
-      "name": "Birchhaven City",
-      "type": "City, Starting Hub",
-      "description": "A bustling city with a rustic, lodge-like feel. It is a place of contrasts, with traditional wooden buildings standing next to the sleek, modern headquarters of Cryosys. It is the starting hub of the campaign and the location of the Bug-type Gym.",
-      "plot_hooks": [
-        "Rival Leo confronts you.",
-        "Challenge Gym Leader Forrest.",
-        "A protest against Cryosys is organized by locals, forcing the player to choose a side or remain neutral."
-      ]
-    },
-    {
-      "name": "Gold-Paw Gulch",
-      "type": "Mining Town & Dungeon",
-      "description": "A rugged mining town that now serves as the epicenter of Cryosys's resource extraction. It is the location of the Rock-type Gym.",
-      "plot_hooks": [
-        "Challenge Gym Leader Slade.",
-        "A local activist, Marla, asks the player to disrupt Cryosys's operations."
-      ]
-    },
-    {
-      "name": "Port Lumina",
-      "type": "Coastal City",
-      "description": "A vibrant coastal town that relies on fishing and shipping. It is the location of the Water-type Gym and a central hub for the Northwind Syndicate.",
-      "plot_hooks": [
-        "Challenge Gym Leader Marina.",
-        "Dr. Finn, a marine biologist, asks the player to investigate the Northwind Syndicate's poaching and smuggling operations."
-      ]
-    },
-    {
-      "name": "Fort Reliance",
-      "type": "Military Outpost",
-      "description": "A fortified outpost that serves as a major military and security hub for Cryosys. It is the location of the Steel-type Gym and the nerve center of Cryosys's security.",
-      "plot_hooks": [
-        "Challenge Gym Leader Warden Kael.",
-        "A conflicted engineer, Dr. Anya Vance, gives the player a quest to test her new drone designs."
-      ]
-    },
-    {
-      "name": "Silverpeak Institute",
-      "type": "Research Facility",
-      "description": "A high-altitude research facility dedicated to the study of the region's unique climate and the effects of extreme temperatures on Pokémon. It is the location of the Ice-type Gym and a front for the Eon Remnants' operations.",
-      "plot_hooks": [
-        "Challenge Gym Leader Dr. Elias Vance.",
-        "A former student of Dr. Vance, Ren, asks the player to expose the institute's dangerous genetic experiments."
-      ]
-    },
-    {
-      "name": "Tundra Spire",
-      "type": "Remote Village",
-      "description": "A remote village built on the side of a massive, snow-covered mountain. It is the location of the Fighting-type Gym and the home of the Tundra Collective.",
-      "plot_hooks": [
-        "Challenge Gym Leader Elder Torik.",
-        "A young scout, Fina, asks the player to help her patrol the Tundra, where they would find evidence of Cryosys's expansion."
-      ]
-    },
-    {
-      "name": "Oldgrowth Haven",
-      "type": "Secluded Village",
-      "description": "A secluded village deep within one of Aethel's last remaining old-growth forests. This village is a haven for those who seek to live in harmony with nature and is the location of the Grass-type Gym.",
-      "plot_hooks": [
-        "Challenge Gym Leader Rowan.",
-        "A Cryosys surveyor is trying to survey the land for potential resources, and a member of the Frontier Cartographers asks the player to stop them."
-      ]
-    },
-    {
-      "name": "The Ancestral Bluffs",
-      "type": "Mystical Location",
-      "description": "A desolate, mystical location on the edge of the world, with ancient rock formations and petroglyphs. It is the location of the Ghost/Psychic-type Gym and a base for the Aurora's Chosen.",
-      "plot_hooks": [
-        "Challenge Gym Leader Prophet Lyra.",
-        "Dr. Anya Petrova, a fossil researcher, asks the player to study the ancient petroglyphs and their connection to the region's spiritual energy."
-      ]
-    },
-    {
-      "name": "The Grand Glacier",
-      "type": "Final Dungeon",
-      "description": "A colossal, ancient glacier where the final confrontation with Cryosys will take place. It is the source of the region's spiritual power, and its destruction would have catastrophic consequences."
-    },
-    {
-      "name": "The Sky's Embrace",
-      "type": "Final Destination",
-      "description": "A series of platforms and arenas suspended high above the Aethel region, accessible only by a single, powerful elevator or a strong Flying-type Pokémon. It is the location of the Pokémon League and the final test of a trainer's beliefs."
-    },
-    {
-      "name": "Professor Aspen's Lab: The Sanctuary",
-      "type": "Research Lab",
-      "description": "A rustic, eco-friendly cabin built with local resources, blending seamlessly into the environment. It is a sanctuary for both people and Pokémon and the home of Professor Aspen."
-    },
-    {
-      "name": "The Champion's Home",
-      "type": "Final Destination",
-      "description": "A secluded, peaceful location. It can be a hidden valley or a quiet farm, to show that the Champion is not just a powerful trainer but a wise and compassionate leader."
-    }
+    { "name": "Birchhaven City", "type": "City, Starting Hub" },
+    { "name": "Gold-Paw Gulch", "type": "Mining Town & Dungeon" },
+    { "name": "Port Lumina", "type": "Coastal City" },
+    { "name": "Fort Reliance", "type": "Military Outpost" },
+    { "name": "Silverpeak Institute", "type": "Research Facility" },
+    { "name": "Tundra Spire", "type": "Remote Village" },
+    { "name": "Oldgrowth Haven", "type": "Secluded Village" },
+    { "name": "The Ancestral Bluffs", "type": "Mystical Location" },
+    { "name": "The Bellowing Vents", "type": "Volcanic Biome", "description": "A volatile, primordial valley shrouded in steam, the slumbering place of the legendary Pokémon, Terrin." },
+    { "name": "The Grand Glacier", "type": "Final Dungeon", "description": "A colossal, ancient glacier where the final confrontation with Cryosys will take place, and the resting place of the legendary Fimbulstorm." },
+    { "name": "The Sky's Embrace", "type": "Final Destination", "description": "A series of arenas suspended high above the Aethel region, location of the Pokémon League." }
   ],
-  "routes": [
-    {
-      "name": "Route 1: The Coastal Trail",
-      "description": "This winding route follows the Roaring Fork River to the ocean. The path is muddy in some places and gives way to a rocky coastline with towering bluffs. This route is a major waterway for shipping and fishing, but it is also a hub for smuggling and poaching operations.",
-      "connection": "Connects Birchhaven City and Port Lumina."
-    },
-    {
-      "name": "Route 2: The Prospector's Trail",
-      "description": "This winding path climbs into the foothills outside of Birchhaven City. It starts as a gentle, forested path but quickly gives way to rocky bluffs and dry, cracked canyons as it approaches Gold-Paw Gulch. The trail is marked by abandoned mining equipment and old prospector camps.",
-      "connection": "Connects Birchhaven City and Gold-Paw Gulch."
-    },
-    {
-      "name": "Route 3: The Northern Lights Pass",
-      "description": "This treacherous, high-altitude route connects Fort Reliance to Tundra Spire. It's a winding, snow-covered path that is constantly hit by blizzards and strong winds. It would be a great location for encounters with Ice-type Pokémon and a prime spot for a Cryosys patrol, as they would be monitoring the pass for any unauthorized travel.",
-      "connection": "Connects Fort Reliance and Tundra Spire."
-    },
-    {
-      "name": "Route 4: The Wildwood Trail",
-      "description": "This is a dense, forested trail that connects Oldgrowth Haven to Silverpeak Institute. It is a quiet, mystical path that is full of unique flora and fauna. It would be a great location for encounters with Grass and Psychic-type Pokémon, and a prime spot for the Eon Remnants to conduct their secret experiments.",
-      "connection": "Connects Oldgrowth Haven and Silverpeak Institute."
-    },
-    {
-      "name": "Route 5: The Riverbed Trail",
-      "description": "This is a low-lying, muddy route that follows the riverbed. It connects Port Lumina to Gold-Paw Gulch. It would be a great location for encounters with Water and Ground-type Pokémon, and a prime spot for the Northwind Syndicate to smuggle goods.",
-      "connection": "Connects Port Lumina and Gold-Paw Gulch."
-    },
-    {
-      "name": "Route 6: The Ancient Path",
-      "description": "This is a long, difficult route that connects The Ancestral Bluffs to the Grand Glacier. It is a spiritual journey that is full of ancient petroglyphs and ghostly Pokémon. It would be a great location for encounters with Ghost and Psychic-type Pokémon, and a prime spot for the Aurora's Chosen to perform their rituals.",
-      "connection": "Connects The Ancestral Bluffs and the Grand Glacier."
-    }
-  ],
-  "mini_biomes": [
-    {"type": "Normal", "name": "Boreal Meadow"},
-    {"type": "Fire", "name": "Geyser Fields"},
-    {"type": "Water", "name": "Glacial Estuary"},
-    {"type": "Grass", "name": "Oldgrowth Haven"},
-    {"type": "Electric", "name": "Aurora's Peak"},
-    {"type": "Ice", "name": "Ancestor's Glacier"},
-    {"type": "Fighting", "name": "Tundra Spire"},
-    {"type": "Poison", "name": "Toxic Tunnels"},
-    {"type": "Ground", "name": "Shale Bluffs"},
-    {"type": "Flying", "name": "Sky's Embrace"},
-    {"type": "Psychic", "name": "Whispering Grove"},
-    {"type": "Bug", "name": "Marshland Swamps"},
-    {"type": "Rock", "name": "Granite Peaks"},
-    {"type": "Ghost", "name": "Haunted Mine"},
-    {"type": "Dragon", "name": "Wyrm's Rest"},
-    {"type": "Dark", "name": "Midnight Forest"},
-    {"type": "Steel", "name": "Ironclad Tundra"},
-    {"type": "Fairy", "name": "Feyglade"}
-  ]
+  "custom_pokedex_canon": {
+    "starters": [
+        {"line": "Fawnora -> Echocalf -> Corvaural", "type": "Grass / Ice"},
+        {"line": "Emberling -> Igniraptor -> Voltora", "type": "Fire / Electric"},
+        {"line": "Kragshell -> Kraglord -> Hydrolith", "type": "Water / Rock"}
+    ],
+    "legendaries": [
+        {"name": "Aquilon", "type": "Water / Steel", "concept": "Glacier Forge myth of the Tlingit."},
+        {"name": "Terrin", "type": "Ground / Fighting", "concept": "'Shifting Earth' myth of the Athabaskan."},
+        {"name": "Aurabeast", "type": "Psychic / Electric", "concept": "'Star-Born Bear' myth of the Yup'ik."},
+        {"name": "Mischievian", "type": "Dark / Psychic", "concept": "The trickster god of the Aethel region."},
+        {"name": "Fimbulstorm", "type": "N/A", "concept": "A primordial force of stasis and cold."},
+        {"name": "Yggdrys", "type": "N/A", "concept": "A primordial force of nature and growth."}
+    ],
+    "regional_creatures_and_variants": "A full list of the 100+ custom Pokémon for the Aethel region is being compiled in the aethel_pokedex files."
+  },
+  "unique_phenomena_and_items": {
+    "battle_bond_forms": [
+      {
+        "name": "Blazing Soul Form",
+        "pokemon": "Growlithe/Arcanine",
+        "trigger": "Battle Bond Level 5: 'Together Forever'",
+        "description": "A temporary transformation where the Pokémon's fur ignites into a mane of pure flame, restoring all HP/Will and granting a significant power boost."
+      }
+    ],
+    "unique_artifacts": [
+      {
+        "name": "Fey Shard",
+        "description": "A shimmering, aurora-colored scale given as a gift by a wild Faelix. It contains a concentrated essence of Aethel's natural, purifying magic."
+      }
+    ]
+  }
 }
