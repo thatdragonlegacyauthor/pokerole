@@ -1,0 +1,135 @@
+{
+  "aethel_pokedex_batch_11": [
+    {
+      "name": "Aquilon",
+      "id": "A102",
+      "typing": ["Water", "Steel"],
+      "concept": "The Glacier Forge Pokémon. A legendary bear of living, primordial ice and stone, said to have carved the fjords of Aethel with its immense strength. Its roar is the sound of a glacier calving into the sea.",
+      "suggested_rank": "Champion",
+      "attributes": {
+        "strength": { "value": 8, "limit": 15 },
+        "dexterity": { "value": 5, "limit": 10 },
+        "vitality": { "value": 9, "limit": 17 },
+        "special": { "value": 7, "limit": 13 },
+        "insight": { "value": 6, "limit": 12 }
+      },
+      "derived_stats": { "base_hp": 12, "hp": 21, "defense": 9, "special_defense": 6 },
+      "abilities": ["Rimeforged Armor"],
+      "skills": ["Swimmer", "Mountaineer", "Strength"],
+      "signature_moves": [
+        { "name": "Glacier Forge", "type": "Steel", "description": "Hits all adjacent opponents. On a successful hit, roll 1d6. On a 5 or 6, the target is Frozen." }
+      ],
+      "evolution": "Legendary."
+    },
+    {
+      "name": "Terrin",
+      "id": "A103",
+      "typing": ["Ground", "Fighting"],
+      "concept": "The Shifting Earth Pokémon. A legendary bear of soil and magma, said to have raised the mountains of Aethel. Its roar can cause earthquakes.",
+      "suggested_rank": "Champion",
+      "attributes": {
+        "strength": { "value": 9, "limit": 17 },
+        "dexterity": { "value": 6, "limit": 12 },
+        "vitality": { "value": 8, "limit": 15 },
+        "special": { "value": 5, "limit": 10 },
+        "insight": { "value": 7, "limit": 13 }
+      },
+      "derived_stats": { "base_hp": 11, "hp": 19, "defense": 8, "special_defense": 7 },
+      "abilities": ["Terraform"],
+      "skills": ["Burrow", "Mountaineer", "Strength"],
+      "signature_moves": [
+        { "name": "Earthen Stomp", "type": "Ground", "description": "Hits all adjacent opponents. On a successful hit, roll 1d6. On a 5 or 6, the target Flinches." },
+        { "name": "Mountain's Call", "type": "Fighting", "description": "The user and all its allies raise their Strength and Vitality by 1 for the rest of the scene." }
+      ],
+      "evolution": "Legendary."
+    },
+    {
+      "name": "Aurabeast",
+      "id": "A104",
+      "typing": ["Psychic", "Electric"],
+      "concept": "The Star-Born Bear Pokémon. A legendary bear of cosmic energy, said to have descended from the stars. Its fur shimmers with the colors of the aurora borealis.",
+      "suggested_rank": "Champion",
+      "attributes": {
+        "strength": { "value": 7, "limit": 13 },
+        "dexterity": { "value": 7, "limit": 13 },
+        "vitality": { "value": 6, "limit": 12 },
+        "special": { "value": 9, "limit": 17 },
+        "insight": { "value": 8, "limit": 15 }
+      },
+      "derived_stats": { "base_hp": 10, "hp": 16, "defense": 6, "special_defense": 8 },
+      "abilities": ["Cosmic Surge"],
+      "skills": ["Telepath", "Energizer"],
+      "signature_moves": [
+        { "name": "Aurora Borealis", "type": "Psychic", "description": "Hits all adjacent opponents. On a successful hit, roll 1d6. On a 5 or 6, the target is either Burned or Paralyzed (user's choice)." },
+        { "name": "Spiritual Shard", "type": "Electric", "description": "High critical hit ratio." }
+      ],
+      "evolution": "Legendary."
+    },
+    {
+      "name": "Mischievian",
+      "id": "A105",
+      "typing": ["Dark", "Psychic"],
+      "concept": "The Trickster Fox Pokémon. A mythical Pokémon that delights in chaos and clever schemes. It is said to have stolen the light from the sky during the primordial war, forcing a truce.",
+      "suggested_rank": "Champion",
+      "attributes": {
+        "strength": { "value": 6, "limit": 12 },
+        "dexterity": { "value": 9, "limit": 17 },
+        "vitality": { "value": 6, "limit": 12 },
+        "special": { "value": 8, "limit": 15 },
+        "insight": { "value": 7, "limit": 13 }
+      },
+      "derived_stats": { "base_hp": 10, "hp": 16, "defense": 6, "special_defense": 7 },
+      "abilities": ["Illusionary Form", "Mind Games"],
+      "skills": ["Stealth", "Acrobat", "Teleporter"],
+      "signature_moves": [
+        { "name": "Psychic Gambit", "type": "Psychic", "description": "The user and the target swap all of their current status conditions and stat changes." },
+        { "name": "Trickster's Blade", "type": "Dark", "description": "On a successful hit, the user copies the last move used by the target. The copied move replaces Trickster's Blade for the rest of the scene." }
+      ],
+      "evolution": "Mythical."
+    },
+    {
+      "name": "Fimbulstorm",
+      "id": "A106",
+      "typing": ["N/A"],
+      "concept": "The Glacial Stillness. A primordial force of stasis and cold, one of the two beings that existed before the world. Its true form is incomprehensible.",
+      "suggested_rank": "God",
+      "attributes": {
+        "strength": { "value": 10, "limit": 20 },
+        "dexterity": { "value": 10, "limit": 20 },
+        "vitality": { "value": 10, "limit": 20 },
+        "special": { "value": 10, "limit": 20 },
+        "insight": { "value": 10, "limit": 20 }
+      },
+      "derived_stats": { "base_hp": 20, "hp": 30, "defense": 10, "special_defense": 10 },
+      "abilities": ["Glacial Stillness"],
+      "skills": ["All"],
+      "signature_moves": [
+        { "name": "Permafrost Prison", "type": "Ice", "description": "Hits all Pokémon on the field. On a successful hit, the target is permanently Frozen. This move has a very high chance of missing." }
+      ],
+      "evolution": "Primordial."
+    },
+    {
+      "name": "Yggdrys",
+      "id": "A107",
+      "typing": ["N/A"],
+      "concept": "The World-Tree. A primordial force of nature and growth, one of the two beings that existed before the world. Its true form is incomprehensible.",
+      "suggested_rank": "God",
+      "attributes": {
+        "strength": { "value": 10, "limit": 20 },
+        "dexterity": { "value": 10, "limit": 20 },
+        "vitality": { "value": 10, "limit": 20 },
+        "special": { "value": 10, "limit": 20 },
+        "insight": { "value": 10, "limit": 20 }
+      },
+      "derived_stats": { "base_hp": 20, "hp": 30, "defense": 10, "special_defense": 10 },
+      "abilities": ["Arboreal Genesis"],
+      "skills": ["All"],
+      "signature_moves": [
+        { "name": "World-Root Anchor", "type": "Grass", "description": "Hits all non-Grass type Pokémon on the field. On a successful hit, targets are trapped and cannot switch out or flee for the rest of the scene." },
+        { "name": "Dormant Heart", "type": "Grass", "description": "The user draws its life energy inward, deactivating its Arboreal Genesis ability for 5 rounds. While the ability is suppressed, the user's Defense and Special Defense are increased by 2; this effect goes away if Life Surge is used." },
+        { "name": "Life Surge", "type": "Grass", "description": "The user unleashes a wave of pure life energy, reactivating its Arboreal Genesis ability. The user's Vitality and Insight are raised by 1 unless/until Dormant Heart is used. This move fails if the ability is already active." }
+      ],
+      "evolution": "Primordial."
+    }
+  ]
+}
